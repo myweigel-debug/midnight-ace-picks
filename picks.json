@@ -1,0 +1,133 @@
+{
+  "slates": [
+    {
+      "id": "2026-10-27-tue",
+      "label": "Tuesday picks",
+      "made": "2026-10-27T21:33:11Z",
+      "note": "Week 8 sides built on injury-hit and fading teams (Ravens, Colts, Chargers) and on Minnesota's unbeaten defense. Everything is on main lines at DraftKings prices.",
+      "parlays": [
+        {
+          "id": "2026-10-27-tue-1",
+          "stake": 100,
+          "why": "Minnesota is 6-0 allowing 12.3 ppg and gets a field goal at even money. The Colts just traded Quenton Nelson and DeForest Buckner and are without Alec Pierce, against a +50 Jacksonville team. Seattle (+43 diff) just held KC to 3 points on the road and is only laying 3 at home.",
+          "legs": [
+            {
+              "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+              "home": "Detroit Lions",
+              "away": "Minnesota Vikings",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "spreads",
+              "n": "Minnesota Vikings",
+              "p": 3,
+              "o": 100
+            },
+            {
+              "ev": "159dbf0253dd2038eda2212f84387f0c",
+              "home": "Jacksonville Jaguars",
+              "away": "Indianapolis Colts",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "spreads",
+              "n": "Jacksonville Jaguars",
+              "p": -9.5,
+              "o": -108
+            },
+            {
+              "ev": "7d664fbcd39350e559d83c0068ba7169",
+              "home": "Seattle Seahawks",
+              "away": "Chicago Bears",
+              "t": "2026-11-03T01:20:00Z",
+              "mk": "spreads",
+              "n": "Seattle Seahawks",
+              "p": -3,
+              "o": -115
+            }
+          ]
+        },
+        {
+          "id": "2026-10-27-tue-2",
+          "stake": 100,
+          "why": "Lamar Jackson is questionable, rookie G Ioane is out with an MCL sprain, and Baltimore just lost 35-13. That makes Bills -3.5 at plus money a good price. The 0-6 Chargers average 15 ppg with WR/OL injuries, while the Rams just put up 35.",
+          "legs": [
+            {
+              "ev": "c93c421e5fa46031a43162d111d981d0",
+              "home": "Buffalo Bills",
+              "away": "Baltimore Ravens",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "spreads",
+              "n": "Buffalo Bills",
+              "p": -3.5,
+              "o": 100
+            },
+            {
+              "ev": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
+              "home": "Los Angeles Rams",
+              "away": "Los Angeles Chargers",
+              "t": "2026-11-01T21:05:00Z",
+              "mk": "spreads",
+              "n": "Los Angeles Rams",
+              "p": -6.5,
+              "o": -118
+            }
+          ]
+        },
+        {
+          "id": "2026-10-27-tue-3",
+          "stake": 100,
+          "why": "Spread across five games: the Vikings' elite defense keeps Detroit under the total, and New England (+17) gets 1-5 Miami (-59). Cincinnati comes off a 35-13 rout to face 1-6 Tennessee, the Rams play the winless Chargers, and Seattle gets the Bears at home.",
+          "legs": [
+            {
+              "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+              "home": "Detroit Lions",
+              "away": "Minnesota Vikings",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "totals",
+              "n": "Under",
+              "p": 46.5,
+              "o": -120
+            },
+            {
+              "ev": "05405af79752f5e742cdf50b61f6745e",
+              "home": "Miami Dolphins",
+              "away": "New England Patriots",
+              "t": "2026-11-01T21:25:00Z",
+              "mk": "spreads",
+              "n": "New England Patriots",
+              "p": -7,
+              "o": -108
+            },
+            {
+              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+              "home": "Cincinnati Bengals",
+              "away": "Tennessee Titans",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "spreads",
+              "n": "Cincinnati Bengals",
+              "p": -10.5,
+              "o": -105
+            },
+            {
+              "ev": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
+              "home": "Los Angeles Rams",
+              "away": "Los Angeles Chargers",
+              "t": "2026-11-01T21:05:00Z",
+              "mk": "spreads",
+              "n": "Los Angeles Rams",
+              "p": -6.5,
+              "o": -118
+            },
+            {
+              "ev": "7d664fbcd39350e559d83c0068ba7169",
+              "home": "Seattle Seahawks",
+              "away": "Chicago Bears",
+              "t": "2026-11-03T01:20:00Z",
+              "mk": "spreads",
+              "n": "Seattle Seahawks",
+              "p": -3,
+              "o": -115
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
