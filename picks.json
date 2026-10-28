@@ -1,6 +1,162 @@
 {
   "slates": [
     {
+      "id": "2026-10-27-wed",
+      "label": "Wednesday picks",
+      "made": "2026-10-28T20:21:59Z",
+      "week": 8,
+      "note": "Week 8 Wednesday slate. These are player-prop edges from 2026 game logs (ESPN box scores and nflverse) blended with de-vigged DraftKings lines and alt ladders, with every leg in a different game within its parlay.",
+      "parlays": [
+        {
+          "id": "2026-10-27-wed-1",
+          "stake": 100,
+          "prob": 0.2196,
+          "ev": 0.4672,
+          "why": "Sam Darnold Over 0.5 INT: has thrown one in all 5 games with real volume (8 INTs, ~4.6% rate); fair 60% vs 49% de-vigged. Jaylen Warren Over 22.5 rec yds: cleared it in 7 of 7 games (27-87); fair 60% vs 51%. Joe Burrow Over 5.5 rush yds: over in 5 of 6 games; fair 61% vs 51%.",
+          "legs": [
+            {
+              "ev": "7d664fbcd39350e559d83c0068ba7169",
+              "home": "Seattle Seahawks",
+              "away": "Chicago Bears",
+              "t": "2026-11-03T01:20:00Z",
+              "mk": "player_pass_interceptions",
+              "n": "Over",
+              "d": "Sam Darnold",
+              "p": 0.5,
+              "o": -107,
+              "fair": 0.6
+            },
+            {
+              "ev": "ab5ab731ab655bd6308bc7a922275518",
+              "home": "Pittsburgh Steelers",
+              "away": "Cleveland Browns",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_reception_yds",
+              "n": "Over",
+              "d": "Jaylen Warren",
+              "p": 22.5,
+              "o": -116,
+              "fair": 0.6
+            },
+            {
+              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+              "home": "Cincinnati Bengals",
+              "away": "Tennessee Titans",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_rush_yds",
+              "n": "Over",
+              "d": "Joe Burrow",
+              "p": 5.5,
+              "o": -117,
+              "fair": 0.61
+            }
+          ]
+        },
+        {
+          "id": "2026-10-27-wed-2",
+          "stake": 100,
+          "prob": 0.3168,
+          "ev": 0.4222,
+          "why": "Ollie Gordon II Under 10.5 rec yds: 14 receiving yards in 5 games (0, 14, 0, 0, 0 on 8 targets); model 74%, used 66% after a role-risk haircut (Jaylen Wright quad), vs 51% de-vigged book. Tee Higgins 80+ rec yds (+143): over 79.5 in 4 of 6 games, and Tennessee allows 246 rec yds/g (league 235); fair 48% vs 41% book.",
+          "legs": [
+            {
+              "ev": "05405af79752f5e742cdf50b61f6745e",
+              "home": "Miami Dolphins",
+              "away": "New England Patriots",
+              "t": "2026-11-01T21:25:00Z",
+              "mk": "player_reception_yds",
+              "n": "Under",
+              "d": "Ollie Gordon II",
+              "p": 10.5,
+              "o": -118,
+              "fair": 0.66
+            },
+            {
+              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+              "home": "Cincinnati Bengals",
+              "away": "Tennessee Titans",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_reception_yds_alternate",
+              "n": "Over",
+              "d": "Tee Higgins",
+              "p": 79.5,
+              "o": 143,
+              "fair": 0.48
+            }
+          ]
+        },
+        {
+          "id": "2026-10-27-wed-3",
+          "stake": 100,
+          "prob": 0.0696,
+          "ev": 0.7173,
+          "why": "Five independent games. Bryce Young Under 10.5 rush yds (6 of 6 under; 58% vs 50%), Bucky Irving Under 13.5 rec yds (6 of 7 under; 57% vs 49%), Keon Coleman Over 31.5 rec yds (4 of 6 over; 57% vs 50%), Ollie Gordon II Under 10.5 rec yds (66% vs 51%) and Tee Higgins Over 68.5 rec yds (56% vs 50%).",
+          "legs": [
+            {
+              "ev": "ab2865e9f2d4b012de8bc6fb6de11a7c",
+              "home": "Green Bay Packers",
+              "away": "Carolina Panthers",
+              "t": "2026-10-30T00:15:00Z",
+              "mk": "player_rush_yds",
+              "n": "Under",
+              "d": "Bryce Young",
+              "p": 10.5,
+              "o": -112,
+              "fair": 0.58
+            },
+            {
+              "ev": "921859689f5f8b3b8b1caf4248bdb1ec",
+              "home": "Tampa Bay Buccaneers",
+              "away": "Atlanta Falcons",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_reception_yds",
+              "n": "Under",
+              "d": "Bucky Irving",
+              "p": 13.5,
+              "o": -107,
+              "fair": 0.57
+            },
+            {
+              "ev": "c93c421e5fa46031a43162d111d981d0",
+              "home": "Buffalo Bills",
+              "away": "Baltimore Ravens",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_reception_yds",
+              "n": "Over",
+              "d": "Keon Coleman",
+              "p": 31.5,
+              "o": -110,
+              "fair": 0.57
+            },
+            {
+              "ev": "05405af79752f5e742cdf50b61f6745e",
+              "home": "Miami Dolphins",
+              "away": "New England Patriots",
+              "t": "2026-11-01T21:25:00Z",
+              "mk": "player_reception_yds",
+              "n": "Under",
+              "d": "Ollie Gordon II",
+              "p": 10.5,
+              "o": -118,
+              "fair": 0.66
+            },
+            {
+              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+              "home": "Cincinnati Bengals",
+              "away": "Tennessee Titans",
+              "t": "2026-11-01T18:00:00Z",
+              "mk": "player_reception_yds",
+              "n": "Over",
+              "d": "Tee Higgins",
+              "p": 68.5,
+              "o": -110,
+              "fair": 0.56
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-27-tue",
       "label": "Tuesday picks",
       "made": "2026-10-28T01:35:08Z",
