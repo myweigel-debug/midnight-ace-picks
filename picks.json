@@ -1,315 +1,866 @@
 {
-  "slates": [
+ "slates": [
+  {
+   "id": "2026-10-27-sat",
+   "label": "Saturday picks",
+   "made": "2026-10-31T20:16:31Z",
+   "week": 8,
+   "note": "Week 8 Saturday slate: 9 team legs, 4 defensive and 2 kicker legs. The edges lean on team-total unders (storms in Tampa and Miami, depleted NE/DEN offenses), the model's Minnesota lean, a stale MIA +2.5 rung, and tackle/sack/FG overs.",
+   "parlays": [
     {
-      "id": "2026-10-27-wed",
-      "label": "Wednesday picks",
-      "made": "2026-10-28T20:21:59Z",
-      "week": 8,
-      "note": "Week 8 Wednesday slate. These are player-prop edges from 2026 game logs (ESPN box scores and nflverse) blended with de-vigged DraftKings lines and alt ladders, with every leg in a different game within its parlay.",
-      "parlays": [
-        {
-          "id": "2026-10-27-wed-1",
-          "stake": 100,
-          "prob": 0.2196,
-          "ev": 0.4672,
-          "why": "Sam Darnold Over 0.5 INT: has thrown one in all 5 games with real volume (8 INTs, ~4.6% rate); fair 60% vs 49% de-vigged. Jaylen Warren Over 22.5 rec yds: cleared it in 7 of 7 games (27-87); fair 60% vs 51%. Joe Burrow Over 5.5 rush yds: over in 5 of 6 games; fair 61% vs 51%.",
-          "legs": [
-            {
-              "ev": "7d664fbcd39350e559d83c0068ba7169",
-              "home": "Seattle Seahawks",
-              "away": "Chicago Bears",
-              "t": "2026-11-03T01:20:00Z",
-              "mk": "player_pass_interceptions",
-              "n": "Over",
-              "d": "Sam Darnold",
-              "p": 0.5,
-              "o": -107,
-              "fair": 0.6
-            },
-            {
-              "ev": "ab5ab731ab655bd6308bc7a922275518",
-              "home": "Pittsburgh Steelers",
-              "away": "Cleveland Browns",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds",
-              "n": "Over",
-              "d": "Jaylen Warren",
-              "p": 22.5,
-              "o": -116,
-              "fair": 0.6
-            },
-            {
-              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-              "home": "Cincinnati Bengals",
-              "away": "Tennessee Titans",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_rush_yds",
-              "n": "Over",
-              "d": "Joe Burrow",
-              "p": 5.5,
-              "o": -117,
-              "fair": 0.61
-            }
-          ]
-        },
-        {
-          "id": "2026-10-27-wed-2",
-          "stake": 100,
-          "prob": 0.3168,
-          "ev": 0.4222,
-          "why": "Ollie Gordon II Under 10.5 rec yds: 14 receiving yards in 5 games (0, 14, 0, 0, 0 on 8 targets); model 74%, used 66% after a role-risk haircut (Jaylen Wright quad), vs 51% de-vigged book. Tee Higgins 80+ rec yds (+143): over 79.5 in 4 of 6 games, and Tennessee allows 246 rec yds/g (league 235); fair 48% vs 41% book.",
-          "legs": [
-            {
-              "ev": "05405af79752f5e742cdf50b61f6745e",
-              "home": "Miami Dolphins",
-              "away": "New England Patriots",
-              "t": "2026-11-01T21:25:00Z",
-              "mk": "player_reception_yds",
-              "n": "Under",
-              "d": "Ollie Gordon II",
-              "p": 10.5,
-              "o": -118,
-              "fair": 0.66
-            },
-            {
-              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-              "home": "Cincinnati Bengals",
-              "away": "Tennessee Titans",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds_alternate",
-              "n": "Over",
-              "d": "Tee Higgins",
-              "p": 79.5,
-              "o": 143,
-              "fair": 0.48
-            }
-          ]
-        },
-        {
-          "id": "2026-10-27-wed-3",
-          "stake": 100,
-          "prob": 0.0696,
-          "ev": 0.7173,
-          "why": "Five independent games. Bryce Young Under 10.5 rush yds (6 of 6 under; 58% vs 50%), Bucky Irving Under 13.5 rec yds (6 of 7 under; 57% vs 49%), Keon Coleman Over 31.5 rec yds (4 of 6 over; 57% vs 50%), Ollie Gordon II Under 10.5 rec yds (66% vs 51%) and Tee Higgins Over 68.5 rec yds (56% vs 50%).",
-          "legs": [
-            {
-              "ev": "ab2865e9f2d4b012de8bc6fb6de11a7c",
-              "home": "Green Bay Packers",
-              "away": "Carolina Panthers",
-              "t": "2026-10-30T00:15:00Z",
-              "mk": "player_rush_yds",
-              "n": "Under",
-              "d": "Bryce Young",
-              "p": 10.5,
-              "o": -112,
-              "fair": 0.58
-            },
-            {
-              "ev": "921859689f5f8b3b8b1caf4248bdb1ec",
-              "home": "Tampa Bay Buccaneers",
-              "away": "Atlanta Falcons",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds",
-              "n": "Under",
-              "d": "Bucky Irving",
-              "p": 13.5,
-              "o": -107,
-              "fair": 0.57
-            },
-            {
-              "ev": "c93c421e5fa46031a43162d111d981d0",
-              "home": "Buffalo Bills",
-              "away": "Baltimore Ravens",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds",
-              "n": "Over",
-              "d": "Keon Coleman",
-              "p": 31.5,
-              "o": -110,
-              "fair": 0.57
-            },
-            {
-              "ev": "05405af79752f5e742cdf50b61f6745e",
-              "home": "Miami Dolphins",
-              "away": "New England Patriots",
-              "t": "2026-11-01T21:25:00Z",
-              "mk": "player_reception_yds",
-              "n": "Under",
-              "d": "Ollie Gordon II",
-              "p": 10.5,
-              "o": -118,
-              "fair": 0.66
-            },
-            {
-              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-              "home": "Cincinnati Bengals",
-              "away": "Tennessee Titans",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds",
-              "n": "Over",
-              "d": "Tee Higgins",
-              "p": 68.5,
-              "o": -110,
-              "fair": 0.56
-            }
-          ]
-        }
-      ]
+     "id": "2026-10-27-sat-1",
+     "stake": 100,
+     "prob": 0.0337,
+     "ev": 1.295,
+     "why": "Five independent views plus one same-game pair. MIN +1.5 and DET team total U20.5 are a correlated pair: the power ratings make Minnesota the better team (model DET -1.0 vs market -3). Szmyt is the kicker for a field-goal-heavy Cleveland offense in a 38.5 total. Daniel Jones projects as a 10-point dog behind a line that lost Nelson. New England is without A.J. Brown and Henderson and plays in storms. Edges: Detroit Lions team_totals Under 20.5 (+180) fair 40% vs book 36%; Minnesota Vikings spreads +1.5 (+118) fair 48% vs book 46%; Andre Szmyt field_goals Over 1.5 (+104) fair 54% vs book 49%; Daniel Jones pass_attempts Over 33.5 (+139) fair 49% vs book 42%; New England Patriots team_totals Under 21.5 (+175) fair 40% vs book 36%. Joint hit 3.4%, app payout 68.16x, EV +1.30 (still +0.83 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Detroit Lions",
+       "p": 20.5,
+       "o": 180,
+       "fair": 0.4
+      },
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Minnesota Vikings",
+       "p": 1.5,
+       "o": 118,
+       "fair": 0.482
+      },
+      {
+       "ev": "ab5ab731ab655bd6308bc7a922275518",
+       "home": "Pittsburgh Steelers",
+       "away": "Cleveland Browns",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_field_goals_alternate",
+       "n": "Over",
+       "d": "Andre Szmyt",
+       "p": 1.5,
+       "o": 104,
+       "fair": 0.536
+      },
+      {
+       "ev": "159dbf0253dd2038eda2212f84387f0c",
+       "home": "Jacksonville Jaguars",
+       "away": "Indianapolis Colts",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_pass_attempts_alternate",
+       "n": "Over",
+       "d": "Daniel Jones",
+       "p": 33.5,
+       "o": 139,
+       "fair": 0.491
+      },
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "New England Patriots",
+       "p": 21.5,
+       "o": 175,
+       "fair": 0.402
+      }
+     ]
     },
     {
-      "id": "2026-10-27-tue",
-      "label": "Tuesday picks",
-      "made": "2026-10-28T01:35:08Z",
-      "week": 8,
-      "note": "Week 8 full-process redo. Every leg is a player or team-total edge priced from ESPN and nflverse game logs, blended with de-vigged DraftKings prices, and checked for injuries, weather and sensitivity.",
-      "parlays": [
-        {
-          "id": "2026-10-27-tue-1",
-          "stake": 100,
-          "prob": 0.1336,
-          "ev": 0.2672,
-          "why": "Three passer-TD unders. Kyler Murray Under 1.5 (-140): 0-1 TDs in all 5 starts, at Detroit; fair 63% vs 58%. Cam Ward Under 0.5 (+174): 0 TDs in 3 of 7, TEN offense -6 EPA/game, Ridley hurt, rain and 27 mph gusts in Cincinnati; fair 40% vs 36.5%. Darnold Under 1.5 (+102): 0-1 TDs in 4 of 6, vs a 2.0 market mean; fair 53% vs 49.5%.",
-          "legs": [
-            {
-              "ev": "52e7ee9c42525e6deec02da32dc2fad8",
-              "home": "Detroit Lions",
-              "away": "Minnesota Vikings",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_pass_tds",
-              "n": "Under",
-              "d": "Kyler Murray",
-              "p": 1.5,
-              "o": -140,
-              "fair": 0.63
-            },
-            {
-              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-              "home": "Cincinnati Bengals",
-              "away": "Tennessee Titans",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_pass_tds",
-              "n": "Under",
-              "d": "Cam Ward",
-              "p": 0.5,
-              "o": 174,
-              "fair": 0.4
-            },
-            {
-              "ev": "7d664fbcd39350e559d83c0068ba7169",
-              "home": "Seattle Seahawks",
-              "away": "Chicago Bears",
-              "t": "2026-11-03T01:20:00Z",
-              "mk": "player_pass_tds",
-              "n": "Under",
-              "d": "Sam Darnold",
-              "p": 1.5,
-              "o": 102,
-              "fair": 0.53
-            }
-          ]
-        },
-        {
-          "id": "2026-10-27-tue-2",
-          "stake": 100,
-          "prob": 0.4027,
-          "ev": 0.1164,
-          "why": "Malik Washington 25+ rec yds (-259): he cleared it in all 6 games on a 22-31% target share vs New England; fair 77% vs 72%. Vikings +3 (+100): Minnesota is 6-0 with the league's best defense (12.3 ppg, -10.9 EPA/game allowed), and the ratings make them a 1-point favorite, not a 3-point dog; fair cover 52.3% (plus about 4% push) vs 50%.",
-          "legs": [
-            {
-              "ev": "05405af79752f5e742cdf50b61f6745e",
-              "home": "Miami Dolphins",
-              "away": "New England Patriots",
-              "t": "2026-11-01T21:25:00Z",
-              "mk": "player_reception_yds_alternate",
-              "n": "Over",
-              "d": "Malik Washington",
-              "p": 24.5,
-              "o": -259,
-              "fair": 0.77
-            },
-            {
-              "ev": "52e7ee9c42525e6deec02da32dc2fad8",
-              "home": "Detroit Lions",
-              "away": "Minnesota Vikings",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "spreads",
-              "n": "Minnesota Vikings",
-              "p": 3,
-              "o": 100,
-              "fair": 0.523
-            }
-          ]
-        },
-        {
-          "id": "2026-10-27-tue-3",
-          "stake": 100,
-          "prob": 0.1193,
-          "ev": 0.669,
-          "why": "Maye Over 14.5 rush yds (-252): he has 17+ in all 7 games, avg 30; fair 82% vs book 72%. Bryce Young Under 10.5 rush yds (-112): his season high is 10 and Green Bay allows little QB rushing; fair 57.5% vs 53%. Higgins 80+ rec yds (+154): 90+ in 4 of 6 with a 25-32% target share; fair 44% vs 39%. Justice Hill 5+ rec yds (-250): 6 of 7 games with 3-4 targets; fair 79% vs 71%. Eagles team total Over 13.5 (-205): Washington's defense allows +5 EPA/game; fair 72.8% vs 67%.",
-          "legs": [
-            {
-              "ev": "05405af79752f5e742cdf50b61f6745e",
-              "home": "Miami Dolphins",
-              "away": "New England Patriots",
-              "t": "2026-11-01T21:25:00Z",
-              "mk": "player_rush_yds_alternate",
-              "n": "Over",
-              "d": "Drake Maye",
-              "p": 14.5,
-              "o": -252,
-              "fair": 0.82
-            },
-            {
-              "ev": "ab2865e9f2d4b012de8bc6fb6de11a7c",
-              "home": "Green Bay Packers",
-              "away": "Carolina Panthers",
-              "t": "2026-10-30T00:15:00Z",
-              "mk": "player_rush_yds",
-              "n": "Under",
-              "d": "Bryce Young",
-              "p": 10.5,
-              "o": -112,
-              "fair": 0.575
-            },
-            {
-              "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
-              "home": "Cincinnati Bengals",
-              "away": "Tennessee Titans",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds_alternate",
-              "n": "Over",
-              "d": "Tee Higgins",
-              "p": 79.5,
-              "o": 154,
-              "fair": 0.44
-            },
-            {
-              "ev": "c93c421e5fa46031a43162d111d981d0",
-              "home": "Buffalo Bills",
-              "away": "Baltimore Ravens",
-              "t": "2026-11-01T18:00:00Z",
-              "mk": "player_reception_yds_alternate",
-              "n": "Over",
-              "d": "Justice Hill",
-              "p": 4.5,
-              "o": -250,
-              "fair": 0.79
-            },
-            {
-              "ev": "b9c60db63b1a19ad319f24b33c0defe8",
-              "home": "Washington Commanders",
-              "away": "Philadelphia Eagles",
-              "t": "2026-11-02T01:20:00Z",
-              "mk": "alternate_team_totals",
-              "n": "Over",
-              "d": "Philadelphia Eagles",
-              "p": 13.5,
-              "o": -205,
-              "fair": 0.728
-            }
-          ]
-        }
-      ]
+     "id": "2026-10-27-sat-2",
+     "stake": 100,
+     "prob": 0.0843,
+     "ev": 0.31,
+     "why": "Lamar's return and a Buffalo secondary missing CJGJ and maybe Alford should hold Buffalo under 25.5. Chuck Clark has gone over 5.5 tackles in 4 of 6 games (7.0 per game). Elijah Higgins' longest catch averages about 19 yards in the model. Edges: Buffalo Bills team_totals Under 25.5 (+165) fair 39% vs book 38%; Chuck Clark tackles_assists Over 5.5 (+117) fair 48% vs book 46%; Elijah Higgins reception_longest Over 14.5 (+170) fair 44% vs book 37%. Joint hit 8.4%, app payout 15.53x, EV +0.31 (still +0.14 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "c93c421e5fa46031a43162d111d981d0",
+       "home": "Buffalo Bills",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Buffalo Bills",
+       "p": 25.5,
+       "o": 165,
+       "fair": 0.393
+      },
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_tackles_assists",
+       "n": "Over",
+       "d": "Chuck Clark",
+       "p": 5.5,
+       "o": 117,
+       "fair": 0.484
+      },
+      {
+       "ev": "9255ca8f32aea590d00aa57de79f6bb6",
+       "home": "Dallas Cowboys",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_longest_alternate",
+       "n": "Over",
+       "d": "Elijah Higgins",
+       "p": 14.5,
+       "o": 170,
+       "fair": 0.443
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-sat-3",
+     "stake": 100,
+     "prob": 0.0973,
+     "ev": 0.203,
+     "why": "Atlanta plays in Tampa thunderstorms without Brian Robinson. JSN averages 124 yards and could gain targets if Shaheed (DNP Friday) sits. Cole Bishop starts beside Hamlin with Gardner-Johnson suspended, facing the Lamar/Henry run game. Edges: Atlanta Falcons team_totals Under 20.5 (-104) fair 54% vs book 51%; Jaxon Smith-Njigba reception_yds Over 109.5 (+126) fair 48% vs book 44%; Cole Bishop tackles_assists Over 7.5 (+179) fair 38% vs book 36%. Joint hit 9.7%, app payout 12.37x, EV +0.20 (still +0.05 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "921859689f5f8b3b8b1caf4248bdb1ec",
+       "home": "Tampa Bay Buccaneers",
+       "away": "Atlanta Falcons",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "team_totals",
+       "n": "Under",
+       "d": "Atlanta Falcons",
+       "p": 20.5,
+       "o": -104,
+       "fair": 0.537
+      },
+      {
+       "ev": "7d664fbcd39350e559d83c0068ba7169",
+       "home": "Seattle Seahawks",
+       "away": "Chicago Bears",
+       "t": "2026-11-03T01:20:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Jaxon Smith-Njigba",
+       "p": 109.5,
+       "o": 126,
+       "fair": 0.479
+      },
+      {
+       "ev": "c93c421e5fa46031a43162d111d981d0",
+       "home": "Buffalo Bills",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_tackles_assists_alternate",
+       "n": "Over",
+       "d": "Cole Bishop",
+       "p": 7.5,
+       "o": 179,
+       "fair": 0.378
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-sat-4",
+     "stake": 100,
+     "prob": 0.1758,
+     "ev": 0.12,
+     "why": "Denver's offense is down to Dobbins/Coleman with Waddle limited, against KC's defense. MIA +2.5 at +183 is a stale rung: DK's own +3.5 is only +134, and storms favour the underdog. Edges: Denver Broncos team_totals Under 17.5 (+125) fair 46% vs book 44%; Miami Dolphins spreads +2.5 (+183) fair 38% vs book 35%. Joint hit 17.6%, app payout 6.37x, EV +0.12 (still +0.01 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "f2a036d5edf483a277880014861e78ad",
+       "home": "Denver Broncos",
+       "away": "Kansas City Chiefs",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Denver Broncos",
+       "p": 17.5,
+       "o": 125,
+       "fair": 0.461
+      },
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "alternate_spreads",
+       "n": "Miami Dolphins",
+       "p": 2.5,
+       "o": 183,
+       "fair": 0.382
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-sat-5",
+     "stake": 100,
+     "prob": 0.2487,
+     "ev": 0.118,
+     "why": "Dallas Turner has 6 sacks in 6 games. Dicker kicks for an offense with 9 FG and 9 TD drives that projects for about 18.5 points. Edges: Dallas Turner sacks Over 0.5 (+127) fair 47% vs book 44%; Cameron Dicker field_goals Over 1.5 (-102) fair 54% vs book 50%. Joint hit 24.9%, app payout 4.50x, EV +0.12 (still +0.03 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_sacks_alternate",
+       "n": "Over",
+       "d": "Dallas Turner",
+       "p": 0.5,
+       "o": 127,
+       "fair": 0.466
+      },
+      {
+       "ev": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
+       "home": "Los Angeles Rams",
+       "away": "Los Angeles Chargers",
+       "t": "2026-11-01T21:05:00Z",
+       "mk": "player_field_goals_alternate",
+       "n": "Over",
+       "d": "Cameron Dicker",
+       "p": 1.5,
+       "o": -102,
+       "fair": 0.537
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-sat-6",
+     "stake": 100,
+     "prob": 0.1397,
+     "ev": 0.143,
+     "why": "McNeill has 3.5 sacks in 6 games, facing a Vikings line that allows sacks at 1.25x league rate. The model projects Dallas for about 30.7 points, but its score distribution gives the alt U27.5 a 40.7% chance vs 39.2% implied at +155, and the two legs are in different games. Edges: Alim McNeill sacks Over 0.5 (+221) fair 34% vs book 31%; Dallas Cowboys team_totals Under 27.5 (+155) fair 41% vs book 39%. Joint hit 14.0%, app payout 8.19x, EV +0.14 (still +0.02 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_sacks_alternate",
+       "n": "Over",
+       "d": "Alim McNeill",
+       "p": 0.5,
+       "o": 221,
+       "fair": 0.345
+      },
+      {
+       "ev": "9255ca8f32aea590d00aa57de79f6bb6",
+       "home": "Dallas Cowboys",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Dallas Cowboys",
+       "p": 27.5,
+       "o": 155,
+       "fair": 0.407
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-sat-7",
+     "stake": 100,
+     "prob": 0.2703,
+     "ev": 0.094,
+     "why": "Jaylen Warren has 100+ rushing yards in 3 of his last 5 games, and Pittsburgh is a home favourite against a below-average run defense. Cincinnati is a 12.5-point favourite, so the first half should be methodical: model 53.5% on U23.5 vs book 52.4%. Edges: Jaylen Warren rush_yds Over 69.5 (+112) fair 50% vs book 47%; Under totals_h1 Under 23.5 (-110) fair 53% vs book 52%. Joint hit 27.0%, app payout 4.05x, EV +0.09 (still +0.01 after a 2-pt haircut on every leg).",
+     "legs": [
+      {
+       "ev": "ab5ab731ab655bd6308bc7a922275518",
+       "home": "Pittsburgh Steelers",
+       "away": "Cleveland Browns",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "Jaylen Warren",
+       "p": 69.5,
+       "o": 112,
+       "fair": 0.503
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "totals_h1",
+       "n": "Under",
+       "p": 23.5,
+       "o": -110,
+       "fair": 0.535
+      }
+     ]
     }
-  ]
+   ],
+   "pickem": [
+    {
+     "ev": "9255ca8f32aea590d00aa57de79f6bb6",
+     "home": "Dallas Cowboys",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.72,
+     "why": "Blend 72% (de-vigged ML 73%, power model 72%)."
+    },
+    {
+     "ev": "921859689f5f8b3b8b1caf4248bdb1ec",
+     "home": "Tampa Bay Buccaneers",
+     "away": "Atlanta Falcons",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Tampa Bay Buccaneers",
+     "conf": 0.57,
+     "why": "Blend 57% (de-vigged ML 55%, power model 61%); storms, TB WR Egbuka out."
+    },
+    {
+     "ev": "c93c421e5fa46031a43162d111d981d0",
+     "home": "Buffalo Bills",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.58,
+     "why": "Blend 58% (de-vigged ML 60%, power model 55%); Lamar Jackson back from ankle."
+    },
+    {
+     "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+     "home": "Cincinnati Bengals",
+     "away": "Tennessee Titans",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.84,
+     "why": "Blend 84% (de-vigged ML 84%, power model 85%); TEN traded DT Simmons."
+    },
+    {
+     "ev": "ab5ab731ab655bd6308bc7a922275518",
+     "home": "Pittsburgh Steelers",
+     "away": "Cleveland Browns",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Pittsburgh Steelers",
+     "conf": 0.62,
+     "why": "Blend 62% (de-vigged ML 63%, power model 61%)."
+    },
+    {
+     "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+     "home": "Detroit Lions",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.56,
+     "why": "Blend 56% (de-vigged ML 60%, power model 47%)."
+    },
+    {
+     "ev": "159dbf0253dd2038eda2212f84387f0c",
+     "home": "Jacksonville Jaguars",
+     "away": "Indianapolis Colts",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.8,
+     "why": "Blend 80% (de-vigged ML 80%, power model 80%); IND traded Nelson and Buckner."
+    },
+    {
+     "ev": "98f1b121b793977434c046e76c707145",
+     "home": "New York Jets",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-01T18:00:00Z",
+     "w": "New York Jets",
+     "conf": 0.55,
+     "why": "Blend 55% (de-vigged ML 53%, power model 62%)."
+    },
+    {
+     "ev": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
+     "home": "Los Angeles Rams",
+     "away": "Los Angeles Chargers",
+     "t": "2026-11-01T21:05:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.73,
+     "why": "Blend 73% (de-vigged ML 71%, power model 80%); LAC S Derwin James out."
+    },
+    {
+     "ev": "f2a036d5edf483a277880014861e78ad",
+     "home": "Denver Broncos",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-01T21:25:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.52,
+     "why": "Blend 52% (de-vigged ML 52%, power model 52%)."
+    },
+    {
+     "ev": "05405af79752f5e742cdf50b61f6745e",
+     "home": "Miami Dolphins",
+     "away": "New England Patriots",
+     "t": "2026-11-01T21:25:00Z",
+     "w": "New England Patriots",
+     "conf": 0.7,
+     "why": "Blend 70% (de-vigged ML 73%, power model 63%); NE without A.J. Brown and Henderson."
+    },
+    {
+     "ev": "b9c60db63b1a19ad319f24b33c0defe8",
+     "home": "Washington Commanders",
+     "away": "Philadelphia Eagles",
+     "t": "2026-11-02T01:20:00Z",
+     "w": "Washington Commanders",
+     "conf": 0.68,
+     "why": "Blend 68% (de-vigged ML 69%, power model 66%); Tanner McKee starting for PHI."
+    },
+    {
+     "ev": "7d664fbcd39350e559d83c0068ba7169",
+     "home": "Seattle Seahawks",
+     "away": "Chicago Bears",
+     "t": "2026-11-03T01:20:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.6,
+     "why": "Blend 60% (de-vigged ML 60%, power model 58%); SEA LT Cross doubtful."
+    },
+    {
+     "ev": "c75744790b7acf6260c78ba5e739c0e5",
+     "home": "Baltimore Ravens",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-06T01:15:00Z",
+     "w": "Baltimore Ravens",
+     "conf": 0.53,
+     "why": "Blend 53% (de-vigged ML 58%, power model 40%); model rating built partly without Lamar, so market trusted."
+    },
+    {
+     "ev": "dc56d980f527ffeef89940133b211b13",
+     "home": "Atlanta Falcons",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-08T14:30:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.6,
+     "why": "Blend 60% (de-vigged ML 60%, power model 59%)."
+    },
+    {
+     "ev": "014282b888c741b7d70c857c09f40aa7",
+     "home": "Carolina Panthers",
+     "away": "Denver Broncos",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.54,
+     "why": "Blend 54% (de-vigged ML 55%, power model 52%)."
+    },
+    {
+     "ev": "e571bab6736f9338130a78a4f75c3231",
+     "home": "New Orleans Saints",
+     "away": "Cleveland Browns",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New Orleans Saints",
+     "conf": 0.53,
+     "why": "Blend 53% (de-vigged ML 55%, power model 47%)."
+    },
+    {
+     "ev": "415fc42e72888c63e82f7bce24c65391",
+     "home": "Indianapolis Colts",
+     "away": "Dallas Cowboys",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.62,
+     "why": "Blend 62% (de-vigged ML 66%, power model 53%)."
+    },
+    {
+     "ev": "44d8c37868b700e90f816db7c5df5cdd",
+     "home": "Miami Dolphins",
+     "away": "Detroit Lions",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.73,
+     "why": "Blend 73% (de-vigged ML 77%, power model 62%)."
+    },
+    {
+     "ev": "e354e6a04b1cb9c96e549b863debb92e",
+     "home": "Kansas City Chiefs",
+     "away": "New York Jets",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.77,
+     "why": "Blend 77% (de-vigged ML 80%, power model 69%)."
+    },
+    {
+     "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+     "home": "Washington Commanders",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.65,
+     "why": "Blend 65% (de-vigged ML 67%, power model 62%)."
+    },
+    {
+     "ev": "fe93e6ab1e553c0169936a0a983c324f",
+     "home": "Philadelphia Eagles",
+     "away": "New York Giants",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.56,
+     "why": "Blend 56% (de-vigged ML 53%, power model 64%)."
+    },
+    {
+     "ev": "39aeac43cea7b12558b91cdab1255a10",
+     "home": "Los Angeles Chargers",
+     "away": "Houston Texans",
+     "t": "2026-11-08T21:05:00Z",
+     "w": "Houston Texans",
+     "conf": 0.62,
+     "why": "Blend 62% (de-vigged ML 62%, power model 63%)."
+    },
+    {
+     "ev": "ac9d38a18d5c92814233a31aa9a48d78",
+     "home": "San Francisco 49ers",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-08T21:05:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.81,
+     "why": "Blend 81% (de-vigged ML 82%, power model 78%)."
+    },
+    {
+     "ev": "240e23b02b1e3fef655d04a286b5a623",
+     "home": "Seattle Seahawks",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.82,
+     "why": "Blend 82% (de-vigged ML 83%, power model 80%)."
+    },
+    {
+     "ev": "2922c573ec3df8466c4a34975e446898",
+     "home": "New England Patriots",
+     "away": "Green Bay Packers",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "New England Patriots",
+     "conf": 0.57,
+     "why": "Blend 57% (de-vigged ML 58%, power model 53%)."
+    },
+    {
+     "ev": "9760d8f19f84bfee300a74ceb656c95d",
+     "home": "Chicago Bears",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-09T01:20:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.66,
+     "why": "Blend 66% (de-vigged ML 70%, power model 56%)."
+    },
+    {
+     "ev": "17ad7eff2f7875e20a8109abe40470e3",
+     "home": "Minnesota Vikings",
+     "away": "Buffalo Bills",
+     "t": "2026-11-10T01:15:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.51,
+     "why": "Blend 51% (de-vigged ML 56%, power model 39%)."
+    }
+   ]
+  },
+  {
+   "id": "2026-10-27-wed",
+   "label": "Wednesday picks",
+   "made": "2026-10-28T20:21:59Z",
+   "week": 8,
+   "note": "Week 8 Wednesday slate. These are player-prop edges from 2026 game logs (ESPN box scores and nflverse) blended with de-vigged DraftKings lines and alt ladders, with every leg in a different game within its parlay.",
+   "parlays": [
+    {
+     "id": "2026-10-27-wed-1",
+     "stake": 100,
+     "prob": 0.2196,
+     "ev": 0.4672,
+     "why": "Sam Darnold Over 0.5 INT: has thrown one in all 5 games with real volume (8 INTs, ~4.6% rate); fair 60% vs 49% de-vigged. Jaylen Warren Over 22.5 rec yds: cleared it in 7 of 7 games (27-87); fair 60% vs 51%. Joe Burrow Over 5.5 rush yds: over in 5 of 6 games; fair 61% vs 51%.",
+     "legs": [
+      {
+       "ev": "7d664fbcd39350e559d83c0068ba7169",
+       "home": "Seattle Seahawks",
+       "away": "Chicago Bears",
+       "t": "2026-11-03T01:20:00Z",
+       "mk": "player_pass_interceptions",
+       "n": "Over",
+       "d": "Sam Darnold",
+       "p": 0.5,
+       "o": -107,
+       "fair": 0.6
+      },
+      {
+       "ev": "ab5ab731ab655bd6308bc7a922275518",
+       "home": "Pittsburgh Steelers",
+       "away": "Cleveland Browns",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds",
+       "n": "Over",
+       "d": "Jaylen Warren",
+       "p": 22.5,
+       "o": -116,
+       "fair": 0.6
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_rush_yds",
+       "n": "Over",
+       "d": "Joe Burrow",
+       "p": 5.5,
+       "o": -117,
+       "fair": 0.61
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-wed-2",
+     "stake": 100,
+     "prob": 0.3168,
+     "ev": 0.4222,
+     "why": "Ollie Gordon II Under 10.5 rec yds: 14 receiving yards in 5 games (0, 14, 0, 0, 0 on 8 targets); model 74%, used 66% after a role-risk haircut (Jaylen Wright quad), vs 51% de-vigged book. Tee Higgins 80+ rec yds (+143): over 79.5 in 4 of 6 games, and Tennessee allows 246 rec yds/g (league 235); fair 48% vs 41% book.",
+     "legs": [
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "player_reception_yds",
+       "n": "Under",
+       "d": "Ollie Gordon II",
+       "p": 10.5,
+       "o": -118,
+       "fair": 0.66
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Tee Higgins",
+       "p": 79.5,
+       "o": 143,
+       "fair": 0.48
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-wed-3",
+     "stake": 100,
+     "prob": 0.0696,
+     "ev": 0.7173,
+     "why": "Five independent games. Bryce Young Under 10.5 rush yds (6 of 6 under; 58% vs 50%), Bucky Irving Under 13.5 rec yds (6 of 7 under; 57% vs 49%), Keon Coleman Over 31.5 rec yds (4 of 6 over; 57% vs 50%), Ollie Gordon II Under 10.5 rec yds (66% vs 51%) and Tee Higgins Over 68.5 rec yds (56% vs 50%).",
+     "legs": [
+      {
+       "ev": "ab2865e9f2d4b012de8bc6fb6de11a7c",
+       "home": "Green Bay Packers",
+       "away": "Carolina Panthers",
+       "t": "2026-10-30T00:15:00Z",
+       "mk": "player_rush_yds",
+       "n": "Under",
+       "d": "Bryce Young",
+       "p": 10.5,
+       "o": -112,
+       "fair": 0.58
+      },
+      {
+       "ev": "921859689f5f8b3b8b1caf4248bdb1ec",
+       "home": "Tampa Bay Buccaneers",
+       "away": "Atlanta Falcons",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds",
+       "n": "Under",
+       "d": "Bucky Irving",
+       "p": 13.5,
+       "o": -107,
+       "fair": 0.57
+      },
+      {
+       "ev": "c93c421e5fa46031a43162d111d981d0",
+       "home": "Buffalo Bills",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds",
+       "n": "Over",
+       "d": "Keon Coleman",
+       "p": 31.5,
+       "o": -110,
+       "fair": 0.57
+      },
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "player_reception_yds",
+       "n": "Under",
+       "d": "Ollie Gordon II",
+       "p": 10.5,
+       "o": -118,
+       "fair": 0.66
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds",
+       "n": "Over",
+       "d": "Tee Higgins",
+       "p": 68.5,
+       "o": -110,
+       "fair": 0.56
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-27-tue",
+   "label": "Tuesday picks",
+   "made": "2026-10-28T01:35:08Z",
+   "week": 8,
+   "note": "Week 8 full-process redo. Every leg is a player or team-total edge priced from ESPN and nflverse game logs, blended with de-vigged DraftKings prices, and checked for injuries, weather and sensitivity.",
+   "parlays": [
+    {
+     "id": "2026-10-27-tue-1",
+     "stake": 100,
+     "prob": 0.1336,
+     "ev": 0.2672,
+     "why": "Three passer-TD unders. Kyler Murray Under 1.5 (-140): 0-1 TDs in all 5 starts, at Detroit; fair 63% vs 58%. Cam Ward Under 0.5 (+174): 0 TDs in 3 of 7, TEN offense -6 EPA/game, Ridley hurt, rain and 27 mph gusts in Cincinnati; fair 40% vs 36.5%. Darnold Under 1.5 (+102): 0-1 TDs in 4 of 6, vs a 2.0 market mean; fair 53% vs 49.5%.",
+     "legs": [
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_pass_tds",
+       "n": "Under",
+       "d": "Kyler Murray",
+       "p": 1.5,
+       "o": -140,
+       "fair": 0.63
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_pass_tds",
+       "n": "Under",
+       "d": "Cam Ward",
+       "p": 0.5,
+       "o": 174,
+       "fair": 0.4
+      },
+      {
+       "ev": "7d664fbcd39350e559d83c0068ba7169",
+       "home": "Seattle Seahawks",
+       "away": "Chicago Bears",
+       "t": "2026-11-03T01:20:00Z",
+       "mk": "player_pass_tds",
+       "n": "Under",
+       "d": "Sam Darnold",
+       "p": 1.5,
+       "o": 102,
+       "fair": 0.53
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-tue-2",
+     "stake": 100,
+     "prob": 0.4027,
+     "ev": 0.1164,
+     "why": "Malik Washington 25+ rec yds (-259): he cleared it in all 6 games on a 22-31% target share vs New England; fair 77% vs 72%. Vikings +3 (+100): Minnesota is 6-0 with the league's best defense (12.3 ppg, -10.9 EPA/game allowed), and the ratings make them a 1-point favorite, not a 3-point dog; fair cover 52.3% (plus about 4% push) vs 50%.",
+     "legs": [
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Malik Washington",
+       "p": 24.5,
+       "o": -259,
+       "fair": 0.77
+      },
+      {
+       "ev": "52e7ee9c42525e6deec02da32dc2fad8",
+       "home": "Detroit Lions",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "spreads",
+       "n": "Minnesota Vikings",
+       "p": 3,
+       "o": 100,
+       "fair": 0.523
+      }
+     ]
+    },
+    {
+     "id": "2026-10-27-tue-3",
+     "stake": 100,
+     "prob": 0.1193,
+     "ev": 0.669,
+     "why": "Maye Over 14.5 rush yds (-252): he has 17+ in all 7 games, avg 30; fair 82% vs book 72%. Bryce Young Under 10.5 rush yds (-112): his season high is 10 and Green Bay allows little QB rushing; fair 57.5% vs 53%. Higgins 80+ rec yds (+154): 90+ in 4 of 6 with a 25-32% target share; fair 44% vs 39%. Justice Hill 5+ rec yds (-250): 6 of 7 games with 3-4 targets; fair 79% vs 71%. Eagles team total Over 13.5 (-205): Washington's defense allows +5 EPA/game; fair 72.8% vs 67%.",
+     "legs": [
+      {
+       "ev": "05405af79752f5e742cdf50b61f6745e",
+       "home": "Miami Dolphins",
+       "away": "New England Patriots",
+       "t": "2026-11-01T21:25:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "Drake Maye",
+       "p": 14.5,
+       "o": -252,
+       "fair": 0.82
+      },
+      {
+       "ev": "ab2865e9f2d4b012de8bc6fb6de11a7c",
+       "home": "Green Bay Packers",
+       "away": "Carolina Panthers",
+       "t": "2026-10-30T00:15:00Z",
+       "mk": "player_rush_yds",
+       "n": "Under",
+       "d": "Bryce Young",
+       "p": 10.5,
+       "o": -112,
+       "fair": 0.575
+      },
+      {
+       "ev": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+       "home": "Cincinnati Bengals",
+       "away": "Tennessee Titans",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Tee Higgins",
+       "p": 79.5,
+       "o": 154,
+       "fair": 0.44
+      },
+      {
+       "ev": "c93c421e5fa46031a43162d111d981d0",
+       "home": "Buffalo Bills",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-01T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Justice Hill",
+       "p": 4.5,
+       "o": -250,
+       "fair": 0.79
+      },
+      {
+       "ev": "b9c60db63b1a19ad319f24b33c0defe8",
+       "home": "Washington Commanders",
+       "away": "Philadelphia Eagles",
+       "t": "2026-11-02T01:20:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Over",
+       "d": "Philadelphia Eagles",
+       "p": 13.5,
+       "o": -205,
+       "fair": 0.728
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
