@@ -22,7 +22,8 @@
        "mk": "h2h",
        "n": "Jacksonville Jaguars",
        "o": -500,
-       "fair": 0.824
+       "fair": 0.824,
+       "cl": -455
       },
       {
        "ev": "c75744790b7acf6260c78ba5e739c0e5",
@@ -34,7 +35,8 @@
        "d": "Malaki Starks",
        "p": 3.5,
        "o": -505,
-       "fair": 0.829
+       "fair": 0.829,
+       "cl": -519
       }
      ]
     },
@@ -406,7 +408,8 @@
        "mk": "h2h",
        "n": "Jacksonville Jaguars",
        "o": -470,
-       "fair": 0.822
+       "fair": 0.822,
+       "cl": -455
       }
      ]
     },
