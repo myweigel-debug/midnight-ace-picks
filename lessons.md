@@ -49,3 +49,20 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 3. Avoid TD props, sacks, longest-reception markets and plus-money tackle legs.
 4. In rain or wind, avoid passing, rushing-QB and receiving overs, and lean on that game's unders only when the forecast is firm.
 5. For QB changes (McKee, Fagnano), fade the affected offense only through legs the market already agrees with.
+
+## 2026-11-05 review (Thursday run, ESPN Week 9)
+**Record:** nothing new to grade. Every Week 8 game was already graded on 2026-11-03: parlays 1-12, legs 19-20, pick'ems 9-4. The 2026-11-03-tue slate's games are all Week 9 (Thu Nov 5 – Mon Nov 9), and none has kicked off yet. No `cl` stamps exist yet, so there is no new CLV data.
+
+**What I'm applying this run**
+- **Hit rate first.** Legs are low rungs on starters who cleared the rung in every or nearly every game this season:
+  - Irving 45+ rush yds in 8/8
+  - Kyren Williams 41+ in 8/8
+  - Odunze 39+ rec yds in 8/8
+  - Maye 178+ pass yds in 8/8
+  - Stevens 4+ kicking pts in 7/7
+  - Starks 4+ tackles in 7/8
+  - JAX ML against an undrafted rookie QB
+- **Pinnacle (`px`) is the baseline now.** `px` came back on every Week 9 response (it was missing on Tuesday). Main lines are de-vigged from Pinnacle, and alt ladders are fit to Pinnacle and DK main lines plus the DK rungs.
+- **The model shade is capped at +2.5 points for published `fair`.** The raw log-based shade ran +3-4 points on most low rungs, and last week's sensitivity check said true rates sit a few points under the headline.
+- **Weather:** TNF in Baltimore has 75% showers and thunderstorms, so there are no passing, receiving or kicking overs in that game. The only TNF legs are the JAX ML and a BAL safety's tackles, which rain does not hurt (more runs mean more tackles).
+- **Injury filter:** every player who is DNP, LP-with-hamstring, in a QB change (PHI Milton, SEA Lock, MIN Murray 50/50, CLE Sanders) or in an unsettled committee is excluded before pricing.

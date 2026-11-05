@@ -1,6 +1,378 @@
 {
  "slates": [
   {
+   "id": "2026-11-03-thu",
+   "label": "Thursday picks",
+   "made": "2026-11-05T20:11:10Z",
+   "week": 9,
+   "note": "Hit-rate slate: seven low rungs on starters who cleared them in every or nearly every game this season, plus JAX ML against a rookie QB in Thursday-night rain. Joint hit chances are 69%, 72% and 62%. Nothing new to grade yet (Week 9 starts tonight); I applied last week's lessons: Pinnacle baseline, no unders, no weather-exposed passing legs.",
+   "parlays": [
+    {
+     "id": "2026-11-03-thu-1",
+     "stake": 100,
+     "prob": 0.687,
+     "ev": -0.073,
+     "why": "Jacksonville faces undrafted rookie Joe Fagnano (Lamar on IR, Huntley out for the year) in a thunderstorm that favors the better run game; JAX ML is fair 82% (Pinnacle de-vigged 82%) vs book 83% at -500. BAL safety Malaki Starks plays every snap (Hawkins out) and has 4+ tackles in 7 of 8 games (10 last week); rain means more runs and more tackles, so 4+ is fair 83% vs book 83.5%. Mild positive same-game link; joint 69%.",
+     "legs": [
+      {
+       "ev": "c75744790b7acf6260c78ba5e739c0e5",
+       "home": "Baltimore Ravens",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-06T01:15:00Z",
+       "mk": "h2h",
+       "n": "Jacksonville Jaguars",
+       "o": -500,
+       "fair": 0.824
+      },
+      {
+       "ev": "c75744790b7acf6260c78ba5e739c0e5",
+       "home": "Baltimore Ravens",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-06T01:15:00Z",
+       "mk": "player_tackles_assists_alternate",
+       "n": "Over",
+       "d": "Malaki Starks",
+       "p": 3.5,
+       "o": -505,
+       "fair": 0.829
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-thu-2",
+     "stake": 100,
+     "prob": 0.715,
+     "ev": 0.019,
+     "why": "Bucky Irving has 45+ rush yds in all 8 games (15-27 carries) and gets a dry, 49F Chicago night; 40+ is fair 84% (ladder fit to Pinnacle and DK mains, 82%) vs book 85%. Washington K Drew Stevens has 4+ kicking points in all 7 games (13/15 FG) under sunny 61F skies in Landover; 4+ is fair 85% vs book 83%. Independent games; joint 72%.",
+     "legs": [
+      {
+       "ev": "9760d8f19f84bfee300a74ceb656c95d",
+       "home": "Chicago Bears",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-09T01:20:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "Bucky Irving",
+       "p": 39.5,
+       "o": -547,
+       "fair": 0.843
+      },
+      {
+       "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+       "home": "Washington Commanders",
+       "away": "Los Angeles Rams",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_kicking_points_alternate",
+       "n": "Over",
+       "d": "Drew Stevens",
+       "p": 3.5,
+       "o": -486,
+       "fair": 0.847
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-thu-3",
+     "stake": 100,
+     "prob": 0.622,
+     "ev": -0.01,
+     "why": "Drake Maye has 178+ pass yds in all 8 starts, and DK moved his 170+ rung from -483 to -660 today, so the market agrees; fair 86% vs book 87% in dry 56F Foxborough against a Packers defense without Parsons. Rome Odunze has 39+ rec yds in all 8 games on a 90%+ snap share; 20+ is fair 86% vs book 86%. Kyren Williams has 41+ rush yds in 8 of 8 as the lead back (16 carries a week) for a Rams team favored by 4.5; 30+ is fair 84% vs book 84%. Three games and three positions; joint 62%.",
+     "legs": [
+      {
+       "ev": "2922c573ec3df8466c4a34975e446898",
+       "home": "New England Patriots",
+       "away": "Green Bay Packers",
+       "t": "2026-11-08T21:25:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Drake Maye",
+       "p": 169.5,
+       "o": -660,
+       "fair": 0.858
+      },
+      {
+       "ev": "9760d8f19f84bfee300a74ceb656c95d",
+       "home": "Chicago Bears",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-09T01:20:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Rome Odunze",
+       "p": 19.5,
+       "o": -596,
+       "fair": 0.86
+      },
+      {
+       "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+       "home": "Washington Commanders",
+       "away": "Los Angeles Rams",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "Kyren Williams",
+       "p": 29.5,
+       "o": -543,
+       "fair": 0.843
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "c75744790b7acf6260c78ba5e739c0e5",
+     "home": "Baltimore Ravens",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-06T01:15:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.82,
+     "why": "Blend 82% (de-vigged ML 82%, power model 84%); BAL starts undrafted rookie Fagnano in a thunderstorm."
+    },
+    {
+     "ev": "dc56d980f527ffeef89940133b211b13",
+     "home": "Atlanta Falcons",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-08T14:30:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.62,
+     "why": "Blend 62% (de-vigged ML 62%, power model 64%); Burrow healthy; ATL off a 4-INT Penix game, neutral Madrid site."
+    },
+    {
+     "ev": "014282b888c741b7d70c857c09f40aa7",
+     "home": "Carolina Panthers",
+     "away": "Denver Broncos",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.57,
+     "why": "Blend 57% (de-vigged ML 58%, power model 55%); CAR guards banged up and interim DC."
+    },
+    {
+     "ev": "e571bab6736f9338130a78a4f75c3231",
+     "home": "New Orleans Saints",
+     "away": "Cleveland Browns",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New Orleans Saints",
+     "conf": 0.61,
+     "why": "Blend 61% (de-vigged ML 60%, power model 61%); CLE likely starts Shedeur Sanders (Watson in concussion protocol)."
+    },
+    {
+     "ev": "415fc42e72888c63e82f7bce24c65391",
+     "home": "Indianapolis Colts",
+     "away": "Dallas Cowboys",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.67,
+     "why": "Blend 67% (de-vigged ML 69%, power model 60%); IND traded Buckner, Jones on a short leash."
+    },
+    {
+     "ev": "44d8c37868b700e90f816db7c5df5cdd",
+     "home": "Miami Dolphins",
+     "away": "Detroit Lions",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.71,
+     "why": "Blend 71% (de-vigged ML 74%, power model 59%); DET secondary depleted but MIA offense weak."
+    },
+    {
+     "ev": "e354e6a04b1cb9c96e549b863debb92e",
+     "home": "Kansas City Chiefs",
+     "away": "New York Jets",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.79,
+     "why": "Blend 79% (de-vigged ML 82%, power model 68%); NYJ WR Garrett Wilson in concussion protocol."
+    },
+    {
+     "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+     "home": "Washington Commanders",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.66,
+     "why": "Blend 66% (de-vigged ML 68%, power model 59%); WAS WR room gutted (McLaurin IR, Diggs DNP)."
+    },
+    {
+     "ev": "fe93e6ab1e553c0169936a0a983c324f",
+     "home": "Philadelphia Eagles",
+     "away": "New York Giants",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.64,
+     "why": "Blend 64% (de-vigged ML 62%, power model 70%); PHI turns to Joe Milton with Barkley and DeVonta Smith questionable."
+    },
+    {
+     "ev": "39aeac43cea7b12558b91cdab1255a10",
+     "home": "Los Angeles Chargers",
+     "away": "Houston Texans",
+     "t": "2026-11-08T21:05:00Z",
+     "w": "Houston Texans",
+     "conf": 0.67,
+     "why": "Blend 67% (de-vigged ML 68%, power model 63%); LAC winless with the league-worst offense."
+    },
+    {
+     "ev": "ac9d38a18d5c92814233a31aa9a48d78",
+     "home": "San Francisco 49ers",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-08T21:05:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.78,
+     "why": "Blend 78% (de-vigged ML 81%, power model 69%); SF off bye at home; LV demoted Jeanty."
+    },
+    {
+     "ev": "240e23b02b1e3fef655d04a286b5a623",
+     "home": "Seattle Seahawks",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.76,
+     "why": "Blend 76% (de-vigged ML 79%, power model 66%); SEA starts Drew Lock (Darnold out) but ARI is on Minshew and lost Love/Conner."
+    },
+    {
+     "ev": "2922c573ec3df8466c4a34975e446898",
+     "home": "New England Patriots",
+     "away": "Green Bay Packers",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "New England Patriots",
+     "conf": 0.61,
+     "why": "Blend 61% (de-vigged ML 61%, power model 58%); GB without Parsons; NE at home."
+    },
+    {
+     "ev": "9760d8f19f84bfee300a74ceb656c95d",
+     "home": "Chicago Bears",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-09T01:20:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.68,
+     "why": "Blend 68% (de-vigged ML 71%, power model 57%); CHI at home, TB without Diaby."
+    },
+    {
+     "ev": "17ad7eff2f7875e20a8109abe40470e3",
+     "home": "Minnesota Vikings",
+     "away": "Buffalo Bills",
+     "t": "2026-11-10T01:15:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.6,
+     "why": "Blend 60% (de-vigged ML 62%, power model 53%); Kyler Murray 50/50 for MIN (hamstring)."
+    },
+    {
+     "ev": "74d39e19225caf211ad2c8eb4110179f",
+     "home": "New York Giants",
+     "away": "Washington Commanders",
+     "t": "2026-11-13T01:15:00Z",
+     "w": "New York Giants",
+     "conf": 0.53,
+     "why": "Blend 53% (de-vigged ML 52%, power model 58%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+     "home": "Detroit Lions",
+     "away": "New England Patriots",
+     "t": "2026-11-15T14:30:00Z",
+     "w": "New England Patriots",
+     "conf": 0.51,
+     "why": "Blend 51% (de-vigged ML 52%, power model 47%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "3c71d515b726f1096aabb435badb83fd",
+     "home": "Atlanta Falcons",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.59,
+     "why": "Blend 59% (de-vigged ML 62%, power model 50%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "1057d50949844ddf483da9c8c20354be",
+     "home": "New York Jets",
+     "away": "Buffalo Bills",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.76,
+     "why": "Blend 76% (de-vigged ML 79%, power model 65%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+     "home": "New Orleans Saints",
+     "away": "Carolina Panthers",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.52,
+     "why": "Blend 52% (de-vigged ML 53%, power model 48%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "be0e03cc42fbc9b6962467b22c7bf9dd",
+     "home": "Cleveland Browns",
+     "away": "Houston Texans",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.64,
+     "why": "Blend 64% (de-vigged ML 65%, power model 58%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "5d8d85473b87f772a979ecf294acab94",
+     "home": "Green Bay Packers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Green Bay Packers",
+     "conf": 0.59,
+     "why": "Blend 59% (de-vigged ML 61%, power model 52%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "b5700b4d938fd94429f60d4622cc9c0a",
+     "home": "Indianapolis Colts",
+     "away": "Miami Dolphins",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Indianapolis Colts",
+     "conf": 0.55,
+     "why": "Blend 55% (de-vigged ML 55%, power model 53%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "28800df7e768ecec14f116454d560f9b",
+     "home": "Tennessee Titans",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.8,
+     "why": "Blend 80% (de-vigged ML 81%, power model 75%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "6c932a965110f3f89ec4a5f1a6ac256e",
+     "home": "Arizona Cardinals",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.75,
+     "why": "Blend 75% (de-vigged ML 76%, power model 67%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "7627192fd89b05120ab6c712aa23fd81",
+     "home": "Dallas Cowboys",
+     "away": "San Francisco 49ers",
+     "t": "2026-11-15T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.64,
+     "why": "Blend 64% (de-vigged ML 65%, power model 57%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "48e497c230e6c9afcb3b600091d28e17",
+     "home": "Cincinnati Bengals",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-16T01:20:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.61,
+     "why": "Blend 61% (de-vigged ML 62%, power model 56%); early Week 10 line, re-picked later in the week."
+    },
+    {
+     "ev": "35e3bdff558b5d1506251e814986f164",
+     "home": "Baltimore Ravens",
+     "away": "Los Angeles Chargers",
+     "t": "2026-11-17T01:15:00Z",
+     "w": "Baltimore Ravens",
+     "conf": 0.53,
+     "why": "Blend 53% (de-vigged ML 52%, power model 53%); early Week 10 line, re-picked later in the week."
+    }
+   ]
+  },
+  {
    "id": "2026-11-03-tue",
    "label": "Tuesday picks",
    "made": "2026-11-03T19:07:41Z",
