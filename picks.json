@@ -1,6 +1,481 @@
 {
  "slates": [
   {
+   "id": "2026-11-03-sun",
+   "label": "Sunday picks",
+   "made": "2026-11-08T12:11:19Z",
+   "week": 9,
+   "note": "Week 9 Sunday: six short, high-hit-rate parlays (joint 66-77%) built from 14 low-rung legs across 12 different games: QBs, RBs, WRs, tackles, kickers and two team totals. Thursday's JAX ML + Starks parlay won. Lessons applied: no unders or TD/sack props, no QB-change offenses, no legs reused from Tue/Thu, and every leg cleared its rung in nearly every 2026 game. It's a dry week, so weather removed no legs.",
+   "parlays": [
+    {
+     "id": "2026-11-03-sun-1",
+     "stake": 100,
+     "prob": 0.758,
+     "ev": -0.047,
+     "why": "Josh Allen has thrown for 170+ in all 7 starts (253/210/255/289 lately) and plays indoors against a Wentz-led MIN team (fair 88% vs book 89% at -840); Ka'imi Fairbairn has made 1+ FG in 7 of 7 games, and HOU@LAC is indoors with a 40.5 total that points to field goals (fair 87% vs book 89% at -810). Every leg is from a different game, so the legs are independent: joint 76% (still 73% under conservative de-vig), paying 1.26x.",
+     "legs": [
+      {
+       "ev": "17ad7eff2f7875e20a8109abe40470e3",
+       "home": "Minnesota Vikings",
+       "away": "Buffalo Bills",
+       "t": "2026-11-10T01:15:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Josh Allen",
+       "p": 169.5,
+       "o": -840,
+       "fair": 0.876
+      },
+      {
+       "ev": "39aeac43cea7b12558b91cdab1255a10",
+       "home": "Los Angeles Chargers",
+       "away": "Houston Texans",
+       "t": "2026-11-08T21:05:00Z",
+       "mk": "player_field_goals_alternate",
+       "n": "Over",
+       "d": "Ka'imi Fairbairn",
+       "p": 0.5,
+       "o": -810,
+       "fair": 0.865
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-sun-2",
+     "stake": 100,
+     "prob": 0.768,
+     "ev": -0.039,
+     "why": "Mahomes has 190+ pass+rush yards in 6 of 7 games, at home against a NYJ secondary missing CB Nahshon Wright (fair 87% vs book 89% at -800); HOU CB Kamari Lassiter plays every snap and has 2+ solo tackles in 6 of 7 games (7/3/6/5 lately) against pass-first LAC (fair 89% vs book 90% at -900). Every leg is from a different game, so the legs are independent: joint 77% (still 73% under conservative de-vig), paying 1.25x.",
+     "legs": [
+      {
+       "ev": "e354e6a04b1cb9c96e549b863debb92e",
+       "home": "Kansas City Chiefs",
+       "away": "New York Jets",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_pass_rush_yds_alternate",
+       "n": "Over",
+       "d": "Patrick Mahomes",
+       "p": 189.5,
+       "o": -800,
+       "fair": 0.867
+      },
+      {
+       "ev": "39aeac43cea7b12558b91cdab1255a10",
+       "home": "Los Angeles Chargers",
+       "away": "Houston Texans",
+       "t": "2026-11-08T21:05:00Z",
+       "mk": "player_solo_tackles_alternate",
+       "n": "Over",
+       "d": "Kamari Lassiter",
+       "p": 1.5,
+       "o": -900,
+       "fair": 0.887
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-sun-3",
+     "stake": 100,
+     "prob": 0.763,
+     "ev": -0.034,
+     "why": "Cousins has 180+ pass+rush yards in 7 of 8 games, and as a 9.5-point underdog LV should be throwing late (fair 87% vs book 89% at -780); Malik Washington has 15+ receiving yards in 7 of 7 games (67/43/27/40) on 74-80% snaps; sunny 83F with no rain (fair 88% vs book 89% at -820). Every leg is from a different game, so the legs are independent: joint 76% (still 72% under conservative de-vig), paying 1.27x.",
+     "legs": [
+      {
+       "ev": "ac9d38a18d5c92814233a31aa9a48d78",
+       "home": "San Francisco 49ers",
+       "away": "Las Vegas Raiders",
+       "t": "2026-11-08T21:25:00Z",
+       "mk": "player_pass_rush_yds_alternate",
+       "n": "Over",
+       "d": "Kirk Cousins",
+       "p": 179.5,
+       "o": -780,
+       "fair": 0.871
+      },
+      {
+       "ev": "44d8c37868b700e90f816db7c5df5cdd",
+       "home": "Miami Dolphins",
+       "away": "Detroit Lions",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Malik Washington",
+       "p": 14.5,
+       "o": -820,
+       "fair": 0.876
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-sun-4",
+     "stake": 100,
+     "prob": 0.758,
+     "ev": -0.051,
+     "why": "CLE@NO needs only 30 total points against a 42.5 main total in the Superdome (fair 88% vs book 90% at -890); Javonte Williams has 50+ rush+rec yards in 8 of 8 games (24-25 carries in each of the last two) with DAL favored by 5.5 (fair 86% vs book 89% at -800). Every leg is from a different game, so the legs are independent: joint 76% (still 73% under conservative de-vig), paying 1.25x.",
+     "legs": [
+      {
+       "ev": "e571bab6736f9338130a78a4f75c3231",
+       "home": "New Orleans Saints",
+       "away": "Cleveland Browns",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "alternate_totals",
+       "n": "Over",
+       "p": 29.5,
+       "o": -890,
+       "fair": 0.883
+      },
+      {
+       "ev": "415fc42e72888c63e82f7bce24c65391",
+       "home": "Indianapolis Colts",
+       "away": "Dallas Cowboys",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_rush_reception_yds_alternate",
+       "n": "Over",
+       "d": "Javonte Williams",
+       "p": 49.5,
+       "o": -800,
+       "fair": 0.859
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-sun-5",
+     "stake": 100,
+     "prob": 0.66,
+     "ev": -0.066,
+     "why": "Matthew Golden has 30+ receiving yards in 7 of 8 games on 84-86% snaps; Foxborough is sunny with 6-7 mph wind (fair 87% vs book 89% at -790); SEA LB Drake Thomas has 4+ tackles in 6 of 6 games (9/5/5/7), with LBs Nwosu out and O'Toole questionable (fair 87% vs book 89% at -840); Wil Lutz has 4+ kicking points in 7 of 8 games, and Charlotte is sunny, 65F, with 7 mph wind (fair 86% vs book 89% at -820). Every leg is from a different game, so the legs are independent: joint 66% (still 62% under conservative de-vig), paying 1.41x.",
+     "legs": [
+      {
+       "ev": "2922c573ec3df8466c4a34975e446898",
+       "home": "New England Patriots",
+       "away": "Green Bay Packers",
+       "t": "2026-11-08T21:25:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Matthew Golden",
+       "p": 29.5,
+       "o": -790,
+       "fair": 0.874
+      },
+      {
+       "ev": "240e23b02b1e3fef655d04a286b5a623",
+       "home": "Seattle Seahawks",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-08T21:25:00Z",
+       "mk": "player_tackles_assists_alternate",
+       "n": "Over",
+       "d": "Drake Thomas",
+       "p": 3.5,
+       "o": -840,
+       "fair": 0.874
+      },
+      {
+       "ev": "014282b888c741b7d70c857c09f40aa7",
+       "home": "Carolina Panthers",
+       "away": "Denver Broncos",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_kicking_points_alternate",
+       "n": "Over",
+       "d": "Wil Lutz",
+       "p": 3.5,
+       "o": -820,
+       "fair": 0.865
+      }
+     ]
+    },
+    {
+     "id": "2026-11-03-sun-6",
+     "stake": 100,
+     "prob": 0.671,
+     "ev": -0.041,
+     "why": "LV needs 11+ points against a market projection near 21; the team-total ladder is mostly priced off Pinnacle (fair 89% vs book 89% at -800); James Cook has 60+ rush+rec yards in 7 of 7 games (83/118/153/101) in a dome against Wentz's MIN (fair 88% vs book 89% at -840); NYG LB Arvell Reese has 3+ solo tackles in 7 of 7 games on 100% snaps, and PHI with Milton at QB should lean on the run (fair 86% vs book 88% at -740). Every leg is from a different game, so the legs are independent: joint 67% (still 61% under conservative de-vig), paying 1.43x.",
+     "legs": [
+      {
+       "ev": "ac9d38a18d5c92814233a31aa9a48d78",
+       "home": "San Francisco 49ers",
+       "away": "Las Vegas Raiders",
+       "t": "2026-11-08T21:25:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Over",
+       "d": "Las Vegas Raiders",
+       "p": 10.5,
+       "o": -800,
+       "fair": 0.887
+      },
+      {
+       "ev": "17ad7eff2f7875e20a8109abe40470e3",
+       "home": "Minnesota Vikings",
+       "away": "Buffalo Bills",
+       "t": "2026-11-10T01:15:00Z",
+       "mk": "player_rush_reception_yds_alternate",
+       "n": "Over",
+       "d": "James Cook",
+       "p": 59.5,
+       "o": -840,
+       "fair": 0.876
+      },
+      {
+       "ev": "fe93e6ab1e553c0169936a0a983c324f",
+       "home": "Philadelphia Eagles",
+       "away": "New York Giants",
+       "t": "2026-11-08T18:00:00Z",
+       "mk": "player_solo_tackles_alternate",
+       "n": "Over",
+       "d": "Arvell Reese",
+       "p": 2.5,
+       "o": -740,
+       "fair": 0.864
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "dc56d980f527ffeef89940133b211b13",
+     "home": "Atlanta Falcons",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-08T14:30:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.63,
+     "why": "Bengals 63% (de-vigged ML 62%, power model 64%); Burrow healthy vs Penix off a 4-INT game; ATL lost Brian Robinson and Branch, neutral Madrid site."
+    },
+    {
+     "ev": "014282b888c741b7d70c857c09f40aa7",
+     "home": "Carolina Panthers",
+     "away": "Denver Broncos",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.57,
+     "why": "Broncos 57% (de-vigged ML 58%, power model 56%); CAR is without edge Jaelan Phillips and LB Okereke; Nix and a healthy DEN defense in a dry 65F game."
+    },
+    {
+     "ev": "e571bab6736f9338130a78a4f75c3231",
+     "home": "New Orleans Saints",
+     "away": "Cleveland Browns",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New Orleans Saints",
+     "conf": 0.61,
+     "why": "Saints 61% (de-vigged ML 61%, power model 59%); Shedeur Sanders makes his first start on the road in a dome against a rested Saints team off its bye."
+    },
+    {
+     "ev": "415fc42e72888c63e82f7bce24c65391",
+     "home": "Indianapolis Colts",
+     "away": "Dallas Cowboys",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.67,
+     "why": "Cowboys 67% (de-vigged ML 68%, power model 61%); IND's QB is unsettled (Jones/Richardson) after a 42-7 loss; Javonte Williams leads a stronger DAL offense."
+    },
+    {
+     "ev": "44d8c37868b700e90f816db7c5df5cdd",
+     "home": "Miami Dolphins",
+     "away": "Detroit Lions",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.72,
+     "why": "Lions 72% (de-vigged ML 75%, power model 60%); DET is missing Campbell, Joseph and Reed on defense, which keeps this short of a blowout lean, but Goff/Gibbs outclass MIA."
+    },
+    {
+     "ev": "e354e6a04b1cb9c96e549b863debb92e",
+     "home": "Kansas City Chiefs",
+     "away": "New York Jets",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.79,
+     "why": "Chiefs 79% (de-vigged ML 82%, power model 65%); Mahomes at home vs a Jets team missing Garrett Wilson and CB Nahshon Wright."
+    },
+    {
+     "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+     "home": "Washington Commanders",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.67,
+     "why": "Rams 67% (de-vigged ML 68%, power model 60%); WSH has lost McLaurin, Burks and Dyami Brown at receiver; Stafford and Garrett (back from IR) give LAR the edge."
+    },
+    {
+     "ev": "fe93e6ab1e553c0169936a0a983c324f",
+     "home": "Philadelphia Eagles",
+     "away": "New York Giants",
+     "t": "2026-11-08T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.62,
+     "why": "Giants 62% (de-vigged ML 60%, power model 67%); PHI starts Joe Milton with DeVonta Smith and Wicks out; NYG are the market favorite on the road."
+    },
+    {
+     "ev": "39aeac43cea7b12558b91cdab1255a10",
+     "home": "Los Angeles Chargers",
+     "away": "Houston Texans",
+     "t": "2026-11-08T21:05:00Z",
+     "w": "Houston Texans",
+     "conf": 0.69,
+     "why": "Texans 69% (de-vigged ML 70%, power model 64%); LAC rate last in our ratings (-6.0) and are missing Njoku, Williamson and Derwin James; HOU defense travels indoors."
+    },
+    {
+     "ev": "240e23b02b1e3fef655d04a286b5a623",
+     "home": "Seattle Seahawks",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.75,
+     "why": "Seahawks 75% (de-vigged ML 78%, power model 63%); Even with Drew Lock starting, SEA's defense faces Minshew and an ARI team down to its 3rd/4th RBs."
+    },
+    {
+     "ev": "2922c573ec3df8466c4a34975e446898",
+     "home": "New England Patriots",
+     "away": "Green Bay Packers",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "New England Patriots",
+     "conf": 0.61,
+     "why": "Patriots 61% (de-vigged ML 62%, power model 58%); GB is without Micah Parsons and Zaire Franklin; Maye is healthy at home (A.J. Brown out trims the margin)."
+    },
+    {
+     "ev": "ac9d38a18d5c92814233a31aa9a48d78",
+     "home": "San Francisco 49ers",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-08T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.79,
+     "why": "49ers 79% (de-vigged ML 82%, power model 66%); SF gets McCaffrey and Bosa back at home; LV's run game is an unsettled committee."
+    },
+    {
+     "ev": "9760d8f19f84bfee300a74ceb656c95d",
+     "home": "Chicago Bears",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-09T01:20:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.67,
+     "why": "Bears 67% (de-vigged ML 70%, power model 56%); CHI at home with Swift rolling; TB has Egbuka questionable and Diaby out."
+    },
+    {
+     "ev": "17ad7eff2f7875e20a8109abe40470e3",
+     "home": "Minnesota Vikings",
+     "away": "Buffalo Bills",
+     "t": "2026-11-10T01:15:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.6,
+     "why": "Bills 60% (de-vigged ML 61%, power model 53%); Kyler Murray is out, so Carson Wentz starts for MIN against Allen in the dome."
+    },
+    {
+     "ev": "74d39e19225caf211ad2c8eb4110179f",
+     "home": "New York Giants",
+     "away": "Washington Commanders",
+     "t": "2026-11-13T01:15:00Z",
+     "w": "New York Giants",
+     "conf": 0.53,
+     "why": "Giants 53% (de-vigged ML 52%, power model 60%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+     "home": "Detroit Lions",
+     "away": "New England Patriots",
+     "t": "2026-11-15T14:30:00Z",
+     "w": "New England Patriots",
+     "conf": 0.51,
+     "why": "Patriots 51% (de-vigged ML 52%, power model 47%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "3c71d515b726f1096aabb435badb83fd",
+     "home": "Atlanta Falcons",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.6,
+     "why": "Chiefs 60% (de-vigged ML 62%, power model 51%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "1057d50949844ddf483da9c8c20354be",
+     "home": "New York Jets",
+     "away": "Buffalo Bills",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.76,
+     "why": "Bills 76% (de-vigged ML 79%, power model 66%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+     "home": "New Orleans Saints",
+     "away": "Carolina Panthers",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.52,
+     "why": "Panthers 52% (de-vigged ML 53%, power model 48%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "be0e03cc42fbc9b6962467b22c7bf9dd",
+     "home": "Cleveland Browns",
+     "away": "Houston Texans",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.62,
+     "why": "Texans 62% (de-vigged ML 63%, power model 57%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "5d8d85473b87f772a979ecf294acab94",
+     "home": "Green Bay Packers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Green Bay Packers",
+     "conf": 0.58,
+     "why": "Packers 58% (de-vigged ML 60%, power model 51%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "b5700b4d938fd94429f60d4622cc9c0a",
+     "home": "Indianapolis Colts",
+     "away": "Miami Dolphins",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Indianapolis Colts",
+     "conf": 0.54,
+     "why": "Colts 54% (de-vigged ML 55%, power model 47%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "28800df7e768ecec14f116454d560f9b",
+     "home": "Tennessee Titans",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.83,
+     "why": "Jaguars 83% (de-vigged ML 83%, power model 81%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "6c932a965110f3f89ec4a5f1a6ac256e",
+     "home": "Arizona Cardinals",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.75,
+     "why": "Rams 75% (de-vigged ML 78%, power model 64%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "7627192fd89b05120ab6c712aa23fd81",
+     "home": "Dallas Cowboys",
+     "away": "San Francisco 49ers",
+     "t": "2026-11-15T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.62,
+     "why": "49ers 62% (de-vigged ML 65%, power model 54%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "48e497c230e6c9afcb3b600091d28e17",
+     "home": "Cincinnati Bengals",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-16T01:20:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.61,
+     "why": "Bengals 61% (de-vigged ML 62%, power model 57%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    },
+    {
+     "ev": "35e3bdff558b5d1506251e814986f164",
+     "home": "Baltimore Ravens",
+     "away": "Los Angeles Chargers",
+     "t": "2026-11-17T01:15:00Z",
+     "w": "Baltimore Ravens",
+     "conf": 0.53,
+     "why": "Ravens 53% (de-vigged ML 52%, power model 59%); Week 10 game: an early lean that blends 80% of the market moneyline with 20% of our season ratings; it will be re-picked as news breaks."
+    }
+   ]
+  },
+  {
    "id": "2026-11-03-thu",
    "label": "Thursday picks",
    "made": "2026-11-05T20:11:10Z",

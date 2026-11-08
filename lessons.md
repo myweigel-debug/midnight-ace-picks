@@ -66,3 +66,20 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 - **The model shade is capped at +2.5 points for published `fair`.** The raw log-based shade ran +3-4 points on most low rungs, and last week's sensitivity check said true rates sit a few points under the headline.
 - **Weather:** TNF in Baltimore has 75% showers and thunderstorms, so there are no passing, receiving or kicking overs in that game. The only TNF legs are the JAX ML and a BAL safety's tackles, which rain does not hurt (more runs mean more tackles).
 - **Injury filter:** every player who is DNP, LP-with-hamstring, in a QB change (PHI Milton, SEA Lock, MIN Murray 50/50, CLE Sanders) or in an unsettled committee is excluded before pricing.
+
+## 2026-11-08 review (Sunday run, ESPN Week 9)
+**Record (graded from ESPN, JAX 33 @ BAL 10 final):**
+- **Parlays:** 2026-11-03-thu-1 **won**: JAX ML hit, and Malaki Starks 4+ tackles+assists hit with exactly 4.
+- **2026-11-03-tue-1:** the JAX ML leg hit. Bryce Young's leg is still pending, so the parlay is not graded yet.
+- **Not graded yet:** every other Tue/Thu leg (Sunday and Monday games).
+- **Season since the hit-rate switch:** parlays 1-0, legs 3-0 (team 2-0, DEF 1-0).
+- **Pick'ems:** 1-0 (JAX at 0.82). The season total is now 10-4.
+
+**Closing-line value:** 1 of 3 graded prices moved toward us.
+- Starks went from -505 to -519 (toward us).
+- JAX ML went from -500 and -470 to -455 (away from us). The closing move against us came from rain and a small amount of sharp BAL money. JAX still won by 23.
+
+**Lessons:**
+- **The approach held up.** The rain-aware TNF build (tackles and the favorite's ML, no passing) did exactly what was intended. Keep it: in rain, use tackles and favorites. In dry weeks, low rungs on volume starters.
+- **Concentration risk:** one JAX ML leg sat in two slates. If JAX had lost, both parlays would have died together. From now on I spread legs across games and avoid reusing earlier slates' legs in the same week where an equal-quality alternative exists.
+- **Fit artifacts:** a player's ladder fit can produce fake edges. My pooled-dispersion fit first showed rush-yard rungs 4 points *better* than the book, which was a fit artifact. The fix: fit mean and dispersion jointly to the Pinnacle main, the DK main and the DK ladder. After that, every market showed the expected ~2-3 points of book hold. Always run this calibration check before trusting a "fair" number.
