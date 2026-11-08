@@ -544,7 +544,8 @@
        "d": "Bucky Irving",
        "p": 39.5,
        "o": -547,
-       "fair": 0.843
+       "fair": 0.843,
+       "cl": -520
       },
       {
        "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
@@ -591,7 +592,8 @@
        "d": "Rome Odunze",
        "p": 19.5,
        "o": -596,
-       "fair": 0.86
+       "fair": 0.86,
+       "cl": -554
       },
       {
        "ev": "89de07377e0aa8ffaa2ae6a7dc0855cc",
