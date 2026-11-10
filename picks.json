@@ -1,6 +1,251 @@
 {
  "slates": [
   {
+   "id": "2026-11-10-tue",
+   "label": "Tuesday picks",
+   "made": "2026-11-10T20:17:03Z",
+   "week": 10,
+   "note": "Week 10 Tuesday: three short parlays (joint 67%, 68%, 55%) built from low player rungs plus Pinnacle-anchored alt spreads, each leg in a different game. Week 9 went 11-1 (+$367). Lessons applied: I fixed an alt-line model bug, dropped alt-total unders and DK favorites' moneylines (both priced worse than Pinnacle), and swapped out GB +6.5 when the line moved 2 pts against it mid-run. No TNF legs: rain is forecast and the NYG QB is uncertain.",
+   "parlays": [
+    {
+     "id": "2026-11-10-tue-1",
+     "stake": 150,
+     "prob": 0.6739,
+     "ev": 0.0263,
+     "why": "Tee Higgins 40+ rec yds (-660, moved from -620 toward us during the run): the market's 76.5 main line implies a mean near 84, and he has topped 39.5 in 6 of 8 games; fair 88.9% vs 86.8% book. Texans +2.5 (-310) at Cleveland: Houston is a 4.5-pt favorite (Pinnacle ML 67%) and only loses this leg by dropping the game by 3+, against a Browns team with Shedeur Sanders at QB; fair 75.8% vs 75.6%, dry 46F forecast. Different games, no correlation.",
+     "legs": [
+      {
+       "ev": "48e497c230e6c9afcb3b600091d28e17",
+       "home": "Cincinnati Bengals",
+       "away": "Pittsburgh Steelers",
+       "t": "2026-11-16T01:20:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Tee Higgins",
+       "p": 39.5,
+       "o": -660,
+       "fair": 0.889
+      },
+      {
+       "ev": "be0e03cc42fbc9b6962467b22c7bf9dd",
+       "home": "Cleveland Browns",
+       "away": "Houston Texans",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Houston Texans",
+       "p": 2.5,
+       "o": -310,
+       "fair": 0.758
+      }
+     ]
+    },
+    {
+     "id": "2026-11-10-tue-2",
+     "stake": 50,
+     "prob": 0.6776,
+     "ev": 0.008,
+     "why": "Drake Maye 200+ pass yds (-503) in Munich (dry, ~40F, calm): consensus main 262.5, cleared 199.5 in 6 of 9 and DET allows 9% more QB yards than average, with NE's RBs banged up; fair 84.7% vs 83.4%. Jaylen Warren 40+ rush yds (-415): 14-18 carries in each of his last six games and 8 of 8 over 39.5 (median 97), but his snap share has slid from 97% to 58% as Dowdle's role grows, and the consensus main is 61.5, so fair is held at 80.0% vs 80.6% book. The parlay still clears the floor at about +1% EV, staked at $50 because of the role uncertainty.",
+     "legs": [
+      {
+       "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+       "home": "Detroit Lions",
+       "away": "New England Patriots",
+       "t": "2026-11-15T14:30:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Drake Maye",
+       "p": 199.5,
+       "o": -503,
+       "fair": 0.847
+      },
+      {
+       "ev": "48e497c230e6c9afcb3b600091d28e17",
+       "home": "Cincinnati Bengals",
+       "away": "Pittsburgh Steelers",
+       "t": "2026-11-16T01:20:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "Jaylen Warren",
+       "p": 39.5,
+       "o": -415,
+       "fair": 0.8
+      }
+     ]
+    },
+    {
+     "id": "2026-11-10-tue-3",
+     "stake": 100,
+     "prob": 0.5521,
+     "ev": 0.0343,
+     "why": "Jameson Williams 25+ rec yds (-620): 8 of 8 games over 24.5 (lowest 31) on 82%+ snaps; fair 86.1% vs 86.1% book. Saints +9.5 (-530) at home in the dome vs Carolina in a near pick'em (Pinnacle NO 53%); only a Panthers win by 10+ loses it. Fair 85.5% (Pinnacle-ladder fit, shaded slightly toward CAR by my power model) vs 84.1% book. 49ers +2.5 (-280) at Dallas: SF is the 3.5-4 pt favorite (Pinnacle ML 65%) and ranks 2nd in net EPA, and the line has moved toward SF; fair 75.0% vs 73.7%. Replaced Packers +6.5 after the MIN@GB line moved 2 pts toward Minnesota mid-run (Vikings QB news).",
+     "legs": [
+      {
+       "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+       "home": "Detroit Lions",
+       "away": "New England Patriots",
+       "t": "2026-11-15T14:30:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Jameson Williams",
+       "p": 24.5,
+       "o": -620,
+       "fair": 0.861
+      },
+      {
+       "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+       "home": "New Orleans Saints",
+       "away": "Carolina Panthers",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "New Orleans Saints",
+       "p": 9.5,
+       "o": -530,
+       "fair": 0.855
+      },
+      {
+       "ev": "7627192fd89b05120ab6c712aa23fd81",
+       "home": "Dallas Cowboys",
+       "away": "San Francisco 49ers",
+       "t": "2026-11-15T21:25:00Z",
+       "mk": "alternate_spreads",
+       "n": "San Francisco 49ers",
+       "p": 2.5,
+       "o": -280,
+       "fair": 0.75
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "74d39e19225caf211ad2c8eb4110179f",
+     "home": "New York Giants",
+     "away": "Washington Commanders",
+     "t": "2026-11-13T01:15:00Z",
+     "w": "New York Giants",
+     "conf": 0.57,
+     "why": "Model 57% vs 56% de-vigged ML; Giants' power rating is 3 pts better, but McCarthy (hip) is limited on a short week and rain is forecast, so it stays a lean."
+    },
+    {
+     "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+     "home": "Detroit Lions",
+     "away": "New England Patriots",
+     "t": "2026-11-15T14:30:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.58,
+     "why": "De-vigged ML 59% at a neutral site in Munich; model agrees at 55-58%, and NE's RB room (Stevenson doubtful, Henderson questionable) is thin."
+    },
+    {
+     "ev": "3c71d515b726f1096aabb435badb83fd",
+     "home": "Atlanta Falcons",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.63,
+     "why": "Model 63% vs 62% de-vigged ML; KC rates far better by EPA, but Mahomes' elbow (day-to-day) keeps it from going higher."
+    },
+    {
+     "ev": "1057d50949844ddf483da9c8c20354be",
+     "home": "New York Jets",
+     "away": "Buffalo Bills",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.77,
+     "why": "De-vigged ML 78%; my EPA model is lower at 68%, so the blend is 77%; NYJ has Geno Smith and Garrett Wilson is questionable."
+    },
+    {
+     "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+     "home": "New Orleans Saints",
+     "away": "Carolina Panthers",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "New Orleans Saints",
+     "conf": 0.52,
+     "why": "Near coin flip: 52% blend vs 53% de-vigged ML at home in the dome; my power model leans Carolina at 49%."
+    },
+    {
+     "ev": "be0e03cc42fbc9b6962467b22c7bf9dd",
+     "home": "Cleveland Browns",
+     "away": "Houston Texans",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.66,
+     "why": "De-vigged ML 67%; Stroud is rolling (384 yds, 5 TD in Week 9) against Shedeur Sanders' Browns; model 60%."
+    },
+    {
+     "ev": "5d8d85473b87f772a979ecf294acab94",
+     "home": "Green Bay Packers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Green Bay Packers",
+     "conf": 0.64,
+     "why": "Model 64% vs 62% de-vigged ML; GB ranks 4th in net EPA, but the line dropped from GB -5.5 to -3.5 today on Vikings QB news, so confidence came down from 0.69."
+    },
+    {
+     "ev": "b5700b4d938fd94429f60d4622cc9c0a",
+     "home": "Indianapolis Colts",
+     "away": "Miami Dolphins",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Indianapolis Colts",
+     "conf": 0.56,
+     "why": "56% blend vs 58% de-vigged ML; Malik Willis is questionable for Miami, but both teams rate poorly by EPA (model 50%)."
+    },
+    {
+     "ev": "28800df7e768ecec14f116454d560f9b",
+     "home": "Tennessee Titans",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.82,
+     "why": "De-vigged ML 81%, model 82%; Jacksonville is No. 1 in net EPA and just added Jordan Davis and Jessie Bates."
+    },
+    {
+     "ev": "6c932a965110f3f89ec4a5f1a6ac256e",
+     "home": "Arizona Cardinals",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.77,
+     "why": "De-vigged ML 79%; Arizona starts Carson Beck with Minshew doubtful, though Puka Nacua (doubtful) trims the Rams; model 71%."
+    },
+    {
+     "ev": "6079a5cbabf99b265a17edfc92a1da60",
+     "home": "Las Vegas Raiders",
+     "away": "Seattle Seahawks",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.7,
+     "why": "De-vigged ML 71% after today's move from SEA -3.5 to -6.5 (Lock's oblique tests came back good); model 63%; Darnold is out."
+    },
+    {
+     "ev": "7627192fd89b05120ab6c712aa23fd81",
+     "home": "Dallas Cowboys",
+     "away": "San Francisco 49ers",
+     "t": "2026-11-15T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.65,
+     "why": "Model 65% matches the de-vigged ML 65%; SF ranks 2nd in net EPA, while Dallas is missing Ferguson and maybe Pickens."
+    },
+    {
+     "ev": "48e497c230e6c9afcb3b600091d28e17",
+     "home": "Cincinnati Bengals",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-16T01:20:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.63,
+     "why": "De-vigged ML 63%, model 60%; Burrow and Chase are healthy at home against Rodgers' Steelers."
+    },
+    {
+     "ev": "35e3bdff558b5d1506251e814986f164",
+     "home": "Baltimore Ravens",
+     "away": "Los Angeles Chargers",
+     "t": "2026-11-17T01:15:00Z",
+     "w": "Baltimore Ravens",
+     "conf": 0.68,
+     "why": "Model 68% vs 68% de-vigged ML; Herbert's finger and McConkey's back are question marks, and LAC grades last in net EPA."
+    }
+   ]
+  },
+  {
    "id": "2026-11-03-sun",
    "label": "Sunday picks",
    "made": "2026-11-08T12:11:19Z",

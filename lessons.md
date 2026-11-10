@@ -83,3 +83,41 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 - **The approach held up.** The rain-aware TNF build (tackles and the favorite's ML, no passing) did exactly what was intended. Keep it: in rain, use tackles and favorites. In dry weeks, low rungs on volume starters.
 - **Concentration risk:** one JAX ML leg sat in two slates. If JAX had lost, both parlays would have died together. From now on I spread legs across games and avoid reusing earlier slates' legs in the same week where an equal-quality alternative exists.
 - **Fit artifacts:** a player's ladder fit can produce fake edges. My pooled-dispersion fit first showed rush-yard rungs 4 points *better* than the book, which was a fit artifact. The fix: fit mean and dispersion jointly to the Pinnacle main, the DK main and the DK ladder. After that, every market showed the expected ~2-3 points of book hold. Always run this calibration check before trusting a "fair" number.
+
+## 2026-11-10 review (Tuesday run, ESPN Week 10 slate; Week 9 fully graded)
+**Week 9 record (2026-11-03 tue/thu/sun), graded from ESPN box scores**
+- **Parlays: 11-1, +$367 on $1,200.** The slates' own fair probabilities expected about -$38, so roughly +$400 of that was luck.
+  - Tue: 3-0, +$169 (expected -$4).
+  - Thu: 3-0, +$137 (expected -$6).
+  - Sun: 5-1, +$62 (expected -$28).
+- **Legs: 28-1.** QB 8-0, RB 5-0, WR/TE 4-0, team 4-0, K 3-0, DEF 3-1.
+  - The only miss was Kamari Lassiter (CB) 2+ solo tackles at -900; he had 1. That was a fragile market at a price too short to be worth it.
+- **Stake tiers:** every parlay was $100 (no tiers yet).
+- **Pick'ems: 14-1** at an average stated confidence of about 0.68, against roughly 10.2 expected, so this streak is mostly luck.
+  - The miss was NE at 0.61 (GB won 45-27; Love threw for 372). It was a coin-flip-range pick with no foreseeable cause.
+  - Season pick'ems: 23-5.
+- **CLV:** 24 legs carry a DK closing price (`cl`). 13 of 24 (54%) closed shorter than we bet them, an average of +0.4 implied-probability points (with vig; no publish-time snapshots or Pinnacle closes exist yet).
+  - K: 3 of 3, +1.3 pts.
+  - WR/TE: 3 of 4, +0.7.
+  - QB: 3 of 5, +0.4.
+  - RB: 1 of 4, +0.4.
+  - DEF: 2 of 4, +0.1.
+  - Team: 1 of 4, -0.3.
+- **Line history:** `history/legs.csv` was created and seeded with all 66 graded picked legs. No unpicked legs exist yet, because this is the first `odds/` snapshot.
+  - Calibration so far:
+    - -650 and shorter: 14 of 15 hit (0.93) vs 0.89 implied.
+    - -400 to -649: 13 of 13 hit vs 0.83 implied.
+    - Longer than -150: 0.47 vs 0.46 implied.
+  - No bucket has 60 legs yet, so I made no shading changes.
+
+**Lessons applied this run**
+1. **Alt-line model bug caught.** My first kernel-on-spread model priced big buy-downs badly:
+   - It had GB +6.5 at 0.88 and Bills alt lines way off. Its fitted "effective spread" for BUF was -14.5 against a market of -7.5.
+   - Alt-total unders came out about 5 points too high (TNF Under 50.5 at 0.80 vs a truer 0.76).
+   - The fix: fit pooled 2015+ residual distributions to Pinnacle's full alt-spread and alt-total ladders, and correct toward Pinnacle at every posted point.
+   - Rule: always compare model output to the Pinnacle ladder points before trusting an alt-line fair.
+2. **DK's alt-total unders are priced about 3-6% worse than fair** across games (pooled residual sd about 13.5 on totals). Avoid them unless weather clearly moves the number.
+3. **DK favorites' moneylines this week were 3-5 points worse than Pinnacle** (JAX -600 vs 0.81 no-vig, LAR -455 vs 0.785, BUF -485 vs 0.78), so no ML legs this week. Check this gap every week.
+4. **Week 9 ran hot.** The -740 to -900 Sunday legs averaged -3% to -7% EV per parlay and still won only on variance. This slate keeps legs at -310 to -620 and every parlay at EV of +1% or better.
+5. **Stake tiers start this week:** $150 / $100 / $50. Track whether the $150 tier hits at least its stated P(hit).
+6. **Re-poll before pushing.** Between 18:05 and 20:14 UTC, MIN@GB moved from GB -5.5 to -3.5 at both DK and Pinnacle on Vikings QB news, which made my GB +6.5 leg stale, so I replaced it. Always re-pull the lines for every chosen leg near push time and drop any leg the sharp market has moved against.

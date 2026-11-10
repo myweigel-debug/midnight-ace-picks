@@ -1,0 +1,67 @@
+slate,ev,t,home,away,mk,n,d,p,o,mkt,nb,fair,picked,cl,clp,stat,hit
+2026-11-03-sun,17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds_alternate,Over,Josh Allen,169.5,-840,,,0.876,1,-680,,234.0,1
+2026-11-03-sun,39aeac43cea7b12558b91cdab1255a10,2026-11-08T21:05:00Z,Los Angeles Chargers,Houston Texans,player_field_goals_alternate,Over,Ka'imi Fairbairn,0.5,-810,,,0.865,1,-870,,3.0,1
+2026-11-03-sun,e354e6a04b1cb9c96e549b863debb92e,2026-11-08T18:00:00Z,Kansas City Chiefs,New York Jets,player_pass_rush_yds_alternate,Over,Patrick Mahomes,189.5,-800,,,0.867,1,-780,,250.0,1
+2026-11-03-sun,39aeac43cea7b12558b91cdab1255a10,2026-11-08T21:05:00Z,Los Angeles Chargers,Houston Texans,player_solo_tackles_alternate,Over,Kamari Lassiter,1.5,-900,,,0.887,1,-870,,1.0,0
+2026-11-03-sun,ac9d38a18d5c92814233a31aa9a48d78,2026-11-08T21:25:00Z,San Francisco 49ers,Las Vegas Raiders,player_pass_rush_yds_alternate,Over,Kirk Cousins,179.5,-780,,,0.871,1,-870,,216.0,1
+2026-11-03-sun,44d8c37868b700e90f816db7c5df5cdd,2026-11-08T18:00:00Z,Miami Dolphins,Detroit Lions,player_reception_yds_alternate,Over,Malik Washington,14.5,-820,,,0.876,1,-850,,21.0,1
+2026-11-03-sun,e571bab6736f9338130a78a4f75c3231,2026-11-08T18:00:00Z,New Orleans Saints,Cleveland Browns,alternate_totals,Over,,29.5,-890,,,0.883,1,-950,,45.0,1
+2026-11-03-sun,415fc42e72888c63e82f7bce24c65391,2026-11-08T18:00:00Z,Indianapolis Colts,Dallas Cowboys,player_rush_reception_yds_alternate,Over,Javonte Williams,49.5,-800,,,0.859,1,-800,,124.0,1
+2026-11-03-sun,2922c573ec3df8466c4a34975e446898,2026-11-08T21:25:00Z,New England Patriots,Green Bay Packers,player_reception_yds_alternate,Over,Matthew Golden,29.5,-790,,,0.874,1,-820,,164.0,1
+2026-11-03-sun,240e23b02b1e3fef655d04a286b5a623,2026-11-08T21:25:00Z,Seattle Seahawks,Arizona Cardinals,player_tackles_assists_alternate,Over,Drake Thomas,3.5,-840,,,0.874,1,-830,,4.0,1
+2026-11-03-sun,014282b888c741b7d70c857c09f40aa7,2026-11-08T18:00:00Z,Carolina Panthers,Denver Broncos,player_kicking_points_alternate,Over,Wil Lutz,3.5,-820,,,0.865,1,-870,,8.0,1
+2026-11-03-sun,ac9d38a18d5c92814233a31aa9a48d78,2026-11-08T21:25:00Z,San Francisco 49ers,Las Vegas Raiders,alternate_team_totals,Over,Las Vegas Raiders,10.5,-800,,,0.887,1,-800,,17.0,1
+2026-11-03-sun,17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_reception_yds_alternate,Over,James Cook,59.5,-840,,,0.876,1,-830,,107.0,1
+2026-11-03-sun,fe93e6ab1e553c0169936a0a983c324f,2026-11-08T18:00:00Z,Philadelphia Eagles,New York Giants,player_solo_tackles_alternate,Over,Arvell Reese,2.5,-740,,,0.864,1,-760,,10.0,1
+2026-11-03-thu,c75744790b7acf6260c78ba5e739c0e5,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,h2h,Jacksonville Jaguars,,,-500,,,0.824,1,-455,,23.0,1
+2026-11-03-thu,c75744790b7acf6260c78ba5e739c0e5,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_tackles_assists_alternate,Over,Malaki Starks,3.5,-505,,,0.829,1,-519,,4.0,1
+2026-11-03-thu,9760d8f19f84bfee300a74ceb656c95d,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds_alternate,Over,Bucky Irving,39.5,-547,,,0.843,1,-520,,97.0,1
+2026-11-03-thu,89de07377e0aa8ffaa2ae6a7dc0855cc,2026-11-08T18:00:00Z,Washington Commanders,Los Angeles Rams,player_kicking_points_alternate,Over,Drew Stevens,3.5,-486,,,0.847,1,-594,,7.0,1
+2026-11-03-thu,2922c573ec3df8466c4a34975e446898,2026-11-08T21:25:00Z,New England Patriots,Green Bay Packers,player_pass_yds_alternate,Over,Drake Maye,169.5,-660,,,0.858,1,-710,,299.0,1
+2026-11-03-thu,9760d8f19f84bfee300a74ceb656c95d,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds_alternate,Over,Rome Odunze,19.5,-596,,,0.86,1,-554,,60.0,1
+2026-11-03-thu,89de07377e0aa8ffaa2ae6a7dc0855cc,2026-11-08T18:00:00Z,Washington Commanders,Los Angeles Rams,player_rush_yds_alternate,Over,Kyren Williams,29.5,-543,,,0.843,1,-670,,45.0,1
+2026-11-03-tue,014282b888c741b7d70c857c09f40aa7,2026-11-08T18:00:00Z,Carolina Panthers,Denver Broncos,player_pass_attempts_alternate,Over,Bryce Young,29.5,-470,,,0.839,1,,,39.0,1
+2026-11-03-tue,c75744790b7acf6260c78ba5e739c0e5,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,h2h,Jacksonville Jaguars,,,-470,,,0.822,1,-455,,23.0,1
+2026-11-03-tue,dc56d980f527ffeef89940133b211b13,2026-11-08T14:30:00Z,Atlanta Falcons,Cincinnati Bengals,player_pass_yds_alternate,Over,Joe Burrow,219.5,-440,,,0.821,1,,,271.0,1
+2026-11-03-tue,dc56d980f527ffeef89940133b211b13,2026-11-08T14:30:00Z,Atlanta Falcons,Cincinnati Bengals,player_receptions_alternate,Over,Tee Higgins,3.5,-419,,,0.815,1,,,5.0,1
+2026-11-03-tue,014282b888c741b7d70c857c09f40aa7,2026-11-08T18:00:00Z,Carolina Panthers,Denver Broncos,player_rush_yds_alternate,Over,Chuba Hubbard,39.5,-595,,,0.846,1,,,79.0,1
+2026-11-03-tue,9760d8f19f84bfee300a74ceb656c95d,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds_alternate,Over,Caleb Williams,199.5,-420,,,0.793,1,,,279.0,1
+2026-11-03-tue,2922c573ec3df8466c4a34975e446898,2026-11-08T21:25:00Z,New England Patriots,Green Bay Packers,player_pass_yds_alternate,Over,Drake Maye,179.5,-411,,,0.802,1,,,299.0,1
+2026-10-27-sat,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,alternate_team_totals,Under,Detroit Lions,20.5,180,,,0.4,1,,,19.0,1
+2026-10-27-sat,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,alternate_spreads,Minnesota Vikings,,1.5,118,,,0.482,1,,,-4.0,0
+2026-10-27-sat,ab5ab731ab655bd6308bc7a922275518,2026-11-01T18:00:00Z,Pittsburgh Steelers,Cleveland Browns,player_field_goals_alternate,Over,Andre Szmyt,1.5,104,,,0.536,1,,,2.0,1
+2026-10-27-sat,159dbf0253dd2038eda2212f84387f0c,2026-11-01T18:00:00Z,Jacksonville Jaguars,Indianapolis Colts,player_pass_attempts_alternate,Over,Daniel Jones,33.5,139,,,0.491,1,,,28.0,0
+2026-10-27-sat,05405af79752f5e742cdf50b61f6745e,2026-11-01T21:25:00Z,Miami Dolphins,New England Patriots,alternate_team_totals,Under,New England Patriots,21.5,175,,,0.402,1,,,24.0,0
+2026-10-27-sat,c93c421e5fa46031a43162d111d981d0,2026-11-01T18:00:00Z,Buffalo Bills,Baltimore Ravens,alternate_team_totals,Under,Buffalo Bills,25.5,165,,,0.393,1,,,36.0,0
+2026-10-27-sat,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_tackles_assists,Over,Chuck Clark,5.5,117,,,0.484,1,,,3.0,0
+2026-10-27-sat,9255ca8f32aea590d00aa57de79f6bb6,2026-11-01T18:00:00Z,Dallas Cowboys,Arizona Cardinals,player_reception_longest_alternate,Over,Elijah Higgins,14.5,170,,,0.443,1,,,6.0,0
+2026-10-27-sat,921859689f5f8b3b8b1caf4248bdb1ec,2026-11-01T18:00:00Z,Tampa Bay Buccaneers,Atlanta Falcons,team_totals,Under,Atlanta Falcons,20.5,-104,,,0.537,1,,,0.0,1
+2026-10-27-sat,7d664fbcd39350e559d83c0068ba7169,2026-11-03T01:20:00Z,Seattle Seahawks,Chicago Bears,player_reception_yds_alternate,Over,Jaxon Smith-Njigba,109.5,126,,,0.479,1,112,,118.0,1
+2026-10-27-sat,c93c421e5fa46031a43162d111d981d0,2026-11-01T18:00:00Z,Buffalo Bills,Baltimore Ravens,player_tackles_assists_alternate,Over,Cole Bishop,7.5,179,,,0.378,1,,,2.0,0
+2026-10-27-sat,f2a036d5edf483a277880014861e78ad,2026-11-01T21:25:00Z,Denver Broncos,Kansas City Chiefs,alternate_team_totals,Under,Denver Broncos,17.5,125,,,0.461,1,,,28.0,0
+2026-10-27-sat,05405af79752f5e742cdf50b61f6745e,2026-11-01T21:25:00Z,Miami Dolphins,New England Patriots,alternate_spreads,Miami Dolphins,,2.5,183,,,0.382,1,,,-5.0,0
+2026-10-27-sat,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_sacks_alternate,Over,Dallas Turner,0.5,127,,,0.466,1,,,0.0,0
+2026-10-27-sat,2ff84d3f6053d083c8c0a5bebf7cdd4c,2026-11-01T21:05:00Z,Los Angeles Rams,Los Angeles Chargers,player_field_goals_alternate,Over,Cameron Dicker,1.5,-102,,,0.537,1,,,3.0,1
+2026-10-27-sat,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_sacks_alternate,Over,Alim McNeill,0.5,221,,,0.345,1,,,1.0,1
+2026-10-27-sat,9255ca8f32aea590d00aa57de79f6bb6,2026-11-01T18:00:00Z,Dallas Cowboys,Arizona Cardinals,alternate_team_totals,Under,Dallas Cowboys,27.5,155,,,0.407,1,,,30.0,0
+2026-10-27-sat,ab5ab731ab655bd6308bc7a922275518,2026-11-01T18:00:00Z,Pittsburgh Steelers,Cleveland Browns,player_rush_yds_alternate,Over,Jaylen Warren,69.5,112,,,0.503,1,,,143.0,1
+2026-10-27-sat,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,totals_h1,Under,,23.5,-110,,,0.535,1,,,27.0,0
+2026-10-27-wed,7d664fbcd39350e559d83c0068ba7169,2026-11-03T01:20:00Z,Seattle Seahawks,Chicago Bears,player_pass_interceptions,Over,Sam Darnold,0.5,-107,,,0.6,1,-119,,1.0,1
+2026-10-27-wed,ab5ab731ab655bd6308bc7a922275518,2026-11-01T18:00:00Z,Pittsburgh Steelers,Cleveland Browns,player_reception_yds,Over,Jaylen Warren,22.5,-116,,,0.6,1,,,0.0,0
+2026-10-27-wed,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,player_rush_yds,Over,Joe Burrow,5.5,-117,,,0.61,1,,,10.0,1
+2026-10-27-wed,05405af79752f5e742cdf50b61f6745e,2026-11-01T21:25:00Z,Miami Dolphins,New England Patriots,player_reception_yds,Under,Ollie Gordon II,10.5,-118,,,0.66,1,,,0.0,1
+2026-10-27-wed,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,player_reception_yds_alternate,Over,Tee Higgins,79.5,143,,,0.48,1,,,155.0,1
+2026-10-27-wed,ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Under,Bryce Young,10.5,-112,,,0.58,1,,,0.0,1
+2026-10-27-wed,921859689f5f8b3b8b1caf4248bdb1ec,2026-11-01T18:00:00Z,Tampa Bay Buccaneers,Atlanta Falcons,player_reception_yds,Under,Bucky Irving,13.5,-107,,,0.57,1,,,0.0,1
+2026-10-27-wed,c93c421e5fa46031a43162d111d981d0,2026-11-01T18:00:00Z,Buffalo Bills,Baltimore Ravens,player_reception_yds,Over,Keon Coleman,31.5,-110,,,0.57,1,,,4.0,0
+2026-10-27-wed,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,player_reception_yds,Over,Tee Higgins,68.5,-110,,,0.56,1,,,155.0,1
+2026-10-27-tue,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Under,Kyler Murray,1.5,-140,,,0.63,1,,,2.0,0
+2026-10-27-tue,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,player_pass_tds,Under,Cam Ward,0.5,174,,,0.4,1,,,2.0,0
+2026-10-27-tue,7d664fbcd39350e559d83c0068ba7169,2026-11-03T01:20:00Z,Seattle Seahawks,Chicago Bears,player_pass_tds,Under,Sam Darnold,1.5,102,,,0.53,1,,,2.0,0
+2026-10-27-tue,05405af79752f5e742cdf50b61f6745e,2026-11-01T21:25:00Z,Miami Dolphins,New England Patriots,player_reception_yds_alternate,Over,Malik Washington,24.5,-259,,,0.77,1,,,40.0,1
+2026-10-27-tue,52e7ee9c42525e6deec02da32dc2fad8,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,spreads,Minnesota Vikings,,3,100,,,0.523,1,,,-4.0,0
+2026-10-27-tue,05405af79752f5e742cdf50b61f6745e,2026-11-01T21:25:00Z,Miami Dolphins,New England Patriots,player_rush_yds_alternate,Over,Drake Maye,14.5,-252,,,0.82,1,,,5.0,0
+2026-10-27-tue,ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Under,Bryce Young,10.5,-112,,,0.575,1,,,0.0,1
+2026-10-27-tue,9c5d8f57e0ba0fbd9ef436c1f0898f99,2026-11-01T18:00:00Z,Cincinnati Bengals,Tennessee Titans,player_reception_yds_alternate,Over,Tee Higgins,79.5,154,,,0.44,1,,,155.0,1
+2026-10-27-tue,c93c421e5fa46031a43162d111d981d0,2026-11-01T18:00:00Z,Buffalo Bills,Baltimore Ravens,player_reception_yds_alternate,Over,Justice Hill,4.5,-250,,,0.79,1,,,20.0,1
+2026-10-27-tue,b9c60db63b1a19ad319f24b33c0defe8,2026-11-02T01:20:00Z,Washington Commanders,Philadelphia Eagles,alternate_team_totals,Over,Philadelphia Eagles,13.5,-205,,,0.728,1,,,10.0,0
