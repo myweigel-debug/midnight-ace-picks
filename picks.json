@@ -1,6 +1,370 @@
 {
  "slates": [
   {
+   "id": "2026-11-10-thu",
+   "label": "Thursday picks",
+   "made": "2026-11-12T20:31:42Z",
+   "week": 10,
+   "note": "Week 10 Thursday: three short parlays (joint 74%, 71%, 64%), every leg in a different game, built from low rungs on volume starters plus Washington +11.5 tonight in the rain. Nothing new was graded yet (the Tuesday slate's games start tonight). This run fixed an alt-line bug that faked 3-4% edges at +2.5 spreads, and the lowest receiving rungs are now priced with a dud-game allowance.",
+   "parlays": [
+    {
+     "id": "2026-11-10-thu-1",
+     "stake": 150,
+     "prob": 0.7422,
+     "ev": 0.0451,
+     "why": "James Cook 60+ rush yds (-500): Buffalo is an 8.5-pt favorite at the Jets in a sunny, 49F MetLife game; Cook has 21-31 carries in his last four games and cleared 59.5 in 7 of 8 (median 101); fair 85.7% vs 83.5% book (Pinnacle-anchored market 83.3%; other books' median price at this rung implies 86.4%). CeeDee Lamb 50+ rec yds (-552) in the Dallas dome: 11-21 targets in each of his last five full games, 7 of 9 over 49.5 (the misses were a 57%-snap injury game and Week 1); TE Jake Ferguson is out, George Pickens is questionable, and SF's secondary has two CBs who were DNP; fair 86.6% vs 85.1% book. Different games, both with Pinnacle mains, so it gets the top stake.",
+     "legs": [
+      {
+       "ev": "1057d50949844ddf483da9c8c20354be",
+       "home": "New York Jets",
+       "away": "Buffalo Bills",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "player_rush_yds_alternate",
+       "n": "Over",
+       "d": "James Cook",
+       "p": 59.5,
+       "o": -505,
+       "fair": 0.857
+      },
+      {
+       "ev": "7627192fd89b05120ab6c712aa23fd81",
+       "home": "Dallas Cowboys",
+       "away": "San Francisco 49ers",
+       "t": "2026-11-15T21:25:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "CeeDee Lamb",
+       "p": 49.5,
+       "o": -570,
+       "fair": 0.866
+      }
+     ]
+    },
+    {
+     "id": "2026-11-10-thu-2",
+     "stake": 50,
+     "prob": 0.7047,
+     "ev": 0.0409,
+     "why": "Commanders +11.5 tonight (-470): the Giants are only 1.5-pt favorites (Pinnacle ML 54%) and the line moved toward Washington since Tuesday; only a Giants win by 12+ loses it. Light rain (74%) should keep scoring down, which helps a big alt spread. DK's price is the best on the board (other books -525 to -625); fair 84.5% vs 82.5% book. Geno Smith 170+ pass yds (-459) at home vs Buffalo: the Jets will likely trail by 8.5, he has 30+ attempts in 7 of his last 8 starts and 7 of 9 games over 169.5, and Sunday's MetLife forecast is dry; fair 83.4% vs 82.1% book. Staked $50 because Garrett Wilson (concussion) is questionable and the TNF fair comes from interpolating Pinnacle's ladder.",
+     "legs": [
+      {
+       "ev": "74d39e19225caf211ad2c8eb4110179f",
+       "home": "New York Giants",
+       "away": "Washington Commanders",
+       "t": "2026-11-13T01:15:00Z",
+       "mk": "alternate_spreads",
+       "n": "Washington Commanders",
+       "p": 11.5,
+       "o": -470,
+       "fair": 0.845
+      },
+      {
+       "ev": "1057d50949844ddf483da9c8c20354be",
+       "home": "New York Jets",
+       "away": "Buffalo Bills",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Geno Smith",
+       "p": 169.5,
+       "o": -459,
+       "fair": 0.834
+      }
+     ]
+    },
+    {
+     "id": "2026-11-10-thu-3",
+     "stake": 100,
+     "prob": 0.6408,
+     "ev": 0.0454,
+     "why": "Jahmyr Gibbs 16+ rush attempts (-462) in Munich (dry, about 38F): 15-29 carries every game, 7 of 8 over 15.5, and Detroit's backups Vaki (DNP) and Saylors (out) are hurt; fair 84.3% vs 82.2% book. Chris Olave 40+ rec yds (-576) in the Saints' dome: 6-13 targets and 43+ yds in all 8 games (rookie Jordyn Tyson's snaps are rising, so fair is held near market); fair 85.6% vs 85.5% book. Travis Kelce 20+ rec yds (-680) in Atlanta's dome: 7 of 8 over 19.5, and he and Mahomes (elbow) were both full participants Wednesday; fair 88.8% vs 87.2% book. Three games and three position groups, about +5% EV.",
+     "legs": [
+      {
+       "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+       "home": "Detroit Lions",
+       "away": "New England Patriots",
+       "t": "2026-11-15T14:30:00Z",
+       "mk": "player_rush_attempts_alternate",
+       "n": "Over",
+       "d": "Jahmyr Gibbs",
+       "p": 15.5,
+       "o": -462,
+       "fair": 0.843
+      },
+      {
+       "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+       "home": "New Orleans Saints",
+       "away": "Carolina Panthers",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Chris Olave",
+       "p": 39.5,
+       "o": -591,
+       "fair": 0.856
+      },
+      {
+       "ev": "3c71d515b726f1096aabb435badb83fd",
+       "home": "Atlanta Falcons",
+       "away": "Kansas City Chiefs",
+       "t": "2026-11-15T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Travis Kelce",
+       "p": 19.5,
+       "o": -680,
+       "fair": 0.888
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "74d39e19225caf211ad2c8eb4110179f",
+     "home": "New York Giants",
+     "away": "Washington Commanders",
+     "t": "2026-11-13T01:15:00Z",
+     "w": "New York Giants",
+     "conf": 0.56,
+     "why": "Blend 56% vs 54% de-vigged ML (power model 60%); McCarthy (hip) practiced fully Wednesday; rain should keep it low-scoring."
+    },
+    {
+     "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+     "home": "Detroit Lions",
+     "away": "New England Patriots",
+     "t": "2026-11-15T14:30:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.57,
+     "why": "Blend 57% vs 59% de-vigged ML (power model 50%); neutral site in Munich; Goff (chest) is questionable and NE is without Stevenson."
+    },
+    {
+     "ev": "3c71d515b726f1096aabb435badb83fd",
+     "home": "Atlanta Falcons",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.61,
+     "why": "Blend 61% vs 62% de-vigged ML (power model 56%); Mahomes (elbow) practiced fully; KC rates far better by EPA."
+    },
+    {
+     "ev": "1057d50949844ddf483da9c8c20354be",
+     "home": "New York Jets",
+     "away": "Buffalo Bills",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.76,
+     "why": "Blend 76% vs 78% de-vigged ML (power model 69%); NYJ has Geno Smith, and Garrett Wilson (concussion) is questionable."
+    },
+    {
+     "ev": "e5aa20e1364dd639f042af1c2281bbe2",
+     "home": "New Orleans Saints",
+     "away": "Carolina Panthers",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "New Orleans Saints",
+     "conf": 0.54,
+     "why": "Blend 54% vs 56% de-vigged ML (power model 45%); Saints at home in the dome; my power model leans Carolina, so it stays close to a coin flip."
+    },
+    {
+     "ev": "be0e03cc42fbc9b6962467b22c7bf9dd",
+     "home": "Cleveland Browns",
+     "away": "Houston Texans",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.66,
+     "why": "Blend 66% vs 67% de-vigged ML (power model 62%); Deshaun Watson returns at QB for CLE; Stroud is in form."
+    },
+    {
+     "ev": "5d8d85473b87f772a979ecf294acab94",
+     "home": "Green Bay Packers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Green Bay Packers",
+     "conf": 0.64,
+     "why": "Blend 64% vs 61% de-vigged ML (power model 76%); Kirk Cousins was acquired Tuesday and his first MIN start is unconfirmed; GB is without Josh Jacobs."
+    },
+    {
+     "ev": "b5700b4d938fd94429f60d4622cc9c0a",
+     "home": "Indianapolis Colts",
+     "away": "Miami Dolphins",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Indianapolis Colts",
+     "conf": 0.62,
+     "why": "Blend 62% vs 64% de-vigged ML (power model 52%); Miami starts rookie Kyle McCord after Willis went to IR; the line moved from IND -2.5 to -3.5."
+    },
+    {
+     "ev": "28800df7e768ecec14f116454d560f9b",
+     "home": "Tennessee Titans",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-15T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.81,
+     "why": "Blend 81% vs 82% de-vigged ML (power model 80%); JAX ranks 1st in net EPA/play; TEN ranks 29th."
+    },
+    {
+     "ev": "6c932a965110f3f89ec4a5f1a6ac256e",
+     "home": "Arizona Cardinals",
+     "away": "Los Angeles Rams",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.75,
+     "why": "Blend 75% vs 79% de-vigged ML (power model 61%); ARI starts rookie Carson Beck; LAR is without Nacua."
+    },
+    {
+     "ev": "6079a5cbabf99b265a17edfc92a1da60",
+     "home": "Las Vegas Raiders",
+     "away": "Seattle Seahawks",
+     "t": "2026-11-15T21:05:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.69,
+     "why": "Blend 69% vs 71% de-vigged ML (power model 59%); LV starts rookie Fernando Mendoza after trading Cousins; SEA has Drew Lock in for Darnold."
+    },
+    {
+     "ev": "7627192fd89b05120ab6c712aa23fd81",
+     "home": "Dallas Cowboys",
+     "away": "San Francisco 49ers",
+     "t": "2026-11-15T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.65,
+     "why": "Blend 65% vs 65% de-vigged ML (power model 64%); SF ranks 3rd in net EPA; Dallas is without Ferguson and Goodson."
+    },
+    {
+     "ev": "48e497c230e6c9afcb3b600091d28e17",
+     "home": "Cincinnati Bengals",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-16T01:20:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.62,
+     "why": "Blend 62% vs 63% de-vigged ML (power model 59%); Burrow at home vs Rodgers; sharp money is on the PIT +3.5 angle."
+    },
+    {
+     "ev": "35e3bdff558b5d1506251e814986f164",
+     "home": "Baltimore Ravens",
+     "away": "Los Angeles Chargers",
+     "t": "2026-11-17T01:15:00Z",
+     "w": "Baltimore Ravens",
+     "conf": 0.65,
+     "why": "Blend 65% vs 65% de-vigged ML (power model 66%); Brissett starts for the injured Lamar Jackson; the line moved from BAL -5.5 to -4.5."
+    },
+    {
+     "ev": "66f9e83cf025d58acee12bce18661fb3",
+     "home": "Houston Texans",
+     "away": "Indianapolis Colts",
+     "t": "2026-11-20T01:15:00Z",
+     "w": "Houston Texans",
+     "conf": 0.78,
+     "why": "Blend 78% vs 79% de-vigged ML (power model 77%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "403a88701352da05b0710a9e883b803e",
+     "home": "Kansas City Chiefs",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.83,
+     "why": "Blend 83% vs 87% de-vigged ML (power model 68%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+     "home": "Carolina Panthers",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.54,
+     "why": "Blend 54% vs 53% de-vigged ML (power model 60%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "4c5b1c0843a260278e95eb93e7787576",
+     "home": "Buffalo Bills",
+     "away": "Miami Dolphins",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.89,
+     "why": "Blend 89% vs 91% de-vigged ML (power model 80%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+     "home": "Chicago Bears",
+     "away": "New Orleans Saints",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.77,
+     "why": "Blend 77% vs 79% de-vigged ML (power model 70%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "5e63079b678f8c13419adc169fff02d3",
+     "home": "Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.76,
+     "why": "Blend 76% vs 78% de-vigged ML (power model 68%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+     "home": "Detroit Lions",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.58,
+     "why": "Blend 58% vs 62% de-vigged ML (power model 44%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "cbe45bafcc2615fc1d96cbc12840377a",
+     "home": "Philadelphia Eagles",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Pittsburgh Steelers",
+     "conf": 0.65,
+     "why": "Blend 65% vs 64% de-vigged ML (power model 68%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "4b20b742b6168aaca4f25d87f11b1526",
+     "home": "Los Angeles Chargers",
+     "away": "New York Jets",
+     "t": "2026-11-22T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.52,
+     "why": "Blend 52% vs 53% de-vigged ML (power model 45%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "1940706a79cbcbafacdcbf231069716b",
+     "home": "Denver Broncos",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.76,
+     "why": "Blend 76% vs 78% de-vigged ML (power model 69%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "8ba112fabf4e87639338a5f437c5abfe",
+     "home": "New York Giants",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.69,
+     "why": "Blend 69% vs 70% de-vigged ML (power model 66%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "60e1d27b083a335b722c2c852ea85612",
+     "home": "San Francisco 49ers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-23T01:20:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.67,
+     "why": "Blend 67% vs 64% de-vigged ML (power model 76%); early Week 11 line, to be re-picked as news breaks."
+    },
+    {
+     "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+     "home": "Washington Commanders",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-24T01:15:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.64,
+     "why": "Blend 64% vs 64% de-vigged ML (power model 60%); early Week 11 line, to be re-picked as news breaks."
+    }
+   ]
+  },
+  {
    "id": "2026-11-10-tue",
    "label": "Tuesday picks",
    "made": "2026-11-10T20:17:03Z",

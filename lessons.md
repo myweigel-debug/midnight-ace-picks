@@ -121,3 +121,27 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 4. **Week 9 ran hot.** The -740 to -900 Sunday legs averaged -3% to -7% EV per parlay and still won only on variance. This slate keeps legs at -310 to -620 and every parlay at EV of +1% or better.
 5. **Stake tiers start this week:** $150 / $100 / $50. Track whether the $150 tier hits at least its stated P(hit).
 6. **Re-poll before pushing.** Between 18:05 and 20:14 UTC, MIN@GB moved from GB -5.5 to -3.5 at both DK and Pinnacle on Vikings QB news, which made my GB +6.5 leg stale, so I replaced it. Always re-pull the lines for every chosen leg near push time and drop any leg the sharp market has moved against.
+
+## 2026-11-12 review (Thursday run, ESPN Week 10)
+**Record:** nothing new to grade.
+- Week 9 was fully graded on Tuesday: parlays 11-1, +$367; legs 28-1; pick'ems 14-1 (season 23-5).
+- The 2026-11-10-tue slate's games start tonight at the earliest, so they aren't graded.
+- `history/legs.csv` gained no rows: the only `odds/` snapshot (2026-11-10-tue) has no final games yet.
+
+**Interim line movement on the Tuesday slate (DK at publish → DK Thursday, not CLV):** 3 legs moved toward us, 3 away, 1 flat.
+- Toward us: Warren 39.5 (-415 → -505), Maye 199.5 (-503 → -553), Saints +9.5 (-530 → -560).
+- Away from us: HOU +2.5 (-310 → -277; Deshaun Watson replaces Shedeur Sanders and both HOU RBs are hurt), J. Williams 24.5 (-620 → -581; Goff questionable), Higgins 39.5 (-660 → -650).
+- Flat: SF +2.5.
+
+**Lessons applied / learned this run**
+1. **A second alt-spread bug, caught before publishing.**
+   - My rebuilt spread model smoothed historical residuals with a Gaussian kernel. That smeared the key-number mass at 3, so DK's +1.5/+2.5 dog-side rungs on 3.5-4.5 favorites looked +3-4% EV (HOU +2.5, CIN +2.5, BAL +2.5).
+   - The empirical P(favorite loses by exactly 3 | spread 3.5-5.5) is about 7.7%, and the kernel gave about 2%.
+   - Rule: price alt spreads from the *unshifted* distribution of games with similar closing spreads (±1 pt). Never shift or smooth margins across key numbers.
+   - After the fix, no alt spread near a key number showed an edge.
+2. **Low receiving rungs need a dud-game allowance.**
+   - Leave-one-out checks on 2026 logs: WR/TE games clear 15% of the player's average only 90% of the time and 25% only 87%. A gamma fit to the main line says 96% and 91%.
+   - The props model now carries a small zero-inflation term (fit at about 3% for receiving yards). That removed the fake +5% EV on 9.5-yard rungs.
+   - The legs I used (Lamb 49.5, Olave 39.5, Kelce 19.5) sit at 40-55% of the market mean, where the fit and the empirical rates agree.
+3. **Consensus check.** For every chosen prop, DK's price was at or better than the raw median of the other books at the same rung. That is now a standing filter.
+4. **Rain on TNF again.** No passing or receiving legs in WAS@NYG. The only TNF leg is the dog's big alt spread (WAS +11.5), which rain helps.
