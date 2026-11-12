@@ -56,7 +56,9 @@
        "n": "Washington Commanders",
        "p": 11.5,
        "o": -470,
-       "fair": 0.845
+       "fair": 0.845,
+       "cl": -494,
+       "clp": 0.809
       },
       {
        "ev": "1057d50949844ddf483da9c8c20354be",
