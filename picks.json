@@ -24,7 +24,9 @@
        "d": "Travis Kelce",
        "p": 24.5,
        "o": -399,
-       "fair": 0.817
+       "fair": 0.817,
+       "cl": -402,
+       "clp": 0.797
       },
       {
        "ev": "e5aa20e1364dd639f042af1c2281bbe2",
@@ -35,7 +37,9 @@
        "n": "Carolina Panthers",
        "p": 8.5,
        "o": -350,
-       "fair": 0.786
+       "fair": 0.786,
+       "cl": -406,
+       "clp": 0.77
       }
      ]
     },
@@ -44,7 +48,7 @@
      "stake": 100,
      "prob": 0.6225,
      "ev": 0.0039,
-     "why": "Hunter Henry 20+ rec yds (fair 79.4% vs DK 78.9%; the market line rose from 35.5 to 37.5 since Thursday): he cleared it in 6 of 7 games and the market mean is about 46; Munich is dry and 48°F. Trevor Lawrence 200+ pass yds (fair 78.4% vs DK 78.7%): the market mean is about 248, he reached 182+ in every game, and Nashville is sunny with 5 mph wind.",
+     "why": "Hunter Henry 20+ rec yds (fair 79.4% vs DK 78.9%; the market line rose from 35.5 to 37.5 since Thursday): he cleared it in 6 of 7 games and the market mean is about 46; Munich is dry and 48\u00b0F. Trevor Lawrence 200+ pass yds (fair 78.4% vs DK 78.7%): the market mean is about 248, he reached 182+ in every game, and Nashville is sunny with 5 mph wind.",
      "legs": [
       {
        "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -70,7 +74,9 @@
        "d": "Trevor Lawrence",
        "p": 199.5,
        "o": -368,
-       "fair": 0.784
+       "fair": 0.784,
+       "cl": -380,
+       "clp": 0.757
       }
      ]
     },
@@ -102,7 +108,9 @@
        "n": "Indianapolis Colts",
        "p": 3.5,
        "o": -369,
-       "fair": 0.788
+       "fair": 0.788,
+       "cl": -369,
+       "clp": 0.769
       }
      ]
     },
@@ -144,7 +152,7 @@
      "stake": 50,
      "prob": 0.5771,
      "ev": -0.0028,
-     "why": "Lions +8.5 (fair 84.1% vs DK 83.8%; Pinnacle has no market, and DK's -519 is the longest price across 7 books). Chase Brown 50+ rush+rec yds (fair 81.6%): 58+ in all 7 games, Cincinnati calm and 40°F. Panthers +11.5 (fair 84.1% vs DK 83.5%): New Orleans is only a 2.5-pt favorite. This one gets $50 because it shares the NO and DET games with other parlays and its EV is -0.3%.",
+     "why": "Lions +8.5 (fair 84.1% vs DK 83.8%; Pinnacle has no market, and DK's -519 is the longest price across 7 books). Chase Brown 50+ rush+rec yds (fair 81.6%): 58+ in all 7 games, Cincinnati calm and 40\u00b0F. Panthers +11.5 (fair 84.1% vs DK 83.5%): New Orleans is only a 2.5-pt favorite. This one gets $50 because it shares the NO and DET games with other parlays and its EV is -0.3%.",
      "legs": [
       {
        "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -180,7 +188,9 @@
        "n": "Carolina Panthers",
        "p": 11.5,
        "o": -507,
-       "fair": 0.841
+       "fair": 0.841,
+       "cl": -563,
+       "clp": 0.823
       }
      ]
     },
@@ -213,7 +223,9 @@
        "d": "Tyler Warren",
        "p": 19.5,
        "o": -800,
-       "fair": 0.876
+       "fair": 0.876,
+       "cl": -800,
+       "clp": 0.859
       },
       {
        "ev": "7627192fd89b05120ab6c712aa23fd81",
@@ -236,7 +248,9 @@
        "n": "Carolina Panthers",
        "p": 11.5,
        "o": -507,
-       "fair": 0.841
+       "fair": 0.841,
+       "cl": -563,
+       "clp": 0.823
       },
       {
        "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -294,7 +308,9 @@
        "d": "Tetairoa McMillan",
        "p": 29.5,
        "o": -730,
-       "fair": 0.865
+       "fair": 0.865,
+       "cl": -760,
+       "clp": 0.843
       },
       {
        "ev": "b5700b4d938fd94429f60d4622cc9c0a",
@@ -306,7 +322,9 @@
        "d": "Jonathan Taylor",
        "p": 39.5,
        "o": -560,
-       "fair": 0.837
+       "fair": 0.837,
+       "cl": -574,
+       "clp": 0.809
       },
       {
        "ev": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -338,7 +356,9 @@
        "mk": "h2h",
        "n": "Jacksonville Jaguars",
        "o": -750,
-       "fair": 0.848
+       "fair": 0.848,
+       "cl": -650,
+       "clp": 0.813
       },
       {
        "ev": "6c932a965110f3f89ec4a5f1a6ac256e",
@@ -358,7 +378,9 @@
        "mk": "h2h",
        "n": "Buffalo Bills",
        "o": -470,
-       "fair": 0.81
+       "fair": 0.81,
+       "cl": -500,
+       "clp": 0.796
       },
       {
        "ev": "6079a5cbabf99b265a17edfc92a1da60",
@@ -378,7 +400,9 @@
        "mk": "h2h",
        "n": "Kansas City Chiefs",
        "o": -180,
-       "fair": 0.64
+       "fair": 0.64,
+       "cl": -175,
+       "clp": 0.625
       }
      ]
     }
@@ -644,7 +668,9 @@
        "d": "James Cook",
        "p": 59.5,
        "o": -505,
-       "fair": 0.857
+       "fair": 0.857,
+       "cl": -501,
+       "clp": 0.802
       },
       {
        "ev": "7627192fd89b05120ab6c712aa23fd81",
@@ -690,7 +716,9 @@
        "d": "Geno Smith",
        "p": 169.5,
        "o": -459,
-       "fair": 0.834
+       "fair": 0.834,
+       "cl": -501,
+       "clp": 0.789
       }
      ]
     },
@@ -725,7 +753,9 @@
        "d": "Chris Olave",
        "p": 39.5,
        "o": -591,
-       "fair": 0.856
+       "fair": 0.856,
+       "cl": -522,
+       "clp": 0.811
       },
       {
        "ev": "3c71d515b726f1096aabb435badb83fd",
@@ -737,7 +767,9 @@
        "d": "Travis Kelce",
        "p": 19.5,
        "o": -680,
-       "fair": 0.888
+       "fair": 0.888,
+       "cl": -585,
+       "clp": 0.84
       }
      ]
     }
