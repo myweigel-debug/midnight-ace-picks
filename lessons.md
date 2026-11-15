@@ -145,3 +145,32 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
    - The legs I used (Lamb 49.5, Olave 39.5, Kelce 19.5) sit at 40-55% of the market mean, where the fit and the empirical rates agree.
 3. **Consensus check.** For every chosen prop, DK's price was at or better than the raw median of the other books at the same rung. That is now a standing filter.
 4. **Rain on TNF again.** No passing or receiving legs in WAS@NYG. The only TNF leg is the dog's big alt spread (WAS +11.5), which rain helps.
+
+## 2026-11-15 review (Sunday run, ESPN Week 10)
+**Record:** only TNF is final (WAS 24 @ NYG 21).
+- **Legs:** WAS +11.5 (2026-11-10-thu-2) **hit**: Washington won outright. 1-0 (team). That parlay is still pending on Geno Smith 170+.
+- **Parlays:** none fully graded yet. No new profit numbers; Week 9 stays at +$367 (expected -$38).
+- **Pick'ems:** NYG at 0.56 **lost**, a coin-flip pick that leaned on the power model against a near-pick'em line. Season: 23-6. I haven't yet tracked calibration by confidence band; it starts next review.
+- **CLV:** WAS +11.5 went from -470 to -494 at DK, but `clp` 0.809 is below the publish no-vig of 0.853, so it was -4.4 pts by our measure. As Thursday's swap report noted, most of that gap is a method mismatch (one-sided interpolation at publish vs a two-sided median at close).
+  - Running CLV for graded legs with `clp`: 1 leg, 0% positive, -4.4 pts. Too small to read.
+- **Moneyline-parlay scorecard:** no Sunday ML bonus has been graded yet.
+
+**Line history (history/legs.csv):**
+- Added 2,192 graded rows from the 2026-11-10 tue/thu snapshots for WAS@NYG (202 TD/longest or ungradable rows skipped).
+- Unpicked legs in that one game:
+  - -400 to -649: 99% hit vs 84% implied (n=96).
+  - -650 and shorter: 97% vs 93% (n=217).
+  - QB pass-yds and attempts Overs ran well above implied.
+- **No shading change.** All of these rows come from a single rain game, so they are one correlated draw, not 60 independent legs. I need several games before the 2-SE rule can mean anything.
+
+**Lessons applied / learned this run**
+1. **The pooled "ratio" props model is too wide, and not only for QBs.** It scales a player's stat by his rolling 6-game mean.
+   - Pass yds came out 10 pts under the market at low rungs, rec yds 4 pts, rush yds 3.5 pts. A noisy prior mean inflates the spread.
+   - I now use only its *relative* signal: model minus market, minus that family's median bias, ×0.3, capped at -3/+1.5 pts.
+   - The market baseline is the median of per-book power de-vigs at the exact rung, minus 0.5 pt for alt-ladder hold that the main-line exponent misses.
+2. **DK low-rung alt prices often beat the other books' median by 3-5 pts** (Kelce 24.5, Henry 19.5, Flournoy 19.5). That is where the positive-EV legs came from this week, not from model shading.
+3. **DK moneylines are 1.5-5 pts worse than Pinnacle for the third straight week** (JAX -700 vs 83.7% no-vig). So: no core ML legs, and the ML bonus can barely clear -10% EV. Out-of-sample situational check (2010-17 vs 2018-25):
+   - Big favorites (>75%) beat the line by about 1 pt in both halves.
+   - Divisional, rest, bye, road-favorite, cold and wind effects did not replicate.
+4. **The 6th core parlay was forced at -2.8% EV and given $50.** If next week's pool is this thin again, publish 5 core parlays instead.
+5. **Role filter:** I skipped Kaelon Black 15+ (+2.4% EV) because he is the backup behind CMC with a growing but unsettled role. I skipped Aaron Jones because his carries collapsed to 5 a game.
