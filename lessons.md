@@ -174,3 +174,35 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
    - Divisional, rest, bye, road-favorite, cold and wind effects did not replicate.
 4. **The 6th core parlay was forced at -2.8% EV and given $50.** If next week's pool is this thin again, publish 5 core parlays instead.
 5. **Role filter:** I skipped Kaelon Black 15+ (+2.4% EV) because he is the backup behind CMC with a growing but unsettled role. I skipped Aaron Jones because his carries collapsed to 5 a game.
+
+## 2026-11-17 review (Tuesday run, ESPN Week 11 slate; Week 10 fully graded)
+**Week 10 record (2026-11-10 tue/thu/sun), graded from ESPN box scores (nflverse cross-check)**
+- **Parlays: 11-6, +$215 on $1,450 staked** (core +$88, bonus +$128). The slates' own fair probabilities expected about +$21 (core +$27, bonus -$7), so roughly +$195 was luck, all of it on Sunday.
+  - Tue: 1-2, -$113 (expected +$8). Thu: 1-2, -$89 (expected +$13). **Tue+Thu: 2-4, -$201.**
+  - Sun core: 5-0, +$289 (expected +$6). Sun bonus: 2-1, +$128 (expected -$7): sun-6 lost only on Tyler Warren 20+ (1 yd); sun-7 (P 0.46) and the ML bonus sun-8 (P 0.26, +$123) both won.
+- **Legs (unique):** Tue/Thu team 3-1 (avg implied 0.79), props 6-4 (avg implied 0.84). Sunday team 10-0 (0.80), props 10-1 (0.83). Counting repeats the owner's tally is Tue/Thu 9-5, Sunday 25-1.
+- **Why the losses happened:**
+  - Maye 48 pass yds: hurt early in Munich (feared fractured ankle). Not foreseeable; this is the injury risk a 6-day-old prop carries.
+  - Warren 15 rush yds: his snap share had been sliding (97% → 58%) and was flagged at publish. Foreseeable; the role-change rule now excludes this kind of back.
+  - HOU +2.5: lost by exactly 3 (24-27) to Deshaun Watson's 312 yds. Key-number loss; Watson replaced Sanders after we bet. Partly news risk.
+  - Geno Smith 148 (169.5 needed) and Olave 30 (39.5): quiet games; Olave's was variance, Geno's was a low-volume 21-attempt game.
+  - Tyler Warren 1 yd (bonus): variance at -800, a fragile low-volume TE rung.
+- **Stake tiers (core):** $150: 2-1, +$2 (stated P ~0.69). $100: 4-1, +$149. $50: 1-2, -$64. Too few to change the tiers.
+- **Pick'ems: 9-5** (14 games; NYG was already graded) vs 9.3 expected → calibrated. Season **32-10**.
+  - By band: ≥0.80: 3-0. 0.60-0.79: 5-2 (exp ~4.6). Near coin flips 0.50-0.58: 1-3 (exp ~2.2; NYG, GB, NO lost — all were the market favorite or the power lean). Running coin-flip tally: Week 10 1-3.
+  - Underdog picks: none.
+- **Moneyline-parlay scorecard:** sun-8 won (5-0). No pick differed from Pinnacle by more than 3 pts, so nothing to add to the fade/underdog tally yet (0 entries).
+- **CLV (28 graded legs with `clp`):** 0 of 28 positive by the `clp` − publish no-vig measure, average -3.3 pts (team -2.1, props -4.2). But DK's own price moved toward us on 18 of 28 (avg +0.3 implied pts). Same method mismatch as before: publish `mkt` came from one-sided ladder fits/interpolation, which runs higher than the two-sided closing median. **Fix this run:** publish `mkt` now blends the ladder fit with a per-book power de-vig at the exact rung (the same family of method the close uses), so next week's CLV should be comparable.
+- **Early-week vs Sunday tally (running):** Week 10 Tue/Thu props 6-4 at 0.84 implied (−24 pts), Sunday props 10-1 at 0.83. Only one week; keep counting.
+
+**Line history (history/legs.csv): +33,738 graded rows** (every rung in the three Week 10 snapshots; 433 TD-scorer/longest/void rows skipped; ESPN box scores primary, nflverse fallback for players with no box-score line, snap counts used to grade 0s).
+- Deduped across snapshots (20,143 legs) with player-game cluster-robust errors, **short-priced player-prop Overs hit well below DK's implied probability:** -150..-249 56% vs 65%, -250..-399 66% vs 76%, -400..-649 77% vs 83%, -650+ 85% vs 92% (cluster z -2.4 to -3.1). Against the no-vig market the gap is about 3-5 pts.
+- Team spreads/totals were much closer to implied (-0.3 to -6 pts, no bucket beyond 2 SE once clustered); alt totals actually ran slightly above.
+- Picked legs: 101 graded, hit 73.3% vs fair 72.1% → not overconfident.
+- **Change made (rule 0b.4):** prop Over fair probabilities get a **-1.5 pt calibration haircut** (half the measured no-vig gap, because all of it comes from one week of 14 games and game-level shocks aren't fully captured by player clustering). Re-measure next week; move to the full gap if it persists.
+
+**Lessons applied this run**
+1. **Consensus de-vig method matters.** Proportional de-vig of other books' two-sided alt rungs ran 3-7 pts below my Pinnacle-anchored model at -400 to -700 prices; a power de-vig closes that to 0-2 pts. Use power de-vig for alt ladders (it allocates more vig to the long side).
+2. **Big-dog alt spreads need a total check.** Empirically (2010+), 7.5-10 pt favorites win by 21+ about 17% with totals ≤44 and 18-21% with higher totals. TEN +20.5 (total 54.5) gets only half the power-model shade.
+3. **Tuesday pool was thin:** with the haircut, every eligible prop is -1.5% to -3% EV and the best sides are about break-even, so all three parlays clear the floor at 0.971-0.979 and are staked $50. No stake above $50 until props or sides show a real edge.
+4. **No leg reuse across parlays this slate**, and every parlay's legs are in different games (concentration lesson from Week 9).
