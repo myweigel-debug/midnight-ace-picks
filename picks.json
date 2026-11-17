@@ -1,6 +1,241 @@
 {
  "slates": [
   {
+   "id": "2026-11-17-tue",
+   "label": "Tuesday picks",
+   "made": "2026-11-17T19:08:28Z",
+   "week": 11,
+   "note": "Week 11 Tuesday: three $50 parlays built mostly on team sides (Panthers +8.5, Titans +20.5, 49ers +6.5, Steelers +6.5) plus four locked-in-role props (Cousins completions, Chase Brown rush+rec yds, Chase rec yds), every leg in a different game. Week 10's line history showed short-priced prop Overs hitting 3-5 pts below the no-vig market, so props now carry a calibration haircut; that leaves every parlay just over the profit floor (EV about -2% to -3%), so all are minimum stakes.",
+   "parlays": [
+    {
+     "id": "2026-11-17-tue-1",
+     "stake": 50,
+     "prob": 0.7167,
+     "ev": -0.0212,
+     "why": "Panthers +8.5 (-577) at home vs a Ravens team on Jacoby Brissett with Lamar Jackson on IR: CAR is the 2.5-pt favorite (Pinnacle ML 57%, line moved from CAR -1.5 toward Carolina), so this only loses if Baltimore wins by 9+; fair 85.5% vs 85.4% no-vig, 7 books, dry 70F in Charlotte. Kirk Cousins 18+ completions (-610): he has cleared 17.5 in 10 of 10 games this season (19-26 the last six), Kyler Murray (Grade 2 hamstring) is targeted for Week 12, and Minnesota is a 3-pt underdog in Mexico City so the volume should be there; fair 83.8% vs 83.8% market after a 1.5-pt prop calibration haircut. EV about -2% (P x payout 0.979), so $50.",
+     "legs": [
+      {
+       "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+       "home": "Carolina Panthers",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Carolina Panthers",
+       "p": 8.5,
+       "o": -577,
+       "fair": 0.855
+      },
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "player_pass_completions_alternate",
+       "n": "Over",
+       "d": "Kirk Cousins",
+       "p": 17.5,
+       "o": -610,
+       "fair": 0.838
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-tue-2",
+     "stake": 50,
+     "prob": 0.6777,
+     "ev": -0.025,
+     "why": "Chase Brown 50+ rush+receiving yds (-497): Cincinnati's lead back has cleared 49.5 in 9 of 9 games (58-101, six straight at 58+) thanks to a steady receiving role (8 catches in two of his last three), no injury designation all season, and the Bengals are 6.5-pt favorites in a 52.5 total; fair 82.0% vs 82.0% market (4 books, DK's -497 beats the others' median). Titans +20.5 (-506) in Dallas's dome: only a Cowboys win by 21+ loses it; Dallas has allowed the most EPA/play in the league (584 yds to SF last week) and my power rating has this game at DAL by 2.6, not 8.9, but the line moved toward Dallas so I used only half that shade: fair 82.7% vs 81.6% market. EV -2.5% (P x payout 0.975), so $50. James Cook 70+ was the first choice here but slipped to 79.5% fair on the 19:05 re-poll and missed the floor.",
+     "legs": [
+      {
+       "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+       "home": "Washington Commanders",
+       "away": "Cincinnati Bengals",
+       "t": "2026-11-24T01:15:00Z",
+       "mk": "player_rush_reception_yds_alternate",
+       "n": "Over",
+       "d": "Chase Brown",
+       "p": 49.5,
+       "o": -497,
+       "fair": 0.82
+      },
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Tennessee Titans",
+       "p": 20.5,
+       "o": -506,
+       "fair": 0.827
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-tue-3",
+     "stake": 50,
+     "prob": 0.5627,
+     "ev": -0.0293,
+     "why": "Ja'Marr Chase 60+ rec yds (-463): 84-96% snaps the last four games, 11-14 targets in three straight, 7 of 9 over 59.5, and Washington is without Terry McLaurin, so Cincinnati (-6.5, moved from -3.5) should throw early and often; fair 80.7% vs 82.0% market after the haircut, dry 47F forecast for Monday. 49ers +6.5 (-451) at the neutral Mexico City site: SF is a 3-pt favorite (Pinnacle ML 60%), ranks 1st in my EPA power ratings, and only a Vikings win by 7+ loses it; fair 81.8% vs 81.2%. Steelers +6.5 (-620) at a 2-7 Eagles team with Jalen Hurts on IR and no named starter (Joe Milton started Week 9): PIT is the 4.5-pt favorite and loses this only by losing by 7+; fair 85.3% vs 85.8%, light-rain risk only. EV -2.9% (P x payout 0.971), so $50.",
+     "legs": [
+      {
+       "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+       "home": "Washington Commanders",
+       "away": "Cincinnati Bengals",
+       "t": "2026-11-24T01:15:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Ja'Marr Chase",
+       "p": 59.5,
+       "o": -463,
+       "fair": 0.807
+      },
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "alternate_spreads",
+       "n": "San Francisco 49ers",
+       "p": 6.5,
+       "o": -451,
+       "fair": 0.818
+      },
+      {
+       "ev": "cbe45bafcc2615fc1d96cbc12840377a",
+       "home": "Philadelphia Eagles",
+       "away": "Pittsburgh Steelers",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Pittsburgh Steelers",
+       "p": 6.5,
+       "o": -620,
+       "fair": 0.853
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "66f9e83cf025d58acee12bce18661fb3",
+     "home": "Houston Texans",
+     "away": "Indianapolis Colts",
+     "t": "2026-11-20T01:15:00Z",
+     "w": "Houston Texans",
+     "conf": 0.84,
+     "why": "Pinnacle no-vig 85% (my power model a little lower at HOU by 8); Daniel Jones posted a 1.7 QBR last week and the Colts' top two CBs are banged up."
+    },
+    {
+     "ev": "403a88701352da05b0710a9e883b803e",
+     "home": "Kansas City Chiefs",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.88,
+     "why": "Pinnacle 90%; Arizona starts rookie Carson Beck with Minshew (elbow) out for the season and Conner on IR."
+    },
+    {
+     "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+     "home": "Carolina Panthers",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.57,
+     "why": "Near coin flip, took the market favorite: Pinnacle 57% and the line moved from CAR -1.5 to -2.5 after Lamar Jackson went on IR (Brissett starts)."
+    },
+    {
+     "ev": "4c5b1c0843a260278e95eb93e7787576",
+     "home": "Buffalo Bills",
+     "away": "Miami Dolphins",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.89,
+     "why": "Pinnacle 90%; Miami turns to rookie Kyle McCord with Willis on IR, Buffalo healthy at QB and RB."
+    },
+    {
+     "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+     "home": "Chicago Bears",
+     "away": "New Orleans Saints",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.81,
+     "why": "Pinnacle 82%; Chicago is off a bye and the Saints' OL is thin (Richards out, Fuaga and McCoy doubtful)."
+    },
+    {
+     "ev": "5e63079b678f8c13419adc169fff02d3",
+     "home": "Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.74,
+     "why": "Pinnacle 77%; my EPA model is much less sure (DAL by 3) because of Dallas's defense, so confidence is shaded to 74%."
+    },
+    {
+     "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+     "home": "Detroit Lions",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.69,
+     "why": "Pinnacle 71%; Baker Mayfield (foot) is questionable in a walking boot, though Detroit lost Hutchinson for the season."
+    },
+    {
+     "ev": "cbe45bafcc2615fc1d96cbc12840377a",
+     "home": "Philadelphia Eagles",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Pittsburgh Steelers",
+     "conf": 0.66,
+     "why": "Pinnacle 67%; Philadelphia is 2-7 with Hurts on IR and no named starter (Milton started Week 9)."
+    },
+    {
+     "ev": "4b20b742b6168aaca4f25d87f11b1526",
+     "home": "Los Angeles Chargers",
+     "away": "New York Jets",
+     "t": "2026-11-22T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.6,
+     "why": "Pinnacle 62% (power model leans NYJ, so shaded to 60%); Geno Smith's ankle is a game-time question."
+    },
+    {
+     "ev": "1940706a79cbcbafacdcbf231069716b",
+     "home": "Denver Broncos",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.81,
+     "why": "Pinnacle 81%; Denver is 7-2 off a bye and the Raiders' rookie Fernando Mendoza was sacked 6 times last week."
+    },
+    {
+     "ev": "8ba112fabf4e87639338a5f437c5abfe",
+     "home": "New York Giants",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.7,
+     "why": "Pinnacle 70%; Lawrence threw for 352 last week and Jacksonville ranks 2nd in my EPA power ratings."
+    },
+    {
+     "ev": "60e1d27b083a335b722c2c852ea85612",
+     "home": "San Francisco 49ers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-23T01:20:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.61,
+     "why": "Pinnacle 60% at the neutral Mexico City site; SF is No. 1 in my EPA ratings (model 61%) and Minnesota is without Murray and Addison."
+    },
+    {
+     "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+     "home": "Washington Commanders",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-24T01:15:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.71,
+     "why": "Pinnacle 71% and the line moved from CIN -3.5 to -6.5; Washington lost McLaurin (patellar tendon) and Tunsil to IR."
+    }
+   ]
+  },
+  {
    "id": "2026-11-10-sun",
    "label": "Sunday picks",
    "made": "2026-11-15T13:01:20Z",
