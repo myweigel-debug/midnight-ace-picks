@@ -41,3 +41,16 @@
   - No DK side is cheaper than fair. Interior OL injuries don't move player volume, so no props were candidates.
 - Bets: none.
 - Credits remaining: 4,067,111.
+
+## 2026-11-18 19:40 UTC
+- Window: 17:40–19:40 UTC. Line tracking skipped (newest snapshot 1740Z is 2h old).
+- News events:
+  - Colts ruled out LT Bernhard Raimann, CB Charvarius Ward, RT Jalen Travis and DT Jerry Tillery for TNF (Colts injury report, ESPN 18:42Z). IND @ HOU, Fri 11/20 01:15Z. Raimann and Ward are new (both full participants in Week 10); Travis and Tillery were also out in Week 10.
+  - Vikings WR Jordan Addison OUT after thumb surgery; not going on IR (O'Connell, ESPN 19:25Z). MIN @ SF, Mon 11/23 01:20Z.
+  - Not events: Wan'Dale Robinson season-ending (already logged as IR); Joe Milton stays PHI starter (no change); Mayfield questionable, Jalon Daniels taking first-team reps (no QB change yet); Bo Richter IR (rotational LB); Jordan Phillips surgery (already logged); nflverse Week 11 has no Out/Doubtful rows.
+- Lines checked (fresh event fetch for lines, passing, rushing and receiving plus the board, DK implied vs Pinnacle no-vig fair or the median of 3+ cs books; 136 priced sides):
+  - IND@HOU: HOU -12.5 -108 (0.519 vs 0.500), IND +12.5 -112 (0.528 vs 0.500); total 44.5 -105/-115 (0.512/0.535 vs 0.489/0.511); ML HOU -750 (0.882 vs 0.847), IND +525 (0.160 vs 0.153). Unchanged from 1740Z: DK and the books had already priced the outs.
+  - MIN@SF: MIN +3 -110 (0.524 vs 0.494), SF -3 -110 (0.524 vs 0.506); ML MIN +136 (0.424 vs 0.399), SF -162 (0.618 vs 0.601). Jefferson receptions 7.5 O +112 (0.472 vs 0.450), U -142 (0.587 vs 0.550).
+  - The biggest DK-cheaper gap on either game is +1.5 pts (Ashton Dulin U 14.5 rec yds -116, 0.537 vs 0.552). Nothing is close to the 5 pt (props) or 3 pt (team markets) thresholds.
+- Bets: none.
+- Credits remaining: 4,067,046.
