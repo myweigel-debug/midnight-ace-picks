@@ -17,3 +17,16 @@
 
 - 2026-11-18 01:41 UTC: no new events (snapshot odds/track/2026-11-18/0141Z.json.gz saved, 13 games, credits remaining 4,067,815)
 - 2026-11-18 13:40 UTC: no new events (snapshot odds/track/2026-11-18/1340Z.json.gz saved, 13 games, credits remaining 4,067,466; ARI QB Gardner Minshew UCL surgery and LB Jordan Burch to IR do not count: Beck already started Week 10 and Burch is a rotational LB, and ARI@KC PX/FD prices were unchanged since 0141Z)
+
+## 2026-11-18 15:40 UTC
+- Window: 13:40–15:40 UTC. Line tracking skipped (newest snapshot 1340Z is 2h old).
+- News events:
+  - Jaguars C Robert Hainsey DOUBTFUL, knee sprain (ESPN 14:54Z). JAX @ NYG, Sun 11/22 21:25Z.
+  - Steelers G Mason McCormick OUT, dislocated ankle, return ~Jan 3 (ESPN 15:03Z). PIT @ PHI, Sun 11/22 18:00Z.
+  - Not events: Cowboys move defensive playcalling to Mike Pettine (coaching, not injury); nflverse has no Week 11 Out/Doubtful rows yet.
+- Lines checked (DK implied vs Pinnacle no-vig fair):
+  - JAX@NYG: JAX -6 -110 (0.524 vs 0.489), NYG +6 -110 (0.524 vs 0.511); total 46.5 -110/-110 (0.524 vs 0.500); ML JAX -265 (0.726 vs 0.701), NYG +215 (0.317 vs 0.299).
+  - PIT@PHI: PIT -4.5 -112 (0.528 vs 0.500), PHI +4.5 -108 (0.519 vs 0.500); total 38.5 -108/-112 (0.519/0.528 vs 0.500); ML PIT -205 (0.672 vs 0.664), PHI +170 (0.370 vs 0.336).
+  - No DK side cheaper than fair. Interior OL injuries don't shift player volume, so no props were candidates.
+- Bets: none. No line met the stale threshold.
+- Credits remaining: not checked (no tracking or event fetch this run).
