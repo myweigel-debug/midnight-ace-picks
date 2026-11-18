@@ -30,3 +30,14 @@
   - No DK side cheaper than fair. Interior OL injuries don't shift player volume, so no props were candidates.
 - Bets: none. No line met the stale threshold.
 - Credits remaining: not checked (no tracking or event fetch this run).
+
+## 2026-11-18 17:40 UTC
+- Window: 15:40–17:40 UTC. Line tracking: snapshot odds/track/2026-11-18/1740Z.json.gz saved (13 games).
+- News events:
+  - Jaguars C Robert Hainsey upgraded from DOUBTFUL to OUT vs Giants (Coen, ESPN 16:41Z). JAX @ NYG, Sun 11/22 21:25Z. The 15:40 run already logged him as doubtful.
+  - Nothing else: no new OUT/IR/QB changes on ESPN, and nflverse has no Week 11 rows yet (latest week 9). Web searches only returned prior seasons.
+- Lines checked (from the 1740Z snapshot, DK implied vs Pinnacle no-vig fair), unchanged from 15:40:
+  - JAX@NYG: JAX -6 -110 (0.524 vs 0.489), NYG +6 -110 (0.524 vs 0.511); total 46.5 -110/-110 (0.524 vs 0.500); ML JAX -265 (0.726 vs 0.701), NYG +215 (0.317 vs 0.299).
+  - No DK side is cheaper than fair. Interior OL injuries don't move player volume, so no props were candidates.
+- Bets: none.
+- Credits remaining: 4,067,111.
