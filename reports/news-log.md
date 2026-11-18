@@ -54,3 +54,16 @@
   - The biggest DK-cheaper gap on either game is +1.5 pts (Ashton Dulin U 14.5 rec yds -116, 0.537 vs 0.552). Nothing is close to the 5 pt (props) or 3 pt (team markets) thresholds.
 - Bets: none.
 - Credits remaining: 4,067,046.
+
+## 2026-11-18 21:40 UTC
+- Window: 19:40–21:40 UTC. Line tracking: saved odds/track/2026-11-18/2140Z.json.gz (13 games, 257 KB). The newest snapshot before this one was 1740Z, 4h old.
+- News events:
+  - Texans WR Marvin Harrison Jr. (hamstring) ruled OUT for TNF (ESPN injuries 21:03Z). Texans RB Woody Marks OUT, still in concussion protocol (ESPN 20:51Z). Colts TE Will Mallory (hamstring) ruled OUT (ESPN 20:51Z). IND @ HOU, Fri 11/20 01:15Z.
+  - Lions DE Aidan Hutchinson placed on IR (ESPN injuries 21:16Z). TB @ DET, Sun 11/22 18:00Z.
+  - Not events: Geno Smith says he intends to play; Joe Milton confirmed as PHI starter (no change); Kyler Murray (MIN) missed Wednesday practice only, with no status yet; Cowboys defensive playcalling change; Claudin Cherelus (CAR LB, depth); McCormick and Wan'Dale Robinson already logged; IR return-window notes (Brooks, Lohner, Tracy, Roman Wilson, Stribling). nflverse has 26 Week 11 rows, none Out or Doubtful.
+- Lines checked (fresh event fetch for lines, passing, rushing and receiving plus the board, DK implied vs Pinnacle no-vig fair or the median of 3+ cs books):
+  - IND@HOU (306 priced sides): HOU -12.5 -108 / IND +12.5 -112, total 44.5 -105/-115, ML -750/+525, all unchanged from 1740Z. DK no longer posts props for Harrison, Marks or Mallory. The biggest DK-cheaper gap is +2.0 pts (IND alt team total U 7.5 +475, 0.174 vs 0.194, fair below 0.45). The best prop is Ashton Dulin U 14.5 rec yds -116 at +1.5 pts.
+  - TB@DET (262 priced sides): DET -7 -110 (0.524 vs Pinnacle 0.486 no-vig for DET -7 -102), total 43.5 O -118/U -102 vs Pinnacle 44, ML DET -340 vs Pinnacle -302. DK is not cheaper on any main side. The biggest DK-cheaper gap is +1.1 pts (TB alt team total O 27.5 +550, a long shot).
+  - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
+- Bets: none.
+- Credits remaining: 4,066,687 (tracker), 4,067,043 at the board fetch.
