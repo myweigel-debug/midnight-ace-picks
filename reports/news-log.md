@@ -16,3 +16,4 @@
 - Credits remaining: 4,068,101.
 
 - 2026-11-18 01:41 UTC: no new events (snapshot odds/track/2026-11-18/0141Z.json.gz saved, 13 games, credits remaining 4,067,815)
+- 2026-11-18 13:40 UTC: no new events (snapshot odds/track/2026-11-18/1340Z.json.gz saved, 13 games, credits remaining 4,067,466; ARI QB Gardner Minshew UCL surgery and LB Jordan Burch to IR do not count: Beck already started Week 10 and Burch is a rotational LB, and ARI@KC PX/FD prices were unchanged since 0141Z)
