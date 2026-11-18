@@ -14,3 +14,5 @@
   - Across all main markets in the lines, passing, rushing and receiving groups for TEN@DAL and IND@HOU, no DK price is 2.5+ points cheaper than fair.
 - Bets: none. No line met the stale threshold (5 pts for props, 3 pts for team markets).
 - Credits remaining: 4,068,101.
+
+- 2026-11-18 01:41 UTC: no new events (snapshot odds/track/2026-11-18/0141Z.json.gz saved, 13 games, credits remaining 4,067,815)
