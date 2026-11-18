@@ -67,3 +67,16 @@
   - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
 - Bets: none.
 - Credits remaining: 4,066,687 (tracker), 4,067,043 at the board fetch.
+
+## 2026-11-18 23:40 UTC
+- Window: 21:40–23:40 UTC. Line tracking skipped because the newest snapshot (2140Z) is 2h old.
+- News events:
+  - Cowboys TE Jake Ferguson (knee, ankle) ruled OUT for Sunday (ESPN injuries 23:05Z, per Todd Archer). TEN @ DAL, Sun 11/22 18:00Z.
+  - Steelers LB Nick Herbig DOUBTFUL (ESPN injuries 22:34Z). PIT @ PHI, Sun 11/22 18:00Z.
+  - Not events: Hutchinson IR (already logged); Jared Wiley (KC TE, depth) IR tag; Conner, Carmona, Pittman, Roman Wilson and Shipley IR/return-window notes; Geno Smith still questionable and intends to play; questionable/limited tags (Bowers, Hockenson, DeVonta Smith, Spears, Ray Davis, Waddle and others). nflverse has no new Out or Doubtful rows.
+- Lines checked (fresh event fetch for lines, passing, rushing and receiving plus the board; DK implied vs Pinnacle no-vig or the median of 3+ cs books):
+  - TEN@DAL (274 priced sides): DAL -8.5 -105 / TEN +8.5 -115 (Pinnacle -8), total 55.5 O -102/U -118 (Pinnacle 55.5 -101/-113), ML -380/+300 vs 2140Z -375/+295, so effectively unchanged. DK no longer posts Ferguson props. Spann-Ford rec yds 22.5 is -112/-112. The biggest DK-cheaper gap is +1.8 pts (TEN alt team total O 32.5 +500, a long shot).
+  - PIT@PHI (268 priced sides): PIT -4.5 -112, total 37.5 O -112/U -108 (Pinnacle 38.5), ML -218/+180, all unchanged from 2140Z. The biggest DK-cheaper gap is +1.8 pts (alt team totals, long shots).
+  - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
+- Bets: none.
+- Credits remaining: 4,066,681 (board fetch).
