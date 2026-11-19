@@ -1,3 +1,120 @@
 {
- "slates": []
+ "slates": [
+  {
+   "id": "2026-11-19-nba",
+   "sport": "nba",
+   "label": "NBA picks: Thu Nov 19",
+   "made": "2026-11-19T15:46:10Z",
+   "week": 5,
+   "note": "First NBA slate: two 2-leg parlays built on Memphis covering against a Curry-less Warriors team and the Knicks' scoring staying in check at Minnesota. The 3-leg parlay is dropped because no 3-leg combination cleared the profit floor; every NBA leg costs 1-4 points against the no-vig market. Portland legs are skipped with Avdija and Camara questionable.",
+   "parlays": [
+    {
+     "id": "2026-11-19-nba-1",
+     "stake": 50,
+     "prob": 0.615,
+     "ev": -0.024,
+     "why": "Memphis +3.5 (78% fair vs 78% book, 74% consensus no-vig): Golden State is -15.6 per game without Curry and lost its last three by 21, 22 and 38; both teams are on a back-to-back. Knicks team total Under 117.5 (79% vs 81%): Minnesota's defense holds teams to about 105, my model projects New York at 104.7 against a 108.5 main line, and New York topped 117 once in its last 8. EV is just under break-even, so it gets the $50 tier.",
+     "legs": [
+      {
+       "ev": "3c082b72aa002131c276ff5e24bada1b",
+       "home": "Memphis Grizzlies",
+       "away": "Golden State Warriors",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 3.5,
+       "o": -357,
+       "fair": 0.777,
+       "cg": 0.8
+      },
+      {
+       "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+       "home": "Minnesota Timberwolves",
+       "away": "New York Knicks",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "New York Knicks",
+       "p": 117.5,
+       "o": -416,
+       "fair": 0.791,
+       "cg": 0.3
+      }
+     ]
+    },
+    {
+     "id": "2026-11-19-nba-2",
+     "stake": 100,
+     "prob": 0.624,
+     "ev": 0.001,
+     "why": "Towns 11+ rebounds (76.5% fair vs 75.5% book; Pinnacle no-vig 76.6%, DK 1.3 pts cheaper than the other books): 11+ in each of his last 10 games (avg 14.1 in 34 min), the Knicks have no injuries, and his main line is 13.5. Memphis +5.5 (82% fair vs 83% book) for the same Curry-absence reason as parlay 1, two points safer.",
+     "legs": [
+      {
+       "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+       "home": "Minnesota Timberwolves",
+       "away": "New York Knicks",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "player_rebounds_alternate",
+       "n": "Over",
+       "d": "Karl-Anthony Towns",
+       "p": 10.5,
+       "o": -308,
+       "fair": 0.765,
+       "cg": 1.3
+      },
+      {
+       "ev": "3c082b72aa002131c276ff5e24bada1b",
+       "home": "Memphis Grizzlies",
+       "away": "Golden State Warriors",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 5.5,
+       "o": -476,
+       "fair": 0.816,
+       "cg": 0.7
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "3c082b72aa002131c276ff5e24bada1b",
+     "home": "Memphis Grizzlies",
+     "away": "Golden State Warriors",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "Memphis Grizzlies",
+     "conf": 0.72,
+     "why": "Model 72% vs 68% de-vigged ML: Golden State is -15.6 per game without Curry (lost the last 3 by 21-38), and both teams are on a back-to-back."
+    },
+    {
+     "ev": "20fa5e2d73cec494c113790161a89aec",
+     "home": "San Antonio Spurs",
+     "away": "Los Angeles Clippers",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "San Antonio Spurs",
+     "conf": 0.88,
+     "why": "De-vigged ML 88%: Spurs are 12-3 with Wembanyama healthy, and LA is without Ingram and Beal; Harper's absence is priced in."
+    },
+    {
+     "ev": "006df00e5e48650d849d1bb4cd81565d",
+     "home": "Milwaukee Bucks",
+     "away": "Portland Trail Blazers",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "Portland Trail Blazers",
+     "conf": 0.77,
+     "why": "De-vigged ML 78%, shaded down for Avdija (25.6 ppg) and Camara being questionable; Milwaukee is 1-14 and on the second night of a back-to-back."
+    },
+    {
+     "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+     "home": "Minnesota Timberwolves",
+     "away": "New York Knicks",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "New York Knicks",
+     "conf": 0.51,
+     "why": "Coin flip: market favorite at 51% de-vigged. My power model leans Minnesota, but that isn't enough to flip a near pick'em, and Kuminga is questionable."
+    }
+   ]
+  }
+ ]
 }
