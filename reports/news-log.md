@@ -107,3 +107,4 @@
 - Bets: none.
 - Credits remaining: 4,065,323 (tracker), 4,065,717 at the board fetch.
 - 2026-11-19 19:41 UTC: no new events (tracking skipped, 1740Z snapshot is 2h old; ESPN/nflverse since 17:40Z have only questionable/practice notes (Waller, Mayfield, Tuten, Douglas, Heck) and Humphrey follow-ups already logged; nflverse Week 11 Outs are the TNF ones already logged)
+- 2026-11-19 21:40 UTC: no new events (saved odds/track/2026-11-19/2140Z.json.gz, 16 games, credits 4,064,232; Puka Nacua 3-game suspension is not an event, he was already on IR; ESPN/nflverse since 19:41Z have only questionable/practice notes (Madubuike, Kincaid, Walker III, Meyers, Mayfield, Evans) and Humphrey/TNF Outs already logged)
