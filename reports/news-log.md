@@ -92,3 +92,4 @@
 - Bets: none.
 - Credits remaining: 4,066,618 (board fetch).
 - 2026-11-19 13:40 UTC: no new events (saved odds/track/2026-11-19/1340Z.json.gz, 14 games, credits 4,065,864; overnight ESPN/nflverse Outs for IND@HOU already logged)
+- 2026-11-19 15:41 UTC: no new events (tracking skipped, 1340Z snapshot is 2h old; Christian Kirk meniscus surgery news is not new, he has been on IR since 11/7; nflverse/ESPN TNF Outs already logged)
