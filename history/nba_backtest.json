@@ -1,0 +1,1814 @@
+{
+ "by price (all ladders, all books)": {
+  "+120..+200": {
+   "rungs": 1468017,
+   "games": 327930,
+   "hit": 0.3497,
+   "implied": 0.3959,
+   "roi": -0.1179,
+   "roi_se": 0.0013
+  },
+  "+200..+400": {
+   "rungs": 1292155,
+   "games": 262505,
+   "hit": 0.2147,
+   "implied": 0.2632,
+   "roi": -0.1881,
+   "roi_se": 0.0025
+  },
+  "+400..+inf": {
+   "rungs": 1968719,
+   "games": 214090,
+   "hit": 0.0718,
+   "implied": 0.1049,
+   "roi": -0.359,
+   "roi_se": 0.007
+  },
+  "-1000..-500": {
+   "rungs": 491660,
+   "games": 162690,
+   "hit": 0.8087,
+   "implied": 0.8675,
+   "roi": -0.0678,
+   "roi_se": 0.0001
+  },
+  "-110..+120": {
+   "rungs": 1572856,
+   "games": 343276,
+   "hit": 0.4516,
+   "implied": 0.489,
+   "roi": -0.0768,
+   "roi_se": 0.0009
+  },
+  "-150..-110": {
+   "rungs": 1959703,
+   "games": 320436,
+   "hit": 0.5149,
+   "implied": 0.5552,
+   "roi": -0.0726,
+   "roi_se": 0.0007
+  },
+  "-200..-150": {
+   "rungs": 919640,
+   "games": 281727,
+   "hit": 0.5824,
+   "implied": 0.6271,
+   "roi": -0.0713,
+   "roi_se": 0.0005
+  },
+  "-300..-200": {
+   "rungs": 754781,
+   "games": 241283,
+   "hit": 0.6468,
+   "implied": 0.7036,
+   "roi": -0.0807,
+   "roi_se": 0.0004
+  },
+  "-500..-300": {
+   "rungs": 625371,
+   "games": 207359,
+   "hit": 0.7282,
+   "implied": 0.7886,
+   "roi": -0.0767,
+   "roi_se": 0.0002
+  },
+  "-inf..-1000": {
+   "rungs": 467373,
+   "games": 141300,
+   "hit": 0.8869,
+   "implied": 0.9436,
+   "roi": -0.0603,
+   "roi_se": 0.0
+  },
+  "?": {
+   "rungs": 11,
+   "games": 11,
+   "hit": 0.9091,
+   "implied": 0.9991,
+   "roi": -0.0901,
+   "roi_se": 0.0
+  }
+ },
+ "by market x price (DraftKings)": {
+  "alternate_spreads / +120..+200": {
+   "rungs": 40394,
+   "games": 7862,
+   "hit": 0.3612,
+   "implied": 0.3893,
+   "roi": -0.0721,
+   "roi_se": 0.0088
+  },
+  "alternate_spreads / +200..+400": {
+   "rungs": 51865,
+   "games": 7861,
+   "hit": 0.2444,
+   "implied": 0.2663,
+   "roi": -0.0819,
+   "roi_se": 0.0141
+  },
+  "alternate_spreads / +400..+inf": {
+   "rungs": 40994,
+   "games": 4610,
+   "hit": 0.1126,
+   "implied": 0.1322,
+   "roi": -0.1518,
+   "roi_se": 0.0345
+  },
+  "alternate_spreads / -1000..-500": {
+   "rungs": 24243,
+   "games": 7200,
+   "hit": 0.824,
+   "implied": 0.8661,
+   "roi": -0.0488,
+   "roi_se": 0.0007
+  },
+  "alternate_spreads / -110..+120": {
+   "rungs": 20132,
+   "games": 7857,
+   "hit": 0.4502,
+   "implied": 0.4835,
+   "roi": -0.069,
+   "roi_se": 0.0061
+  },
+  "alternate_spreads / -150..-110": {
+   "rungs": 19802,
+   "games": 7837,
+   "hit": 0.5301,
+   "implied": 0.5636,
+   "roi": -0.0595,
+   "roi_se": 0.0044
+  },
+  "alternate_spreads / -200..-150": {
+   "rungs": 21613,
+   "games": 7862,
+   "hit": 0.5973,
+   "implied": 0.6313,
+   "roi": -0.054,
+   "roi_se": 0.0032
+  },
+  "alternate_spreads / -300..-200": {
+   "rungs": 29926,
+   "games": 7862,
+   "hit": 0.6702,
+   "implied": 0.7078,
+   "roi": -0.053,
+   "roi_se": 0.0022
+  },
+  "alternate_spreads / -500..-300": {
+   "rungs": 34422,
+   "games": 7859,
+   "hit": 0.75,
+   "implied": 0.7913,
+   "roi": -0.0522,
+   "roi_se": 0.0012
+  },
+  "alternate_spreads / -inf..-1000": {
+   "rungs": 28367,
+   "games": 4501,
+   "hit": 0.905,
+   "implied": 0.9459,
+   "roi": -0.0432,
+   "roi_se": 0.0002
+  },
+  "alternate_totals / +120..+200": {
+   "rungs": 65061,
+   "games": 7864,
+   "hit": 0.3582,
+   "implied": 0.3898,
+   "roi": -0.0817,
+   "roi_se": 0.0087
+  },
+  "alternate_totals / +200..+400": {
+   "rungs": 49189,
+   "games": 7843,
+   "hit": 0.232,
+   "implied": 0.2732,
+   "roi": -0.1578,
+   "roi_se": 0.0138
+  },
+  "alternate_totals / +400..+inf": {
+   "rungs": 18569,
+   "games": 4468,
+   "hit": 0.1255,
+   "implied": 0.1723,
+   "roi": -0.271,
+   "roi_se": 0.0274
+  },
+  "alternate_totals / -1000..-500": {
+   "rungs": 25397,
+   "games": 4502,
+   "hit": 0.8586,
+   "implied": 0.8701,
+   "roi": -0.0131,
+   "roi_se": 0.0008
+  },
+  "alternate_totals / -110..+120": {
+   "rungs": 34118,
+   "games": 7864,
+   "hit": 0.4529,
+   "implied": 0.4844,
+   "roi": -0.0649,
+   "roi_se": 0.006
+  },
+  "alternate_totals / -150..-110": {
+   "rungs": 35189,
+   "games": 7864,
+   "hit": 0.529,
+   "implied": 0.5618,
+   "roi": -0.0585,
+   "roi_se": 0.0044
+  },
+  "alternate_totals / -200..-150": {
+   "rungs": 35300,
+   "games": 7864,
+   "hit": 0.5979,
+   "implied": 0.6313,
+   "roi": -0.0529,
+   "roi_se": 0.0032
+  },
+  "alternate_totals / -300..-200": {
+   "rungs": 47730,
+   "games": 7864,
+   "hit": 0.6749,
+   "implied": 0.7076,
+   "roi": -0.0464,
+   "roi_se": 0.0022
+  },
+  "alternate_totals / -500..-300": {
+   "rungs": 30320,
+   "games": 7711,
+   "hit": 0.764,
+   "implied": 0.785,
+   "roi": -0.0271,
+   "roi_se": 0.0013
+  },
+  "alternate_totals / -inf..-1000": {
+   "rungs": 2631,
+   "games": 1849,
+   "hit": 0.8917,
+   "implied": 0.9158,
+   "roi": -0.0263,
+   "roi_se": 0.0006
+  },
+  "assists / +120..+200": {
+   "rungs": 35137,
+   "games": 33318,
+   "hit": 0.3562,
+   "implied": 0.3982,
+   "roi": -0.1063,
+   "roi_se": 0.0041
+  },
+  "assists / +200..+400": {
+   "rungs": 40998,
+   "games": 33480,
+   "hit": 0.2199,
+   "implied": 0.2606,
+   "roi": -0.1571,
+   "roi_se": 0.007
+  },
+  "assists / +400..+inf": {
+   "rungs": 84065,
+   "games": 38625,
+   "hit": 0.077,
+   "implied": 0.103,
+   "roi": -0.2828,
+   "roi_se": 0.0158
+  },
+  "assists / -1000..-500": {
+   "rungs": 11726,
+   "games": 10480,
+   "hit": 0.8271,
+   "implied": 0.8664,
+   "roi": -0.0453,
+   "roi_se": 0.0005
+  },
+  "assists / -110..+120": {
+   "rungs": 34405,
+   "games": 34400,
+   "hit": 0.4448,
+   "implied": 0.4849,
+   "roi": -0.0832,
+   "roi_se": 0.0029
+  },
+  "assists / -150..-110": {
+   "rungs": 39684,
+   "games": 34891,
+   "hit": 0.5177,
+   "implied": 0.5598,
+   "roi": -0.0753,
+   "roi_se": 0.0021
+  },
+  "assists / -200..-150": {
+   "rungs": 23335,
+   "games": 23296,
+   "hit": 0.5866,
+   "implied": 0.6272,
+   "roi": -0.0646,
+   "roi_se": 0.0019
+  },
+  "assists / -300..-200": {
+   "rungs": 15178,
+   "games": 13869,
+   "hit": 0.658,
+   "implied": 0.706,
+   "roi": -0.0683,
+   "roi_se": 0.0016
+  },
+  "assists / -500..-300": {
+   "rungs": 14822,
+   "games": 12774,
+   "hit": 0.7364,
+   "implied": 0.7894,
+   "roi": -0.0671,
+   "roi_se": 0.001
+  },
+  "assists / -inf..-1000": {
+   "rungs": 7283,
+   "games": 7109,
+   "hit": 0.8959,
+   "implied": 0.9363,
+   "roi": -0.0432,
+   "roi_se": 0.0002
+  },
+  "h2h / +120..+200": {
+   "rungs": 1331,
+   "games": 1331,
+   "hit": 0.3802,
+   "implied": 0.3917,
+   "roi": -0.0279,
+   "roi_se": 0.0211
+  },
+  "h2h / +200..+400": {
+   "rungs": 1166,
+   "games": 1166,
+   "hit": 0.247,
+   "implied": 0.2674,
+   "roi": -0.0684,
+   "roi_se": 0.0365
+  },
+  "h2h / +400..+inf": {
+   "rungs": 720,
+   "games": 720,
+   "hit": 0.1181,
+   "implied": 0.1453,
+   "roi": -0.2337,
+   "roi_se": 0.0815
+  },
+  "h2h / -1000..-500": {
+   "rungs": 574,
+   "games": 574,
+   "hit": 0.838,
+   "implied": 0.8681,
+   "roi": -0.0348,
+   "roi_se": 0.0023
+  },
+  "h2h / -110..+120": {
+   "rungs": 727,
+   "games": 727,
+   "hit": 0.4773,
+   "implied": 0.4842,
+   "roi": -0.0133,
+   "roi_se": 0.0199
+  },
+  "h2h / -150..-110": {
+   "rungs": 861,
+   "games": 861,
+   "hit": 0.5261,
+   "implied": 0.5625,
+   "roi": -0.0641,
+   "roi_se": 0.0132
+  },
+  "h2h / -200..-150": {
+   "rungs": 780,
+   "games": 780,
+   "hit": 0.6026,
+   "implied": 0.6355,
+   "roi": -0.0507,
+   "roi_se": 0.01
+  },
+  "h2h / -300..-200": {
+   "rungs": 837,
+   "games": 837,
+   "hit": 0.6882,
+   "implied": 0.7089,
+   "roi": -0.0294,
+   "roi_se": 0.0065
+  },
+  "h2h / -500..-300": {
+   "rungs": 663,
+   "games": 663,
+   "hit": 0.7677,
+   "implied": 0.7906,
+   "roi": -0.0278,
+   "roi_se": 0.0043
+  },
+  "h2h / -inf..-1000": {
+   "rungs": 261,
+   "games": 261,
+   "hit": 0.9387,
+   "implied": 0.9327,
+   "roi": 0.0062,
+   "roi_se": 0.0012
+  },
+  "points / +120..+200": {
+   "rungs": 52201,
+   "games": 37240,
+   "hit": 0.3533,
+   "implied": 0.3963,
+   "roi": -0.109,
+   "roi_se": 0.0039
+  },
+  "points / +200..+400": {
+   "rungs": 52078,
+   "games": 42142,
+   "hit": 0.2301,
+   "implied": 0.2622,
+   "roi": -0.1227,
+   "roi_se": 0.0062
+  },
+  "points / +400..+inf": {
+   "rungs": 94300,
+   "games": 41500,
+   "hit": 0.074,
+   "implied": 0.0959,
+   "roi": -0.2883,
+   "roi_se": 0.0173
+  },
+  "points / -1000..-500": {
+   "rungs": 27493,
+   "games": 24809,
+   "hit": 0.8144,
+   "implied": 0.8673,
+   "roi": -0.0611,
+   "roi_se": 0.0003
+  },
+  "points / -110..+120": {
+   "rungs": 72548,
+   "games": 62557,
+   "hit": 0.4534,
+   "implied": 0.4952,
+   "roi": -0.0848,
+   "roi_se": 0.002
+  },
+  "points / -150..-110": {
+   "rungs": 114292,
+   "games": 89676,
+   "hit": 0.5108,
+   "implied": 0.5489,
+   "roi": -0.0695,
+   "roi_se": 0.0014
+  },
+  "points / -200..-150": {
+   "rungs": 36844,
+   "games": 25532,
+   "hit": 0.5806,
+   "implied": 0.6301,
+   "roi": -0.0786,
+   "roi_se": 0.0018
+  },
+  "points / -300..-200": {
+   "rungs": 34150,
+   "games": 28035,
+   "hit": 0.6514,
+   "implied": 0.7037,
+   "roi": -0.0743,
+   "roi_se": 0.0012
+  },
+  "points / -500..-300": {
+   "rungs": 30226,
+   "games": 26796,
+   "hit": 0.7352,
+   "implied": 0.7905,
+   "roi": -0.0701,
+   "roi_se": 0.0007
+  },
+  "points / -inf..-1000": {
+   "rungs": 20243,
+   "games": 17913,
+   "hit": 0.89,
+   "implied": 0.9388,
+   "roi": -0.052,
+   "roi_se": 0.0001
+  },
+  "rebounds / +120..+200": {
+   "rungs": 50280,
+   "games": 43254,
+   "hit": 0.3494,
+   "implied": 0.3943,
+   "roi": -0.115,
+   "roi_se": 0.0037
+  },
+  "rebounds / +200..+400": {
+   "rungs": 62922,
+   "games": 44489,
+   "hit": 0.2221,
+   "implied": 0.2616,
+   "roi": -0.152,
+   "roi_se": 0.006
+  },
+  "rebounds / +400..+inf": {
+   "rungs": 104622,
+   "games": 45377,
+   "hit": 0.0896,
+   "implied": 0.1141,
+   "roi": -0.2346,
+   "roi_se": 0.0131
+  },
+  "rebounds / -1000..-500": {
+   "rungs": 23862,
+   "games": 20761,
+   "hit": 0.819,
+   "implied": 0.8674,
+   "roi": -0.056,
+   "roi_se": 0.0004
+  },
+  "rebounds / -110..+120": {
+   "rungs": 53693,
+   "games": 53356,
+   "hit": 0.4472,
+   "implied": 0.4863,
+   "roi": -0.0811,
+   "roi_se": 0.0023
+  },
+  "rebounds / -150..-110": {
+   "rungs": 65176,
+   "games": 56412,
+   "hit": 0.5155,
+   "implied": 0.5586,
+   "roi": -0.0773,
+   "roi_se": 0.0017
+  },
+  "rebounds / -200..-150": {
+   "rungs": 30166,
+   "games": 29259,
+   "hit": 0.5825,
+   "implied": 0.6267,
+   "roi": -0.0702,
+   "roi_se": 0.0017
+  },
+  "rebounds / -300..-200": {
+   "rungs": 28167,
+   "games": 24456,
+   "hit": 0.6482,
+   "implied": 0.7074,
+   "roi": -0.0837,
+   "roi_se": 0.0012
+  },
+  "rebounds / -500..-300": {
+   "rungs": 28339,
+   "games": 24219,
+   "hit": 0.7367,
+   "implied": 0.7898,
+   "roi": -0.0672,
+   "roi_se": 0.0007
+  },
+  "rebounds / -inf..-1000": {
+   "rungs": 15914,
+   "games": 14452,
+   "hit": 0.8871,
+   "implied": 0.9365,
+   "roi": -0.0529,
+   "roi_se": 0.0002
+  },
+  "spreads / -110..+120": {
+   "rungs": 2976,
+   "games": 2976,
+   "hit": 0.497,
+   "implied": 0.5155,
+   "roi": -0.0359,
+   "roi_se": 0.0086
+  },
+  "spreads / -150..-110": {
+   "rungs": 4868,
+   "games": 4868,
+   "hit": 0.5018,
+   "implied": 0.5287,
+   "roi": -0.0508,
+   "roi_se": 0.0064
+  },
+  "team_totals / -110..+120": {
+   "rungs": 4811,
+   "games": 4811,
+   "hit": 0.5003,
+   "implied": 0.5134,
+   "roi": -0.0253,
+   "roi_se": 0.0068
+  },
+  "team_totals / -150..-110": {
+   "rungs": 10135,
+   "games": 7474,
+   "hit": 0.4998,
+   "implied": 0.5333,
+   "roi": -0.0626,
+   "roi_se": 0.0051
+  },
+  "team_totals / -200..-150": {
+   "rungs": 2,
+   "games": 2,
+   "hit": 1.0,
+   "implied": 0.6078,
+   "roi": 0.6452,
+   "roi_se": 0.2227
+  },
+  "threes / +120..+200": {
+   "rungs": 38217,
+   "games": 38216,
+   "hit": 0.3553,
+   "implied": 0.4009,
+   "roi": -0.1153,
+   "roi_se": 0.0038
+  },
+  "threes / +200..+400": {
+   "rungs": 29484,
+   "games": 29443,
+   "hit": 0.2147,
+   "implied": 0.2595,
+   "roi": -0.1751,
+   "roi_se": 0.0075
+  },
+  "threes / +400..+inf": {
+   "rungs": 59252,
+   "games": 29605,
+   "hit": 0.0713,
+   "implied": 0.097,
+   "roi": -0.3044,
+   "roi_se": 0.0191
+  },
+  "threes / -1000..-500": {
+   "rungs": 11852,
+   "games": 11852,
+   "hit": 0.8124,
+   "implied": 0.8659,
+   "roi": -0.0617,
+   "roi_se": 0.0005
+  },
+  "threes / -110..+120": {
+   "rungs": 26977,
+   "games": 26977,
+   "hit": 0.4513,
+   "implied": 0.4847,
+   "roi": -0.0688,
+   "roi_se": 0.0033
+  },
+  "threes / -150..-110": {
+   "rungs": 32858,
+   "games": 28505,
+   "hit": 0.514,
+   "implied": 0.5593,
+   "roi": -0.081,
+   "roi_se": 0.0023
+  },
+  "threes / -200..-150": {
+   "rungs": 24983,
+   "games": 24983,
+   "hit": 0.5946,
+   "implied": 0.6303,
+   "roi": -0.0566,
+   "roi_se": 0.0018
+  },
+  "threes / -300..-200": {
+   "rungs": 16060,
+   "games": 16060,
+   "hit": 0.6485,
+   "implied": 0.7022,
+   "roi": -0.076,
+   "roi_se": 0.0016
+  },
+  "threes / -500..-300": {
+   "rungs": 12752,
+   "games": 12752,
+   "hit": 0.7232,
+   "implied": 0.7907,
+   "roi": -0.0857,
+   "roi_se": 0.001
+  },
+  "threes / -inf..-1000": {
+   "rungs": 5385,
+   "games": 5384,
+   "hit": 0.8895,
+   "implied": 0.9347,
+   "roi": -0.0483,
+   "roi_se": 0.0003
+  },
+  "totals / -110..+120": {
+   "rungs": 2429,
+   "games": 2429,
+   "hit": 0.5163,
+   "implied": 0.5171,
+   "roi": -0.0017,
+   "roi_se": 0.0095
+  },
+  "totals / -150..-110": {
+   "rungs": 5431,
+   "games": 5431,
+   "hit": 0.4927,
+   "implied": 0.5267,
+   "roi": -0.0644,
+   "roi_se": 0.0061
+  }
+ },
+ "by book x price (ladders)": {
+  "betmgm / +120..+200": {
+   "rungs": 79660,
+   "games": 79659,
+   "hit": 0.3498,
+   "implied": 0.3998,
+   "roi": -0.1271,
+   "roi_se": 0.0027
+  },
+  "betmgm / +200..+400": {
+   "rungs": 62282,
+   "games": 62271,
+   "hit": 0.2103,
+   "implied": 0.2558,
+   "roi": -0.1773,
+   "roi_se": 0.0052
+  },
+  "betmgm / +400..+inf": {
+   "rungs": 84436,
+   "games": 78976,
+   "hit": 0.0983,
+   "implied": 0.1331,
+   "roi": -0.281,
+   "roi_se": 0.0083
+  },
+  "betmgm / -1000..-500": {
+   "rungs": 27223,
+   "games": 27223,
+   "hit": 0.7791,
+   "implied": 0.8648,
+   "roi": -0.0993,
+   "roi_se": 0.0003
+  },
+  "betmgm / -110..+120": {
+   "rungs": 130981,
+   "games": 130974,
+   "hit": 0.4497,
+   "implied": 0.489,
+   "roi": -0.0805,
+   "roi_se": 0.0015
+  },
+  "betmgm / -150..-110": {
+   "rungs": 189201,
+   "games": 145169,
+   "hit": 0.511,
+   "implied": 0.5527,
+   "roi": -0.0753,
+   "roi_se": 0.0011
+  },
+  "betmgm / -200..-150": {
+   "rungs": 74252,
+   "games": 74250,
+   "hit": 0.5709,
+   "implied": 0.6222,
+   "roi": -0.0824,
+   "roi_se": 0.0011
+  },
+  "betmgm / -300..-200": {
+   "rungs": 39410,
+   "games": 39409,
+   "hit": 0.6228,
+   "implied": 0.6988,
+   "roi": -0.1082,
+   "roi_se": 0.001
+  },
+  "betmgm / -500..-300": {
+   "rungs": 23761,
+   "games": 23760,
+   "hit": 0.6967,
+   "implied": 0.7871,
+   "roi": -0.1147,
+   "roi_se": 0.0007
+  },
+  "betmgm / -inf..-1000": {
+   "rungs": 19803,
+   "games": 19803,
+   "hit": 0.85,
+   "implied": 0.9301,
+   "roi": -0.0861,
+   "roi_se": 0.0001
+  },
+  "betonlineag / +120..+200": {
+   "rungs": 200009,
+   "games": 170866,
+   "hit": 0.3288,
+   "implied": 0.3988,
+   "roi": -0.1797,
+   "roi_se": 0.0018
+  },
+  "betonlineag / +200..+400": {
+   "rungs": 207412,
+   "games": 147729,
+   "hit": 0.1757,
+   "implied": 0.2619,
+   "roi": -0.3357,
+   "roi_se": 0.0033
+  },
+  "betonlineag / +400..+inf": {
+   "rungs": 496769,
+   "games": 152298,
+   "hit": 0.0488,
+   "implied": 0.0953,
+   "roi": -0.5132,
+   "roi_se": 0.009
+  },
+  "betonlineag / -1000..-500": {
+   "rungs": 13005,
+   "games": 12998,
+   "hit": 0.7873,
+   "implied": 0.8623,
+   "roi": -0.0869,
+   "roi_se": 0.0005
+  },
+  "betonlineag / -110..+120": {
+   "rungs": 182664,
+   "games": 182473,
+   "hit": 0.4526,
+   "implied": 0.4917,
+   "roi": -0.0801,
+   "roi_se": 0.0012
+  },
+  "betonlineag / -150..-110": {
+   "rungs": 222290,
+   "games": 194504,
+   "hit": 0.5169,
+   "implied": 0.5542,
+   "roi": -0.0674,
+   "roi_se": 0.0009
+  },
+  "betonlineag / -200..-150": {
+   "rungs": 72663,
+   "games": 72653,
+   "hit": 0.5875,
+   "implied": 0.63,
+   "roi": -0.0671,
+   "roi_se": 0.0011
+  },
+  "betonlineag / -300..-200": {
+   "rungs": 69715,
+   "games": 69688,
+   "hit": 0.6343,
+   "implied": 0.7023,
+   "roi": -0.0964,
+   "roi_se": 0.0007
+  },
+  "betonlineag / -500..-300": {
+   "rungs": 27074,
+   "games": 27066,
+   "hit": 0.7062,
+   "implied": 0.7845,
+   "roi": -0.1001,
+   "roi_se": 0.0007
+  },
+  "betonlineag / -inf..-1000": {
+   "rungs": 5016,
+   "games": 5014,
+   "hit": 0.8587,
+   "implied": 0.9334,
+   "roi": -0.08,
+   "roi_se": 0.0003
+  },
+  "betonlineag / ?": {
+   "rungs": 3,
+   "games": 3,
+   "hit": 0.6667,
+   "implied": 0.999,
+   "roi": -0.3327,
+   "roi_se": 0.0
+  },
+  "betrivers / +120..+200": {
+   "rungs": 123545,
+   "games": 69742,
+   "hit": 0.364,
+   "implied": 0.3967,
+   "roi": -0.0827,
+   "roi_se": 0.0029
+  },
+  "betrivers / +200..+400": {
+   "rungs": 20071,
+   "games": 19479,
+   "hit": 0.262,
+   "implied": 0.3019,
+   "roi": -0.1379,
+   "roi_se": 0.0077
+  },
+  "betrivers / +400..+inf": {
+   "rungs": 22,
+   "games": 21,
+   "hit": 0.0455,
+   "implied": 0.1833,
+   "roi": -0.7545,
+   "roi_se": 0.377
+  },
+  "betrivers / -1000..-500": {
+   "rungs": 2188,
+   "games": 2185,
+   "hit": 0.7642,
+   "implied": 0.8464,
+   "roi": -0.0971,
+   "roi_se": 0.0014
+  },
+  "betrivers / -110..+120": {
+   "rungs": 157751,
+   "games": 105782,
+   "hit": 0.4525,
+   "implied": 0.4871,
+   "roi": -0.0713,
+   "roi_se": 0.0016
+  },
+  "betrivers / -150..-110": {
+   "rungs": 159591,
+   "games": 99722,
+   "hit": 0.521,
+   "implied": 0.5602,
+   "roi": -0.07,
+   "roi_se": 0.0012
+  },
+  "betrivers / -200..-150": {
+   "rungs": 94420,
+   "games": 70112,
+   "hit": 0.5808,
+   "implied": 0.6255,
+   "roi": -0.0714,
+   "roi_se": 0.0011
+  },
+  "betrivers / -300..-200": {
+   "rungs": 65026,
+   "games": 42147,
+   "hit": 0.6408,
+   "implied": 0.7032,
+   "roi": -0.0885,
+   "roi_se": 0.001
+  },
+  "betrivers / -500..-300": {
+   "rungs": 25915,
+   "games": 22055,
+   "hit": 0.697,
+   "implied": 0.7766,
+   "roi": -0.1024,
+   "roi_se": 0.0008
+  },
+  "betrivers / -inf..-1000": {
+   "rungs": 1,
+   "games": 1,
+   "hit": 1.0,
+   "implied": 0.9091,
+   "roi": 0.1,
+   "roi_se": 0.0287
+  },
+  "draftkings / +120..+200": {
+   "rungs": 175835,
+   "games": 152028,
+   "hit": 0.3532,
+   "implied": 0.3971,
+   "roi": -0.1115,
+   "roi_se": 0.0019
+  },
+  "draftkings / +200..+400": {
+   "rungs": 185482,
+   "games": 149554,
+   "hit": 0.2227,
+   "implied": 0.2612,
+   "roi": -0.1486,
+   "roi_se": 0.0033
+  },
+  "draftkings / +400..+inf": {
+   "rungs": 342239,
+   "games": 155107,
+   "hit": 0.079,
+   "implied": 0.1034,
+   "roi": -0.2733,
+   "roi_se": 0.0081
+  },
+  "draftkings / -1000..-500": {
+   "rungs": 74933,
+   "games": 67902,
+   "hit": 0.8175,
+   "implied": 0.8669,
+   "roi": -0.0571,
+   "roi_se": 0.0002
+  },
+  "draftkings / -110..+120": {
+   "rungs": 187623,
+   "games": 177290,
+   "hit": 0.4498,
+   "implied": 0.4893,
+   "roi": -0.0812,
+   "roi_se": 0.0012
+  },
+  "draftkings / -150..-110": {
+   "rungs": 252010,
+   "games": 209484,
+   "hit": 0.5135,
+   "implied": 0.5545,
+   "roi": -0.0739,
+   "roi_se": 0.0009
+  },
+  "draftkings / -200..-150": {
+   "rungs": 115328,
+   "games": 103070,
+   "hit": 0.5854,
+   "implied": 0.6287,
+   "roi": -0.0688,
+   "roi_se": 0.0009
+  },
+  "draftkings / -300..-200": {
+   "rungs": 93555,
+   "games": 82420,
+   "hit": 0.651,
+   "implied": 0.7049,
+   "roi": -0.0764,
+   "roi_se": 0.0007
+  },
+  "draftkings / -500..-300": {
+   "rungs": 86139,
+   "games": 76541,
+   "hit": 0.7341,
+   "implied": 0.7901,
+   "roi": -0.0709,
+   "roi_se": 0.0004
+  },
+  "draftkings / -inf..-1000": {
+   "rungs": 48825,
+   "games": 44858,
+   "hit": 0.8899,
+   "implied": 0.9372,
+   "roi": -0.0506,
+   "roi_se": 0.0001
+  },
+  "espnbet / +120..+200": {
+   "rungs": 230805,
+   "games": 172444,
+   "hit": 0.3543,
+   "implied": 0.3963,
+   "roi": -0.1069,
+   "roi_se": 0.0018
+  },
+  "espnbet / +200..+400": {
+   "rungs": 152994,
+   "games": 133094,
+   "hit": 0.2237,
+   "implied": 0.2682,
+   "roi": -0.169,
+   "roi_se": 0.0034
+  },
+  "espnbet / +400..+inf": {
+   "rungs": 187206,
+   "games": 110515,
+   "hit": 0.0689,
+   "implied": 0.0995,
+   "roi": -0.3528,
+   "roi_se": 0.0095
+  },
+  "espnbet / -1000..-500": {
+   "rungs": 59196,
+   "games": 57801,
+   "hit": 0.8046,
+   "implied": 0.8631,
+   "roi": -0.0676,
+   "roi_se": 0.0002
+  },
+  "espnbet / -110..+120": {
+   "rungs": 215934,
+   "games": 164141,
+   "hit": 0.4495,
+   "implied": 0.4848,
+   "roi": -0.0731,
+   "roi_se": 0.0013
+  },
+  "espnbet / -150..-110": {
+   "rungs": 247982,
+   "games": 164952,
+   "hit": 0.5179,
+   "implied": 0.555,
+   "roi": -0.0671,
+   "roi_se": 0.001
+  },
+  "espnbet / -200..-150": {
+   "rungs": 143945,
+   "games": 119977,
+   "hit": 0.5841,
+   "implied": 0.6253,
+   "roi": -0.0657,
+   "roi_se": 0.0008
+  },
+  "espnbet / -300..-200": {
+   "rungs": 138706,
+   "games": 111649,
+   "hit": 0.6509,
+   "implied": 0.7023,
+   "roi": -0.0731,
+   "roi_se": 0.0006
+  },
+  "espnbet / -500..-300": {
+   "rungs": 96680,
+   "games": 87942,
+   "hit": 0.7307,
+   "implied": 0.7878,
+   "roi": -0.0722,
+   "roi_se": 0.0004
+  },
+  "espnbet / -inf..-1000": {
+   "rungs": 67063,
+   "games": 55305,
+   "hit": 0.8932,
+   "implied": 0.9508,
+   "roi": -0.0609,
+   "roi_se": 0.0001
+  },
+  "espnbet / ?": {
+   "rungs": 3,
+   "games": 3,
+   "hit": 1.0,
+   "implied": 0.999,
+   "roi": 0.001,
+   "roi_se": 0.0
+  },
+  "fanatics / +120..+200": {
+   "rungs": 93181,
+   "games": 56869,
+   "hit": 0.3355,
+   "implied": 0.3925,
+   "roi": -0.1474,
+   "roi_se": 0.0032
+  },
+  "fanatics / +200..+400": {
+   "rungs": 124096,
+   "games": 58448,
+   "hit": 0.204,
+   "implied": 0.2536,
+   "roi": -0.1996,
+   "roi_se": 0.0054
+  },
+  "fanatics / +400..+inf": {
+   "rungs": 160413,
+   "games": 60164,
+   "hit": 0.0912,
+   "implied": 0.1296,
+   "roi": -0.306,
+   "roi_se": 0.0098
+  },
+  "fanatics / -1000..-500": {
+   "rungs": 51333,
+   "games": 37305,
+   "hit": 0.8121,
+   "implied": 0.8703,
+   "roi": -0.0669,
+   "roi_se": 0.0003
+  },
+  "fanatics / -110..+120": {
+   "rungs": 61529,
+   "games": 57976,
+   "hit": 0.4422,
+   "implied": 0.4846,
+   "roi": -0.0875,
+   "roi_se": 0.0022
+  },
+  "fanatics / -150..-110": {
+   "rungs": 80977,
+   "games": 64942,
+   "hit": 0.5092,
+   "implied": 0.5525,
+   "roi": -0.0782,
+   "roi_se": 0.0016
+  },
+  "fanatics / -200..-150": {
+   "rungs": 40848,
+   "games": 39637,
+   "hit": 0.5773,
+   "implied": 0.6283,
+   "roi": -0.0811,
+   "roi_se": 0.0014
+  },
+  "fanatics / -300..-200": {
+   "rungs": 42282,
+   "games": 38187,
+   "hit": 0.6437,
+   "implied": 0.7057,
+   "roi": -0.0879,
+   "roi_se": 0.001
+  },
+  "fanatics / -500..-300": {
+   "rungs": 58378,
+   "games": 41849,
+   "hit": 0.7261,
+   "implied": 0.7881,
+   "roi": -0.079,
+   "roi_se": 0.0006
+  },
+  "fanatics / -inf..-1000": {
+   "rungs": 57637,
+   "games": 33204,
+   "hit": 0.8853,
+   "implied": 0.935,
+   "roi": -0.0533,
+   "roi_se": 0.0001
+  },
+  "fanduel / +120..+200": {
+   "rungs": 332243,
+   "games": 141895,
+   "hit": 0.3605,
+   "implied": 0.3907,
+   "roi": -0.077,
+   "roi_se": 0.0021
+  },
+  "fanduel / +200..+400": {
+   "rungs": 310871,
+   "games": 124514,
+   "hit": 0.2417,
+   "implied": 0.2701,
+   "roi": -0.1071,
+   "roi_se": 0.0035
+  },
+  "fanduel / +400..+inf": {
+   "rungs": 246587,
+   "games": 134928,
+   "hit": 0.087,
+   "implied": 0.1127,
+   "roi": -0.2812,
+   "roi_se": 0.0081
+  },
+  "fanduel / -1000..-500": {
+   "rungs": 175136,
+   "games": 96099,
+   "hit": 0.8214,
+   "implied": 0.8687,
+   "roi": -0.0545,
+   "roi_se": 0.0002
+  },
+  "fanduel / -110..+120": {
+   "rungs": 267597,
+   "games": 199829,
+   "hit": 0.461,
+   "implied": 0.4892,
+   "roi": -0.0578,
+   "roi_se": 0.0012
+  },
+  "fanduel / -150..-110": {
+   "rungs": 301204,
+   "games": 210175,
+   "hit": 0.5203,
+   "implied": 0.5565,
+   "roi": -0.065,
+   "roi_se": 0.0009
+  },
+  "fanduel / -200..-150": {
+   "rungs": 175878,
+   "games": 108444,
+   "hit": 0.594,
+   "implied": 0.6299,
+   "roi": -0.0569,
+   "roi_se": 0.0009
+  },
+  "fanduel / -300..-200": {
+   "rungs": 195936,
+   "games": 95835,
+   "hit": 0.6609,
+   "implied": 0.7063,
+   "roi": -0.0643,
+   "roi_se": 0.0006
+  },
+  "fanduel / -500..-300": {
+   "rungs": 213700,
+   "games": 100104,
+   "hit": 0.7445,
+   "implied": 0.7907,
+   "roi": -0.0586,
+   "roi_se": 0.0003
+  },
+  "fanduel / -inf..-1000": {
+   "rungs": 169033,
+   "games": 90348,
+   "hit": 0.8974,
+   "implied": 0.9458,
+   "roi": -0.0514,
+   "roi_se": 0.0001
+  },
+  "fanduel / ?": {
+   "rungs": 2,
+   "games": 2,
+   "hit": 1.0,
+   "implied": 0.999,
+   "roi": 0.001,
+   "roi_se": 0.0
+  },
+  "hardrockbet / +120..+200": {
+   "rungs": 106535,
+   "games": 106025,
+   "hit": 0.3453,
+   "implied": 0.3948,
+   "roi": -0.1269,
+   "roi_se": 0.0023
+  },
+  "hardrockbet / +200..+400": {
+   "rungs": 123336,
+   "games": 116770,
+   "hit": 0.2075,
+   "implied": 0.255,
+   "roi": -0.1907,
+   "roi_se": 0.0038
+  },
+  "hardrockbet / +400..+inf": {
+   "rungs": 327508,
+   "games": 159208,
+   "hit": 0.0625,
+   "implied": 0.0875,
+   "roi": -0.3562,
+   "roi_se": 0.0097
+  },
+  "hardrockbet / -1000..-500": {
+   "rungs": 48242,
+   "games": 47934,
+   "hit": 0.8111,
+   "implied": 0.869,
+   "roi": -0.0669,
+   "roi_se": 0.0002
+  },
+  "hardrockbet / -110..+120": {
+   "rungs": 140082,
+   "games": 140073,
+   "hit": 0.4461,
+   "implied": 0.4885,
+   "roi": -0.0872,
+   "roi_se": 0.0014
+  },
+  "hardrockbet / -150..-110": {
+   "rungs": 203883,
+   "games": 153139,
+   "hit": 0.5075,
+   "implied": 0.553,
+   "roi": -0.0821,
+   "roi_se": 0.001
+  },
+  "hardrockbet / -200..-150": {
+   "rungs": 92666,
+   "games": 92665,
+   "hit": 0.5741,
+   "implied": 0.6258,
+   "roi": -0.0827,
+   "roi_se": 0.001
+  },
+  "hardrockbet / -300..-200": {
+   "rungs": 53111,
+   "games": 53108,
+   "hit": 0.6402,
+   "implied": 0.6994,
+   "roi": -0.0845,
+   "roi_se": 0.0009
+  },
+  "hardrockbet / -500..-300": {
+   "rungs": 51164,
+   "games": 51116,
+   "hit": 0.7215,
+   "implied": 0.7864,
+   "roi": -0.0828,
+   "roi_se": 0.0005
+  },
+  "hardrockbet / -inf..-1000": {
+   "rungs": 49276,
+   "games": 42055,
+   "hit": 0.9005,
+   "implied": 0.9453,
+   "roi": -0.0477,
+   "roi_se": 0.0001
+  },
+  "pinnacle / +120..+200": {
+   "rungs": 20214,
+   "games": 20211,
+   "hit": 0.3863,
+   "implied": 0.4212,
+   "roi": -0.0831,
+   "roi_se": 0.0048
+  },
+  "pinnacle / +200..+400": {
+   "rungs": 23,
+   "games": 23,
+   "hit": 0.2174,
+   "implied": 0.3191,
+   "roi": -0.3126,
+   "roi_se": 0.2078
+  },
+  "pinnacle / -110..+120": {
+   "rungs": 74141,
+   "games": 74129,
+   "hit": 0.4619,
+   "implied": 0.4949,
+   "roi": -0.0671,
+   "roi_se": 0.0019
+  },
+  "pinnacle / -150..-110": {
+   "rungs": 101588,
+   "games": 82416,
+   "hit": 0.5196,
+   "implied": 0.5557,
+   "roi": -0.065,
+   "roi_se": 0.0014
+  },
+  "pinnacle / -200..-150": {
+   "rungs": 26131,
+   "games": 26127,
+   "hit": 0.5908,
+   "implied": 0.6243,
+   "roi": -0.0537,
+   "roi_se": 0.0018
+  },
+  "pinnacle / -300..-200": {
+   "rungs": 4963,
+   "games": 4962,
+   "hit": 0.654,
+   "implied": 0.6913,
+   "roi": -0.0535,
+   "roi_se": 0.003
+  },
+  "pinnacle / -500..-300": {
+   "rungs": 12,
+   "games": 12,
+   "hit": 0.75,
+   "implied": 0.7621,
+   "roi": -0.0149,
+   "roi_se": 0.0385
+  },
+  "williamhill_us / +120..+200": {
+   "rungs": 105990,
+   "games": 105335,
+   "hit": 0.3322,
+   "implied": 0.3992,
+   "roi": -0.1699,
+   "roi_se": 0.0023
+  },
+  "williamhill_us / +200..+400": {
+   "rungs": 105588,
+   "games": 101443,
+   "hit": 0.1999,
+   "implied": 0.2597,
+   "roi": -0.2336,
+   "roi_se": 0.004
+  },
+  "williamhill_us / +400..+inf": {
+   "rungs": 123539,
+   "games": 108724,
+   "hit": 0.0997,
+   "implied": 0.1358,
+   "roi": -0.2706,
+   "roi_se": 0.007
+  },
+  "williamhill_us / -1000..-500": {
+   "rungs": 40404,
+   "games": 40338,
+   "hit": 0.7658,
+   "implied": 0.8696,
+   "roi": -0.1193,
+   "roi_se": 0.0003
+  },
+  "williamhill_us / -110..+120": {
+   "rungs": 154554,
+   "games": 154379,
+   "hit": 0.4442,
+   "implied": 0.4927,
+   "roi": -0.0988,
+   "roi_se": 0.0013
+  },
+  "williamhill_us / -150..-110": {
+   "rungs": 200977,
+   "games": 163256,
+   "hit": 0.509,
+   "implied": 0.557,
+   "roi": -0.0861,
+   "roi_se": 0.001
+  },
+  "williamhill_us / -200..-150": {
+   "rungs": 83509,
+   "games": 83388,
+   "hit": 0.5674,
+   "implied": 0.6278,
+   "roi": -0.0963,
+   "roi_se": 0.001
+  },
+  "williamhill_us / -300..-200": {
+   "rungs": 52077,
+   "games": 52000,
+   "hit": 0.6256,
+   "implied": 0.7047,
+   "roi": -0.1119,
+   "roi_se": 0.0009
+  },
+  "williamhill_us / -500..-300": {
+   "rungs": 42548,
+   "games": 42490,
+   "hit": 0.6901,
+   "implied": 0.791,
+   "roi": -0.1276,
+   "roi_se": 0.0005
+  },
+  "williamhill_us / -inf..-1000": {
+   "rungs": 50719,
+   "games": 48848,
+   "hit": 0.847,
+   "implied": 0.9476,
+   "roi": -0.1064,
+   "roi_se": 0.0001
+  },
+  "williamhill_us / ?": {
+   "rungs": 3,
+   "games": 3,
+   "hit": 1.0,
+   "implied": 0.9995,
+   "roi": 0.0005,
+   "roi_se": 0.0
+  }
+ },
+ "by market (DK, close, -500..-150)": {
+  "alternate_spreads": {
+   "rungs": 85961,
+   "games": 7862,
+   "hit": 0.6838,
+   "implied": 0.722,
+   "roi": -0.0529,
+   "roi_se": 0.0022
+  },
+  "alternate_totals": {
+   "rungs": 113350,
+   "games": 7864,
+   "hit": 0.6747,
+   "implied": 0.7045,
+   "roi": -0.0432,
+   "roi_se": 0.0024
+  },
+  "h2h": {
+   "rungs": 2280,
+   "games": 2280,
+   "hit": 0.682,
+   "implied": 0.7075,
+   "roi": -0.0362,
+   "roi_se": 0.0043
+  },
+  "player_assists": {
+   "rungs": 11028,
+   "games": 11027,
+   "hit": 0.5946,
+   "implied": 0.6228,
+   "roi": -0.0452,
+   "roi_se": 0.0028
+  },
+  "player_assists_alternate": {
+   "rungs": 42307,
+   "games": 27100,
+   "hit": 0.6626,
+   "implied": 0.7135,
+   "roi": -0.0719,
+   "roi_se": 0.0012
+  },
+  "player_points": {
+   "rungs": 194,
+   "games": 194,
+   "hit": 0.5928,
+   "implied": 0.6061,
+   "roi": -0.0213,
+   "roi_se": 0.0228
+  },
+  "player_points_alternate": {
+   "rungs": 101026,
+   "games": 45957,
+   "hit": 0.6508,
+   "implied": 0.703,
+   "roi": -0.0747,
+   "roi_se": 0.001
+  },
+  "player_rebounds": {
+   "rungs": 10576,
+   "games": 10576,
+   "hit": 0.5929,
+   "implied": 0.6153,
+   "roi": -0.0361,
+   "roi_se": 0.003
+  },
+  "player_rebounds_alternate": {
+   "rungs": 76096,
+   "games": 42121,
+   "hit": 0.6628,
+   "implied": 0.7189,
+   "roi": -0.0788,
+   "roi_se": 0.001
+  },
+  "player_threes": {
+   "rungs": 23564,
+   "games": 23564,
+   "hit": 0.6169,
+   "implied": 0.6447,
+   "roi": -0.0431,
+   "roi_se": 0.0018
+  },
+  "player_threes_alternate": {
+   "rungs": 30231,
+   "games": 29424,
+   "hit": 0.6601,
+   "implied": 0.725,
+   "roi": -0.0897,
+   "roi_se": 0.0011
+  },
+  "team_totals": {
+   "rungs": 2,
+   "games": 2,
+   "hit": 1.0,
+   "implied": 0.6078,
+   "roi": 0.6452,
+   "roi_se": 0.2227
+  }
+ },
+ "am snapshot price, by market (DK)": {
+  "alternate_spreads": {
+   "rungs": 299523,
+   "games": 7852,
+   "hit": 0.5,
+   "implied": 0.5319,
+   "roi": -0.0697,
+   "roi_se": 0.0116
+  },
+  "h2h": {
+   "rungs": 7916,
+   "games": 7916,
+   "hit": 0.5,
+   "implied": 0.5213,
+   "roi": -0.0506,
+   "roi_se": 0.0101
+  },
+  "player_assists_alternate": {
+   "rungs": 187283,
+   "games": 32514,
+   "hit": 0.3419,
+   "implied": 0.3803,
+   "roi": -0.1556,
+   "roi_se": 0.0105
+  },
+  "player_points_alternate": {
+   "rungs": 312416,
+   "games": 38047,
+   "hit": 0.432,
+   "implied": 0.4729,
+   "roi": -0.1321,
+   "roi_se": 0.0089
+  },
+  "player_rebounds_alternate": {
+   "rungs": 271499,
+   "games": 36713,
+   "hit": 0.386,
+   "implied": 0.4298,
+   "roi": -0.1412,
+   "roi_se": 0.0083
+  },
+  "spreads": {
+   "rungs": 2914,
+   "games": 2914,
+   "hit": 0.5,
+   "implied": 0.5237,
+   "roi": -0.0447,
+   "roi_se": 0.0084
+  },
+  "totals": {
+   "rungs": 1696,
+   "games": 1696,
+   "hit": 0.5,
+   "implied": 0.5237,
+   "roi": -0.0442,
+   "roi_se": 0.011
+  }
+ },
+ "pickem: market favorite by de-vigged prob": {
+  "50%": {
+   "rungs": 502,
+   "games": 502,
+   "hit": 0.502,
+   "implied": 0.5387,
+   "roi": -0.0677,
+   "roi_se": 0.0191
+  },
+  "55%": {
+   "rungs": 609,
+   "games": 609,
+   "hit": 0.5764,
+   "implied": 0.5892,
+   "roi": -0.0229,
+   "roi_se": 0.014
+  },
+  "60%": {
+   "rungs": 592,
+   "games": 592,
+   "hit": 0.6132,
+   "implied": 0.6401,
+   "roi": -0.0409,
+   "roi_se": 0.0111
+  },
+  "65%": {
+   "rungs": 549,
+   "games": 549,
+   "hit": 0.6667,
+   "implied": 0.6939,
+   "roi": -0.0397,
+   "roi_se": 0.0087
+  },
+  "70%": {
+   "rungs": 461,
+   "games": 461,
+   "hit": 0.7592,
+   "implied": 0.7449,
+   "roi": 0.0193,
+   "roi_se": 0.007
+  },
+  "75%": {
+   "rungs": 425,
+   "games": 425,
+   "hit": 0.76,
+   "implied": 0.798,
+   "roi": -0.0476,
+   "roi_se": 0.005
+  },
+  "80%": {
+   "rungs": 393,
+   "games": 393,
+   "hit": 0.8346,
+   "implied": 0.8504,
+   "roi": -0.0188,
+   "roi_se": 0.0032
+  },
+  "85%": {
+   "rungs": 317,
+   "games": 317,
+   "hit": 0.8864,
+   "implied": 0.9003,
+   "roi": -0.0158,
+   "roi_se": 0.0019
+  },
+  "90%": {
+   "rungs": 107,
+   "games": 107,
+   "hit": 0.9626,
+   "implied": 0.9428,
+   "roi": 0.0207,
+   "roi_se": 0.0014
+  },
+  "95%": {
+   "rungs": 6,
+   "games": 6,
+   "hit": 1.0,
+   "implied": 0.9808,
+   "roi": 0.0196,
+   "roi_se": 0.0012
+  }
+ },
+ "by season (DK props, -1000..-150)": {
+  "2023": {
+   "rungs": 141520,
+   "games": 56577,
+   "hit": 0.6795,
+   "implied": 0.7286,
+   "roi": -0.0673,
+   "roi_se": 0.0008
+  },
+  "2024": {
+   "rungs": 108258,
+   "games": 68105,
+   "hit": 0.6791,
+   "implied": 0.7356,
+   "roi": -0.0775,
+   "roi_se": 0.0008
+  },
+  "2025": {
+   "rungs": 120177,
+   "games": 72302,
+   "hit": 0.6926,
+   "implied": 0.7384,
+   "roi": -0.063,
+   "roi_se": 0.0007
+  }
+ },
+ "clv": {
+  "h2h": {
+   "n": 7916,
+   "avg": 1.1561918740433037e-05
+  },
+  "totals": {
+   "n": 1710,
+   "avg": -2.0854639855932347e-06
+  },
+  "alternate_spreads": {
+   "n": 301401,
+   "avg": -0.00029848213509220807
+  },
+  "player_assists_alternate": {
+   "n": 190809,
+   "avg": 0.00013131487594149094
+  },
+  "player_points_alternate": {
+   "n": 318459,
+   "avg": 0.0009754326931875474
+  },
+  "player_rebounds_alternate": {
+   "n": 277069,
+   "avg": -0.0010113023668473276
+  },
+  "spreads": {
+   "n": 2932,
+   "avg": 6.451352365880176e-06
+  }
+ }
+}
