@@ -93,3 +93,16 @@
 - Credits remaining: 4,066,618 (board fetch).
 - 2026-11-19 13:40 UTC: no new events (saved odds/track/2026-11-19/1340Z.json.gz, 14 games, credits 4,065,864; overnight ESPN/nflverse Outs for IND@HOU already logged)
 - 2026-11-19 15:41 UTC: no new events (tracking skipped, 1340Z snapshot is 2h old; Christian Kirk meniscus surgery news is not new, he has been on IR since 11/7; nflverse/ESPN TNF Outs already logged)
+
+## 2026-11-19 17:40 UTC
+- Window: 15:41–17:40 UTC. Line tracking: saved odds/track/2026-11-19/1740Z.json.gz (14 games, 274 KB). The newest snapshot before this one was 1340Z, 4h old.
+- News events:
+  - Ravens CB Marlon Humphrey sent home and will be inactive Sunday after a comment about the city (ESPN injuries 17:07Z, ESPN news 17:18Z). BAL @ CAR, Sun 11/22 18:00Z.
+  - Colts CB Sauce Gardner (calf) not in line to play TNF per Jane Slater (ESPN injuries 17:03Z; official tag still Questionable). IND @ HOU, Fri 11/20 01:15Z.
+  - Not events: Kyle McCord starting for MIA again (he already started Week 10; Willis on IR); Mike Evans (SF) and Baker Mayfield (TB) practice notes, still questionable; Xavier Hutchinson (HOU WR) active note; HOF finalists and fantasy/analysis pieces. nflverse has no new Out or Doubtful rows.
+- Lines checked (fresh event fetch for lines, passing, rushing and receiving plus the board, 628 priced sides; DK implied vs Pinnacle no-vig or the median of 3+ cs books):
+  - BAL@CAR: CAR -2.5 -115 (Pinnacle -2.5 -116 / BAL +103), total 43.5 -109/-110 (Pinnacle 43.5 -106/-108), ML CAR -142 vs 1340Z -135, so DK already moved toward CAR (DK 0.587 vs Pinnacle fair 0.576, DK expensive). The best prop is Bryce Young O 20.5 completions -109 (0.522 vs Pinnacle 0.538, +1.6 pts).
+  - IND@HOU: HOU -12.5 -108 (Pinnacle -13), total 44.5 O -104/U -116 (Pinnacle 44 -105/-107), ML -690/+500 (Pinnacle -703/+539). The biggest DK-cheaper gap is +2.4 pts (IND alt team total U 8.5 +450, fair 0.21, a long shot). The best prop with fair >= 0.45 is Tyler Warren U 4.5 rec +122 (+1.0 pts).
+  - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
+- Bets: none.
+- Credits remaining: 4,065,323 (tracker), 4,065,717 at the board fetch.
