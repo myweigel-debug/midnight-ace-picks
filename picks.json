@@ -1,6 +1,249 @@
 {
  "slates": [
   {
+   "id": "2026-11-17-thu",
+   "label": "Thursday picks",
+   "made": "2026-11-19T20:21:59Z",
+   "week": 11,
+   "note": "Week 11 Thursday: three parlays, every leg in a different game, built mostly on team markets (Panthers +9.5, Jaguars +2.5, Bills -3.5, Cowboys team total over 23.5) plus the three required locked-in props (Goff completions in a dome, Jonathan Taylor receiving tonight on TNF, McBride receiving). P(hit) 0.74 / 0.62 / 0.63 with EV +3.0%, -0.1% and +0.4%, staked $100 / $50 / $50 (no Tuesday/Thursday stake above $100).",
+   "parlays": [
+    {
+     "id": "2026-11-17-thu-1",
+     "stake": 100,
+     "prob": 0.74,
+     "ev": 0.0305,
+     "why": "Panthers +9.5 (-584): Carolina is the 3-pt home favorite (Pinnacle ML 58%) against a Ravens team on Jacoby Brissett with Lamar Jackson on IR and CB Marlon Humphrey sent home, so this loses only if Baltimore wins by 10+. Seven books price it and DK was still about 3 pts cheaper than the others' median; it shortened from -512 to -584 today while the rest of the market held. Fair 88.3% vs 86.6% no-vig (EPA model has CAR by about 6, shaded +1.6 pts), sunny 68F in Charlotte. Jared Goff 18+ completions (-529): he has cleared 17.5 in 8 of 9 games (mean 22.8, main line 21.5), plays every snap in the Ford Field dome, and has no injury designation. Tampa's Mayfield was limited Thursday and is at best 50/50. Fair 83.8% vs 84.4% market after the 1.5-pt prop haircut. Backtest leg cost about 3% + 8%; P 0.740 x 1.392 = 1.030, EV +3.0%, so $100.",
+     "legs": [
+      {
+       "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+       "home": "Carolina Panthers",
+       "away": "Baltimore Ravens",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Carolina Panthers",
+       "p": 9.5,
+       "o": -584,
+       "fair": 0.883,
+       "cg": 3.0
+      },
+      {
+       "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+       "home": "Detroit Lions",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_pass_completions_alternate",
+       "n": "Over",
+       "d": "Jared Goff",
+       "p": 17.5,
+       "o": -529,
+       "fair": 0.838,
+       "cg": 4.5
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-thu-2",
+     "stake": 50,
+     "prob": 0.624,
+     "ev": -0.0009,
+     "why": "Jaguars +2.5 (-361): Jacksonville is the 6-pt road favorite at the Giants and ranks 1st in my opponent-adjusted EPA ratings (model JAX by about 7.7). This loses only if the Giants win by 3+; fair 80.0% vs 77.5% no-vig (8 books; the +2.5-pt shade comes from the model). The forecast is light rain, which lowers variance. Jonathan Taylor 10+ receiving yards (-394) on TNF tonight in Houston's closed roof: 8 of 10 over 9.5 (15, 24, 18, 20 the last four, 3-5 targets a game), no injury tag. As a 12.5-pt underdog Indy should be throwing to its backs. DK moved from -269 Tuesday to -394 with the consensus following (0.77 to 0.82), so the market has moved our way, and Pinnacle's main is 19.5 at -134. Fair 78.0% vs 79.4% market after the haircut. Cost about 3% + 7%; P 0.624 x 1.601 = 0.999, EV -0.1%. It leans on the power shade (without it P x payout is 0.968), so $50.",
+     "legs": [
+      {
+       "ev": "8ba112fabf4e87639338a5f437c5abfe",
+       "home": "New York Giants",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-22T21:25:00Z",
+       "mk": "alternate_spreads",
+       "n": "Jacksonville Jaguars",
+       "p": 2.5,
+       "o": -361,
+       "fair": 0.8,
+       "cg": -0.5
+      },
+      {
+       "ev": "66f9e83cf025d58acee12bce18661fb3",
+       "home": "Houston Texans",
+       "away": "Indianapolis Colts",
+       "t": "2026-11-20T01:15:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Jonathan Taylor",
+       "p": 9.5,
+       "o": -394,
+       "fair": 0.78,
+       "cg": 2.1
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-thu-3",
+     "stake": 50,
+     "prob": 0.6307,
+     "ev": 0.0036,
+     "why": "Cowboys team total Over 23.5 (-550) indoors against a Titans defense allowing +0.09 EPA/play (4th worst); Dallas is implied for about 31 (total 54.5, DAL -8) after scoring 40 last week, and Ferguson being out is minor. Fair 84.9% vs 84.9% market, DK 2.9 pts cheaper than the other books. Bills -3.5 (-690) at home against a Dolphins team on Kyle McCord: Buffalo is a 16-pt favorite (93% ML), sunny 64F and 8 mph in Orchard Park; fair 87.5% vs 87.7%. Trey McBride 25+ receiving yards (-568): 10 of 10 over 24.5, the TE1 and target leader (Pinnacle main 49.5). Rookie Carson Beck's first completion went to him, and Arizona trails as a 15.5-pt underdog. Fair 84.9% vs 84.9% after the haircut. The new QB is the extra risk, so $50. Cost about 3% + 3% + 7%; P 0.631 x 1.591 = 1.004, EV +0.4%.",
+     "legs": [
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Over",
+       "d": "Dallas Cowboys",
+       "p": 23.5,
+       "o": -550,
+       "fair": 0.849,
+       "cg": 2.9
+      },
+      {
+       "ev": "4c5b1c0843a260278e95eb93e7787576",
+       "home": "Buffalo Bills",
+       "away": "Miami Dolphins",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Buffalo Bills",
+       "p": -3.5,
+       "o": -690,
+       "fair": 0.875,
+       "cg": 0.2
+      },
+      {
+       "ev": "403a88701352da05b0710a9e883b803e",
+       "home": "Kansas City Chiefs",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Trey McBride",
+       "p": 24.5,
+       "o": -568,
+       "fair": 0.849,
+       "cg": 2.1
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "66f9e83cf025d58acee12bce18661fb3",
+     "home": "Houston Texans",
+     "away": "Indianapolis Colts",
+     "t": "2026-11-20T01:15:00Z",
+     "w": "Houston Texans",
+     "conf": 0.86,
+     "why": "Texans 86% vs 87% de-vigged ML: 12.5-pt home favorite in a closed-roof game; Colts lose T Raimann and Travis plus CB Ward, while Hunter and Harrison Jr. sit for Houston."
+    },
+    {
+     "ev": "403a88701352da05b0710a9e883b803e",
+     "home": "Kansas City Chiefs",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.92,
+     "why": "Chiefs 92% (92% de-vigged): Arizona turns to rookie Carson Beck (11-18, 108 yds, 2 INT in his debut) at Arrowhead; dry 49F."
+    },
+    {
+     "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+     "home": "Carolina Panthers",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.6,
+     "why": "Panthers 60% vs 58% de-vigged (near coin flip, market favorite): Ravens on Brissett with Lamar on IR and CB Humphrey sent home; my EPA model has CAR by about 6."
+    },
+    {
+     "ev": "4c5b1c0843a260278e95eb93e7787576",
+     "home": "Buffalo Bills",
+     "away": "Miami Dolphins",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.93,
+     "why": "Bills 93% (93% de-vigged): 16-pt home favorite vs a Dolphins team on Kyle McCord; dry 64F in Orchard Park."
+    },
+    {
+     "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+     "home": "Chicago Bears",
+     "away": "New Orleans Saints",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.83,
+     "why": "Bears 83% vs 85% de-vigged: 11.5-pt home favorite; Saints missing Kamara, McCoy, Fuaga and Richards at practice."
+    },
+    {
+     "ev": "5e63079b678f8c13419adc169fff02d3",
+     "home": "Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.78,
+     "why": "Cowboys 78% vs 79% de-vigged: 8-pt home favorite indoors vs a Titans defense allowing +0.09 EPA/play; Ferguson out is minor."
+    },
+    {
+     "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+     "home": "Detroit Lions",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.71,
+     "why": "Lions 71% vs 72% de-vigged: dome home favorite and Mayfield is at best 50/50 (lower-leg injury, DNP Wednesday)."
+    },
+    {
+     "ev": "cbe45bafcc2615fc1d96cbc12840377a",
+     "home": "Philadelphia Eagles",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Pittsburgh Steelers",
+     "conf": 0.68,
+     "why": "Steelers 68% vs 67% de-vigged: 4.5-pt road favorite at a 2-7 Eagles team without Hurts; my EPA model has PIT by about 6."
+    },
+    {
+     "ev": "4b20b742b6168aaca4f25d87f11b1526",
+     "home": "Los Angeles Chargers",
+     "away": "New York Jets",
+     "t": "2026-11-22T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.59,
+     "why": "Chargers 59% vs 61% de-vigged: 3-pt home favorite in SoFi; Geno Smith limited for the Jets."
+    },
+    {
+     "ev": "1940706a79cbcbafacdcbf231069716b",
+     "home": "Denver Broncos",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.83,
+     "why": "Broncos 83% vs 83% de-vigged: 10-pt home favorite, sunny 48F in Denver, Raiders TE Bowers DNP."
+    },
+    {
+     "ev": "8ba112fabf4e87639338a5f437c5abfe",
+     "home": "New York Giants",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.73,
+     "why": "Jaguars 73% vs 72% de-vigged: JAX ranks 1st in my opponent-adjusted EPA ratings (model JAX by about 8 vs a 6-pt line); light rain is the only worry."
+    },
+    {
+     "ev": "60e1d27b083a335b722c2c852ea85612",
+     "home": "San Francisco 49ers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-23T01:20:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.62,
+     "why": "49ers 62% vs 60% de-vigged: 3-pt favorite at the neutral Mexico City site, 2nd in my EPA ratings; Vikings on Cousins with Murray out."
+    },
+    {
+     "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+     "home": "Washington Commanders",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-24T01:15:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.74,
+     "why": "Bengals 74% vs 73% de-vigged: 6.5-pt road favorite; Washington is without McLaurin and Cincinnati's offense leads the league in EPA/play."
+    }
+   ]
+  },
+  {
    "id": "2026-11-17-tue",
    "label": "Tuesday picks",
    "made": "2026-11-17T19:08:28Z",

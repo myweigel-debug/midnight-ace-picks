@@ -206,3 +206,21 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 2. **Big-dog alt spreads need a total check.** Empirically (2010+), 7.5-10 pt favorites win by 21+ about 17% with totals ≤44 and 18-21% with higher totals. TEN +20.5 (total 54.5) gets only half the power-model shade.
 3. **Tuesday pool was thin:** with the haircut, every eligible prop is -1.5% to -3% EV and the best sides are about break-even, so all three parlays clear the floor at 0.971-0.979 and are staked $50. No stake above $50 until props or sides show a real edge.
 4. **No leg reuse across parlays this slate**, and every parlay's legs are in different games (concentration lesson from Week 9).
+
+## 2026-11-19 review (Thursday run, ESPN Week 11)
+**Record:** nothing new to grade. Week 10 was fully graded on Tuesday (parlays 11-6, +$215; pick'ems 9-5, season 32-10). The 2026-11-17-tue slate's games start tonight (IND@HOU) at the earliest, and `history/legs.csv` gained no rows, because no snapshot in `odds/` has a final game that isn't already graded. No `-news` slates exist yet (the tracking routine logged no bets).
+
+**Tuesday slate, interim line movement (DK at publish → DK 17:40Z Thursday, not CLV):** 2 toward us, 4 away, 1 flat.
+- Toward us: Cousins 17.5 completions (-610 → -660), SF +6.5 (-451 → -455, consensus also firmer).
+- Away from us: CAR +8.5 (-577 → -472), TEN +20.5 (-506 → -475), PIT +6.5 (-620 → -596), Chase 59.5 (-463 → -451).
+- Flat: Chase Brown 49.5 (-497).
+- The CAR move came from DK alone. The other books' median implied stayed at about 0.87 throughout, so DK is now about 4.5 pts *cheaper* than the market on that ladder. It is not a sharp move against Carolina.
+- Early-week vs Sunday tally: no change (Week 11 not graded).
+
+**Lessons applied / learned this run**
+1. **Use the tracking snapshots to tell DK-only moves from market moves.** The 3b check now compares DK's price path with the other books' median at the same rung. A DK price drifting cheaper while the rest of the market holds (CAR +9.5: -630 → -512 vs a steady 0.877 median) counts as a buy signal, not a warning.
+2. **Cap the power-model shade at 2.5 prob pts per leg.** Converting a sub-1-pt power shift with the empirical margin density near key numbers (3, 7) can add 4+ pts at some rungs (CAR +6.5 came out at +4.1). Capping it keeps published `fair` within the "trust the market" spirit. The power ratings also compress big spreads (best-fit scale 1.5×), so I scale the model before taking the gap.
+3. **Big-spread alt lines need a wider, shifted sample.** The unshifted ±1-pt window has too few games at spreads of 15-16, and the model drifted 10+ pts from the consensus (MIA +21.5). For |spread| ≥ 8 I now use favorite-folded games within ±3 pts, shifted by whole points. That brought the model back within about 2 pts of the consensus.
+4. **4b vs the 60% team-leg rule:** a 7-leg Tue/Thu slate can't satisfy both (3 required props leave 4/7 = 57% team legs). Like Tuesday, I keep the variety minimum and use exactly 3 props, one per parlay.
+5. **Prop haircut held at -1.5 pts** (no new graded rows to re-measure).
+6. **Waiting for Thursday's practice reports paid off.** Mayfield was limited Thursday, Tuten was off to the side, and none of the chosen players were affected. Between 18:05Z and 20:13Z, DK moved CAR +9.5 from -512 to -584 (toward the other books) and JT 9.5 rec yds from -354 to -394, both in our direction. Those legs carry less EV now but already have positive line movement. Track their CLV at close.
