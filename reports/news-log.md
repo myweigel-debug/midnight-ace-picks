@@ -80,3 +80,14 @@
   - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
 - Bets: none.
 - Credits remaining: 4,066,681 (board fetch).
+
+## 2026-11-19 01:40 UTC
+- Window: 23:40–01:40 UTC. Line tracking: saved odds/track/2026-11-19/0140Z.json.gz (14 games, 262 KB). The newest snapshot before this one was 2140Z, 4h old.
+- News events:
+  - Texans DE Danielle Hunter (hamstring) ruled OUT for TNF (ESPN injuries 00:23Z). Texans TE Brevin Jordan (foot, illness) ruled OUT (ESPN 00:19Z). IND @ HOU, Fri 11/20 01:15Z.
+  - Not events: Wednesday practice and questionable tags (Sauce Gardner, McConkey, Kolar, Madubuike, Benford, Kyler Gordon and others); Jared Wiley IR (already logged); Jalen Thompson IR return window; Kerby Joseph activated from PUP. nflverse has no new Out or Doubtful rows.
+- Lines checked (fresh event fetch for lines, passing, rushing and receiving plus the board; DK implied vs Pinnacle no-vig or the median of 3+ cs books):
+  - IND@HOU (266 priced sides of 953): HOU -12.5 -108 / IND +12.5 -112 (Pinnacle -13), ML -750/+525 (Pinnacle -725/+527). DK's total moved from 44.5 at 2140Z to 43.5 O -118/U -102 (Pinnacle 44 -103/-111), so DK has already reacted. All alt spreads are DK-expensive (-1 to -7 pts). The best prop is Tyler Warren U 40.5 rec yds -110 (0.524 vs Pinnacle 0.544, +2.0 pts). The best team market is the IND alt team total U 8.5 +425 (+1.5 pts, a long shot). Schultz rec yds 28.5 is -115/-109.
+  - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
+- Bets: none.
+- Credits remaining: 4,066,618 (board fetch).
