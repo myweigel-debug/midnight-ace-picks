@@ -106,3 +106,4 @@
   - Nothing is near the 5 pt (props) or 3 pt (team markets) thresholds.
 - Bets: none.
 - Credits remaining: 4,065,323 (tracker), 4,065,717 at the board fetch.
+- 2026-11-19 19:41 UTC: no new events (tracking skipped, 1740Z snapshot is 2h old; ESPN/nflverse since 17:40Z have only questionable/practice notes (Waller, Mayfield, Tuten, Douglas, Heck) and Humphrey follow-ups already logged; nflverse Week 11 Outs are the TNF ones already logged)
