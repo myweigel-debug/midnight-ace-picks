@@ -1,6 +1,166 @@
 {
  "slates": [
   {
+   "id": "2026-11-20-nba",
+   "sport": "nba",
+   "label": "NBA picks: Fri Nov 20",
+   "made": "2026-11-20T15:54:24Z",
+   "week": 5,
+   "note": "Two 2-leg parlays on four different games: Brooklyn +17.5 and Utah +15.5, where DK is about 3 points cheaper than the other books, plus Tari Eason's rebounds (Capela out, Sengun questionable) with Sacramento +29.5. The 3-leg parlay is dropped: every 3-leg that cleared the profit floor reused the same games, so both parlays are at the $50 tier.",
+   "parlays": [
+    {
+     "id": "2026-11-20-nba-1",
+     "stake": 50,
+     "prob": 0.653,
+     "ev": -0.029,
+     "why": "Brooklyn +17.5 (81.9% fair vs 82.3% DK; 80.4% consensus no-vig, DK -465 vs -500 to -700 elsewhere, 3.3 pts cheaper): Orlando is -5.5 without Banchero, so the Nets only need to avoid an 18+ point loss. Utah +15.5 (79.7% fair vs 81.7% DK; 79.0% no-vig, DK 2.9 pts cheaper): Phoenix is -4.5, and the Jazz have failed the spread by 11+ in only 2 of 16 games; they beat the Lakers by 12 on Wednesday. The backtest's 'DK 3-5 pts cheaper' team-leg bucket is the cheapest NBA leg type (+0.9%). EV is about -3%, so $50.",
+     "legs": [
+      {
+       "ev": "6e1faf38d3fed9e0396d6613891770e1",
+       "home": "Brooklyn Nets",
+       "away": "Orlando Magic",
+       "t": "2026-11-21T00:40:00Z",
+       "mk": "alternate_spreads",
+       "n": "Brooklyn Nets",
+       "p": 17.5,
+       "o": -465,
+       "fair": 0.819,
+       "cg": 3.3
+      },
+      {
+       "ev": "ee204ae35d677450476eab6ad6a146a7",
+       "home": "Utah Jazz",
+       "away": "Phoenix Suns",
+       "t": "2026-11-21T02:40:00Z",
+       "mk": "alternate_spreads",
+       "n": "Utah Jazz",
+       "p": 15.5,
+       "o": -446,
+       "fair": 0.797,
+       "cg": 2.9
+      }
+     ]
+    },
+    {
+     "id": "2026-11-20-nba-2",
+     "stake": 50,
+     "prob": 0.634,
+     "ev": -0.028,
+     "why": "Tari Eason 4+ rebounds (75.0% fair vs 75.2% DK; 77.0% consensus no-vig, up from 76.3% this morning; DK -304 vs -400 to -425 at FD/CZR/FAN/SCR, 4.8 pts cheaper): 4+ in 10 of his last 12 at 22-33 minutes. Capela is out and Sengun and Adams are questionable; our sim gives 83% with Sengun in and 91% with him out. Sacramento +29.5 (84.5% fair vs 86.7% DK; 83.7% no-vig, DK 2.2 pts cheaper): the Lakers are -14.5 without Reaves, and the Kings have failed the spread by 15+ in only 2 of 14 games. EV is about -3%, so $50.",
+     "legs": [
+      {
+       "ev": "086d2fe80483ffcc280994fe2e12d4f4",
+       "home": "Denver Nuggets",
+       "away": "Houston Rockets",
+       "t": "2026-11-21T03:10:00Z",
+       "mk": "player_rebounds_alternate",
+       "n": "Over",
+       "d": "Tari Eason",
+       "p": 3.5,
+       "o": -304,
+       "fair": 0.75,
+       "cg": 4.8
+      },
+      {
+       "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
+       "home": "Los Angeles Lakers",
+       "away": "Sacramento Kings",
+       "t": "2026-11-21T03:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Sacramento Kings",
+       "p": 29.5,
+       "o": -650,
+       "fair": 0.845,
+       "cg": 2.2
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "f8ad540db00e4a4a360d67dfcb7a53b8",
+     "home": "Atlanta Hawks",
+     "away": "Charlotte Hornets",
+     "t": "2026-11-21T00:10:00Z",
+     "w": "Atlanta Hawks",
+     "conf": 0.68,
+     "why": "De-vigged ML 68% (Pinnacle); Charlotte is 4-10, -7.0 ATS per game, and without Allen, Williams, Knueppel and Schroder on the 4th stop of a road trip."
+    },
+    {
+     "ev": "6e1faf38d3fed9e0396d6613891770e1",
+     "home": "Brooklyn Nets",
+     "away": "Orlando Magic",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Orlando Magic",
+     "conf": 0.67,
+     "why": "De-vigged ML 68% for Orlando; Brooklyn is 3-11 and lost its last two by 12 and 30. Banchero has been out a month, so his absence is priced in."
+    },
+    {
+     "ev": "10e9b9aca502ce158d6a3a91bf00bfd2",
+     "home": "Cleveland Cavaliers",
+     "away": "Indiana Pacers",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Cleveland Cavaliers",
+     "conf": 0.66,
+     "why": "De-vigged ML 67%; Indiana is without Haliburton, with Nembhard and Smith questionable, which offsets Mobley's absence."
+    },
+    {
+     "ev": "9051693857c6a0e5e1bc6bb2b4f6fe35",
+     "home": "Detroit Pistons",
+     "away": "Toronto Raptors",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Detroit Pistons",
+     "conf": 0.7,
+     "why": "De-vigged ML 70%, model 72%; Toronto just lost Barrett (hamstring) and is also without Leonard and Murray-Boyles."
+    },
+    {
+     "ev": "d6ed1e97c331fc604506e4c354ab1cdc",
+     "home": "Chicago Bulls",
+     "away": "Washington Wizards",
+     "t": "2026-11-21T01:10:00Z",
+     "w": "Chicago Bulls",
+     "conf": 0.56,
+     "why": "Near coin flip: market favorite at 56% de-vigged (Pinnacle CHI -2). No fresh news to flip it."
+    },
+    {
+     "ev": "17e3a8dc71275a88b19d0d6750a5052c",
+     "home": "Oklahoma City Thunder",
+     "away": "New Orleans Pelicans",
+     "t": "2026-11-21T01:10:00Z",
+     "w": "Oklahoma City Thunder",
+     "conf": 0.82,
+     "why": "De-vigged ML 82%; New Orleans is without Murray and Mathurin, with Murphy questionable."
+    },
+    {
+     "ev": "ee204ae35d677450476eab6ad6a146a7",
+     "home": "Utah Jazz",
+     "away": "Phoenix Suns",
+     "t": "2026-11-21T02:40:00Z",
+     "w": "Phoenix Suns",
+     "conf": 0.62,
+     "why": "De-vigged ML 62% for Phoenix; Utah is 3-13 without Markkanen, Jackson Jr. and Nurkic."
+    },
+    {
+     "ev": "086d2fe80483ffcc280994fe2e12d4f4",
+     "home": "Denver Nuggets",
+     "away": "Houston Rockets",
+     "t": "2026-11-21T03:10:00Z",
+     "w": "Denver Nuggets",
+     "conf": 0.53,
+     "why": "Coin flip: market favorite Denver at 53% de-vigged. My power model leans Houston (12-4), but Sengun and Adams are questionable and Capela is out, so I take the favorite."
+    },
+    {
+     "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
+     "home": "Los Angeles Lakers",
+     "away": "Sacramento Kings",
+     "t": "2026-11-21T03:10:00Z",
+     "w": "Los Angeles Lakers",
+     "conf": 0.86,
+     "why": "De-vigged ML 86%; the Kings are 1-13 (-12.3 per game adjusted), which outweighs Reaves being out."
+    }
+   ]
+  },
+  {
    "id": "2026-11-19-nba",
    "sport": "nba",
    "label": "NBA picks: Thu Nov 19",
