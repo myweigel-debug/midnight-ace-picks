@@ -1,6 +1,139 @@
 {
  "slates": [
   {
+   "id": "2026-11-21-nba",
+   "sport": "nba",
+   "label": "NBA picks: Sat Nov 21",
+   "made": "2026-11-21T15:50:38Z",
+   "week": 5,
+   "note": "Two 2-leg parlays on four different games, both $50: Karl-Anthony Towns 20+ points+assists with Memphis +17.5, and Sacramento +28.5 (DK 4.5 points cheaper than the other books) with Pelicans-Spurs Under 247.5. The 3-leg is dropped: after the Clippers and Pelicans cushions were vetoed for blowout tails, every 3-leg reused games from both 2-legs. The Bucks-76ers matinee had no leg that cleared.",
+   "parlays": [
+    {
+     "id": "2026-11-21-nba-1",
+     "stake": 50,
+     "prob": 0.632,
+     "ev": -0.018,
+     "why": "Karl-Anthony Towns 20+ points+assists (79.3% fair vs 78.0% DK; 81.9% consensus no-vig, DK -355 is 3.8 pts cheaper than the 6-book median): 20+ in 14 of 16 games (median 25) at 33-43 minutes, NYK only -5 so little bench risk; Clarkson is out and Anunoby questionable, which can only add usage. Memphis +17.5 (79.7% fair vs 82.5% DK; 79.8% no-vig, 6 books): Minnesota is -6 without Edwards, and Memphis has failed the spread by 10+ once in 16 games, though it is missing Grant, Boozer and Small. EV about -2%, so $50.",
+     "legs": [
+      {
+       "ev": "232f705eea406644ff14ad17bcf9aea6",
+       "home": "New York Knicks",
+       "away": "Portland Trail Blazers",
+       "t": "2026-11-22T00:40:00Z",
+       "mk": "player_points_assists_alternate",
+       "n": "Over",
+       "d": "Karl-Anthony Towns",
+       "p": 19.5,
+       "o": -355,
+       "fair": 0.793,
+       "cg": 3.8
+      },
+      {
+       "ev": "37e3f99d7ee68587400e99e417db0e6a",
+       "home": "Minnesota Timberwolves",
+       "away": "Memphis Grizzlies",
+       "t": "2026-11-22T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 17.5,
+       "o": -472,
+       "fair": 0.797,
+       "cg": 1.4
+      }
+     ]
+    },
+    {
+     "id": "2026-11-21-nba-2",
+     "stake": 50,
+     "prob": 0.729,
+     "ev": -0.024,
+     "why": "Sacramento +28.5 (85.5% fair vs 85.6% DK; 84.4% consensus no-vig, DK -592 vs -800 to -1000 elsewhere, 4.5 pts cheaper, the backtest's cheapest leg type): Boston is -13.5 with Tatum (rest) and White questionable before a back-to-back at Golden State, and the Kings' worst loss this season is 24. NOP@SAS Under 247.5 (85.3% fair vs 87.3% DK; 84.9% no-vig, 4 books): the total is 228.5, the Spurs have gone over 243 in 0 of 16 games, and lopsided games this season finish 3.4 points under the total (SAS -18). EV about -2.4%, so $50.",
+     "legs": [
+      {
+       "ev": "b754a1bf84af81d45d4a3a16398daa44",
+       "home": "Sacramento Kings",
+       "away": "Boston Celtics",
+       "t": "2026-11-22T03:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Sacramento Kings",
+       "p": 28.5,
+       "o": -592,
+       "fair": 0.855,
+       "cg": 4.5
+      },
+      {
+       "ev": "1139ffb82856378723c5465df4e13d96",
+       "home": "San Antonio Spurs",
+       "away": "New Orleans Pelicans",
+       "t": "2026-11-22T01:10:00Z",
+       "mk": "alternate_totals",
+       "n": "Under",
+       "p": 247.5,
+       "o": -690,
+       "fair": 0.853,
+       "cg": 2.1
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "6cd4587453e4da55317b2c1e3576e75b",
+     "home": "Philadelphia 76ers",
+     "away": "Milwaukee Bucks",
+     "t": "2026-11-21T18:10:00Z",
+     "w": "Philadelphia 76ers",
+     "conf": 0.81,
+     "why": "De-vigged ML 81% (Pinnacle -517); Milwaukee is 1-15 and 4 ATS-points worse than the line per game, which outweighs Maxey being questionable and Brown out."
+    },
+    {
+     "ev": "232f705eea406644ff14ad17bcf9aea6",
+     "home": "New York Knicks",
+     "away": "Portland Trail Blazers",
+     "t": "2026-11-22T00:40:00Z",
+     "w": "New York Knicks",
+     "conf": 0.63,
+     "why": "De-vigged ML 63% (Pinnacle NYK -5, -189); both teams have a questionable forward (Anunoby, Avdija), so no adjustment."
+    },
+    {
+     "ev": "293cafe6913a9bd59328c98049266ad0",
+     "home": "Dallas Mavericks",
+     "away": "Los Angeles Clippers",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "Dallas Mavericks",
+     "conf": 0.66,
+     "why": "De-vigged ML 66%; the Clippers are 4-10 without Ingram and Beal, which offsets Washington and Clayton being questionable for Dallas."
+    },
+    {
+     "ev": "37e3f99d7ee68587400e99e417db0e6a",
+     "home": "Minnesota Timberwolves",
+     "away": "Memphis Grizzlies",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "Minnesota Timberwolves",
+     "conf": 0.67,
+     "why": "De-vigged ML 68% for Minnesota at home; Memphis (12-4) is missing Grant, Boozer, Small, Jackson and Pippen."
+    },
+    {
+     "ev": "1139ffb82856378723c5465df4e13d96",
+     "home": "San Antonio Spurs",
+     "away": "New Orleans Pelicans",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "San Antonio Spurs",
+     "conf": 0.91,
+     "why": "De-vigged ML 91%; the Spurs are 13-3 at home and New Orleans (5-12) is on the second night of a back-to-back."
+    },
+    {
+     "ev": "b754a1bf84af81d45d4a3a16398daa44",
+     "home": "Sacramento Kings",
+     "away": "Boston Celtics",
+     "t": "2026-11-22T03:10:00Z",
+     "w": "Boston Celtics",
+     "conf": 0.85,
+     "why": "De-vigged ML 85%; Sacramento is 1-14 and on a back-to-back. Tatum (rest) and White are questionable, which the -13.5 line partly prices."
+    }
+   ]
+  },
+  {
    "id": "2026-11-20-nba",
    "sport": "nba",
    "label": "NBA picks: Fri Nov 20",

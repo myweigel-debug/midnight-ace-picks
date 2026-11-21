@@ -5,7 +5,7 @@ Claude's running notes on what works and what doesn't in the daily NBA slates. E
 ## Season table
 | Week | Parlays W-L | Profit | Expected | Pick'ems | Avg CLV |
 |---|---|---|---|---|---|
-| 5 (Nov 16-22, in progress) | 2-0 | +$89.69 | -$1.10 | 4-0 | -1.8 pts (1 of 4 legs positive) |
+| 5 (Nov 16-22, in progress) | 4-0 | +$140.69 | -$3.95 | 10-3 | -2.1 pts (1 of 8 legs positive) |
 
 ## Starting points (carried over from the NFL routine, 2026-11-17)
 - Hit rate first, but very short legs pay too little: the sweet spot is about -250 to -650.
@@ -50,3 +50,23 @@ The team -400..-649 bucket technically passes the ">=60 legs, >2 SE" test (2.7 S
 - **Concentration lesson applied:** the only 3-leg parlays that cleared the floor reused the same games as both 2-leg parlays (Brooklyn in all three). The 3-leg is dropped, and the two 2-leg parlays use 4 different games.
 - **Team-specific blowout tails, as an adversarial check:** Charlotte had failed the spread by 13+ in 5 of 14 games (league rate 17%), so its +19.5/+20.5 legs were dropped even though DK was 3.5 points cheapest there. Brooklyn's tail (4/14 vs 18%) was accepted at market. Track whether these team-tail vetoes save or cost legs.
 - **Morning movement on alt cushions:** in 45 minutes the other books shortened Phoenix, and Utah +16.5's DK edge went from +3.0 to +2.1. A `cg`-driven leg can lose its edge before publish, so always re-pull before finalizing.
+
+## 2026-11-21 (Sat, week 5): grading 2026-11-20-nba
+**Record:** parlays 2-0 (#1 $50: BKN +17.5 ✓ lost by 2, UTA +15.5 ✓ lost by 10, +$24.35; #2 $50: Eason 4+ reb ✓ (6), SAC +29.5 ✓ lost by 2, +$26.65). Total +$51.00 against an expected -$2.85. Legs 4-0: team 3-0 (all underdog alt-spread cushions with DK 2-3 points cheaper), props 1-0 (Eason, wing). Pick'ems 6-3: misses were DET 0.70 (Toronto won by 3 without Barrett: variance), CHI 0.56 (coin flip, market favorite lost) and HOU 0.53 (the late flip from DEN to HOU after Sengun/Adams were cleared; Denver won by 9). Week pick'em calibration: 13 picks, expected 9.0 wins, actual 10.
+**Luck or skill:** luck again. CLV on the four legs: BKN -2.8, UTA -0.5, Eason -5.8 (Sengun and Adams were cleared, so his rebound share fell), SAC -0.3. Week to date: 1 of 8 legs closed in our favor, average -2.1 points. Four wins on eight legs against an expected profit of about -$4 is not evidence of edge. The cushions keep hitting because these are 78-87% legs, not because the price was good.
+**Lesson on the late flip:** the HOU flip followed Pinnacle by 1-2 points on a coin flip. That's fine as a rule (follow fresh news and the sharp book), but don't read anything into one loss: a 52% pick loses 48% of the time.
+**Line history:** graded 10,062 rows from the 2026-11-20 snapshot (189 prop rungs void for DNPs). Two-night calibration (team n / distinct games / hit / implied; props n / distinct player-games / hit / implied):
+
+| Bucket | Team | Props |
+|---|---|---|
+| -150..-249 | 439 / 13 / 62.0 / 65.8 | 779 / 150 / 61.6 / 64.9 |
+| -250..-399 | 363 / 13 / 76.3 / 75.8 | 483 / 148 / 72.5 / 75.8 |
+| -400..-649 | 312 / 13 / 85.9 / 83.1 | 372 / 144 / 82.3 / 83.2 |
+| <=-650 | 328 / 13 / 93.9 / 90.9 | 778 / 148 / 90.5 / 92.4 |
+
+Props trail their implied rate in every bucket (by 0.9 to 3.4 points, across about 150 player-games each). That matches the backtest's 5-9% prop cost. Team rungs sit at or above implied, but only 13 games stand behind them. No shading applied yet: the prop gap is within 2 SE per bucket once you count player-games instead of rungs. Picked legs: 8-0 against a summed fair of 6.36.
+**What shaped the 11-21 slate**
+- **Team-tail veto, applied again:** the Clippers (+15.5, DK 3.1 points cheaper) failed the spread by 16+ in 4 of 14 games, and the Pelicans (+30.5) in 4 of 17 with a 40-point worst. Both were cut even though DK was cheapest there, the same rule as Charlotte on 11-20.
+- **B2B rest rule:** New Orleans sat Zion and Murphy on the second night of a back-to-back on Nov 9, so no Pelicans props tonight. Sacramento is on its first back-to-back of the season (no history), and Boston has Tatum (rest) and White questionable, so no props from that game either.
+- **Model dispersion check:** the prop model's mean is unbiased against the main lines (median projection minus line: points +0.1, rebounds +0.1, assists +0.1, PRA -0.2). The ladder "edges" come almost entirely from dispersion. That's why the model only gets 30% weight before the 50% backtest blend.
+- **Concentration:** 6 games, but only four legs on the board cleared the floor after vetoes (Towns, SAC cushion, MEM cushion, NOP/SAS Under). Two 2-leg parlays on four different games; the 3-leg is dropped again, since any 3-leg would reuse games from both 2-legs.
