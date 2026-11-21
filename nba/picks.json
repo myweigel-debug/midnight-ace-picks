@@ -63,7 +63,9 @@
        "p": 3.5,
        "o": -304,
        "fair": 0.75,
-       "cg": 4.8
+       "cg": 4.8,
+       "cl": -289,
+       "clp": 0.712
       },
       {
        "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
@@ -75,7 +77,9 @@
        "p": 29.5,
        "o": -650,
        "fair": 0.845,
-       "cg": 2.2
+       "cg": 2.2,
+       "cl": -670,
+       "clp": 0.834
       }
      ]
     }
@@ -149,9 +153,9 @@
      "home": "Denver Nuggets",
      "away": "Houston Rockets",
      "t": "2026-11-21T03:10:00Z",
-     "w": "Denver Nuggets",
+     "w": "Houston Rockets",
      "conf": 0.53,
-     "why": "Coin flip: market favorite Denver at 53% de-vigged. My power model leans Houston (12-4), but Sengun and Adams are questionable and Capela is out, so I take the favorite."
+     "why": "Coin flip: market favorite Denver at 53% de-vigged. My power model leans Houston (12-4), but Sengun and Adams are questionable and Capela is out, so I take the favorite. Late update: Sengun and Adams are both active and Pinnacle has flipped to Houston (-115/+102, 52% no-vig), which matches my model, so the pick flips to Houston."
     },
     {
      "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
