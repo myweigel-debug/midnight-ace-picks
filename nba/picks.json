@@ -11,22 +11,25 @@
     {
      "id": "2026-11-21-nba-1",
      "stake": 50,
-     "prob": 0.632,
-     "ev": -0.018,
-     "why": "Karl-Anthony Towns 20+ points+assists (79.3% fair vs 78.0% DK; 81.9% consensus no-vig, DK -355 is 3.8 pts cheaper than the 6-book median): 20+ in 14 of 16 games (median 25) at 33-43 minutes, NYK only -5 so little bench risk; Clarkson is out and Anunoby questionable, which can only add usage. Memphis +17.5 (79.7% fair vs 82.5% DK; 79.8% no-vig, 6 books): Minnesota is -6 without Edwards, and Memphis has failed the spread by 10+ once in 16 games, though it is missing Grant, Boozer and Small. EV about -2%, so $50.",
+     "prob": 0.543,
+     "ev": -0.039,
+     "why": "Karl-Anthony Towns 20+ points+assists (79.3% fair vs 78.0% DK; 81.9% consensus no-vig, DK -355 is 3.8 pts cheaper than the 6-book median): 20+ in 14 of 16 games (median 25) at 33-43 minutes, NYK only -5 so little bench risk; Clarkson is out and Anunoby questionable, which can only add usage. Memphis +17.5 (79.7% fair vs 82.5% DK; 79.8% no-vig, 6 books): Minnesota is -6 without Edwards, and Memphis has failed the spread by 10+ once in 16 games, though it is missing Grant, Boozer and Small. EV about -2%, so $50. Late swap: Towns was ruled out (illness) and Anunoby is out too, so Josh Hart Over 6.5 rebounds (68.1% consensus no-vig, DK -217 vs -242.5 median) replaces him; no remaining leg kept EV at the published -2%, and this is the best one left, at about -4%.",
      "legs": [
       {
        "ev": "232f705eea406644ff14ad17bcf9aea6",
        "home": "New York Knicks",
        "away": "Portland Trail Blazers",
        "t": "2026-11-22T00:40:00Z",
-       "mk": "player_points_assists_alternate",
+       "mk": "player_rebounds_alternate",
        "n": "Over",
-       "d": "Karl-Anthony Towns",
-       "p": 19.5,
-       "o": -355,
-       "fair": 0.793,
-       "cg": 3.8
+       "d": "Josh Hart",
+       "p": 6.5,
+       "o": -217,
+       "fair": 0.681,
+       "cg": 2.3,
+       "cl": -217,
+       "clp": 0.681,
+       "swap": "Replaced Karl-Anthony Towns Over 19.5 pts+ast (ruled out, illness) 6:28 PM ET"
       },
       {
        "ev": "37e3f99d7ee68587400e99e417db0e6a",
@@ -91,9 +94,9 @@
      "home": "New York Knicks",
      "away": "Portland Trail Blazers",
      "t": "2026-11-22T00:40:00Z",
-     "w": "New York Knicks",
-     "conf": 0.63,
-     "why": "De-vigged ML 63% (Pinnacle NYK -5, -189); both teams have a questionable forward (Anunoby, Avdija), so no adjustment."
+     "w": "Portland Trail Blazers",
+     "conf": 0.51,
+     "why": "De-vigged ML 63% (Pinnacle NYK -5, -189); both teams have a questionable forward (Anunoby, Avdija), so no adjustment. Flipped at 6:28 PM ET: Towns (illness) and Anunoby are both out, and Pinnacle moved to POR -109 / NYK +100 (51% Portland no-vig)."
     },
     {
      "ev": "293cafe6913a9bd59328c98049266ad0",
