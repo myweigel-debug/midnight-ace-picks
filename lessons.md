@@ -224,3 +224,24 @@ These are the slates the owner's notes call "Week 9". ESPN numbers the Oct 29 - 
 4. **4b vs the 60% team-leg rule:** a 7-leg Tue/Thu slate can't satisfy both (3 required props leave 4/7 = 57% team legs). Like Tuesday, I keep the variety minimum and use exactly 3 props, one per parlay.
 5. **Prop haircut held at -1.5 pts** (no new graded rows to re-measure).
 6. **Waiting for Thursday's practice reports paid off.** Mayfield was limited Thursday, Tuten was off to the side, and none of the chosen players were affected. Between 18:05Z and 20:13Z, DK moved CAR +9.5 from -512 to -584 (toward the other books) and JT 9.5 rec yds from -354 to -394, both in our direction. Those legs carry less EV now but already have positive line movement. Track their CLV at close.
+
+## 2026-11-22 review (Sunday run, ESPN Week 11)
+**Record:** only TNF is final (IND 3 @ HOU 26).
+- **Legs:** Jonathan Taylor 10+ rec yds (2026-11-17-thu-2) **lost**: 4 catches for 6 yards on 5 targets. **Parlay thu-2 lost: -$50** (its JAX +2.5 leg no longer matters). Expected profit at publish was about $0, so this was -$50 of bad luck on one leg.
+  - Why: the Colts scored 3 points and Daniel Jones threw for 144. The script we wanted (Indy trailing and checking down) happened, but every RB catch was a short dump-off (long gain 5 yards). Mostly variance on a low-yardage rung. It also shows a news risk the Tue/Thu rules point at: the Colts released Jones the next day.
+- **Early-week vs Sunday tally (running):** Week 11 Tue/Thu props so far 0-1 (JT). Week 10 Tue/Thu props 6-4 at 0.84 implied. Sunday props Week 10: 10-1. Keep counting. Tuesday will grade 13 more games.
+- **Pick'ems:** HOU (0.86) **won**. Week 11: 1-0. Season: 33-10.
+- **CLV:** JT 9.5 went from -394 to -384 at DK. `clp` 0.759 vs publish no-vig 0.794 gives **-3.5 pts**. Running CLV for graded legs with `clp`: 0 of 29 positive, average -3.3 pts. The method mismatch from earlier weeks still explains most of that gap: the publish `mkt` came from one-sided ladder fits. This slate's `mkt` uses the same per-book power de-vig as the close, so these legs will be the first fair test.
+- **Moneyline-parlay scorecard:** no Week 11 ML bonus graded yet. Today's ML picks within 3 pts of Pinnacle: BUF, CHI. More than 3 pts off (the power shade): DAL +2.6, JAX +2.5, CIN +2.5. Track whether `cl` moves toward them.
+- **News bets (`-news` slates):** none placed this week; the tracker found nothing at the 5-pt (props) / 3-pt (team) thresholds.
+
+**Line history:** +1,917 graded rows for IND@HOU from the 2026-11-17 tue/thu snapshots (447 TD, longest-reception and DNP rows skipped).
+- In this one game, short-priced prop Overs hit far below implied (deduped: -250..-399 26% vs 76%, -400..-649 54% vs 84%, -650+ 82% vs 92%). Team markets: -650+ 88% vs 94%.
+- That is the same direction as Week 10's 14 games, but it is one 26-3 game, so it is a single correlated draw. **The prop haircut stays at -1.5 pts.** I'll re-measure Tuesday with all 13 Week 11 games, and move to the full measured gap (about -3 pts) if it holds.
+
+**Lessons applied this run**
+1. **Watch DK-only drifts vs whole-market moves.** Using the tracking snapshots, I dropped legs where the whole market moved away: Ollie Gordon 40+ (other books' median 0.80 to 0.73), Gibbs 50+ (0.93 to 0.89) and Sutton 10+ (0.92 to 0.89). I kept legs where only DK drifted cheaper while the other books held: Flournoy -600 to -373 (median 0.84 to 0.83), Purdy, Jameson Williams.
+2. **Concentration across the week:** no leg identical to an open Tue/Thu leg (Bills -3.5 and Chase Brown 50+ were avoided). The Thu-2 parlay is already lost, so its JAX +2.5 leg adds no exposure to today's Jaguars ML legs.
+3. **Weather:** heavy rain and wind in Chicago and light rain at MetLife. No passing, receiving or kicking overs in either game. In those games I used the Bears team-total under, Swift's and Skattebo's rush+rec yards, and Jacksonville sides.
+4. **The 60%-team-legs vs 4b conflict again:** 14 core legs, with 2 QB, 2 RB and 2 WR/TE props required. That leaves 8 team legs (57%), exactly one prop per parlay.
+5. **Bonus parlays keep at most one leg shorter than -700**, the same as core. That forced me to choose between the Chiefs and Bills MLs for the ML bonus.

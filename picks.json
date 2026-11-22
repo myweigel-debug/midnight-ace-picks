@@ -1,6 +1,764 @@
 {
  "slates": [
   {
+   "id": "2026-11-17-sun",
+   "label": "Sunday picks",
+   "made": "2026-11-22T13:19:40Z",
+   "week": 11,
+   "note": "Week 11 Sunday: six core parlays with every leg in a different game, built mostly on team markets (Chiefs -3.5, Jaguars and Cowboys MLs, Bears team-total under in the Chicago rain, Bucs +9.5, Vikings +11.5, Bills team total, Bengals ML) plus one locked-in prop each (Purdy, Mahomes, Skattebo, Breece Hall, Flournoy, Jameson Williams), and three $50 bonus 5-leggers. Week-long line tracking was used to drop legs the whole market moved away from (Gordon, Gibbs, Sutton); TNF review: Jonathan Taylor's 6 receiving yards sank thu-2.",
+   "parlays": [
+    {
+     "id": "2026-11-17-sun-1",
+     "stake": 100,
+     "prob": 0.5244,
+     "ev": 0.0129,
+     "why": "Skattebo 50+ rush+rec yds: cleared it in all six recent games (55-122), 89% snaps last week, and light rain at MetLife favors the run game; DK is 3.8 pts cheaper than the other books' median, and DK moved from -367 to -389 this morning, toward us (fair 80% vs DK 80%); Cowboys ML: Pinnacle no-vig 76.6%, and 70-80% favorites beat their closing price by 1-2.5 pts in both halves of 2010-25 (+1 pt). My EPA ratings like Dallas more, but the 2015+ results at this spread and total say 71%, so I gave no power shade (fair 78% vs DK 77%); Bears team total under 39.5: rain (91% at kickoff) and 15-20 mph wind at Soldier Field, so 40+ needs a blowout in the slop; the 2015+ team-score residuals give 85.6% (fair 85% vs DK 84%). P(hit) 0.52, payout 1.93x, EV +1.3%; backtest leg cost about 14%.",
+     "legs": [
+      {
+       "ev": "8ba112fabf4e87639338a5f437c5abfe",
+       "home": "New York Giants",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-22T21:25:00Z",
+       "mk": "player_rush_reception_yds_alternate",
+       "n": "Over",
+       "d": "Cam Skattebo",
+       "p": 49.5,
+       "o": -389,
+       "fair": 0.797,
+       "cg": 3.8,
+       "mkt": 0.7969,
+       "nb": 4
+      },
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "h2h",
+       "n": "Dallas Cowboys",
+       "o": -344,
+       "fair": 0.776,
+       "cg": 1.2,
+       "mkt": 0.7661,
+       "nb": 9
+      },
+      {
+       "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+       "home": "Chicago Bears",
+       "away": "New Orleans Saints",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Chicago Bears",
+       "p": 39.5,
+       "o": -525,
+       "fair": 0.848,
+       "cg": 2.7,
+       "mkt": 0.8401,
+       "nb": 4
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-2",
+     "stake": 50,
+     "prob": 0.5096,
+     "ev": -0.0259,
+     "why": "Purdy 180+ pass yds: 189-389 in his last six, 100% snaps, calm 60\u00b0F night at altitude in Mexico City; DK -583 has drifted 3 pts cheaper than a steady market (fair 85% vs DK 85%); Bucs +9.5: Detroit is a 3.5-pt favorite in a dome; the market has moved toward Tampa all week (other books 0.64 to 0.71 on this rung), and Mayfield is confirmed to play and the empirical margin table gives 74% for a 3.5-pt underdog getting 9.5 (fair 71% vs DK 72%); Bills team total over 21.5: Buffalo is a 16.5-pt favorite against Kyle McCord and a Miami DL just hit by season-ending injuries, dry 66\u00b0F in Orchard Park (fair 85% vs DK 86%). P(hit) 0.51, payout 1.91x, EV -2.6%; backtest leg cost about 14%.",
+     "legs": [
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Brock Purdy",
+       "p": 179.5,
+       "o": -583,
+       "fair": 0.848,
+       "cg": 3.0,
+       "mkt": 0.8483,
+       "nb": 3
+      },
+      {
+       "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+       "home": "Detroit Lions",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Tampa Bay Buccaneers",
+       "p": 9.5,
+       "o": -251,
+       "fair": 0.707,
+       "cg": 0.7,
+       "mkt": 0.6941,
+       "nb": 8
+      },
+      {
+       "ev": "4c5b1c0843a260278e95eb93e7787576",
+       "home": "Buffalo Bills",
+       "away": "Miami Dolphins",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Over",
+       "d": "Buffalo Bills",
+       "p": 21.5,
+       "o": -600,
+       "fair": 0.85,
+       "cg": 1.8,
+       "mkt": 0.8501,
+       "nb": 4
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-3",
+     "stake": 150,
+     "prob": 0.6968,
+     "ev": 0.0261,
+     "why": "Flournoy 20+ rec yds: 38-90 yds in all six recent games with 68-97% snaps, and TE Jake Ferguson and WR Jonathan Mingo are both OUT, so more targets; DK drifted from -600 to -373 while the other books held, 3.8 pts cheaper than the median (fair 80% vs DK 79%); Chiefs -3.5: a 15.5-pt favorite against 40-year-old Josh Johnson (Beck ruled out); the margin table gives 88% for winning by 4+ (fair 87% vs DK 86%). P(hit) 0.70, payout 1.47x, EV +2.6%; backtest leg cost about 10%.",
+     "legs": [
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Ryan Flournoy",
+       "p": 19.5,
+       "o": -373,
+       "fair": 0.805,
+       "cg": 3.7,
+       "mkt": 0.8047,
+       "nb": 5
+      },
+      {
+       "ev": "403a88701352da05b0710a9e883b803e",
+       "home": "Kansas City Chiefs",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Kansas City Chiefs",
+       "p": -3.5,
+       "o": -620,
+       "fair": 0.866,
+       "cg": 1.4,
+       "mkt": 0.8512,
+       "nb": 6
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-4",
+     "stake": 100,
+     "prob": 0.592,
+     "ev": 0.0445,
+     "why": "Mahomes 200+ pass yds: 225-348 in five of his last six (165 the miss), 95-100% snaps; 8 books price this rung and DK is 2.9 pts cheaper. The price drifted from -461 to -374 this week (the market expects a run-heavy blowout against a backup QB, plus two KC OL out and 13-15 mph wind), and the fair is taken from today's number (fair 80% vs DK 79%); Jaguars ML: Pinnacle no-vig 71.9% and DK -255 is roughly at par with it; Jacksonville has the league's best net EPA/play and my ratings have them by 11.6 vs the 5.3 market (shade capped at +2.5 pts) (fair 74% vs DK 72%). P(hit) 0.59, payout 1.76x, EV +4.5%; backtest leg cost about 9%.",
+     "legs": [
+      {
+       "ev": "403a88701352da05b0710a9e883b803e",
+       "home": "Kansas City Chiefs",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Patrick Mahomes",
+       "p": 199.5,
+       "o": -374,
+       "fair": 0.796,
+       "cg": 2.9,
+       "mkt": 0.7957,
+       "nb": 8
+      },
+      {
+       "ev": "8ba112fabf4e87639338a5f437c5abfe",
+       "home": "New York Giants",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-22T21:25:00Z",
+       "mk": "h2h",
+       "n": "Jacksonville Jaguars",
+       "o": -255,
+       "fair": 0.744,
+       "cg": 1.5,
+       "mkt": 0.719,
+       "nb": 9
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-5",
+     "stake": 50,
+     "prob": 0.5829,
+     "ev": 0.0106,
+     "why": "Breece Hall 10+ rec yds: 16-67 in every game this season, 4-5 targets lately, and the Jets lose WRs Omar Cooper Jr. and Isaiah Williams, so more checkdowns; DK is 3.9 pts cheaper than the other books, and it moved from -270 to -292 this morning, toward us (fair 75% vs DK 74%); Vikings +11.5: SF is only a 3-pt favorite on a neutral field in Mexico City; the empirical table gives 79% for a 3-pt dog getting 11.5 (fair 77% vs DK 77%). P(hit) 0.58, payout 1.73x, EV +1.1%; backtest leg cost about 10%.",
+     "legs": [
+      {
+       "ev": "4b20b742b6168aaca4f25d87f11b1526",
+       "home": "Los Angeles Chargers",
+       "away": "New York Jets",
+       "t": "2026-11-22T21:05:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Breece Hall",
+       "p": 9.5,
+       "o": -292,
+       "fair": 0.753,
+       "cg": 3.9,
+       "mkt": 0.7526,
+       "nb": 5
+      },
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "alternate_spreads",
+       "n": "Minnesota Vikings",
+       "p": 11.5,
+       "o": -343,
+       "fair": 0.774,
+       "cg": 2.6,
+       "mkt": 0.7646,
+       "nb": 8
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-6",
+     "stake": 100,
+     "prob": 0.6142,
+     "ev": -0.0031,
+     "why": "Jameson Williams 25+ rec yds: 31-102 in all six recent games, 79-84% snaps, dome; DK drifted from -500 to -447 midweek while the other books held at 0.846, then firmed to -462 this morning (fair 82% vs DK 82%); Bengals ML: Pinnacle no-vig 72.7%; Burrow fully practiced all week and my ratings have Cincinnati by 10.9 vs the 6.2 market (shade capped at +2.5), clear 50\u00b0F Monday night (fair 75% vs DK 75%). P(hit) 0.61, payout 1.62x, EV -0.3%; backtest leg cost about 8%.",
+     "legs": [
+      {
+       "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+       "home": "Detroit Lions",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Jameson Williams",
+       "p": 24.5,
+       "o": -462,
+       "fair": 0.817,
+       "cg": 2.4,
+       "mkt": 0.8168,
+       "nb": 5
+      },
+      {
+       "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+       "home": "Washington Commanders",
+       "away": "Cincinnati Bengals",
+       "t": "2026-11-24T01:15:00Z",
+       "mk": "h2h",
+       "n": "Cincinnati Bengals",
+       "o": -299,
+       "fair": 0.752,
+       "cg": -0.3,
+       "mkt": 0.7269,
+       "nb": 9
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-7",
+     "stake": 50,
+     "prob": 0.4396,
+     "ev": -0.0112,
+     "why": "Sunday 5-leg bonus: Breece Hall 50+ rush+rec yds (consensus moved toward it all week, 0.79 to 0.85) (fair 81% vs DK 82%); Diggs 20+ rec yds (33-83 in all six recent games, 5-10 targets) (fair 87% vs DK 87%); Cousins 180+ pass yds (207-313 in his last six starts, dome-like calm in Mexico City) (fair 82% vs DK 83%); Jaguars +6.5 (the safer cousin of the ML: they cover unless they lose by 7+) (fair 90% vs DK 88%); Bills team total over 21.5: Buffalo is a 16.5-pt favorite against Kyle McCord and a Miami DL just hit by season-ending injuries, dry 66\u00b0F in Orchard Park (fair 85% vs DK 86%). P(hit) 0.44, payout 2.25x, EV -1.1%; backtest leg cost about 32%.",
+     "legs": [
+      {
+       "ev": "4b20b742b6168aaca4f25d87f11b1526",
+       "home": "Los Angeles Chargers",
+       "away": "New York Jets",
+       "t": "2026-11-22T21:05:00Z",
+       "mk": "player_rush_reception_yds_alternate",
+       "n": "Over",
+       "d": "Breece Hall",
+       "p": 49.5,
+       "o": -453,
+       "fair": 0.813,
+       "cg": 2.8,
+       "mkt": 0.8128,
+       "nb": 3
+      },
+      {
+       "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+       "home": "Washington Commanders",
+       "away": "Cincinnati Bengals",
+       "t": "2026-11-24T01:15:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Stefon Diggs",
+       "p": 19.5,
+       "o": -660,
+       "fair": 0.866,
+       "cg": 1.4,
+       "mkt": 0.8663,
+       "nb": 5
+      },
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Kirk Cousins",
+       "p": 179.5,
+       "o": -476,
+       "fair": 0.819,
+       "cg": 2.2,
+       "mkt": 0.8185,
+       "nb": 3
+      },
+      {
+       "ev": "8ba112fabf4e87639338a5f437c5abfe",
+       "home": "New York Giants",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-22T21:25:00Z",
+       "mk": "alternate_spreads",
+       "n": "Jacksonville Jaguars",
+       "p": 6.5,
+       "o": -750,
+       "fair": 0.897,
+       "cg": 1.8,
+       "mkt": 0.8837,
+       "nb": 5
+      },
+      {
+       "ev": "4c5b1c0843a260278e95eb93e7787576",
+       "home": "Buffalo Bills",
+       "away": "Miami Dolphins",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Over",
+       "d": "Buffalo Bills",
+       "p": 21.5,
+       "o": -600,
+       "fair": 0.85,
+       "cg": 1.8,
+       "mkt": 0.8501,
+       "nb": 4
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-8",
+     "stake": 50,
+     "prob": 0.4443,
+     "ev": 0.0042,
+     "why": "Sunday 5-leg bonus: Bears team total under 39.5: rain (91% at kickoff) and 15-20 mph wind at Soldier Field, so 40+ needs a blowout in the slop; the 2015+ team-score residuals give 85.6% (fair 85% vs DK 84%); Pickens 40+ rec yds (18 targets last game; Ferguson and Mingo out) (fair 82% vs DK 83%); Purdy 180+ pass yds: 189-389 in his last six, 100% snaps, calm 60\u00b0F night at altitude in Mexico City; DK -583 has drifted 3 pts cheaper than a steady market (fair 85% vs DK 85%); Chiefs -3.5: a 15.5-pt favorite against 40-year-old Josh Johnson (Beck ruled out); the margin table gives 88% for winning by 4+ (fair 87% vs DK 86%); Jameson Williams 20+ rec yds (fair 87% vs DK 87%). P(hit) 0.44, payout 2.26x, EV +0.4%; backtest leg cost about 28%.",
+     "legs": [
+      {
+       "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+       "home": "Chicago Bears",
+       "away": "New Orleans Saints",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "Chicago Bears",
+       "p": 39.5,
+       "o": -525,
+       "fair": 0.848,
+       "cg": 2.7,
+       "mkt": 0.8401,
+       "nb": 4
+      },
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "George Pickens",
+       "p": 39.5,
+       "o": -472,
+       "fair": 0.82,
+       "cg": 2.1,
+       "mkt": 0.8196,
+       "nb": 6
+      },
+      {
+       "ev": "60e1d27b083a335b722c2c852ea85612",
+       "home": "San Francisco 49ers",
+       "away": "Minnesota Vikings",
+       "t": "2026-11-23T01:20:00Z",
+       "mk": "player_pass_yds_alternate",
+       "n": "Over",
+       "d": "Brock Purdy",
+       "p": 179.5,
+       "o": -583,
+       "fair": 0.848,
+       "cg": 3.0,
+       "mkt": 0.8483,
+       "nb": 3
+      },
+      {
+       "ev": "403a88701352da05b0710a9e883b803e",
+       "home": "Kansas City Chiefs",
+       "away": "Arizona Cardinals",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Kansas City Chiefs",
+       "p": -3.5,
+       "o": -620,
+       "fair": 0.866,
+       "cg": 1.4,
+       "mkt": 0.8512,
+       "nb": 6
+      },
+      {
+       "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+       "home": "Detroit Lions",
+       "away": "Tampa Bay Buccaneers",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "player_reception_yds_alternate",
+       "n": "Over",
+       "d": "Jameson Williams",
+       "p": 19.5,
+       "o": -660,
+       "fair": 0.87,
+       "cg": 2.0,
+       "mkt": 0.8704,
+       "nb": 6
+      }
+     ]
+    },
+    {
+     "id": "2026-11-17-sun-9",
+     "stake": 50,
+     "prob": 0.3411,
+     "ev": 0.0034,
+     "why": "Sunday 5-leg moneyline bonus: Bills (93.4% vs Pinnacle 92.4%; Miami's DL lost starters for the season) (fair 93% vs DK 94%); Bears (84% vs 84%; New Orleans is without three OL starters plus S Reid and CB Emerson, in heavy rain) (fair 84% vs DK 87%); Cowboys ML: Pinnacle no-vig 76.6%, and 70-80% favorites beat their closing price by 1-2.5 pts in both halves of 2010-25 (+1 pt). My EPA ratings like Dallas more, but the 2015+ results at this spread and total say 71%, so I gave no power shade (fair 78% vs DK 77%); Jaguars ML: Pinnacle no-vig 71.9% and DK -255 is roughly at par with it; Jacksonville has the league's best net EPA/play and my ratings have them by 11.6 vs the 5.3 market (shade capped at +2.5 pts) (fair 74% vs DK 72%); Bengals ML: Pinnacle no-vig 72.7%; Burrow fully practiced all week and my ratings have Cincinnati by 10.9 vs the 6.2 market (shade capped at +2.5), clear 50\u00b0F Monday night (fair 75% vs DK 75%). P(hit) 0.34, payout 2.94x, EV +0.3%; backtest leg cost about 5%. Passed on: Chiefs (92.9%) because only one leg shorter than -700 is allowed and Arrowhead has 13-15 mph wind (favorites in 15+ mph wind trailed their line by 1-2 pts in both 2010-17 and 2018-25) with two KC OL and Kenneth Walker out; Broncos (84.9%) because DK's -660 is 1.1 pts more expensive than the other books. No underdog: none reaches 50% in my model.",
+     "legs": [
+      {
+       "ev": "4c5b1c0843a260278e95eb93e7787576",
+       "home": "Buffalo Bills",
+       "away": "Miami Dolphins",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "h2h",
+       "n": "Buffalo Bills",
+       "o": -1480,
+       "fair": 0.934,
+       "cg": 0.4,
+       "mkt": 0.9243,
+       "nb": 9
+      },
+      {
+       "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+       "home": "Chicago Bears",
+       "away": "New Orleans Saints",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "h2h",
+       "n": "Chicago Bears",
+       "o": -670,
+       "fair": 0.841,
+       "cg": 0.0,
+       "mkt": 0.8394,
+       "nb": 9
+      },
+      {
+       "ev": "5e63079b678f8c13419adc169fff02d3",
+       "home": "Dallas Cowboys",
+       "away": "Tennessee Titans",
+       "t": "2026-11-22T18:00:00Z",
+       "mk": "h2h",
+       "n": "Dallas Cowboys",
+       "o": -344,
+       "fair": 0.776,
+       "cg": 1.2,
+       "mkt": 0.7661,
+       "nb": 9
+      },
+      {
+       "ev": "8ba112fabf4e87639338a5f437c5abfe",
+       "home": "New York Giants",
+       "away": "Jacksonville Jaguars",
+       "t": "2026-11-22T21:25:00Z",
+       "mk": "h2h",
+       "n": "Jacksonville Jaguars",
+       "o": -255,
+       "fair": 0.744,
+       "cg": 1.5,
+       "mkt": 0.719,
+       "nb": 9
+      },
+      {
+       "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+       "home": "Washington Commanders",
+       "away": "Cincinnati Bengals",
+       "t": "2026-11-24T01:15:00Z",
+       "mk": "h2h",
+       "n": "Cincinnati Bengals",
+       "o": -299,
+       "fair": 0.752,
+       "cg": -0.3,
+       "mkt": 0.7269,
+       "nb": 9
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "403a88701352da05b0710a9e883b803e",
+     "home": "Kansas City Chiefs",
+     "away": "Arizona Cardinals",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.93,
+     "why": "93% vs 92% de-vigged Pinnacle ML; Josh Johnson (40) starts for Arizona."
+    },
+    {
+     "ev": "4527f57f5bc32742d8194af1ccf7da7e",
+     "home": "Carolina Panthers",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Carolina Panthers",
+     "conf": 0.58,
+     "why": "Near coin flip (58% de-vigged Pinnacle ML), so the market favorite; Baltimore loses CB Humphrey, DT Madubuike and S Hawkins."
+    },
+    {
+     "ev": "4c5b1c0843a260278e95eb93e7787576",
+     "home": "Buffalo Bills",
+     "away": "Miami Dolphins",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.93,
+     "why": "93% vs 92% de-vigged Pinnacle ML; Miami's DL lost starters for the season."
+    },
+    {
+     "ev": "3ea90704fb576633bd1e2fa5aafd9ea3",
+     "home": "Chicago Bears",
+     "away": "New Orleans Saints",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.84,
+     "why": "84% vs 84% de-vigged Pinnacle ML; Saints miss three OL starters; heavy rain."
+    },
+    {
+     "ev": "5e63079b678f8c13419adc169fff02d3",
+     "home": "Dallas Cowboys",
+     "away": "Tennessee Titans",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.78,
+     "why": "78% vs 77% de-vigged Pinnacle ML; my EPA ratings have DAL by 9.5."
+    },
+    {
+     "ev": "41e2dd69bddd65d7e823d9ed61cc2afc",
+     "home": "Detroit Lions",
+     "away": "Tampa Bay Buccaneers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Detroit Lions",
+     "conf": 0.66,
+     "why": "66% vs 66% de-vigged Pinnacle ML; dome, Mayfield limited all week."
+    },
+    {
+     "ev": "cbe45bafcc2615fc1d96cbc12840377a",
+     "home": "Philadelphia Eagles",
+     "away": "Pittsburgh Steelers",
+     "t": "2026-11-22T18:00:00Z",
+     "w": "Pittsburgh Steelers",
+     "conf": 0.66,
+     "why": "66% vs 66% de-vigged Pinnacle ML; Eagles start Joe Milton III."
+    },
+    {
+     "ev": "4b20b742b6168aaca4f25d87f11b1526",
+     "home": "Los Angeles Chargers",
+     "away": "New York Jets",
+     "t": "2026-11-22T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.61,
+     "why": "61% vs 61% de-vigged Pinnacle ML; Jets lose WRs Cooper and Williams."
+    },
+    {
+     "ev": "1940706a79cbcbafacdcbf231069716b",
+     "home": "Denver Broncos",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.85,
+     "why": "85% vs 84% de-vigged Pinnacle ML; rookie Mendoza at QB for Las Vegas."
+    },
+    {
+     "ev": "8ba112fabf4e87639338a5f437c5abfe",
+     "home": "New York Giants",
+     "away": "Jacksonville Jaguars",
+     "t": "2026-11-22T21:25:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.74,
+     "why": "74% vs 72% de-vigged Pinnacle ML; best net EPA/play in the league."
+    },
+    {
+     "ev": "60e1d27b083a335b722c2c852ea85612",
+     "home": "San Francisco 49ers",
+     "away": "Minnesota Vikings",
+     "t": "2026-11-23T01:20:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.62,
+     "why": "62% vs 62% de-vigged Pinnacle ML; Murray and Addison out for Minnesota."
+    },
+    {
+     "ev": "3a60ed1d20004aa4d4772b2c1a2272e7",
+     "home": "Washington Commanders",
+     "away": "Cincinnati Bengals",
+     "t": "2026-11-24T01:15:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.75,
+     "why": "75% vs 73% de-vigged Pinnacle ML; Burrow full practice all week."
+    },
+    {
+     "ev": "5b612899d6dcdf998107f2c6c6e49a58",
+     "home": "Los Angeles Rams",
+     "away": "Green Bay Packers",
+     "t": "2026-11-26T01:00:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.59,
+     "why": "59% vs 59% de-vigged DK ML."
+    },
+    {
+     "ev": "9b825e6518156008da499be041975fdd",
+     "home": "Detroit Lions",
+     "away": "Chicago Bears",
+     "t": "2026-11-26T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.58,
+     "why": "Near coin flip (58% de-vigged DK ML), so the market favorite; no fresh news strong enough to flip it."
+    },
+    {
+     "ev": "ffaa06af56a7137d4b078c5c46c0b730",
+     "home": "Dallas Cowboys",
+     "away": "Philadelphia Eagles",
+     "t": "2026-11-26T21:30:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.79,
+     "why": "79% vs 79% de-vigged DK ML."
+    },
+    {
+     "ev": "f36f518585aec40e8cb40e071c0844aa",
+     "home": "Buffalo Bills",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-27T01:20:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.6,
+     "why": "60% vs 60% de-vigged DK ML."
+    },
+    {
+     "ev": "44a3bcf5bd002583ddef2207a92dd977",
+     "home": "Pittsburgh Steelers",
+     "away": "Denver Broncos",
+     "t": "2026-11-27T20:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.55,
+     "why": "Near coin flip (55% de-vigged DK ML), so the market favorite; no fresh news strong enough to flip it."
+    },
+    {
+     "ev": "6a05021bdb6bab24b9bb381ffff10f0c",
+     "home": "Minnesota Vikings",
+     "away": "Atlanta Falcons",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Minnesota Vikings",
+     "conf": 0.75,
+     "why": "75% vs 75% de-vigged DK ML."
+    },
+    {
+     "ev": "60d0c074801985c1062795362a24200e",
+     "home": "Houston Texans",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.71,
+     "why": "71% vs 71% de-vigged DK ML."
+    },
+    {
+     "ev": "f7d3ae7a8fe2438cef7d7d7bc67e31db",
+     "home": "Cincinnati Bengals",
+     "away": "New Orleans Saints",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.83,
+     "why": "83% vs 83% de-vigged DK ML."
+    },
+    {
+     "ev": "e9da808e36e1b7475698a57465ad4519",
+     "home": "Indianapolis Colts",
+     "away": "New York Giants",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.73,
+     "why": "73% vs 73% de-vigged DK ML."
+    },
+    {
+     "ev": "81a8fee5b649a3ad5ad59e9528f2f376",
+     "home": "Jacksonville Jaguars",
+     "away": "Tennessee Titans",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.9,
+     "why": "90% vs 90% de-vigged DK ML."
+    },
+    {
+     "ev": "5ea0e3ea5944b0ad5169f21c0787b331",
+     "home": "Miami Dolphins",
+     "away": "New York Jets",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Jets",
+     "conf": 0.6,
+     "why": "60% vs 60% de-vigged DK ML."
+    },
+    {
+     "ev": "c64ceba13ede564e8658693e3171e7f9",
+     "home": "Los Angeles Chargers",
+     "away": "New England Patriots",
+     "t": "2026-11-29T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.64,
+     "why": "64% vs 64% de-vigged DK ML."
+    },
+    {
+     "ev": "69a1dbe9de3d3212c3a7a55be5d204ab",
+     "home": "Arizona Cardinals",
+     "away": "Washington Commanders",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "Washington Commanders",
+     "conf": 0.75,
+     "why": "75% vs 75% de-vigged DK ML."
+    },
+    {
+     "ev": "d68dced0b26726890b9c79bd19a5ffe5",
+     "home": "San Francisco 49ers",
+     "away": "Seattle Seahawks",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.54,
+     "why": "Near coin flip (54% de-vigged DK ML), so the market favorite; no fresh news strong enough to flip it."
+    },
+    {
+     "ev": "eaa993c3d62d6b5aeb6142cdd7862fd5",
+     "home": "Cleveland Browns",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-30T01:20:00Z",
+     "w": "Cleveland Browns",
+     "conf": 0.64,
+     "why": "64% vs 64% de-vigged DK ML."
+    },
+    {
+     "ev": "2cdaecba7c0bff9b58a48a82e6ee17a7",
+     "home": "Tampa Bay Buccaneers",
+     "away": "Carolina Panthers",
+     "t": "2026-12-01T01:15:00Z",
+     "w": "Tampa Bay Buccaneers",
+     "conf": 0.56,
+     "why": "Near coin flip (56% de-vigged DK ML), so the market favorite; no fresh news strong enough to flip it."
+    }
+   ]
+  },
+  {
    "id": "2026-11-17-thu",
    "label": "Thursday picks",
    "made": "2026-11-19T20:21:59Z",
