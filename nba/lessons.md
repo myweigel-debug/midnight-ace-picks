@@ -5,7 +5,7 @@ Claude's running notes on what works and what doesn't in the daily NBA slates. E
 ## Season table
 | Week | Parlays W-L | Profit | Expected | Pick'ems | Avg CLV |
 |---|---|---|---|---|---|
-| 5 (Nov 16-22, in progress) | 4-0 | +$140.69 | -$3.95 | 10-3 | -2.1 pts (1 of 8 legs positive) |
+| 5 (Nov 16-22, in progress) | 6-0 | +$196.12 | -$7.13 | 14-5 | -1.6 pts (2 of 11 measurable legs positive) |
 
 ## Starting points (carried over from the NFL routine, 2026-11-17)
 - Hit rate first, but very short legs pay too little: the sweet spot is about -250 to -650.
@@ -70,3 +70,25 @@ Props trail their implied rate in every bucket (by 0.9 to 3.4 points, across abo
 - **B2B rest rule:** New Orleans sat Zion and Murphy on the second night of a back-to-back on Nov 9, so no Pelicans props tonight. Sacramento is on its first back-to-back of the season (no history), and Boston has Tatum (rest) and White questionable, so no props from that game either.
 - **Model dispersion check:** the prop model's mean is unbiased against the main lines (median projection minus line: points +0.1, rebounds +0.1, assists +0.1, PRA -0.2). The ladder "edges" come almost entirely from dispersion. That's why the model only gets 30% weight before the 50% backtest blend.
 - **Concentration:** 6 games, but only four legs on the board cleared the floor after vetoes (Towns, SAC cushion, MEM cushion, NOP/SAS Under). Two 2-leg parlays on four different games; the 3-leg is dropped again, since any 3-leg would reuse games from both 2-legs.
+
+## 2026-11-22 (Sun, week 5): grading 2026-11-21-nba
+**Record:** parlays 2-0. #1 ($50): Josh Hart 7+ reb (late swap for Towns) ✓ (8), Memphis +17.5 ✓ (lost by 9): +$38.52. #2 ($50): Sacramento +28.5 ✓ (won outright 97-96), Pelicans-Spurs Under 247.5 ✓ (205): +$16.91. Day +$55.43 against an expected -$3.18. Legs 4-0: team 3-0 (two alt-spread cushions, one alt total Under), props 1-0 (Hart, guard). Pick'ems 4-2: misses were POR 0.51 (the late flip after Towns and Anunoby were ruled out; the Knicks won by 1) and BOS 0.85 (Sacramento won by 1 with Tatum and White out; variance, the market had BOS at 85%). Week to date: 19 pick'ems, expected 13.4 wins, actual 14.
+**Week to date (Mon-Sun board, 3 slates):** parlays 6-0, +$196.12 vs an expected -$7.13. Legs 12-0 against a summed fair of 8.86: team 9-0, props 3-0 (big, wing, guard). This is a lucky run, not proof of edge: expected profit is still slightly negative and CLV is still negative.
+**CLV:** MEM +17.5 0.0, NOP/SAS Under 247.5 -1.8, SAC +28.5 +0.4; Hart was swapped in near tip, so its CLV is 0 by construction and isn't counted. Week: 2 of 11 measurable legs closed in our favor, average -1.6 points. Alt-total Unders and the underdog cushions keep closing slightly against us. DK being cheaper than the other books (`cg`) has been a better guide than the morning number itself.
+**Line history:** graded 5,836 rows from the 11-21 snapshot (488 prop rungs void for DNPs: Towns, Anunoby, Murphy, Washington and others). Three-night calibration over 19 games (team n / games / hit / implied; props n / player-games / hit / implied):
+
+| Bucket | Team | Props |
+|---|---|---|
+| -150..-249 | 646 / 19 / 60.2 / 65.8 | 1098 / 211 / 60.4 / 64.9 |
+| -250..-399 | 536 / 19 / 71.8 / 75.9 | 677 / 205 / 72.5 / 75.7 |
+| -400..-649 | 453 / 19 / 80.1 / 83.1 | 521 / 201 / 82.3 / 83.2 |
+| <=-650 | 479 / 19 / 90.0 / 91.0 | 1078 / 207 / 90.9 / 92.3 |
+
+Both groups now trail implied in every bucket (team by 1-5.6 points, props by 0.9-4.5). By family, the spread rungs (mostly underdog cushions) hit 88.5% against 81.8% implied, while totals rungs (67.4 vs 78.0) and team totals (66.5 vs 73.4) trail. That's only 19 games of final scores, so no shading is applied (the effective sample is 19, far short of the 60 required). Picked legs: 12-0 against a summed fair of 8.86.
+**What shaped the 11-22 slate**
+- **Team-tail veto, again:** Golden State's alt spreads were the cheapest legs on the board (DK 3-5 points under the other books, at about break-even by the backtest). Since Curry went out, though, the Warriors have lost four straight by 21, 22, 28 and 38, failing the spread by 16+ every time. Same rule as CHA, LAC and NOP: the cheap price doesn't pay for a live blowout tail.
+- **Stars-questionable veto:** OKC@MIA (SGA and Giannis both questionable) gets no legs. The OKC +14.5 cushion was 3.3 points cheap at DK, but its value depends on SGA playing.
+- **Back-to-backs:** DAL, NYK and BOS are all on the second night. Dallas and New York had not filed injury reports by morning, and NYK has Towns, Anunoby and Clarkson questionable, so there are no props from DAL@UTA or IND@NYK and no NYK/IND/DAL sides.
+- **Team-first rule binds hard:** with only four legs in two parlays, 60% team legs means at most one prop, which forces most of the slate onto team cushions.
+- **Morning `cg` edges decay:** between 15:06 and 15:49 UTC, DK shortened its Washington cushions faster than the other books (`cg` +3.1 → +2.4 on +19.5), which killed the planned WAS +19.5 / Okongwu parlay. This is the second time (Utah on 11-20). Build from the second pull, never the first.
+- **Concentration, forced:** the only two parlays that cleared the floor both need the BOS@GSW Over (192.5 and 194.5). It's accepted only because the slate minimum is two parlays. Both are staked at $50. Track whether shared-leg slates hurt; if they do, propose to the owner that one parlay be allowed when only one clears.
