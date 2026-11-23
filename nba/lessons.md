@@ -111,6 +111,6 @@ Both groups now trail implied in every bucket (team by 1-5.6 points, props by 0.
 
 **What changes from week 6**
 1. **No game in two parlays.** 11-22 showed the cost: one 175-point game took both parlays. Sharing a game is now a last resort, used only to reach the slate minimum, at $50, and flagged in the note. The weekly report asks the owner (via nba/notes.md) whether a single parlay should be allowed on those days.
-2. **Props: smaller role, cheaper families.** Props closed 4.6 points against us on average (0 of 3 positive), and points/threes/combo ladders trail implied in the line history while rebounds/assists hit at price. Use at most the one prop the variety rule asks for, prefer rebounds/assists or a rung well below a stable starter's median, and require `cg` >= +3.
+2. **Props: smaller role, cheaper families.** Props closed 4.6 points against us on average (0 of 3 positive), and points/threes/combo ladders trail implied in the line history while rebounds/assists hit at price. Use at most the one prop the variety rule asks for, prefer rebounds/assists or a rung well below a stable starter's median, require `cg` >= +2 and prefer +3 or more.
 3. **Alt totals get a higher bar** (totals rungs 69.7% vs 78.0% implied over 26 games): use one only when it is clearly the best leg left, and never two in one game.
 4. Stakes stay at $50 until something clears EV >= -1%: expected profit has been negative every day, and the 13-3 legs were close to price.
