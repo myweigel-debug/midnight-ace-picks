@@ -5,7 +5,8 @@ Claude's running notes on what works and what doesn't in the daily NBA slates. E
 ## Season table
 | Week | Parlays W-L | Profit | Expected | Pick'ems | Avg CLV |
 |---|---|---|---|---|---|
-| 5 (Nov 16-22, in progress) | 6-0 | +$196.12 | -$7.13 | 14-5 | -1.6 pts (2 of 11 measurable legs positive) |
+| 5 (Nov 16-22) | 6-2 | +$96.17 | -$10.00 | 18-8 (exp 17.9) | -1.45 pts (3 of 15 measurable legs positive) |
+| 6 (Nov 23-29, in progress) | 0-0 | $0 | | | |
 
 ## Starting points (carried over from the NFL routine, 2026-11-17)
 - Hit rate first, but very short legs pay too little: the sweet spot is about -250 to -650.
@@ -92,3 +93,24 @@ Both groups now trail implied in every bucket (team by 1-5.6 points, props by 0.
 - **Team-first rule binds hard:** with only four legs in two parlays, 60% team legs means at most one prop, which forces most of the slate onto team cushions.
 - **Morning `cg` edges decay:** between 15:06 and 15:49 UTC, DK shortened its Washington cushions faster than the other books (`cg` +3.1 → +2.4 on +19.5), which killed the planned WAS +19.5 / Okongwu parlay. This is the second time (Utah on 11-20). Build from the second pull, never the first.
 - **Concentration, forced:** the only two parlays that cleared the floor both need the BOS@GSW Over (192.5 and 194.5). It's accepted only because the slate minimum is two parlays. Both are staked at $50. Track whether shared-leg slates hurt; if they do, propose to the owner that one parlay be allowed when only one clears.
+
+## 2026-11-23 (Mon, week 6): week 5 review and grading 2026-11-22-nba
+**11-22 record:** parlays 0-2 (-$100 against an expected -$2.90). #1 WAS +14.5 ✓ (won by 20) + BOS@GSW Over 192.5 ✗ (88-87, total 175). #2 Okongwu 12+ ✗ (6 pts in 29 min, 3-9 FG, 1-4 3PT) + Over 194.5 ✗. Pick'ems 4-3: missed DET 0.55 (coin flip), ORL 0.64 (Washington won by 20) and BOS 0.73 (Golden State won by 1).
+**Why the misses:** the BOS@GSW total closed 211.5 at ESPN and finished 36 under, with both teams shooting poorly; Boston scored 12 in the fourth. The Over was priced fairly (CLV -0.1 and +0.3), so that is mostly variance, but it was **one game sinking both parlays**: the shared leg turned a 1-of-2 day into 0-2. Okongwu was a cold shooting night with Flemings active (the publish note's upside case didn't happen), and the market moved 3.4 points against him before tip.
+
+### Week 5 review (Nov 16-22; full report in nba/reports/2026-11-23-week.md)
+- **Parlays 6-2, +$96.17 vs an expected -$10.00.** The owner's weekly board total isn't visible from the repo, so the head-to-head result is unknown here.
+- **Legs 13-3 (summed fair 12.04).** Team legs 10-2 (83.3%) against 83.0% average implied and 81.7% fair: exactly at price. Props 3-1 (75%) against 73.1% implied. Position groups: guard 1-0 (Hart), wing 1-0 (Eason), big 1-1 (Towns ✓, Okongwu ✗).
+- **Stake tiers:** $50 parlays 5-2 (+$35.87); $100 1-0 (+$60.30). No $150/$200.
+- **Rest:** 11 of 16 legs involved at least one team on a back-to-back; both losing team legs were in a game with a B2B team (Boston).
+- **Pick'ems 18-8 against 17.9 expected.** By confidence: 0.50-0.58 2-4 (exp 3.2), 0.58-0.65 2-1 (1.9), 0.65-0.75 6-2 (5.5), 0.75+ 8-1 (7.4). Calibrated; coin flips are coin flips.
+- **CLV by market group:** alt-spread cushions -0.9 pts (8 legs, 1 positive), totals and team totals -0.2 (4 legs, 2 positive), props **-4.6** (3 legs, 0 positive). Overall -1.45, 3 of 15 positive.
+- **Leg-cost check (backtest `cg` buckets):** team cg 3-5 went 4-2 (both losses the BOS Overs), cg 2-3 4-1, cg <2 5-0. Far too few legs to judge against the +0.9%/-2.3% bucket costs; keep tallying.
+- **Underdog/fade scorecard:** no pick'em or moneyline leg differed from Pinnacle by more than 3 points, so nothing to score yet.
+- **Line history (26 games, 4 snapshots):** team rungs trail implied in every bucket (-150..-249 61.9 vs 65.8; -250..-399 73.4 vs 75.9; -400..-649 80.7 vs 83.1; <=-650 89.8 vs 90.9), props too (59.7/65.0, 72.2/75.7, 81.1/83.1, 90.2/92.4, about 280 player-games per bucket). By family, alt-spread rungs hit 87.8% vs 81.9% implied while totals (69.7 vs 78.0) and team totals (68.1 vs 73.4) trail; rebounds (76.9 vs 77.0) and assists (74.0 vs 74.0) ladders hit at price while points (74.7 vs 79.6), threes (69.2 vs 75.7) and the points combos trail by 3.5-6.5. The largest prop bucket gap is 1.9 SE over player-games, short of the 2-SE rule, and team buckets rest on only 26 games, so **no shading yet**.
+
+**What changes from week 6**
+1. **No game in two parlays.** 11-22 showed the cost: one 175-point game took both parlays. Sharing a game is now a last resort, used only to reach the slate minimum, at $50, and flagged in the note. The weekly report asks the owner (via nba/notes.md) whether a single parlay should be allowed on those days.
+2. **Props: smaller role, cheaper families.** Props closed 4.6 points against us on average (0 of 3 positive), and points/threes/combo ladders trail implied in the line history while rebounds/assists hit at price. Use at most the one prop the variety rule asks for, prefer rebounds/assists or a rung well below a stable starter's median, and require `cg` >= +3.
+3. **Alt totals get a higher bar** (totals rungs 69.7% vs 78.0% implied over 26 games): use one only when it is clearly the best leg left, and never two in one game.
+4. Stakes stay at $50 until something clears EV >= -1%: expected profit has been negative every day, and the 13-3 legs were close to price.
