@@ -6,7 +6,7 @@ Claude's running notes on what works and what doesn't in the daily NBA slates. E
 | Week | Parlays W-L | Profit | Expected | Pick'ems | Avg CLV |
 |---|---|---|---|---|---|
 | 5 (Nov 16-22) | 6-2 | +$96.17 | -$10.00 | 18-8 (exp 17.9) | -1.45 pts (3 of 15 measurable legs positive) |
-| 6 (Nov 23-29, in progress) | 0-0 | $0 | | | |
+| 6 (Nov 23-29, in progress) | 1-1 | -$35.18 | -$2.50 | 6-4 (exp 7.2) | +0.5 pts (3 of 4 legs positive) |
 
 ## Starting points (carried over from the NFL routine, 2026-11-17)
 - Hit rate first, but very short legs pay too little: the sweet spot is about -250 to -650.
@@ -114,3 +114,24 @@ Both groups now trail implied in every bucket (team by 1-5.6 points, props by 0.
 2. **Props: smaller role, cheaper families.** Props closed 4.6 points against us on average (0 of 3 positive), and points/threes/combo ladders trail implied in the line history while rebounds/assists hit at price. Use at most the one prop the variety rule asks for, prefer rebounds/assists or a rung well below a stable starter's median, require `cg` >= +2 and prefer +3 or more.
 3. **Alt totals get a higher bar** (totals rungs 69.7% vs 78.0% implied over 26 games): use one only when it is clearly the best leg left, and never two in one game.
 4. Stakes stay at $50 until something clears EV >= -1%: expected profit has been negative every day, and the 13-3 legs were close to price.
+
+## 2026-11-24 (Tue, week 6): grading 2026-11-23-nba
+**Record:** parlays 1-1 (-$35.18 against an expected -$2.50). #1 ($50) ✗: Sacramento +26.5 ✓ (lost by 16), Brook Lopez 8+ pts ✗ (3 pts on 1-3 FG in 21 minutes). #2 ($50) ✓: Chicago +23.5 ✓ (won outright by 14), Indiana +20.5 ✓ (won by 5): +$14.82. Legs 3-1: team 3-0 (three underdog alt-spread cushions), props 0-1 (Lopez, big). Pick'ems 6-4 against 7.17 expected.
+**Why the misses:**
+- **Lopez:** not a blowout (Houston won by 12), not foul trouble (0 fouls), not a minutes cut (21 minutes, at the low end of his 19-29 range). He took only 3 shots. That's a usage and variance loss; his 7-, 7- and 2-point games were already in the log, and the 0.77 fair priced them. CLV was +0.3, so the price was fine. Season props are now 3-2, and both prop losses were bigs' points rungs (Okongwu, Lopez).
+- **Pick'ems:** PHI 0.56 (Embiid ruled out at 22:49 UTC; Pinnacle closed 51.6%, a coin flip), OKC 0.62 (five OKC rotation players ruled out around 19:00 UTC, but the line held at 63% with SGA available; Indiana won by 5), TOR 0.77 and CLE 0.73 (Milwaukee by 5, Chicago by 14 on a back-to-back). None was foreseeable at 10 AM. All ten were market favorites.
+**CLV:** SAC +26.5 +2.9, Lopez +0.3, CHI +23.5 -1.3, IND +20.5 +0.2. Average +0.5, 3 of 4 positive: the first slate with positive average CLV. Season: 6 of 19 measurable legs positive, average -1.1.
+**Underdog/fade scorecard:** still empty (no pick'em differed from Pinnacle by more than 3 points).
+**Line history:** +10,391 graded rows from the 11-23 snapshot (448 prop rungs void for DNPs). 37 games now graded. Calibration (team n / games / hit / implied; props n / player-games / hit / implied):
+
+| Bucket | Team | Props |
+|---|---|---|
+| -150..-249 | 1210 / 36 / 62.3 / 65.8 | 2080 / 404 / 60.2 / 65.1 |
+| -250..-399 | 1016 / 36 / 74.1 / 75.9 | 1260 / 391 / 73.1 / 75.7 |
+| -400..-649 | 861 / 36 / 81.0 / 83.1 | 1012 / 372 / 80.6 / 83.2 |
+| <=-650 | 907 / 36 / 89.4 / 90.9 | 2034 / 394 / 90.5 / 92.4 |
+
+- **First shading applied:** props at -150 to -249 hit 60.2% against 65.1% implied over 404 player-games, 2.06 SE below. From today, every prop leg in that bucket gets fair = 50% model fair + 50% (DK implied x 60.2/65.1), still capped at 6 points from the market. In practice this takes nearly every prop at that price out of the >= 0.65 pool. No other bucket passes 2 SE (team buckets rest on 36 games).
+- **By side:** the totals gap is all Overs. Over rungs at -400..-700 hit 71.2% vs 83.9% implied, while Under rungs hit 84.5% vs 84.0%. Underdog alt-spread cushions hit 91.3% vs about 85%, and favorites' alt spreads trail (74.1 vs 83.2, 12 games). Only 36 games stand behind this, so it's a lean, not a rule: prefer Unders and dog cushions to Overs and favorite alt spreads.
+- **Picked legs:** 16-4 against a summed fair of 15.41 (20 legs; the overconfidence test needs 60).
+**What shaped the 11-24 slate:** only three games, so the "no game in two parlays" rule allows one 2-leg parlay (the section 1 minimum for 2-3 games is 1). With one 2-leg parlay, the 60% team-leg rule means both legs are team legs, so there is no prop today even though 4b asks for one; leg cost wins (section 4b).
