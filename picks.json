@@ -1,6 +1,231 @@
 {
  "slates": [
   {
+   "id": "2026-11-24-tue",
+   "label": "Tuesday picks",
+   "made": "2026-11-24T18:59:12Z",
+   "week": 12,
+   "note": "Week 12 Tuesday: two 2-leg team-side parlays at $50. Week 11's -$538 and two weeks of line history showed our fair numbers ran 2.5-3 pts too high; with honest prices no prop or 3-leg parlay clears the profit floor, so this is the minimum slate. Parlay 1 clears the floor (0.974) but misses the 0.58 hit target (0.537); parlay 2 is the required second parlay and sits under the floor (0.962).",
+   "parlays": [
+    {
+     "id": "2026-11-24-tue-1",
+     "stake": 50,
+     "prob": 0.5374,
+     "ev": -0.026,
+     "why": "Both legs are team sides in games that finish by Thursday afternoon (Wed night and Thanksgiving early), so there's almost no news risk. Rams +3.5 (-233): the Rams win or lose by 3 or fewer. Fair 0.697 vs Pinnacle's no-vig 0.695 at this exact line, with DK 2.2 pts cheaper than the other books' median. No power shade (Nacua is out for the season and Parsons debuts for GB, so the ratings are stale). Lions +9.5 (-373) at home in a dome: fair 0.771 vs 0.747 no-vig; Bears 2.5-pt favorites have won by 10+ in about 20% of similar games (history at this spread and total: 0.804), and my EPA ratings rate Detroit higher than the market. P(hit) 0.537, under the 0.58 two-leg target, but the only pairing that still clears the 0.97 floor after DK shortened the whole Rams ladder at the final re-poll (Rams +8.5 went -480 to -492). P x payout 0.974. $50.",
+     "legs": [
+      {
+       "ev": "5b612899d6dcdf998107f2c6c6e49a58",
+       "home": "Los Angeles Rams",
+       "away": "Green Bay Packers",
+       "t": "2026-11-26T01:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Los Angeles Rams",
+       "p": 3.5,
+       "o": -233,
+       "fair": 0.697,
+       "cg": 2.2,
+       "mkt": 0.6951
+      },
+      {
+       "ev": "9b825e6518156008da499be041975fdd",
+       "home": "Detroit Lions",
+       "away": "Chicago Bears",
+       "t": "2026-11-26T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Detroit Lions",
+       "p": 9.5,
+       "o": -373,
+       "fair": 0.771,
+       "cg": 0.6,
+       "mkt": 0.7474
+      }
+     ]
+    },
+    {
+     "id": "2026-11-24-tue-2",
+     "stake": 50,
+     "prob": 0.5833,
+     "ev": -0.038,
+     "why": "Chiefs +9.5 (-317) Thanksgiving night in Buffalo: 37F with steady rain lowers scoring (total fell 51.5 to 47.5), which tightens margins for the dog. Fair 0.750 vs 0.731 no-vig; DK drifted from -334 to -317 while the other books held, and my ratings have KC slightly better than BUF. Browns +3.5 (-394) vs Las Vegas and rookie QB Fernando Mendoza (3rd start): fair 0.778 vs 0.786 no-vig (Pinnacle prices CLE +3.5 at 0.786); my ratings are cooler on Cleveland, so I shade it down slightly. P(hit) 0.583, P x payout 0.962, under the 0.97 floor. Published because Tuesday requires two parlays and this is the best second parlay on the board that doesn't share a game with parlay 1. $50. Biggest risk is the Browns leg: Sunday night wind and rain, and 5 days of QB news (Watson/Sanders).",
+     "legs": [
+      {
+       "ev": "f36f518585aec40e8cb40e071c0844aa",
+       "home": "Buffalo Bills",
+       "away": "Kansas City Chiefs",
+       "t": "2026-11-27T01:20:00Z",
+       "mk": "alternate_spreads",
+       "n": "Kansas City Chiefs",
+       "p": 9.5,
+       "o": -317,
+       "fair": 0.75,
+       "cg": 2.0,
+       "mkt": 0.7313
+      },
+      {
+       "ev": "eaa993c3d62d6b5aeb6142cdd7862fd5",
+       "home": "Cleveland Browns",
+       "away": "Las Vegas Raiders",
+       "t": "2026-11-30T01:20:00Z",
+       "mk": "alternate_spreads",
+       "n": "Cleveland Browns",
+       "p": 3.5,
+       "o": -394,
+       "fair": 0.778,
+       "cg": 1.8,
+       "mkt": 0.7858
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "5b612899d6dcdf998107f2c6c6e49a58",
+     "home": "Los Angeles Rams",
+     "away": "Green Bay Packers",
+     "t": "2026-11-26T01:00:00Z",
+     "w": "Los Angeles Rams",
+     "conf": 0.56,
+     "why": "Pinnacle no-vig 56% for the favorite, model 56% Rams; Parsons debuts for GB and Nacua is out for the season, so no model shade. Near coin flip: market favorite."
+    },
+    {
+     "ev": "9b825e6518156008da499be041975fdd",
+     "home": "Detroit Lions",
+     "away": "Chicago Bears",
+     "t": "2026-11-26T18:00:00Z",
+     "w": "Chicago Bears",
+     "conf": 0.54,
+     "why": "Pinnacle no-vig 56% for the favorite, model 54% Bears; Bears have won 5 straight; my power model leans Detroit, but that alone does not flip a coin flip. Near coin flip: market favorite."
+    },
+    {
+     "ev": "ffaa06af56a7137d4b078c5c46c0b730",
+     "home": "Dallas Cowboys",
+     "away": "Philadelphia Eagles",
+     "t": "2026-11-26T21:30:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.77,
+     "why": "Pinnacle no-vig 78% for the favorite, model 77% Cowboys; Eagles QB uncertainty (Milton/McKee) and a 7-game slide before last week."
+    },
+    {
+     "ev": "f36f518585aec40e8cb40e071c0844aa",
+     "home": "Buffalo Bills",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-27T01:20:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.56,
+     "why": "Pinnacle no-vig 58% for the favorite, model 56% Bills; rain and 37F at Highmark; coin-flip range, so take the market favorite. Near coin flip: market favorite."
+    },
+    {
+     "ev": "44a3bcf5bd002583ddef2207a92dd977",
+     "home": "Pittsburgh Steelers",
+     "away": "Denver Broncos",
+     "t": "2026-11-27T20:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.58,
+     "why": "Pinnacle no-vig 58% for the favorite, model 58% Broncos; PIT LB Highsmith doubtful, 17-21 mph wind and rain. Near coin flip: market favorite."
+    },
+    {
+     "ev": "6a05021bdb6bab24b9bb381ffff10f0c",
+     "home": "Minnesota Vikings",
+     "away": "Atlanta Falcons",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Minnesota Vikings",
+     "conf": 0.72,
+     "why": "Pinnacle no-vig 74% for the favorite, model 72% Vikings; home dome favorite."
+    },
+    {
+     "ev": "60d0c074801985c1062795362a24200e",
+     "home": "Houston Texans",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.73,
+     "why": "Pinnacle no-vig 73% for the favorite, model 73% Texans; home favorite, Marks trending toward playing."
+    },
+    {
+     "ev": "f7d3ae7a8fe2438cef7d7d7bc67e31db",
+     "home": "Cincinnati Bengals",
+     "away": "New Orleans Saints",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.8,
+     "why": "Pinnacle no-vig 82% for the favorite, model 80% Bengals; home favorite after the MNF loss."
+    },
+    {
+     "ev": "e9da808e36e1b7475698a57465ad4519",
+     "home": "Indianapolis Colts",
+     "away": "New York Giants",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.73,
+     "why": "Pinnacle no-vig 72% for the favorite, model 73% Giants; Colts turned to Anthony Richardson and lost RB McGowan."
+    },
+    {
+     "ev": "81a8fee5b649a3ad5ad59e9528f2f376",
+     "home": "Jacksonville Jaguars",
+     "away": "Tennessee Titans",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.88,
+     "why": "Pinnacle no-vig 88% for the favorite, model 88% Jaguars; Titans rank last in my EPA ratings."
+    },
+    {
+     "ev": "5ea0e3ea5944b0ad5169f21c0787b331",
+     "home": "Miami Dolphins",
+     "away": "New York Jets",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Jets",
+     "conf": 0.62,
+     "why": "Pinnacle no-vig 64% for the favorite, model 62% Jets; Jets favored on the road; Miami showers 40%."
+    },
+    {
+     "ev": "c64ceba13ede564e8658693e3171e7f9",
+     "home": "Los Angeles Chargers",
+     "away": "New England Patriots",
+     "t": "2026-11-29T21:05:00Z",
+     "w": "Los Angeles Chargers",
+     "conf": 0.5,
+     "why": "Pinnacle no-vig 50% for the favorite, model 50% Chargers; Herbert in concussion protocol and NE starts DeVito; true coin flip, line already moved for it, market favorite. Near coin flip: market favorite."
+    },
+    {
+     "ev": "69a1dbe9de3d3212c3a7a55be5d204ab",
+     "home": "Arizona Cardinals",
+     "away": "Washington Commanders",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "Washington Commanders",
+     "conf": 0.75,
+     "why": "Pinnacle no-vig 76% for the favorite, model 75% Commanders; Cardinals just fired their DC."
+    },
+    {
+     "ev": "d68dced0b26726890b9c79bd19a5ffe5",
+     "home": "San Francisco 49ers",
+     "away": "Seattle Seahawks",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.63,
+     "why": "Pinnacle no-vig 62% for the favorite, model 63% 49ers; SF RT McKivitz out for the season and rain likely; Darnold expected back for SEA."
+    },
+    {
+     "ev": "eaa993c3d62d6b5aeb6142cdd7862fd5",
+     "home": "Cleveland Browns",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-30T01:20:00Z",
+     "w": "Cleveland Browns",
+     "conf": 0.66,
+     "why": "Pinnacle no-vig 67% for the favorite, model 66% Browns; LV starts rookie Fernando Mendoza (3rd start)."
+    },
+    {
+     "ev": "2cdaecba7c0bff9b58a48a82e6ee17a7",
+     "home": "Tampa Bay Buccaneers",
+     "away": "Carolina Panthers",
+     "t": "2026-12-01T01:15:00Z",
+     "w": "Tampa Bay Buccaneers",
+     "conf": 0.59,
+     "why": "Pinnacle no-vig 60% for the favorite, model 59% Buccaneers; home favorite; Monday night."
+    }
+   ]
+  },
+  {
    "id": "2026-11-17-sun",
    "label": "Sunday picks",
    "made": "2026-11-22T13:19:40Z",
