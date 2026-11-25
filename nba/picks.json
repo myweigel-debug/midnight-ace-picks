@@ -1,1 +1,841 @@
-{"slates": [{"id": "2026-11-24-nba", "sport": "nba", "label": "NBA picks: Tue Nov 24", "made": "2026-11-24T15:52:37Z", "week": 6, "note": "Three games, so one 2-leg parlay at $50: Pistons-Magic Under 230.5 and Washington +26.5, two team cushions where DK is 3-4 points cheaper than the other books. With three games, a second parlay would have to reuse a game, which this week's rules don't allow, and the 60% team-leg rule leaves no room for a prop.", "parlays": [{"id": "2026-11-24-nba-1", "stake": 50, "prob": 0.722, "ev": -0.017, "why": "Pistons-Magic Under 230.5 (-550): fair 83.6% vs 84.6% DK implied (81.7% de-vigged median of the other books, which are 3.6 points pricier). The market total is 212.5-213.5 with Banchero, Duren and Okorie out; last season games finished 18+ over the close 17% of the time, and Under rungs at this price have hit at their implied rate in our line history. Washington +26.5 (-660): fair 86.4% vs 86.8% implied (84.1% market, DK 3.6 points cheaper). Boston is -10.5; dogs of 9-12.5 covered +25.5 in 88% of last season's games, and the Wizards (healthy top six) have failed by 16+ only twice in 18 games.", "legs": [{"ev": "42f48a4769eab3d1472d76aac0fd0fa7", "home": "Orlando Magic", "away": "Detroit Pistons", "t": "2026-11-25T00:11:00Z", "mk": "alternate_totals", "n": "Under", "p": 230.5, "o": -550, "fair": 0.836, "cg": 3.6, "cl": -650, "clp": 0.826}, {"ev": "3167a4072c65c9314c71d0fe49be8e28", "home": "Washington Wizards", "away": "Boston Celtics", "t": "2026-11-25T01:10:00Z", "mk": "alternate_spreads", "n": "Washington Wizards", "p": 26.5, "o": -660, "fair": 0.864, "cg": 3.6, "cl": -630, "clp": 0.836}]}], "pickem": [{"ev": "42f48a4769eab3d1472d76aac0fd0fa7", "home": "Orlando Magic", "away": "Detroit Pistons", "t": "2026-11-25T00:11:00Z", "w": "Detroit Pistons", "conf": 0.56, "why": "Pinnacle no-vig 56%, power model 58%: near coin flip, so the market favorite; Cunningham probable, Banchero out for Orlando."}, {"ev": "3167a4072c65c9314c71d0fe49be8e28", "home": "Washington Wizards", "away": "Boston Celtics", "t": "2026-11-25T01:10:00Z", "w": "Boston Celtics", "conf": 0.78, "why": "Pinnacle no-vig 79%, power model 67%, blend 78%; Tatum, George and White all available."}, {"ev": "6bfadbd22ed8a054cf82ec1b12b78243", "home": "Denver Nuggets", "away": "Dallas Mavericks", "t": "2026-11-25T03:10:00Z", "w": "Denver Nuggets", "conf": 0.71, "why": "Pinnacle no-vig 72%, power model 59%, blend 71%; Denver has no injuries, Lively and Lawal out and P.J. Washington questionable for Dallas."}]}, {"id": "2026-11-23-nba", "sport": "nba", "label": "NBA picks: Mon Nov 23", "made": "2026-11-23T15:43:53Z", "week": 6, "note": "Ten games, two 2-leg parlays on four different games, both $50: Sacramento +26.5 with Brook Lopez 8+ points, and Chicago +23.5 with Indiana +20.5, cushions where DK is 2-4 points cheaper than the other books. No 3-leg: every combination reused a game, and the new rule is no game in two parlays after Sunday's Over sank both. Chicago and Indiana are on back-to-backs with reports not yet filed, so the late swap must recheck them.", "parlays": [{"id": "2026-11-23-nba-1", "stake": 50, "prob": 0.667, "ev": -0.024, "why": "Sacramento +26.5 (-680): fair 86.6% vs 85.5% DK implied (84.5% de-vigged median of 4 books). DK is 3.3 points cheaper than FD/CZR/HR, and the Kings have failed the spread by 16+ only twice in 16 games; Wembanyama and Fox are questionable, which only helps. Brook Lopez 8+ points (-362): fair 77.0% vs 78.4% implied. He has started all 15 games (25-27 min lately) and scored 8+ in 12 of 15 (21-23 in each of his last three). DK is 2.6 points cheaper than the other books; the risk is a 12.5-point Houston blowout cutting his minutes.", "legs": [{"ev": "17f31499f145cd9d3232819395d29448", "home": "Sacramento Kings", "away": "San Antonio Spurs", "t": "2026-11-24T03:10:00Z", "mk": "alternate_spreads", "n": "Sacramento Kings", "p": 26.5, "o": -680, "fair": 0.866, "cg": 3.3, "cl": -1020, "clp": 0.874}, {"ev": "db2311c331296d3328d71b842167dea4", "home": "Houston Rockets", "away": "Los Angeles Clippers", "t": "2026-11-24T01:40:00Z", "mk": "player_points_alternate", "n": "Over", "d": "Brook Lopez", "p": 7.5, "o": -362, "fair": 0.77, "cg": 2.6, "cl": -370, "clp": 0.748}]}, {"id": "2026-11-23-nba-2", "stake": 50, "prob": 0.751, "ev": -0.026, "why": "Chicago +23.5 (-620): fair 86.1% vs 86.1% implied, with DK 3.9 points cheaper than FD/CZR/HR. Cleveland is without Mobley, and the line is 8.5. Indiana +20.5 (-860): fair 87.2% vs 89.6% implied, with DK 2.1 points cheaper. Oklahoma City is also on a back-to-back with SGA questionable, and the Pacers have failed by 16+ once in 17 games. Both home dogs are on the second night of a back-to-back with reports not yet filed, so this parlay depends on the late swap.", "legs": [{"ev": "b8dfee1fca57ec870528a14c792ad73a", "home": "Chicago Bulls", "away": "Cleveland Cavaliers", "t": "2026-11-24T01:10:00Z", "mk": "alternate_spreads", "n": "Chicago Bulls", "p": 23.5, "o": -620, "fair": 0.861, "cg": 3.9, "cl": -610, "clp": 0.829}, {"ev": "c9b6c9f77fd3628308dd34f50854a9c0", "home": "Indiana Pacers", "away": "Oklahoma City Thunder", "t": "2026-11-24T00:40:00Z", "mk": "alternate_spreads", "n": "Indiana Pacers", "p": 20.5, "o": -860, "fair": 0.872, "cg": 2.1, "cl": -930, "clp": 0.865}]}], "pickem": [{"ev": "35ca45d3e548dc7207fd7f1696ab16f5", "home": "Charlotte Hornets", "away": "Memphis Grizzlies", "t": "2026-11-24T00:10:00Z", "w": "Memphis Grizzlies", "conf": 0.6, "why": "Pinnacle no-vig 57%, power model 79%, blend 60%. Charlotte without Knueppel, Schroder and Allen."}, {"ev": "ac6fb079d66ef35a2a77e22b5e94ef8d", "home": "Philadelphia 76ers", "away": "Portland Trail Blazers", "t": "2026-11-24T00:10:00Z", "w": "Philadelphia 76ers", "conf": 0.56, "why": "Pinnacle no-vig 58%, power model 42%, blend 56%. Near coin flip, so the market favorite; Brown probable."}, {"ev": "a72a1703f7a92b80768255d1d977a761", "home": "Minnesota Timberwolves", "away": "Brooklyn Nets", "t": "2026-11-24T00:40:00Z", "w": "Minnesota Timberwolves", "conf": 0.82, "why": "Pinnacle no-vig 82%, power model 80%, blend 82%."}, {"ev": "c9b6c9f77fd3628308dd34f50854a9c0", "home": "Indiana Pacers", "away": "Oklahoma City Thunder", "t": "2026-11-24T00:40:00Z", "w": "Oklahoma City Thunder", "conf": 0.62, "why": "Pinnacle no-vig 63%, power model 58%, blend 62%. SGA questionable on a back-to-back; still favored without him per the line."}, {"ev": "a5184238c27b9c3bfca29220f9d5d14a", "home": "Toronto Raptors", "away": "Milwaukee Bucks", "t": "2026-11-24T00:40:00Z", "w": "Toronto Raptors", "conf": 0.77, "why": "Pinnacle no-vig 78%, power model 68%, blend 77%."}, {"ev": "b8dfee1fca57ec870528a14c792ad73a", "home": "Chicago Bulls", "away": "Cleveland Cavaliers", "t": "2026-11-24T01:10:00Z", "w": "Cleveland Cavaliers", "conf": 0.73, "why": "Pinnacle no-vig 74%, power model 64%, blend 73%. Chicago on a back-to-back after an OT game."}, {"ev": "6caeb7cce7c8340fed588f3badd83fe0", "home": "New Orleans Pelicans", "away": "Phoenix Suns", "t": "2026-11-24T01:10:00Z", "w": "Phoenix Suns", "conf": 0.59, "why": "Pinnacle no-vig 58%, power model 66%, blend 59%."}, {"ev": "db2311c331296d3328d71b842167dea4", "home": "Houston Rockets", "away": "Los Angeles Clippers", "t": "2026-11-24T01:40:00Z", "w": "Houston Rockets", "conf": 0.83, "why": "Pinnacle no-vig 83%, power model 78%, blend 83%."}, {"ev": "3e9dc52cb055c0154839c4aec417955b", "home": "Los Angeles Lakers", "away": "Utah Jazz", "t": "2026-11-24T03:10:00Z", "w": "Los Angeles Lakers", "conf": 0.85, "why": "Pinnacle no-vig 86%, power model 71%, blend 85%. Reaves out, Utah on a back-to-back."}, {"ev": "17f31499f145cd9d3232819395d29448", "home": "Sacramento Kings", "away": "San Antonio Spurs", "t": "2026-11-24T03:10:00Z", "w": "San Antonio Spurs", "conf": 0.8, "why": "Pinnacle no-vig 80%, power model 83%, blend 80%. Wembanyama and Fox questionable; the market already discounts it."}]}, {"id": "2026-11-22-nba", "sport": "nba", "label": "NBA picks: Sun Nov 22", "made": "2026-11-22T15:50:51Z", "week": 5, "note": "Two 2-leg parlays at $50 each. Both use the Celtics-Warriors Over, where DK is 3+ points cheaper than FanDuel, Caesars and Hard Rock: Over 192.5 with Washington +14.5, and Over 194.5 with Onyeka Okongwu 12+ points. After the morning re-pull, these were the only legs that cleared the profit floor. The Golden State cushions (four straight losses by 21+) and the whole OKC-Miami game (SGA and Giannis both questionable) were vetoed. The 3-leg is dropped.", "parlays": [{"id": "2026-11-22-nba-1", "stake": 50, "prob": 0.667, "ev": -0.029, "why": "Washington +14.5 (78.9% fair vs 80.1% DK; 76.9% consensus no-vig across 6 books, DK -403 is 3.2 pts cheaper than the median): Orlando is without Banchero and Isaac, has a biggest win this season of 15, and Pinnacle moved from ORL -5.5 to -4.5 this morning, toward us. Washington's top six are all healthy, though it has lost by 15+ in 4 of 17 games. Celtics-Warriors Over 192.5 (84.6% fair vs 85.7% DK; 82.5% no-vig, 4 books, DK -600 vs -800 to -900 elsewhere): the total is 210.5 and Golden State's four post-Curry games all reached 208+. Risk: Boston is on the second night of a back-to-back and hadn't filed its injury report. EV about -2.9%, so $50.", "legs": [{"ev": "335ad5604b51b7742fd1dee92d78da35", "home": "Washington Wizards", "away": "Orlando Magic", "t": "2026-11-23T00:10:00Z", "mk": "alternate_spreads", "n": "Washington Wizards", "p": 14.5, "o": -403, "fair": 0.788, "cg": 3.2, "cl": -392, "clp": 0.759}, {"ev": "b8c5bdb50209c7d050400c7d28c32e30", "home": "Golden State Warriors", "away": "Boston Celtics", "t": "2026-11-23T01:40:00Z", "mk": "alternate_totals", "n": "Over", "p": 192.5, "o": -600, "fair": 0.846, "cg": 3.2, "cl": -620, "clp": 0.824}]}, {"id": "2026-11-22-nba-2", "stake": 50, "prob": 0.59, "ev": -0.029, "why": "Onyeka Okongwu 12+ points (72.1% fair vs 73.3% DK; Pinnacle O14.5 is 52.6% no-vig, DK -275 is 2.3 pts cheaper than the other books): 12+ in 9 of his last 10 games at 30-36 minutes. Backup C Jock Landale is out, and Atlanta is only +2, so blowout risk is low. If Flemings (questionable) sits, Atlanta loses a shot-taker, which helps Okongwu. Celtics-Warriors Over 194.5 (81.9% fair vs 82.8% DK; 80.0% no-vig, DK -483 is 3.8 pts cheaper than the median): same game read as parlay 1. EV about -2.9%, so $50. Both parlays lose if this game finishes at 192 or lower; that concentration is disclosed and was accepted because no other legs cleared the floor.", "legs": [{"ev": "222a2887819bb18d9b9572aef63d9b9e", "home": "Atlanta Hawks", "away": "Detroit Pistons", "t": "2026-11-22T20:40:00Z", "mk": "player_points_alternate", "n": "Over", "d": "Onyeka Okongwu", "p": 11.5, "o": -275, "fair": 0.721, "cg": 2.3, "cl": -244, "clp": 0.691}, {"ev": "b8c5bdb50209c7d050400c7d28c32e30", "home": "Golden State Warriors", "away": "Boston Celtics", "t": "2026-11-23T01:40:00Z", "mk": "alternate_totals", "n": "Over", "p": 194.5, "o": -483, "fair": 0.819, "cg": 3.8, "cl": -494, "clp": 0.803}]}], "pickem": [{"ev": "222a2887819bb18d9b9572aef63d9b9e", "home": "Atlanta Hawks", "away": "Detroit Pistons", "t": "2026-11-22T20:40:00Z", "w": "Detroit Pistons", "conf": 0.55, "why": "Near coin flip: de-vigged ML 54% DET (Pinnacle -125/+113), so the market favorite; Cunningham probable, Atlanta without McCollum and Landale."}, {"ev": "90da1cde4144fac00d41f2c0db2cc921", "home": "Miami Heat", "away": "Oklahoma City Thunder", "t": "2026-11-22T23:10:00Z", "w": "Miami Heat", "conf": 0.59, "why": "De-vigged ML 60% MIA at home; SGA (back/neck) and Giannis (groin) are both questionable, and OKC is already missing Holmgren, both Williamses, Caruso and Wallace."}, {"ev": "15a079f55e23d26237844224f258c972", "home": "Chicago Bulls", "away": "Denver Nuggets", "t": "2026-11-23T00:10:00Z", "w": "Denver Nuggets", "conf": 0.75, "why": "De-vigged ML 76% (Pinnacle DEN -366); Denver is fully healthy, and Chicago has Powell and Jalen Smith questionable."}, {"ev": "1e7b9477c6c55aea5efd9c1a47039f5c", "home": "Utah Jazz", "away": "Dallas Mavericks", "t": "2026-11-23T00:10:00Z", "w": "Dallas Mavericks", "conf": 0.51, "why": "Pure coin flip (Pinnacle -106/-106; consensus 50.3% DAL): the market lean plus Utah's 3-14 record outweigh Dallas being on the second night of a back-to-back at altitude."}, {"ev": "335ad5604b51b7742fd1dee92d78da35", "home": "Washington Wizards", "away": "Orlando Magic", "t": "2026-11-23T00:10:00Z", "w": "Orlando Magic", "conf": 0.64, "why": "De-vigged ML 65% ORL (Pinnacle -203); Washington's healthy core keeps it close, but Orlando is the better team even without Banchero."}, {"ev": "031fa761cc38e1b5afd9309b731b38b2", "home": "New York Knicks", "away": "Indiana Pacers", "t": "2026-11-23T01:10:00Z", "w": "New York Knicks", "conf": 0.75, "why": "De-vigged ML 75% NYK at home; Towns, Anunoby and Clarkson are questionable on a back-to-back, but Indiana is 5-11 without Haliburton and McConnell, with Siakam questionable."}, {"ev": "b8c5bdb50209c7d050400c7d28c32e30", "home": "Golden State Warriors", "away": "Boston Celtics", "t": "2026-11-23T01:40:00Z", "w": "Boston Celtics", "conf": 0.73, "why": "De-vigged ML 75% BOS (Pinnacle -342); Golden State has lost four straight by 21+ without Curry, which outweighs Boston's back-to-back."}]}, {"id": "2026-11-21-nba", "sport": "nba", "label": "NBA picks: Sat Nov 21", "made": "2026-11-21T15:50:38Z", "week": 5, "note": "Two 2-leg parlays on four different games, both $50: Karl-Anthony Towns 20+ points+assists with Memphis +17.5, and Sacramento +28.5 (DK 4.5 points cheaper than the other books) with Pelicans-Spurs Under 247.5. The 3-leg is dropped: after the Clippers and Pelicans cushions were vetoed for blowout tails, every 3-leg reused games from both 2-legs. The Bucks-76ers matinee had no leg that cleared.", "parlays": [{"id": "2026-11-21-nba-1", "stake": 50, "prob": 0.543, "ev": -0.039, "why": "Karl-Anthony Towns 20+ points+assists (79.3% fair vs 78.0% DK; 81.9% consensus no-vig, DK -355 is 3.8 pts cheaper than the 6-book median): 20+ in 14 of 16 games (median 25) at 33-43 minutes, NYK only -5 so little bench risk; Clarkson is out and Anunoby questionable, which can only add usage. Memphis +17.5 (79.7% fair vs 82.5% DK; 79.8% no-vig, 6 books): Minnesota is -6 without Edwards, and Memphis has failed the spread by 10+ once in 16 games, though it is missing Grant, Boozer and Small. EV about -2%, so $50. Late swap: Towns was ruled out (illness) and Anunoby is out too, so Josh Hart Over 6.5 rebounds (68.1% consensus no-vig, DK -217 vs -242.5 median) replaces him; no remaining leg kept EV at the published -2%, and this is the best one left, at about -4%.", "legs": [{"ev": "232f705eea406644ff14ad17bcf9aea6", "home": "New York Knicks", "away": "Portland Trail Blazers", "t": "2026-11-22T00:40:00Z", "mk": "player_rebounds_alternate", "n": "Over", "d": "Josh Hart", "p": 6.5, "o": -217, "fair": 0.681, "cg": 2.3, "cl": -217, "clp": 0.681, "swap": "Replaced Karl-Anthony Towns Over 19.5 pts+ast (ruled out, illness) 6:28 PM ET"}, {"ev": "37e3f99d7ee68587400e99e417db0e6a", "home": "Minnesota Timberwolves", "away": "Memphis Grizzlies", "t": "2026-11-22T01:10:00Z", "mk": "alternate_spreads", "n": "Memphis Grizzlies", "p": 17.5, "o": -472, "fair": 0.797, "cg": 1.4, "cl": -535, "clp": 0.798}]}, {"id": "2026-11-21-nba-2", "stake": 50, "prob": 0.729, "ev": -0.024, "why": "Sacramento +28.5 (85.5% fair vs 85.6% DK; 84.4% consensus no-vig, DK -592 vs -800 to -1000 elsewhere, 4.5 pts cheaper, the backtest's cheapest leg type): Boston is -13.5 with Tatum (rest) and White questionable before a back-to-back at Golden State, and the Kings' worst loss this season is 24. NOP@SAS Under 247.5 (85.3% fair vs 87.3% DK; 84.9% no-vig, 4 books): the total is 228.5, the Spurs have gone over 243 in 0 of 16 games, and lopsided games this season finish 3.4 points under the total (SAS -18). EV about -2.4%, so $50.", "legs": [{"ev": "b754a1bf84af81d45d4a3a16398daa44", "home": "Sacramento Kings", "away": "Boston Celtics", "t": "2026-11-22T03:10:00Z", "mk": "alternate_spreads", "n": "Sacramento Kings", "p": 28.5, "o": -592, "fair": 0.855, "cg": 4.5, "cl": -670, "clp": 0.848}, {"ev": "1139ffb82856378723c5465df4e13d96", "home": "San Antonio Spurs", "away": "New Orleans Pelicans", "t": "2026-11-22T01:10:00Z", "mk": "alternate_totals", "n": "Under", "p": 247.5, "o": -690, "fair": 0.853, "cg": 2.1, "cl": -670, "clp": 0.831}]}], "pickem": [{"ev": "6cd4587453e4da55317b2c1e3576e75b", "home": "Philadelphia 76ers", "away": "Milwaukee Bucks", "t": "2026-11-21T18:10:00Z", "w": "Philadelphia 76ers", "conf": 0.81, "why": "De-vigged ML 81% (Pinnacle -517); Milwaukee is 1-15 and 4 ATS-points worse than the line per game, which outweighs Maxey being questionable and Brown out."}, {"ev": "232f705eea406644ff14ad17bcf9aea6", "home": "New York Knicks", "away": "Portland Trail Blazers", "t": "2026-11-22T00:40:00Z", "w": "Portland Trail Blazers", "conf": 0.51, "why": "De-vigged ML 63% (Pinnacle NYK -5, -189); both teams have a questionable forward (Anunoby, Avdija), so no adjustment. Flipped at 6:28 PM ET: Towns (illness) and Anunoby are both out, and Pinnacle moved to POR -109 / NYK +100 (51% Portland no-vig)."}, {"ev": "293cafe6913a9bd59328c98049266ad0", "home": "Dallas Mavericks", "away": "Los Angeles Clippers", "t": "2026-11-22T01:10:00Z", "w": "Dallas Mavericks", "conf": 0.66, "why": "De-vigged ML 66%; the Clippers are 4-10 without Ingram and Beal, which offsets Washington and Clayton being questionable for Dallas."}, {"ev": "37e3f99d7ee68587400e99e417db0e6a", "home": "Minnesota Timberwolves", "away": "Memphis Grizzlies", "t": "2026-11-22T01:10:00Z", "w": "Minnesota Timberwolves", "conf": 0.67, "why": "De-vigged ML 68% for Minnesota at home; Memphis (12-4) is missing Grant, Boozer, Small, Jackson and Pippen."}, {"ev": "1139ffb82856378723c5465df4e13d96", "home": "San Antonio Spurs", "away": "New Orleans Pelicans", "t": "2026-11-22T01:10:00Z", "w": "San Antonio Spurs", "conf": 0.91, "why": "De-vigged ML 91%; the Spurs are 13-3 at home and New Orleans (5-12) is on the second night of a back-to-back."}, {"ev": "b754a1bf84af81d45d4a3a16398daa44", "home": "Sacramento Kings", "away": "Boston Celtics", "t": "2026-11-22T03:10:00Z", "w": "Boston Celtics", "conf": 0.85, "why": "De-vigged ML 85%; Sacramento is 1-14 and on a back-to-back. Tatum (rest) and White are questionable, which the -13.5 line partly prices."}]}, {"id": "2026-11-20-nba", "sport": "nba", "label": "NBA picks: Fri Nov 20", "made": "2026-11-20T15:54:24Z", "week": 5, "note": "Two 2-leg parlays on four different games: Brooklyn +17.5 and Utah +15.5, where DK is about 3 points cheaper than the other books, plus Tari Eason's rebounds (Capela out, Sengun questionable) with Sacramento +29.5. The 3-leg parlay is dropped: every 3-leg that cleared the profit floor reused the same games, so both parlays are at the $50 tier.", "parlays": [{"id": "2026-11-20-nba-1", "stake": 50, "prob": 0.653, "ev": -0.029, "why": "Brooklyn +17.5 (81.9% fair vs 82.3% DK; 80.4% consensus no-vig, DK -465 vs -500 to -700 elsewhere, 3.3 pts cheaper): Orlando is -5.5 without Banchero, so the Nets only need to avoid an 18+ point loss. Utah +15.5 (79.7% fair vs 81.7% DK; 79.0% no-vig, DK 2.9 pts cheaper): Phoenix is -4.5, and the Jazz have failed the spread by 11+ in only 2 of 16 games; they beat the Lakers by 12 on Wednesday. The backtest's 'DK 3-5 pts cheaper' team-leg bucket is the cheapest NBA leg type (+0.9%). EV is about -3%, so $50.", "legs": [{"ev": "6e1faf38d3fed9e0396d6613891770e1", "home": "Brooklyn Nets", "away": "Orlando Magic", "t": "2026-11-21T00:40:00Z", "mk": "alternate_spreads", "n": "Brooklyn Nets", "p": 17.5, "o": -465, "fair": 0.819, "cg": 3.3, "cl": -403, "clp": 0.777}, {"ev": "ee204ae35d677450476eab6ad6a146a7", "home": "Utah Jazz", "away": "Phoenix Suns", "t": "2026-11-21T02:40:00Z", "mk": "alternate_spreads", "n": "Utah Jazz", "p": 15.5, "o": -446, "fair": 0.797, "cg": 2.9, "cl": -438, "clp": 0.785}]}, {"id": "2026-11-20-nba-2", "stake": 50, "prob": 0.634, "ev": -0.028, "why": "Tari Eason 4+ rebounds (75.0% fair vs 75.2% DK; 77.0% consensus no-vig, up from 76.3% this morning; DK -304 vs -400 to -425 at FD/CZR/FAN/SCR, 4.8 pts cheaper): 4+ in 10 of his last 12 at 22-33 minutes. Capela is out and Sengun and Adams are questionable; our sim gives 83% with Sengun in and 91% with him out. Sacramento +29.5 (84.5% fair vs 86.7% DK; 83.7% no-vig, DK 2.2 pts cheaper): the Lakers are -14.5 without Reaves, and the Kings have failed the spread by 15+ in only 2 of 14 games. EV is about -3%, so $50.", "legs": [{"ev": "086d2fe80483ffcc280994fe2e12d4f4", "home": "Denver Nuggets", "away": "Houston Rockets", "t": "2026-11-21T03:10:00Z", "mk": "player_rebounds_alternate", "n": "Over", "d": "Tari Eason", "p": 3.5, "o": -304, "fair": 0.75, "cg": 4.8, "cl": -289, "clp": 0.712}, {"ev": "55c3096b11f501ffb6d8bccbb2cd319d", "home": "Los Angeles Lakers", "away": "Sacramento Kings", "t": "2026-11-21T03:10:00Z", "mk": "alternate_spreads", "n": "Sacramento Kings", "p": 29.5, "o": -650, "fair": 0.845, "cg": 2.2, "cl": -670, "clp": 0.834}]}], "pickem": [{"ev": "f8ad540db00e4a4a360d67dfcb7a53b8", "home": "Atlanta Hawks", "away": "Charlotte Hornets", "t": "2026-11-21T00:10:00Z", "w": "Atlanta Hawks", "conf": 0.68, "why": "De-vigged ML 68% (Pinnacle); Charlotte is 4-10, -7.0 ATS per game, and without Allen, Williams, Knueppel and Schroder on the 4th stop of a road trip."}, {"ev": "6e1faf38d3fed9e0396d6613891770e1", "home": "Brooklyn Nets", "away": "Orlando Magic", "t": "2026-11-21T00:40:00Z", "w": "Orlando Magic", "conf": 0.67, "why": "De-vigged ML 68% for Orlando; Brooklyn is 3-11 and lost its last two by 12 and 30. Banchero has been out a month, so his absence is priced in."}, {"ev": "10e9b9aca502ce158d6a3a91bf00bfd2", "home": "Cleveland Cavaliers", "away": "Indiana Pacers", "t": "2026-11-21T00:40:00Z", "w": "Cleveland Cavaliers", "conf": 0.66, "why": "De-vigged ML 67%; Indiana is without Haliburton, with Nembhard and Smith questionable, which offsets Mobley's absence."}, {"ev": "9051693857c6a0e5e1bc6bb2b4f6fe35", "home": "Detroit Pistons", "away": "Toronto Raptors", "t": "2026-11-21T00:40:00Z", "w": "Detroit Pistons", "conf": 0.7, "why": "De-vigged ML 70%, model 72%; Toronto just lost Barrett (hamstring) and is also without Leonard and Murray-Boyles."}, {"ev": "d6ed1e97c331fc604506e4c354ab1cdc", "home": "Chicago Bulls", "away": "Washington Wizards", "t": "2026-11-21T01:10:00Z", "w": "Chicago Bulls", "conf": 0.56, "why": "Near coin flip: market favorite at 56% de-vigged (Pinnacle CHI -2). No fresh news to flip it."}, {"ev": "17e3a8dc71275a88b19d0d6750a5052c", "home": "Oklahoma City Thunder", "away": "New Orleans Pelicans", "t": "2026-11-21T01:10:00Z", "w": "Oklahoma City Thunder", "conf": 0.82, "why": "De-vigged ML 82%; New Orleans is without Murray and Mathurin, with Murphy questionable."}, {"ev": "ee204ae35d677450476eab6ad6a146a7", "home": "Utah Jazz", "away": "Phoenix Suns", "t": "2026-11-21T02:40:00Z", "w": "Phoenix Suns", "conf": 0.62, "why": "De-vigged ML 62% for Phoenix; Utah is 3-13 without Markkanen, Jackson Jr. and Nurkic."}, {"ev": "086d2fe80483ffcc280994fe2e12d4f4", "home": "Denver Nuggets", "away": "Houston Rockets", "t": "2026-11-21T03:10:00Z", "w": "Houston Rockets", "conf": 0.53, "why": "Coin flip: market favorite Denver at 53% de-vigged. My power model leans Houston (12-4), but Sengun and Adams are questionable and Capela is out, so I take the favorite. Late update: Sengun and Adams are both active and Pinnacle has flipped to Houston (-115/+102, 52% no-vig), which matches my model, so the pick flips to Houston."}, {"ev": "55c3096b11f501ffb6d8bccbb2cd319d", "home": "Los Angeles Lakers", "away": "Sacramento Kings", "t": "2026-11-21T03:10:00Z", "w": "Los Angeles Lakers", "conf": 0.86, "why": "De-vigged ML 86%; the Kings are 1-13 (-12.3 per game adjusted), which outweighs Reaves being out."}]}, {"id": "2026-11-19-nba", "sport": "nba", "label": "NBA picks: Thu Nov 19", "made": "2026-11-19T15:46:10Z", "week": 5, "note": "First NBA slate: two 2-leg parlays built on Memphis covering against a Curry-less Warriors team and the Knicks' scoring staying in check at Minnesota. The 3-leg parlay is dropped because no 3-leg combination cleared the profit floor; every NBA leg costs 1-4 points against the no-vig market. Portland legs are skipped with Avdija and Camara questionable.", "parlays": [{"id": "2026-11-19-nba-1", "stake": 50, "prob": 0.615, "ev": -0.024, "why": "Memphis +3.5 (78% fair vs 78% book, 74% consensus no-vig): Golden State is -15.6 per game without Curry and lost its last three by 21, 22 and 38; both teams are on a back-to-back. Knicks team total Under 117.5 (79% vs 81%): Minnesota's defense holds teams to about 105, my model projects New York at 104.7 against a 108.5 main line, and New York topped 117 once in its last 8. EV is just under break-even, so it gets the $50 tier.", "legs": [{"ev": "3c082b72aa002131c276ff5e24bada1b", "home": "Memphis Grizzlies", "away": "Golden State Warriors", "t": "2026-11-20T01:10:00Z", "mk": "alternate_spreads", "n": "Memphis Grizzlies", "p": 3.5, "o": -357, "fair": 0.777, "cg": 0.8, "cl": -316, "clp": 0.725}, {"ev": "5ee4efd00c1daaebd8249ff44fd6ac9d", "home": "Minnesota Timberwolves", "away": "New York Knicks", "t": "2026-11-20T01:10:00Z", "mk": "alternate_team_totals", "n": "Under", "d": "New York Knicks", "p": 117.5, "o": -416, "fair": 0.791, "cg": 0.3, "cl": -434, "clp": 0.772}]}, {"id": "2026-11-19-nba-2", "stake": 100, "prob": 0.624, "ev": 0.001, "why": "Towns 11+ rebounds (76.5% fair vs 75.5% book; Pinnacle no-vig 76.6%, DK 1.3 pts cheaper than the other books): 11+ in each of his last 10 games (avg 14.1 in 34 min), the Knicks have no injuries, and his main line is 13.5. Memphis +5.5 (82% fair vs 83% book) for the same Curry-absence reason as parlay 1, two points safer.", "legs": [{"ev": "5ee4efd00c1daaebd8249ff44fd6ac9d", "home": "Minnesota Timberwolves", "away": "New York Knicks", "t": "2026-11-20T01:10:00Z", "mk": "player_rebounds_alternate", "n": "Over", "d": "Karl-Anthony Towns", "p": 10.5, "o": -308, "fair": 0.765, "cg": 1.3, "cl": -297, "clp": 0.72}, {"ev": "3c082b72aa002131c276ff5e24bada1b", "home": "Memphis Grizzlies", "away": "Golden State Warriors", "t": "2026-11-20T01:10:00Z", "mk": "alternate_spreads", "n": "Memphis Grizzlies", "p": 5.5, "o": -476, "fair": 0.816, "cg": 0.7, "cl": -427, "clp": 0.768}]}], "pickem": [{"ev": "3c082b72aa002131c276ff5e24bada1b", "home": "Memphis Grizzlies", "away": "Golden State Warriors", "t": "2026-11-20T01:10:00Z", "w": "Memphis Grizzlies", "conf": 0.72, "why": "Model 72% vs 68% de-vigged ML: Golden State is -15.6 per game without Curry (lost the last 3 by 21-38), and both teams are on a back-to-back."}, {"ev": "20fa5e2d73cec494c113790161a89aec", "home": "San Antonio Spurs", "away": "Los Angeles Clippers", "t": "2026-11-20T01:10:00Z", "w": "San Antonio Spurs", "conf": 0.88, "why": "De-vigged ML 88%: Spurs are 12-3 with Wembanyama healthy, and LA is without Ingram and Beal; Harper's absence is priced in."}, {"ev": "006df00e5e48650d849d1bb4cd81565d", "home": "Milwaukee Bucks", "away": "Portland Trail Blazers", "t": "2026-11-20T01:10:00Z", "w": "Portland Trail Blazers", "conf": 0.77, "why": "De-vigged ML 78%, shaded down for Avdija (25.6 ppg) and Camara being questionable; Milwaukee is 1-14 and on the second night of a back-to-back."}, {"ev": "5ee4efd00c1daaebd8249ff44fd6ac9d", "home": "Minnesota Timberwolves", "away": "New York Knicks", "t": "2026-11-20T01:10:00Z", "w": "New York Knicks", "conf": 0.51, "why": "Coin flip: market favorite at 51% de-vigged. My power model leans Minnesota, but that isn't enough to flip a near pick'em, and Kuminga is questionable."}]}]}
+{
+ "slates": [
+  {
+   "id": "2026-11-24-nba",
+   "sport": "nba",
+   "label": "NBA picks: Tue Nov 24",
+   "made": "2026-11-24T15:52:37Z",
+   "week": 6,
+   "note": "Three games, so one 2-leg parlay at $50: Pistons-Magic Under 230.5 and Washington +26.5, two team cushions where DK is 3-4 points cheaper than the other books. With three games, a second parlay would have to reuse a game, which this week's rules don't allow, and the 60% team-leg rule leaves no room for a prop.",
+   "parlays": [
+    {
+     "id": "2026-11-24-nba-1",
+     "stake": 50,
+     "prob": 0.722,
+     "ev": -0.017,
+     "why": "Pistons-Magic Under 230.5 (-550): fair 83.6% vs 84.6% DK implied (81.7% de-vigged median of the other books, which are 3.6 points pricier). The market total is 212.5-213.5 with Banchero, Duren and Okorie out; last season games finished 18+ over the close 17% of the time, and Under rungs at this price have hit at their implied rate in our line history. Washington +26.5 (-660): fair 86.4% vs 86.8% implied (84.1% market, DK 3.6 points cheaper). Boston is -10.5; dogs of 9-12.5 covered +25.5 in 88% of last season's games, and the Wizards (healthy top six) have failed by 16+ only twice in 18 games.",
+     "legs": [
+      {
+       "ev": "42f48a4769eab3d1472d76aac0fd0fa7",
+       "home": "Orlando Magic",
+       "away": "Detroit Pistons",
+       "t": "2026-11-25T00:11:00Z",
+       "mk": "alternate_totals",
+       "n": "Under",
+       "p": 230.5,
+       "o": -550,
+       "fair": 0.836,
+       "cg": 3.6,
+       "cl": -650,
+       "clp": 0.826
+      },
+      {
+       "ev": "3167a4072c65c9314c71d0fe49be8e28",
+       "home": "Washington Wizards",
+       "away": "Boston Celtics",
+       "t": "2026-11-25T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Washington Wizards",
+       "p": 26.5,
+       "o": -660,
+       "fair": 0.864,
+       "cg": 3.6,
+       "cl": -630,
+       "clp": 0.836
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "42f48a4769eab3d1472d76aac0fd0fa7",
+     "home": "Orlando Magic",
+     "away": "Detroit Pistons",
+     "t": "2026-11-25T00:11:00Z",
+     "w": "Detroit Pistons",
+     "conf": 0.56,
+     "why": "Pinnacle no-vig 56%, power model 58%: near coin flip, so the market favorite; Cunningham probable, Banchero out for Orlando."
+    },
+    {
+     "ev": "3167a4072c65c9314c71d0fe49be8e28",
+     "home": "Washington Wizards",
+     "away": "Boston Celtics",
+     "t": "2026-11-25T01:10:00Z",
+     "w": "Boston Celtics",
+     "conf": 0.78,
+     "why": "Pinnacle no-vig 79%, power model 67%, blend 78%; Tatum, George and White all available."
+    },
+    {
+     "ev": "6bfadbd22ed8a054cf82ec1b12b78243",
+     "home": "Denver Nuggets",
+     "away": "Dallas Mavericks",
+     "t": "2026-11-25T03:10:00Z",
+     "w": "Denver Nuggets",
+     "conf": 0.71,
+     "why": "Pinnacle no-vig 72%, power model 59%, blend 71%; Denver has no injuries, Lively and Lawal out and P.J. Washington questionable for Dallas."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-nba",
+   "sport": "nba",
+   "label": "NBA picks: Mon Nov 23",
+   "made": "2026-11-23T15:43:53Z",
+   "week": 6,
+   "note": "Ten games, two 2-leg parlays on four different games, both $50: Sacramento +26.5 with Brook Lopez 8+ points, and Chicago +23.5 with Indiana +20.5, cushions where DK is 2-4 points cheaper than the other books. No 3-leg: every combination reused a game, and the new rule is no game in two parlays after Sunday's Over sank both. Chicago and Indiana are on back-to-backs with reports not yet filed, so the late swap must recheck them.",
+   "parlays": [
+    {
+     "id": "2026-11-23-nba-1",
+     "stake": 50,
+     "prob": 0.667,
+     "ev": -0.024,
+     "why": "Sacramento +26.5 (-680): fair 86.6% vs 85.5% DK implied (84.5% de-vigged median of 4 books). DK is 3.3 points cheaper than FD/CZR/HR, and the Kings have failed the spread by 16+ only twice in 16 games; Wembanyama and Fox are questionable, which only helps. Brook Lopez 8+ points (-362): fair 77.0% vs 78.4% implied. He has started all 15 games (25-27 min lately) and scored 8+ in 12 of 15 (21-23 in each of his last three). DK is 2.6 points cheaper than the other books; the risk is a 12.5-point Houston blowout cutting his minutes.",
+     "legs": [
+      {
+       "ev": "17f31499f145cd9d3232819395d29448",
+       "home": "Sacramento Kings",
+       "away": "San Antonio Spurs",
+       "t": "2026-11-24T03:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Sacramento Kings",
+       "p": 26.5,
+       "o": -680,
+       "fair": 0.866,
+       "cg": 3.3,
+       "cl": -1020,
+       "clp": 0.874
+      },
+      {
+       "ev": "db2311c331296d3328d71b842167dea4",
+       "home": "Houston Rockets",
+       "away": "Los Angeles Clippers",
+       "t": "2026-11-24T01:40:00Z",
+       "mk": "player_points_alternate",
+       "n": "Over",
+       "d": "Brook Lopez",
+       "p": 7.5,
+       "o": -362,
+       "fair": 0.77,
+       "cg": 2.6,
+       "cl": -370,
+       "clp": 0.748
+      }
+     ]
+    },
+    {
+     "id": "2026-11-23-nba-2",
+     "stake": 50,
+     "prob": 0.751,
+     "ev": -0.026,
+     "why": "Chicago +23.5 (-620): fair 86.1% vs 86.1% implied, with DK 3.9 points cheaper than FD/CZR/HR. Cleveland is without Mobley, and the line is 8.5. Indiana +20.5 (-860): fair 87.2% vs 89.6% implied, with DK 2.1 points cheaper. Oklahoma City is also on a back-to-back with SGA questionable, and the Pacers have failed by 16+ once in 17 games. Both home dogs are on the second night of a back-to-back with reports not yet filed, so this parlay depends on the late swap.",
+     "legs": [
+      {
+       "ev": "b8dfee1fca57ec870528a14c792ad73a",
+       "home": "Chicago Bulls",
+       "away": "Cleveland Cavaliers",
+       "t": "2026-11-24T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Chicago Bulls",
+       "p": 23.5,
+       "o": -620,
+       "fair": 0.861,
+       "cg": 3.9,
+       "cl": -610,
+       "clp": 0.829
+      },
+      {
+       "ev": "c9b6c9f77fd3628308dd34f50854a9c0",
+       "home": "Indiana Pacers",
+       "away": "Oklahoma City Thunder",
+       "t": "2026-11-24T00:40:00Z",
+       "mk": "alternate_spreads",
+       "n": "Indiana Pacers",
+       "p": 20.5,
+       "o": -860,
+       "fair": 0.872,
+       "cg": 2.1,
+       "cl": -930,
+       "clp": 0.865
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "35ca45d3e548dc7207fd7f1696ab16f5",
+     "home": "Charlotte Hornets",
+     "away": "Memphis Grizzlies",
+     "t": "2026-11-24T00:10:00Z",
+     "w": "Memphis Grizzlies",
+     "conf": 0.6,
+     "why": "Pinnacle no-vig 57%, power model 79%, blend 60%. Charlotte without Knueppel, Schroder and Allen."
+    },
+    {
+     "ev": "ac6fb079d66ef35a2a77e22b5e94ef8d",
+     "home": "Philadelphia 76ers",
+     "away": "Portland Trail Blazers",
+     "t": "2026-11-24T00:10:00Z",
+     "w": "Philadelphia 76ers",
+     "conf": 0.56,
+     "why": "Pinnacle no-vig 58%, power model 42%, blend 56%. Near coin flip, so the market favorite; Brown probable."
+    },
+    {
+     "ev": "a72a1703f7a92b80768255d1d977a761",
+     "home": "Minnesota Timberwolves",
+     "away": "Brooklyn Nets",
+     "t": "2026-11-24T00:40:00Z",
+     "w": "Minnesota Timberwolves",
+     "conf": 0.82,
+     "why": "Pinnacle no-vig 82%, power model 80%, blend 82%."
+    },
+    {
+     "ev": "c9b6c9f77fd3628308dd34f50854a9c0",
+     "home": "Indiana Pacers",
+     "away": "Oklahoma City Thunder",
+     "t": "2026-11-24T00:40:00Z",
+     "w": "Oklahoma City Thunder",
+     "conf": 0.62,
+     "why": "Pinnacle no-vig 63%, power model 58%, blend 62%. SGA questionable on a back-to-back; still favored without him per the line."
+    },
+    {
+     "ev": "a5184238c27b9c3bfca29220f9d5d14a",
+     "home": "Toronto Raptors",
+     "away": "Milwaukee Bucks",
+     "t": "2026-11-24T00:40:00Z",
+     "w": "Toronto Raptors",
+     "conf": 0.77,
+     "why": "Pinnacle no-vig 78%, power model 68%, blend 77%."
+    },
+    {
+     "ev": "b8dfee1fca57ec870528a14c792ad73a",
+     "home": "Chicago Bulls",
+     "away": "Cleveland Cavaliers",
+     "t": "2026-11-24T01:10:00Z",
+     "w": "Cleveland Cavaliers",
+     "conf": 0.73,
+     "why": "Pinnacle no-vig 74%, power model 64%, blend 73%. Chicago on a back-to-back after an OT game."
+    },
+    {
+     "ev": "6caeb7cce7c8340fed588f3badd83fe0",
+     "home": "New Orleans Pelicans",
+     "away": "Phoenix Suns",
+     "t": "2026-11-24T01:10:00Z",
+     "w": "Phoenix Suns",
+     "conf": 0.59,
+     "why": "Pinnacle no-vig 58%, power model 66%, blend 59%."
+    },
+    {
+     "ev": "db2311c331296d3328d71b842167dea4",
+     "home": "Houston Rockets",
+     "away": "Los Angeles Clippers",
+     "t": "2026-11-24T01:40:00Z",
+     "w": "Houston Rockets",
+     "conf": 0.83,
+     "why": "Pinnacle no-vig 83%, power model 78%, blend 83%."
+    },
+    {
+     "ev": "3e9dc52cb055c0154839c4aec417955b",
+     "home": "Los Angeles Lakers",
+     "away": "Utah Jazz",
+     "t": "2026-11-24T03:10:00Z",
+     "w": "Los Angeles Lakers",
+     "conf": 0.85,
+     "why": "Pinnacle no-vig 86%, power model 71%, blend 85%. Reaves out, Utah on a back-to-back."
+    },
+    {
+     "ev": "17f31499f145cd9d3232819395d29448",
+     "home": "Sacramento Kings",
+     "away": "San Antonio Spurs",
+     "t": "2026-11-24T03:10:00Z",
+     "w": "San Antonio Spurs",
+     "conf": 0.8,
+     "why": "Pinnacle no-vig 80%, power model 83%, blend 80%. Wembanyama and Fox questionable; the market already discounts it."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-nba",
+   "sport": "nba",
+   "label": "NBA picks: Sun Nov 22",
+   "made": "2026-11-22T15:50:51Z",
+   "week": 5,
+   "note": "Two 2-leg parlays at $50 each. Both use the Celtics-Warriors Over, where DK is 3+ points cheaper than FanDuel, Caesars and Hard Rock: Over 192.5 with Washington +14.5, and Over 194.5 with Onyeka Okongwu 12+ points. After the morning re-pull, these were the only legs that cleared the profit floor. The Golden State cushions (four straight losses by 21+) and the whole OKC-Miami game (SGA and Giannis both questionable) were vetoed. The 3-leg is dropped.",
+   "parlays": [
+    {
+     "id": "2026-11-22-nba-1",
+     "stake": 50,
+     "prob": 0.667,
+     "ev": -0.029,
+     "why": "Washington +14.5 (78.9% fair vs 80.1% DK; 76.9% consensus no-vig across 6 books, DK -403 is 3.2 pts cheaper than the median): Orlando is without Banchero and Isaac, has a biggest win this season of 15, and Pinnacle moved from ORL -5.5 to -4.5 this morning, toward us. Washington's top six are all healthy, though it has lost by 15+ in 4 of 17 games. Celtics-Warriors Over 192.5 (84.6% fair vs 85.7% DK; 82.5% no-vig, 4 books, DK -600 vs -800 to -900 elsewhere): the total is 210.5 and Golden State's four post-Curry games all reached 208+. Risk: Boston is on the second night of a back-to-back and hadn't filed its injury report. EV about -2.9%, so $50.",
+     "legs": [
+      {
+       "ev": "335ad5604b51b7742fd1dee92d78da35",
+       "home": "Washington Wizards",
+       "away": "Orlando Magic",
+       "t": "2026-11-23T00:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Washington Wizards",
+       "p": 14.5,
+       "o": -403,
+       "fair": 0.788,
+       "cg": 3.2,
+       "cl": -392,
+       "clp": 0.759
+      },
+      {
+       "ev": "b8c5bdb50209c7d050400c7d28c32e30",
+       "home": "Golden State Warriors",
+       "away": "Boston Celtics",
+       "t": "2026-11-23T01:40:00Z",
+       "mk": "alternate_totals",
+       "n": "Over",
+       "p": 192.5,
+       "o": -600,
+       "fair": 0.846,
+       "cg": 3.2,
+       "cl": -620,
+       "clp": 0.824
+      }
+     ]
+    },
+    {
+     "id": "2026-11-22-nba-2",
+     "stake": 50,
+     "prob": 0.59,
+     "ev": -0.029,
+     "why": "Onyeka Okongwu 12+ points (72.1% fair vs 73.3% DK; Pinnacle O14.5 is 52.6% no-vig, DK -275 is 2.3 pts cheaper than the other books): 12+ in 9 of his last 10 games at 30-36 minutes. Backup C Jock Landale is out, and Atlanta is only +2, so blowout risk is low. If Flemings (questionable) sits, Atlanta loses a shot-taker, which helps Okongwu. Celtics-Warriors Over 194.5 (81.9% fair vs 82.8% DK; 80.0% no-vig, DK -483 is 3.8 pts cheaper than the median): same game read as parlay 1. EV about -2.9%, so $50. Both parlays lose if this game finishes at 192 or lower; that concentration is disclosed and was accepted because no other legs cleared the floor.",
+     "legs": [
+      {
+       "ev": "222a2887819bb18d9b9572aef63d9b9e",
+       "home": "Atlanta Hawks",
+       "away": "Detroit Pistons",
+       "t": "2026-11-22T20:40:00Z",
+       "mk": "player_points_alternate",
+       "n": "Over",
+       "d": "Onyeka Okongwu",
+       "p": 11.5,
+       "o": -275,
+       "fair": 0.721,
+       "cg": 2.3,
+       "cl": -244,
+       "clp": 0.691
+      },
+      {
+       "ev": "b8c5bdb50209c7d050400c7d28c32e30",
+       "home": "Golden State Warriors",
+       "away": "Boston Celtics",
+       "t": "2026-11-23T01:40:00Z",
+       "mk": "alternate_totals",
+       "n": "Over",
+       "p": 194.5,
+       "o": -483,
+       "fair": 0.819,
+       "cg": 3.8,
+       "cl": -494,
+       "clp": 0.803
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "222a2887819bb18d9b9572aef63d9b9e",
+     "home": "Atlanta Hawks",
+     "away": "Detroit Pistons",
+     "t": "2026-11-22T20:40:00Z",
+     "w": "Detroit Pistons",
+     "conf": 0.55,
+     "why": "Near coin flip: de-vigged ML 54% DET (Pinnacle -125/+113), so the market favorite; Cunningham probable, Atlanta without McCollum and Landale."
+    },
+    {
+     "ev": "90da1cde4144fac00d41f2c0db2cc921",
+     "home": "Miami Heat",
+     "away": "Oklahoma City Thunder",
+     "t": "2026-11-22T23:10:00Z",
+     "w": "Miami Heat",
+     "conf": 0.59,
+     "why": "De-vigged ML 60% MIA at home; SGA (back/neck) and Giannis (groin) are both questionable, and OKC is already missing Holmgren, both Williamses, Caruso and Wallace."
+    },
+    {
+     "ev": "15a079f55e23d26237844224f258c972",
+     "home": "Chicago Bulls",
+     "away": "Denver Nuggets",
+     "t": "2026-11-23T00:10:00Z",
+     "w": "Denver Nuggets",
+     "conf": 0.75,
+     "why": "De-vigged ML 76% (Pinnacle DEN -366); Denver is fully healthy, and Chicago has Powell and Jalen Smith questionable."
+    },
+    {
+     "ev": "1e7b9477c6c55aea5efd9c1a47039f5c",
+     "home": "Utah Jazz",
+     "away": "Dallas Mavericks",
+     "t": "2026-11-23T00:10:00Z",
+     "w": "Dallas Mavericks",
+     "conf": 0.51,
+     "why": "Pure coin flip (Pinnacle -106/-106; consensus 50.3% DAL): the market lean plus Utah's 3-14 record outweigh Dallas being on the second night of a back-to-back at altitude."
+    },
+    {
+     "ev": "335ad5604b51b7742fd1dee92d78da35",
+     "home": "Washington Wizards",
+     "away": "Orlando Magic",
+     "t": "2026-11-23T00:10:00Z",
+     "w": "Orlando Magic",
+     "conf": 0.64,
+     "why": "De-vigged ML 65% ORL (Pinnacle -203); Washington's healthy core keeps it close, but Orlando is the better team even without Banchero."
+    },
+    {
+     "ev": "031fa761cc38e1b5afd9309b731b38b2",
+     "home": "New York Knicks",
+     "away": "Indiana Pacers",
+     "t": "2026-11-23T01:10:00Z",
+     "w": "New York Knicks",
+     "conf": 0.75,
+     "why": "De-vigged ML 75% NYK at home; Towns, Anunoby and Clarkson are questionable on a back-to-back, but Indiana is 5-11 without Haliburton and McConnell, with Siakam questionable."
+    },
+    {
+     "ev": "b8c5bdb50209c7d050400c7d28c32e30",
+     "home": "Golden State Warriors",
+     "away": "Boston Celtics",
+     "t": "2026-11-23T01:40:00Z",
+     "w": "Boston Celtics",
+     "conf": 0.73,
+     "why": "De-vigged ML 75% BOS (Pinnacle -342); Golden State has lost four straight by 21+ without Curry, which outweighs Boston's back-to-back."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-nba",
+   "sport": "nba",
+   "label": "NBA picks: Sat Nov 21",
+   "made": "2026-11-21T15:50:38Z",
+   "week": 5,
+   "note": "Two 2-leg parlays on four different games, both $50: Karl-Anthony Towns 20+ points+assists with Memphis +17.5, and Sacramento +28.5 (DK 4.5 points cheaper than the other books) with Pelicans-Spurs Under 247.5. The 3-leg is dropped: after the Clippers and Pelicans cushions were vetoed for blowout tails, every 3-leg reused games from both 2-legs. The Bucks-76ers matinee had no leg that cleared.",
+   "parlays": [
+    {
+     "id": "2026-11-21-nba-1",
+     "stake": 50,
+     "prob": 0.543,
+     "ev": -0.039,
+     "why": "Karl-Anthony Towns 20+ points+assists (79.3% fair vs 78.0% DK; 81.9% consensus no-vig, DK -355 is 3.8 pts cheaper than the 6-book median): 20+ in 14 of 16 games (median 25) at 33-43 minutes, NYK only -5 so little bench risk; Clarkson is out and Anunoby questionable, which can only add usage. Memphis +17.5 (79.7% fair vs 82.5% DK; 79.8% no-vig, 6 books): Minnesota is -6 without Edwards, and Memphis has failed the spread by 10+ once in 16 games, though it is missing Grant, Boozer and Small. EV about -2%, so $50. Late swap: Towns was ruled out (illness) and Anunoby is out too, so Josh Hart Over 6.5 rebounds (68.1% consensus no-vig, DK -217 vs -242.5 median) replaces him; no remaining leg kept EV at the published -2%, and this is the best one left, at about -4%.",
+     "legs": [
+      {
+       "ev": "232f705eea406644ff14ad17bcf9aea6",
+       "home": "New York Knicks",
+       "away": "Portland Trail Blazers",
+       "t": "2026-11-22T00:40:00Z",
+       "mk": "player_rebounds_alternate",
+       "n": "Over",
+       "d": "Josh Hart",
+       "p": 6.5,
+       "o": -217,
+       "fair": 0.681,
+       "cg": 2.3,
+       "cl": -217,
+       "clp": 0.681,
+       "swap": "Replaced Karl-Anthony Towns Over 19.5 pts+ast (ruled out, illness) 6:28 PM ET"
+      },
+      {
+       "ev": "37e3f99d7ee68587400e99e417db0e6a",
+       "home": "Minnesota Timberwolves",
+       "away": "Memphis Grizzlies",
+       "t": "2026-11-22T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 17.5,
+       "o": -472,
+       "fair": 0.797,
+       "cg": 1.4,
+       "cl": -535,
+       "clp": 0.798
+      }
+     ]
+    },
+    {
+     "id": "2026-11-21-nba-2",
+     "stake": 50,
+     "prob": 0.729,
+     "ev": -0.024,
+     "why": "Sacramento +28.5 (85.5% fair vs 85.6% DK; 84.4% consensus no-vig, DK -592 vs -800 to -1000 elsewhere, 4.5 pts cheaper, the backtest's cheapest leg type): Boston is -13.5 with Tatum (rest) and White questionable before a back-to-back at Golden State, and the Kings' worst loss this season is 24. NOP@SAS Under 247.5 (85.3% fair vs 87.3% DK; 84.9% no-vig, 4 books): the total is 228.5, the Spurs have gone over 243 in 0 of 16 games, and lopsided games this season finish 3.4 points under the total (SAS -18). EV about -2.4%, so $50.",
+     "legs": [
+      {
+       "ev": "b754a1bf84af81d45d4a3a16398daa44",
+       "home": "Sacramento Kings",
+       "away": "Boston Celtics",
+       "t": "2026-11-22T03:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Sacramento Kings",
+       "p": 28.5,
+       "o": -592,
+       "fair": 0.855,
+       "cg": 4.5,
+       "cl": -670,
+       "clp": 0.848
+      },
+      {
+       "ev": "1139ffb82856378723c5465df4e13d96",
+       "home": "San Antonio Spurs",
+       "away": "New Orleans Pelicans",
+       "t": "2026-11-22T01:10:00Z",
+       "mk": "alternate_totals",
+       "n": "Under",
+       "p": 247.5,
+       "o": -690,
+       "fair": 0.853,
+       "cg": 2.1,
+       "cl": -670,
+       "clp": 0.831
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "6cd4587453e4da55317b2c1e3576e75b",
+     "home": "Philadelphia 76ers",
+     "away": "Milwaukee Bucks",
+     "t": "2026-11-21T18:10:00Z",
+     "w": "Philadelphia 76ers",
+     "conf": 0.81,
+     "why": "De-vigged ML 81% (Pinnacle -517); Milwaukee is 1-15 and 4 ATS-points worse than the line per game, which outweighs Maxey being questionable and Brown out."
+    },
+    {
+     "ev": "232f705eea406644ff14ad17bcf9aea6",
+     "home": "New York Knicks",
+     "away": "Portland Trail Blazers",
+     "t": "2026-11-22T00:40:00Z",
+     "w": "Portland Trail Blazers",
+     "conf": 0.51,
+     "why": "De-vigged ML 63% (Pinnacle NYK -5, -189); both teams have a questionable forward (Anunoby, Avdija), so no adjustment. Flipped at 6:28 PM ET: Towns (illness) and Anunoby are both out, and Pinnacle moved to POR -109 / NYK +100 (51% Portland no-vig)."
+    },
+    {
+     "ev": "293cafe6913a9bd59328c98049266ad0",
+     "home": "Dallas Mavericks",
+     "away": "Los Angeles Clippers",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "Dallas Mavericks",
+     "conf": 0.66,
+     "why": "De-vigged ML 66%; the Clippers are 4-10 without Ingram and Beal, which offsets Washington and Clayton being questionable for Dallas."
+    },
+    {
+     "ev": "37e3f99d7ee68587400e99e417db0e6a",
+     "home": "Minnesota Timberwolves",
+     "away": "Memphis Grizzlies",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "Minnesota Timberwolves",
+     "conf": 0.67,
+     "why": "De-vigged ML 68% for Minnesota at home; Memphis (12-4) is missing Grant, Boozer, Small, Jackson and Pippen."
+    },
+    {
+     "ev": "1139ffb82856378723c5465df4e13d96",
+     "home": "San Antonio Spurs",
+     "away": "New Orleans Pelicans",
+     "t": "2026-11-22T01:10:00Z",
+     "w": "San Antonio Spurs",
+     "conf": 0.91,
+     "why": "De-vigged ML 91%; the Spurs are 13-3 at home and New Orleans (5-12) is on the second night of a back-to-back."
+    },
+    {
+     "ev": "b754a1bf84af81d45d4a3a16398daa44",
+     "home": "Sacramento Kings",
+     "away": "Boston Celtics",
+     "t": "2026-11-22T03:10:00Z",
+     "w": "Boston Celtics",
+     "conf": 0.85,
+     "why": "De-vigged ML 85%; Sacramento is 1-14 and on a back-to-back. Tatum (rest) and White are questionable, which the -13.5 line partly prices."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-nba",
+   "sport": "nba",
+   "label": "NBA picks: Fri Nov 20",
+   "made": "2026-11-20T15:54:24Z",
+   "week": 5,
+   "note": "Two 2-leg parlays on four different games: Brooklyn +17.5 and Utah +15.5, where DK is about 3 points cheaper than the other books, plus Tari Eason's rebounds (Capela out, Sengun questionable) with Sacramento +29.5. The 3-leg parlay is dropped: every 3-leg that cleared the profit floor reused the same games, so both parlays are at the $50 tier.",
+   "parlays": [
+    {
+     "id": "2026-11-20-nba-1",
+     "stake": 50,
+     "prob": 0.653,
+     "ev": -0.029,
+     "why": "Brooklyn +17.5 (81.9% fair vs 82.3% DK; 80.4% consensus no-vig, DK -465 vs -500 to -700 elsewhere, 3.3 pts cheaper): Orlando is -5.5 without Banchero, so the Nets only need to avoid an 18+ point loss. Utah +15.5 (79.7% fair vs 81.7% DK; 79.0% no-vig, DK 2.9 pts cheaper): Phoenix is -4.5, and the Jazz have failed the spread by 11+ in only 2 of 16 games; they beat the Lakers by 12 on Wednesday. The backtest's 'DK 3-5 pts cheaper' team-leg bucket is the cheapest NBA leg type (+0.9%). EV is about -3%, so $50.",
+     "legs": [
+      {
+       "ev": "6e1faf38d3fed9e0396d6613891770e1",
+       "home": "Brooklyn Nets",
+       "away": "Orlando Magic",
+       "t": "2026-11-21T00:40:00Z",
+       "mk": "alternate_spreads",
+       "n": "Brooklyn Nets",
+       "p": 17.5,
+       "o": -465,
+       "fair": 0.819,
+       "cg": 3.3,
+       "cl": -403,
+       "clp": 0.777
+      },
+      {
+       "ev": "ee204ae35d677450476eab6ad6a146a7",
+       "home": "Utah Jazz",
+       "away": "Phoenix Suns",
+       "t": "2026-11-21T02:40:00Z",
+       "mk": "alternate_spreads",
+       "n": "Utah Jazz",
+       "p": 15.5,
+       "o": -446,
+       "fair": 0.797,
+       "cg": 2.9,
+       "cl": -438,
+       "clp": 0.785
+      }
+     ]
+    },
+    {
+     "id": "2026-11-20-nba-2",
+     "stake": 50,
+     "prob": 0.634,
+     "ev": -0.028,
+     "why": "Tari Eason 4+ rebounds (75.0% fair vs 75.2% DK; 77.0% consensus no-vig, up from 76.3% this morning; DK -304 vs -400 to -425 at FD/CZR/FAN/SCR, 4.8 pts cheaper): 4+ in 10 of his last 12 at 22-33 minutes. Capela is out and Sengun and Adams are questionable; our sim gives 83% with Sengun in and 91% with him out. Sacramento +29.5 (84.5% fair vs 86.7% DK; 83.7% no-vig, DK 2.2 pts cheaper): the Lakers are -14.5 without Reaves, and the Kings have failed the spread by 15+ in only 2 of 14 games. EV is about -3%, so $50.",
+     "legs": [
+      {
+       "ev": "086d2fe80483ffcc280994fe2e12d4f4",
+       "home": "Denver Nuggets",
+       "away": "Houston Rockets",
+       "t": "2026-11-21T03:10:00Z",
+       "mk": "player_rebounds_alternate",
+       "n": "Over",
+       "d": "Tari Eason",
+       "p": 3.5,
+       "o": -304,
+       "fair": 0.75,
+       "cg": 4.8,
+       "cl": -289,
+       "clp": 0.712
+      },
+      {
+       "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
+       "home": "Los Angeles Lakers",
+       "away": "Sacramento Kings",
+       "t": "2026-11-21T03:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Sacramento Kings",
+       "p": 29.5,
+       "o": -650,
+       "fair": 0.845,
+       "cg": 2.2,
+       "cl": -670,
+       "clp": 0.834
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "f8ad540db00e4a4a360d67dfcb7a53b8",
+     "home": "Atlanta Hawks",
+     "away": "Charlotte Hornets",
+     "t": "2026-11-21T00:10:00Z",
+     "w": "Atlanta Hawks",
+     "conf": 0.68,
+     "why": "De-vigged ML 68% (Pinnacle); Charlotte is 4-10, -7.0 ATS per game, and without Allen, Williams, Knueppel and Schroder on the 4th stop of a road trip."
+    },
+    {
+     "ev": "6e1faf38d3fed9e0396d6613891770e1",
+     "home": "Brooklyn Nets",
+     "away": "Orlando Magic",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Orlando Magic",
+     "conf": 0.67,
+     "why": "De-vigged ML 68% for Orlando; Brooklyn is 3-11 and lost its last two by 12 and 30. Banchero has been out a month, so his absence is priced in."
+    },
+    {
+     "ev": "10e9b9aca502ce158d6a3a91bf00bfd2",
+     "home": "Cleveland Cavaliers",
+     "away": "Indiana Pacers",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Cleveland Cavaliers",
+     "conf": 0.66,
+     "why": "De-vigged ML 67%; Indiana is without Haliburton, with Nembhard and Smith questionable, which offsets Mobley's absence."
+    },
+    {
+     "ev": "9051693857c6a0e5e1bc6bb2b4f6fe35",
+     "home": "Detroit Pistons",
+     "away": "Toronto Raptors",
+     "t": "2026-11-21T00:40:00Z",
+     "w": "Detroit Pistons",
+     "conf": 0.7,
+     "why": "De-vigged ML 70%, model 72%; Toronto just lost Barrett (hamstring) and is also without Leonard and Murray-Boyles."
+    },
+    {
+     "ev": "d6ed1e97c331fc604506e4c354ab1cdc",
+     "home": "Chicago Bulls",
+     "away": "Washington Wizards",
+     "t": "2026-11-21T01:10:00Z",
+     "w": "Chicago Bulls",
+     "conf": 0.56,
+     "why": "Near coin flip: market favorite at 56% de-vigged (Pinnacle CHI -2). No fresh news to flip it."
+    },
+    {
+     "ev": "17e3a8dc71275a88b19d0d6750a5052c",
+     "home": "Oklahoma City Thunder",
+     "away": "New Orleans Pelicans",
+     "t": "2026-11-21T01:10:00Z",
+     "w": "Oklahoma City Thunder",
+     "conf": 0.82,
+     "why": "De-vigged ML 82%; New Orleans is without Murray and Mathurin, with Murphy questionable."
+    },
+    {
+     "ev": "ee204ae35d677450476eab6ad6a146a7",
+     "home": "Utah Jazz",
+     "away": "Phoenix Suns",
+     "t": "2026-11-21T02:40:00Z",
+     "w": "Phoenix Suns",
+     "conf": 0.62,
+     "why": "De-vigged ML 62% for Phoenix; Utah is 3-13 without Markkanen, Jackson Jr. and Nurkic."
+    },
+    {
+     "ev": "086d2fe80483ffcc280994fe2e12d4f4",
+     "home": "Denver Nuggets",
+     "away": "Houston Rockets",
+     "t": "2026-11-21T03:10:00Z",
+     "w": "Houston Rockets",
+     "conf": 0.53,
+     "why": "Coin flip: market favorite Denver at 53% de-vigged. My power model leans Houston (12-4), but Sengun and Adams are questionable and Capela is out, so I take the favorite. Late update: Sengun and Adams are both active and Pinnacle has flipped to Houston (-115/+102, 52% no-vig), which matches my model, so the pick flips to Houston."
+    },
+    {
+     "ev": "55c3096b11f501ffb6d8bccbb2cd319d",
+     "home": "Los Angeles Lakers",
+     "away": "Sacramento Kings",
+     "t": "2026-11-21T03:10:00Z",
+     "w": "Los Angeles Lakers",
+     "conf": 0.86,
+     "why": "De-vigged ML 86%; the Kings are 1-13 (-12.3 per game adjusted), which outweighs Reaves being out."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-nba",
+   "sport": "nba",
+   "label": "NBA picks: Thu Nov 19",
+   "made": "2026-11-19T15:46:10Z",
+   "week": 5,
+   "note": "First NBA slate: two 2-leg parlays built on Memphis covering against a Curry-less Warriors team and the Knicks' scoring staying in check at Minnesota. The 3-leg parlay is dropped because no 3-leg combination cleared the profit floor; every NBA leg costs 1-4 points against the no-vig market. Portland legs are skipped with Avdija and Camara questionable.",
+   "parlays": [
+    {
+     "id": "2026-11-19-nba-1",
+     "stake": 50,
+     "prob": 0.615,
+     "ev": -0.024,
+     "why": "Memphis +3.5 (78% fair vs 78% book, 74% consensus no-vig): Golden State is -15.6 per game without Curry and lost its last three by 21, 22 and 38; both teams are on a back-to-back. Knicks team total Under 117.5 (79% vs 81%): Minnesota's defense holds teams to about 105, my model projects New York at 104.7 against a 108.5 main line, and New York topped 117 once in its last 8. EV is just under break-even, so it gets the $50 tier.",
+     "legs": [
+      {
+       "ev": "3c082b72aa002131c276ff5e24bada1b",
+       "home": "Memphis Grizzlies",
+       "away": "Golden State Warriors",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 3.5,
+       "o": -357,
+       "fair": 0.777,
+       "cg": 0.8,
+       "cl": -316,
+       "clp": 0.725
+      },
+      {
+       "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+       "home": "Minnesota Timberwolves",
+       "away": "New York Knicks",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_team_totals",
+       "n": "Under",
+       "d": "New York Knicks",
+       "p": 117.5,
+       "o": -416,
+       "fair": 0.791,
+       "cg": 0.3,
+       "cl": -434,
+       "clp": 0.772
+      }
+     ]
+    },
+    {
+     "id": "2026-11-19-nba-2",
+     "stake": 100,
+     "prob": 0.624,
+     "ev": 0.001,
+     "why": "Towns 11+ rebounds (76.5% fair vs 75.5% book; Pinnacle no-vig 76.6%, DK 1.3 pts cheaper than the other books): 11+ in each of his last 10 games (avg 14.1 in 34 min), the Knicks have no injuries, and his main line is 13.5. Memphis +5.5 (82% fair vs 83% book) for the same Curry-absence reason as parlay 1, two points safer.",
+     "legs": [
+      {
+       "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+       "home": "Minnesota Timberwolves",
+       "away": "New York Knicks",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "player_rebounds_alternate",
+       "n": "Over",
+       "d": "Karl-Anthony Towns",
+       "p": 10.5,
+       "o": -308,
+       "fair": 0.765,
+       "cg": 1.3,
+       "cl": -297,
+       "clp": 0.72
+      },
+      {
+       "ev": "3c082b72aa002131c276ff5e24bada1b",
+       "home": "Memphis Grizzlies",
+       "away": "Golden State Warriors",
+       "t": "2026-11-20T01:10:00Z",
+       "mk": "alternate_spreads",
+       "n": "Memphis Grizzlies",
+       "p": 5.5,
+       "o": -476,
+       "fair": 0.816,
+       "cg": 0.7,
+       "cl": -427,
+       "clp": 0.768
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "3c082b72aa002131c276ff5e24bada1b",
+     "home": "Memphis Grizzlies",
+     "away": "Golden State Warriors",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "Memphis Grizzlies",
+     "conf": 0.72,
+     "why": "Model 72% vs 68% de-vigged ML: Golden State is -15.6 per game without Curry (lost the last 3 by 21-38), and both teams are on a back-to-back."
+    },
+    {
+     "ev": "20fa5e2d73cec494c113790161a89aec",
+     "home": "San Antonio Spurs",
+     "away": "Los Angeles Clippers",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "San Antonio Spurs",
+     "conf": 0.88,
+     "why": "De-vigged ML 88%: Spurs are 12-3 with Wembanyama healthy, and LA is without Ingram and Beal; Harper's absence is priced in."
+    },
+    {
+     "ev": "006df00e5e48650d849d1bb4cd81565d",
+     "home": "Milwaukee Bucks",
+     "away": "Portland Trail Blazers",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "Portland Trail Blazers",
+     "conf": 0.77,
+     "why": "De-vigged ML 78%, shaded down for Avdija (25.6 ppg) and Camara being questionable; Milwaukee is 1-14 and on the second night of a back-to-back."
+    },
+    {
+     "ev": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+     "home": "Minnesota Timberwolves",
+     "away": "New York Knicks",
+     "t": "2026-11-20T01:10:00Z",
+     "w": "New York Knicks",
+     "conf": 0.51,
+     "why": "Coin flip: market favorite at 51% de-vigged. My power model leans Minnesota, but that isn't enough to flip a near pick'em, and Kuminga is questionable."
+    }
+   ]
+  }
+ ]
+}
