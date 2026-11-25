@@ -6,7 +6,7 @@ Claude's running notes on what works and what doesn't in the daily NBA slates. E
 | Week | Parlays W-L | Profit | Expected | Pick'ems | Avg CLV |
 |---|---|---|---|---|---|
 | 5 (Nov 16-22) | 6-2 | +$96.17 | -$10.00 | 18-8 (exp 17.9) | -1.45 pts (3 of 15 measurable legs positive) |
-| 6 (Nov 23-29, in progress) | 1-1 | -$35.18 | -$2.50 | 6-4 (exp 7.2) | +0.5 pts (3 of 4 legs positive) |
+| 6 (Nov 23-29, in progress) | 2-1 | -$17.14 | -$3.35 | 8-5 (exp 9.2) | +0.4 pts (4 of 6 legs positive) |
 
 ## Starting points (carried over from the NFL routine, 2026-11-17)
 - Hit rate first, but very short legs pay too little: the sweet spot is about -250 to -650.
@@ -136,3 +136,28 @@ Both groups now trail implied in every bucket (team by 1-5.6 points, props by 0.
 - **Picked legs:** 16-4 against a summed fair of 15.41 (20 legs; the overconfidence test needs 60).
 **What shaped the 11-24 slate:** only three games, so the "no game in two parlays" rule allows one 2-leg parlay (the section 1 minimum for 2-3 games is 1). With one 2-leg parlay, the 60% team-leg rule means both legs are team legs, so there is no prop today even though 4b asks for one; leg cost wins (section 4b).
 - **Slate:** one $50 parlay, Pistons-Magic Under 230.5 (-550) + Washington +26.5 (-660): P 0.722, EV -1.7%, both legs in the team `cg` 3-5 bucket. DK cut the WAS rung from -680 to -660 at the final check while the other books held, the first time this week a DK `cg` edge grew before publish instead of shrinking.
+
+## 2026-11-25 (Wed, week 6): grading 2026-11-24-nba
+**Record:** parlay 1-0 ($50): Pistons-Magic Under 230.5 ✓ (final 104-86, total 190) and Washington +26.5 ✓ (lost by 15): **+$18.04** against an expected -$0.85. Legs 2-0, both team legs in the backtest's `cg` 3-5 bucket. Pick'ems 2-1: DET 0.56 ✓, BOS 0.78 ✓, DEN 0.71 ✗ (Dallas won by 19 in Denver after P.J. Washington was upgraded to available; Pinnacle closed DEN at 71%, so this was variance, not missed news).
+**Week 6 to date (3 slates):** parlays 2-1, -$17.14 against an expected -$3.35. Legs 5-1 (team 5-0, props 0-1). Pick'ems 8-5 against 9.2 expected.
+**CLV:** Under 230.5 +0.9, WAS +26.5 -0.5. Week 6: 4 of 6 legs positive, average +0.4 points. Season: 8 of 21 measurable legs positive, average -1.0 (it was -1.1).
+**Underdog/fade scorecard:** still empty. No pick'em has differed from Pinnacle by more than 3 points.
+**Leg-cost tally:** team legs with `cg` 3-5 are now 6-2 this season (both losses were the 11-22 BOS@GSW Overs); `cg` 2-3 4-1; `cg` <2 5-0.
+**Line history:** +3,262 graded rows from the 11-24 snapshot (215 prop rungs void for DNPs). 40 games are now graded. Calibration (team n / games / hit / implied; props n / player-games / hit / implied):
+
+| Bucket | Team | Props |
+|---|---|---|
+| -150..-249 | 1310 / 39 / 61.6 / 65.8 | 2269 / 439 / 60.5 / 65.1 |
+| -250..-399 | 1099 / 39 / 73.1 / 75.8 | 1374 / 424 / 73.4 / 75.7 |
+| -400..-649 | 937 / 39 / 79.7 / 83.1 | 1096 / 403 / 80.2 / 83.2 |
+| <=-650 | 984 / 39 / 88.1 / 90.9 | 2223 / 429 / 90.1 / 92.4 |
+
+- **Prop shading kept:** props at -150..-249 are still 2.04 SE below implied over 439 player-games, so the 50/50 blend with DK implied x 60.5/65.1 stays in place (the ratio was 60.2/65.1). No other bucket passes 2 SE. Team buckets rest on only 39 games.
+- **By family, -150..-700:** spread rungs hit 80.1% vs 75.2% implied, and Under rungs hit at price (74.1 vs 75.1). Over rungs (61.5 vs 74.8) and team totals (67.8 vs 73.4) still trail. Among props, rebounds+assists (73.0 vs 74.4) and assists (68.6 vs 69.6) are nearest to price; threes (65.1 vs 71.0), steals and blocks are worst. This is still a lean (dog cushions and Unders over Overs), not a rule.
+- **Picked legs:** 18-4 against a summed fair of 17.11 (22 legs; the overconfidence test needs 60).
+**What shaped the 11-25 slate**
+- **Nine games, still only two parlays.** Only three games had team legs with DK 3+ points cheaper than the other books (SAC, LAC and POR cushions). Every other game's best leg cost 2.5-4%, so a 3-leg parlay could clear the floor only by reusing a game, which the week-6 rule forbids.
+- **Questionable-star vetoes:** no team legs in CLE@NYK (Towns, Hart, McBride questionable), MIA@PHI (Giannis questionable, Embiid doubtful) or SAS@POR. Portland's +12.5 cushion was DK-cheap, but San Antonio is only -2.5 after being -8.5 to -19.5 in recent games, which means the line assumes Wembanyama and/or Fox might sit. If they play, the cushion is much worse.
+- **LAC tail veto lifted, and tracked:** the Clippers failed the spread by 16+ in 4 of 16 games. That's within 1 SE of the league's ~17%, and the LAC +15.5 cushion vetoed on 11-21 covered anyway. With DK 3.6 points under every other book, the cushion is in. If it loses to a blowout, reinstate the veto.
+- **One short prop leg instead of a points rung:** Holiday's P+R 10+ (11+ in each of his last 12) beat his points rungs on hit rate. Points ladders trail implied in our line history.
+- **Slate:** two $50 parlays: Kings +20.5 / Holiday P+R 10+ (P 0.746, EV -2.2%) and Clippers +21.5 / Suns +23.5 (P 0.731, EV -2.8%).
