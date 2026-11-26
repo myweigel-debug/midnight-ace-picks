@@ -228,3 +228,4 @@
 - Bets: none. Credits remaining: 4,049,413.
 - 2026-11-26 13:40 UTC: no new events (saved odds/track/2026-11-26/1341Z.json.gz, 15 games; credits 4,048,876)
 - 2026-11-26 15:40 UTC: no new events (line tracking skipped, newest snapshot 1341Z is ~2h old)
+- 2026-11-26 17:40 UTC: no new events (saved odds/track/2026-11-26/1741Z.json.gz, 15 games; credits 4,048,361). CHI@DET (18:00Z) inactives at ~16:35Z are all backups or the emergency 3rd QB (Keenum), and the game kicks off too soon to bet; no new Out/Doubtful for PHI@DAL, KC@BUF or later games.
