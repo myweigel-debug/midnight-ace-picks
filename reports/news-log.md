@@ -227,3 +227,4 @@
   - Not events: GB@LAR (Wed 01:15Z) had already kicked off, so Josh Jacobs (finger), Zaire Franklin and the GB/LAR inactives don't count; Gordon (CHI), Locke (DAL), Lucas and Q. Nelson (SEA) were already logged; Cam Taylor-Britt (IND) designated to return from IR (a return); Doubs and Onyemata limited/full practice; Purdy ankle DNP (not ruled out); Aiyuk signs with WAS (a signing, not an injury); Rodgers/McCarthy fallout (Rudolph start already logged). nflverse has no new Week 13 Out/Doubtful rows.
 - Bets: none. Credits remaining: 4,049,413.
 - 2026-11-26 13:40 UTC: no new events (saved odds/track/2026-11-26/1341Z.json.gz, 15 games; credits 4,048,876)
+- 2026-11-26 15:40 UTC: no new events (line tracking skipped, newest snapshot 1341Z is ~2h old)
