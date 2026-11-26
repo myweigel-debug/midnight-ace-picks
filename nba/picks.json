@@ -11,9 +11,9 @@
     {
      "id": "2026-11-25-nba-1",
      "stake": 50,
-     "prob": 0.746,
-     "ev": -0.022,
-     "why": "Kings +20.5 (-620): fair 85.7% vs 86.1% DK implied (84.3% de-vigged median of 3 other books, which are 3.6 points pricier). Golden State is -6.5 without Curry, Butler, Porzingis and Moody; dogs of 5.5-7.5 covered +20.5 in 83% of 283 games, and Sacramento's top five is healthy (Raynaud hasn't been in the rotation). Jrue Holiday 10+ points+rebounds (-770): fair 87.0% vs 88.5% implied (88.2% market, DK 3.8 points cheaper); he has 11+ P+R in all of his last 12 games in a stable 25-31 minute bench role, and Portland has no questionable players.",
+     "prob": 0.745,
+     "ev": -0.038,
+     "why": "Kings +20.5 (-620): fair 85.7% vs 86.1% DK implied (84.3% de-vigged median of 3 other books, which are 3.6 points pricier). Golden State is -6.5 without Curry, Butler, Porzingis and Moody; dogs of 5.5-7.5 covered +20.5 in 83% of 283 games, and Sacramento's top five is healthy (Raynaud hasn't been in the rotation). Jrue Holiday 10+ points+rebounds (-770): fair 87.0% vs 88.5% implied (88.2% market, DK 3.8 points cheaper); he has 11+ P+R in all of his last 12 games in a stable 25-31 minute bench role, and Portland has no questionable players. Late swap 02:28 UTC: Zach LaVine was ruled out (knee) and Golden State moved from -6.5 to -9 at Pinnacle, so Kings +20.5 (now -427, 79.1% no-vig) is replaced by Kings +24.5 (-700, 85.6% no-vig across 2 books, DK 3.2 points cheaper), which restores the joint probability to 74.5%.",
      "legs": [
       {
        "ev": "e6df92326adb480e427bb7c10f445c60",
@@ -22,10 +22,13 @@
        "t": "2026-11-26T03:10:00Z",
        "mk": "alternate_spreads",
        "n": "Sacramento Kings",
-       "p": 20.5,
-       "o": -620,
-       "fair": 0.857,
-       "cg": 3.6
+       "p": 24.5,
+       "o": -700,
+       "fair": 0.856,
+       "cg": 3.2,
+       "cl": -700,
+       "clp": 0.856,
+       "swap": "Replaced Sacramento Kings +20.5 (Zach LaVine ruled out, GSW line -6.5 to -9) 9:28 PM ET"
       },
       {
        "ev": "9aa9f220709533d70d11f85fae886771",
@@ -38,7 +41,9 @@
        "p": 9.5,
        "o": -770,
        "fair": 0.87,
-       "cg": 3.8
+       "cg": 3.8,
+       "cl": -770,
+       "clp": 0.863
       }
      ]
     },
