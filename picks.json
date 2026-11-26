@@ -1,6 +1,325 @@
 {
  "slates": [
   {
+   "id": "2026-11-24-thu",
+   "label": "Thursday picks",
+   "made": "2026-11-26T19:59:27Z",
+   "week": 12,
+   "note": "Week 12 Thursday: two 2-leg team-side parlays at $50 (Panthers +8.5 / Jaguars -7.5, and Chargers +7.5 / Eagles-Cowboys Under 56.5). On honest prices no team leg or prop on the board beats break-even, so this is the minimum slate: parlay 1 clears the profit floor (0.972) but not the 0.58 hit target (0.513), and parlay 2 (P 0.524) sits under the floor at 0.960.",
+   "parlays": [
+    {
+     "id": "2026-11-24-thu-1",
+     "stake": 50,
+     "prob": 0.5134,
+     "ev": -0.0276,
+     "why": "Both are buy-down team sides in different games, priced against 7-8 books. Panthers +8.5 at Tampa (Mon): fair 0.726 vs DK 0.732 implied; DK -273 is the cheapest of 8 books (others -280 to -335, cg +2.4) and DK drifted from -296 while the others held at 0.765 all week, so this is a buy-now price; a 3-point line means Tampa must win by 9+. Jaguars -7.5 vs Tennessee (Sun): fair 0.708 vs Pinnacle no-vig 0.701; JAX is -14.5 on the main line against the league's lowest-rated team (EPA), so this needs only a one-score win. Joint 0.513, P x payout 0.972 (floor met, under the 0.58 target).",
+     "legs": [
+      {
+       "ev": "2cdaecba7c0bff9b58a48a82e6ee17a7",
+       "home": "Tampa Bay Buccaneers",
+       "away": "Carolina Panthers",
+       "t": "2026-12-01T01:15:00Z",
+       "mk": "alternate_spreads",
+       "n": "Carolina Panthers",
+       "p": 8.5,
+       "o": -273,
+       "fair": 0.726,
+       "mkt": 0.7139,
+       "cg": 2.4,
+       "nb": 8
+      },
+      {
+       "ev": "81a8fee5b649a3ad5ad59e9528f2f376",
+       "home": "Jacksonville Jaguars",
+       "away": "Tennessee Titans",
+       "t": "2026-11-29T18:00:00Z",
+       "mk": "alternate_spreads",
+       "n": "Jacksonville Jaguars",
+       "p": -7.5,
+       "o": -259,
+       "fair": 0.708,
+       "mkt": 0.7012,
+       "cg": 0.1,
+       "nb": 8
+      }
+     ]
+    },
+    {
+     "id": "2026-11-24-thu-2",
+     "stake": 50,
+     "prob": 0.524,
+     "ev": -0.0404,
+     "why": "Two team legs, one settled today. Chargers +7.5 vs New England (Sun): fair 0.736 vs Pinnacle no-vig 0.739; DK -295 is the cheapest of 8 books (others -325 to -375, cg +2.8) after the main line moved to NE -2.5 on Herbert missing practice again. At the lowest total on the board (35.5), with DeVito starting for the Patriots, an 8+ point Patriots win is rare. Eagles-Cowboys Under 56.5 (today): fair 0.712 vs Pinnacle 0.709; the main total is 49.5, Philadelphia starts Joe Milton and Dallas is without Ferguson and Mingo, in clear 52F weather. Joint 0.524, P x payout 0.960: under the 0.97 floor, published only because Thursday needs two parlays.",
+     "legs": [
+      {
+       "ev": "c64ceba13ede564e8658693e3171e7f9",
+       "home": "Los Angeles Chargers",
+       "away": "New England Patriots",
+       "t": "2026-11-29T21:05:00Z",
+       "mk": "alternate_spreads",
+       "n": "Los Angeles Chargers",
+       "p": 7.5,
+       "o": -295,
+       "fair": 0.736,
+       "mkt": 0.739,
+       "cg": 2.8,
+       "nb": 8
+      },
+      {
+       "ev": "ffaa06af56a7137d4b078c5c46c0b730",
+       "home": "Dallas Cowboys",
+       "away": "Philadelphia Eagles",
+       "t": "2026-11-26T21:30:00Z",
+       "mk": "alternate_totals",
+       "n": "Under",
+       "p": 56.5,
+       "o": -272,
+       "fair": 0.712,
+       "mkt": 0.7086,
+       "cg": 0.4,
+       "nb": 7
+      }
+     ]
+    }
+   ],
+   "pickem": [
+    {
+     "ev": "ffaa06af56a7137d4b078c5c46c0b730",
+     "home": "Dallas Cowboys",
+     "away": "Philadelphia Eagles",
+     "t": "2026-11-26T21:30:00Z",
+     "w": "Dallas Cowboys",
+     "conf": 0.78,
+     "why": "78% de-vigged ML (Pinnacle); PHI starts Joe Milton; DAL is without Ferguson and Mingo."
+    },
+    {
+     "ev": "f36f518585aec40e8cb40e071c0844aa",
+     "home": "Buffalo Bills",
+     "away": "Kansas City Chiefs",
+     "t": "2026-11-27T01:20:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.59,
+     "why": "60% de-vigged ML (Pinnacle); Buffalo at home in steady rain (37F, 13 mph); KC without Kenneth Walker."
+    },
+    {
+     "ev": "44a3bcf5bd002583ddef2207a92dd977",
+     "home": "Pittsburgh Steelers",
+     "away": "Denver Broncos",
+     "t": "2026-11-27T20:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.65,
+     "why": "66% de-vigged ML (Pinnacle), model shade -0.9 pts; Mason Rudolph starts for Pittsburgh after the Rodgers benching; 17 mph wind and rain."
+    },
+    {
+     "ev": "6a05021bdb6bab24b9bb381ffff10f0c",
+     "home": "Minnesota Vikings",
+     "away": "Atlanta Falcons",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Minnesota Vikings",
+     "conf": 0.73,
+     "why": "74% de-vigged ML (Pinnacle), model shade -0.5 pts; Kyler Murray questionable (limited), Cousins has been starting."
+    },
+    {
+     "ev": "60d0c074801985c1062795362a24200e",
+     "home": "Houston Texans",
+     "away": "Baltimore Ravens",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Houston Texans",
+     "conf": 0.73,
+     "why": "72% de-vigged ML (Pinnacle), model shade +0.5 pts; Ravens still without Lamar Jackson."
+    },
+    {
+     "ev": "f7d3ae7a8fe2438cef7d7d7bc67e31db",
+     "home": "Cincinnati Bengals",
+     "away": "New Orleans Saints",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.82,
+     "why": "82% de-vigged ML (Pinnacle)."
+    },
+    {
+     "ev": "e9da808e36e1b7475698a57465ad4519",
+     "home": "Indianapolis Colts",
+     "away": "New York Giants",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Giants",
+     "conf": 0.71,
+     "why": "71% de-vigged ML (Pinnacle)."
+    },
+    {
+     "ev": "81a8fee5b649a3ad5ad59e9528f2f376",
+     "home": "Jacksonville Jaguars",
+     "away": "Tennessee Titans",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "Jacksonville Jaguars",
+     "conf": 0.89,
+     "why": "88% de-vigged ML (Pinnacle), model shade +0.7 pts."
+    },
+    {
+     "ev": "5ea0e3ea5944b0ad5169f21c0787b331",
+     "home": "Miami Dolphins",
+     "away": "New York Jets",
+     "t": "2026-11-29T18:00:00Z",
+     "w": "New York Jets",
+     "conf": 0.67,
+     "why": "68% de-vigged ML (Pinnacle), model shade -1.0 pts."
+    },
+    {
+     "ev": "c64ceba13ede564e8658693e3171e7f9",
+     "home": "Los Angeles Chargers",
+     "away": "New England Patriots",
+     "t": "2026-11-29T21:05:00Z",
+     "w": "New England Patriots",
+     "conf": 0.55,
+     "why": "55% de-vigged ML (Pinnacle), model shade +0.7 pts; near coin flip, market favorite: Maye out (DeVito starts), Herbert in the concussion protocol, and the market moved to NE all week."
+    },
+    {
+     "ev": "69a1dbe9de3d3212c3a7a55be5d204ab",
+     "home": "Arizona Cardinals",
+     "away": "Washington Commanders",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "Washington Commanders",
+     "conf": 0.73,
+     "why": "74% de-vigged ML (Pinnacle), model shade -0.6 pts."
+    },
+    {
+     "ev": "d68dced0b26726890b9c79bd19a5ffe5",
+     "home": "San Francisco 49ers",
+     "away": "Seattle Seahawks",
+     "t": "2026-11-29T21:25:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.59,
+     "why": "58% de-vigged ML (Pinnacle), model shade +1.0 pts; Purdy (ankle) DNP Wednesday keeps it close."
+    },
+    {
+     "ev": "eaa993c3d62d6b5aeb6142cdd7862fd5",
+     "home": "Cleveland Browns",
+     "away": "Las Vegas Raiders",
+     "t": "2026-11-30T01:20:00Z",
+     "w": "Cleveland Browns",
+     "conf": 0.67,
+     "why": "68% de-vigged ML (Pinnacle), model shade -0.7 pts."
+    },
+    {
+     "ev": "2cdaecba7c0bff9b58a48a82e6ee17a7",
+     "home": "Tampa Bay Buccaneers",
+     "away": "Carolina Panthers",
+     "t": "2026-12-01T01:15:00Z",
+     "w": "Tampa Bay Buccaneers",
+     "conf": 0.6,
+     "why": "60% de-vigged ML (Pinnacle); home favorite; McMillan (CAR) questionable but expected to play."
+    },
+    {
+     "ev": "06e52a676b516186989e3b181a37c8a7",
+     "home": "Los Angeles Rams",
+     "away": "Kansas City Chiefs",
+     "t": "2026-12-04T01:15:00Z",
+     "w": "Kansas City Chiefs",
+     "conf": 0.51,
+     "why": "51% de-vigged ML (consensus); pick-em line; market favorite by a hair."
+    },
+    {
+     "ev": "b447fab53534af892f98a74eae26c1c6",
+     "home": "Cleveland Browns",
+     "away": "Cincinnati Bengals",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "Cincinnati Bengals",
+     "conf": 0.68,
+     "why": "68% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "9a55467e1cd6310ae2af20d8154612e1",
+     "home": "Denver Broncos",
+     "away": "Miami Dolphins",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "Denver Broncos",
+     "conf": 0.89,
+     "why": "89% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "1ccb61b811b7aae4270df22a67e6459f",
+     "home": "New Orleans Saints",
+     "away": "Green Bay Packers",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "Green Bay Packers",
+     "conf": 0.68,
+     "why": "68% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "f8a92363386bd337975650879086cca6",
+     "home": "Tampa Bay Buccaneers",
+     "away": "Los Angeles Chargers",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "Tampa Bay Buccaneers",
+     "conf": 0.71,
+     "why": "70% de-vigged ML (consensus), model shade +1.4 pts; next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "a5495c3360b3bb13da76ba23a675c9ef",
+     "home": "New York Giants",
+     "away": "San Francisco 49ers",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "San Francisco 49ers",
+     "conf": 0.72,
+     "why": "72% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "ae3429e95ee704c7fd001cade20072d0",
+     "home": "Tennessee Titans",
+     "away": "Washington Commanders",
+     "t": "2026-12-06T18:00:00Z",
+     "w": "Washington Commanders",
+     "conf": 0.66,
+     "why": "66% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "f4897f48a5351881280f7598bd826408",
+     "home": "Arizona Cardinals",
+     "away": "Philadelphia Eagles",
+     "t": "2026-12-06T21:05:00Z",
+     "w": "Philadelphia Eagles",
+     "conf": 0.58,
+     "why": "59% de-vigged ML (consensus), model shade -0.9 pts; next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "4116dbff75ab7957b69c2152f204b74d",
+     "home": "New England Patriots",
+     "away": "Buffalo Bills",
+     "t": "2026-12-06T21:25:00Z",
+     "w": "Buffalo Bills",
+     "conf": 0.85,
+     "why": "86% de-vigged ML (consensus), model shade -1.4 pts; next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "c186c605febd6370b292469c9151cfb3",
+     "home": "Minnesota Vikings",
+     "away": "Carolina Panthers",
+     "t": "2026-12-06T21:25:00Z",
+     "w": "Minnesota Vikings",
+     "conf": 0.66,
+     "why": "67% de-vigged ML (consensus), model shade -0.9 pts; next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "26bf8e165d2d273ed0772a355f07ab16",
+     "home": "Pittsburgh Steelers",
+     "away": "Houston Texans",
+     "t": "2026-12-07T01:20:00Z",
+     "w": "Houston Texans",
+     "conf": 0.65,
+     "why": "65% de-vigged ML (consensus); next week, early line; I will re-pick it later."
+    },
+    {
+     "ev": "0db4646c964ecdff19957373fe707546",
+     "home": "Seattle Seahawks",
+     "away": "Dallas Cowboys",
+     "t": "2026-12-08T01:15:00Z",
+     "w": "Seattle Seahawks",
+     "conf": 0.68,
+     "why": "69% de-vigged ML (consensus), model shade -1.1 pts; next week, early line; I will re-pick it later."
+    }
+   ]
+  },
+  {
    "id": "2026-11-24-tue",
    "label": "Tuesday picks",
    "made": "2026-11-24T18:59:12Z",
